@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Code Spin - bendtherules</title>
+        <title>HumbleMatch - Go sanitize your type-checking</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -14,14 +14,19 @@
         <header id="banner" class="body">
                 <h1><a href="/">Code Spin </a></h1>
                 <nav><ul>
-                    <li><a href="/category/projects.html">Projects</a></li>
+                    <li class="active"><a href="/category/projects.html">Projects</a></li>
                     <li><a href="/category/trying-stuff.html">Trying stuff</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/HumbleMatch_Launch.html" rel="bookmark"
+           title="Permalink to HumbleMatch - Go sanitize your type-checking">HumbleMatch - Go sanitize your type-checking</a></h1>
+    </header>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/HumbleMatch_Launch.html">HumbleMatch - Go sanitize your type-checking</a></h1>
+    <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2015-06-19T16:56:00+02:00">
                 Published: Fri 19 June 2015
@@ -32,7 +37,7 @@
         </address>
 <p>In <a href="/category/projects.html">Projects</a>. </p>
 <p>tags: <a href="/tag/humblematch.html">HumbleMatch</a> <a href="/tag/launch-stuff.html">Launch stuff</a> <a href="/tag/projects.html">Projects</a> </p>
-</footer><!-- /.post-info --><section>
+</footer><!-- /.post-info -->      <section>
 <h2>What the heck is it?</h2>
 <p>HumbleMatch is made to <em>add a zing</em> to your mundane type-checking and duck-checking code.</p>
 <ul>
@@ -313,42 +318,11 @@ HumbleMatch makes some of the common ones available directly, with slight modifi
 <p>As mentioned, I dont have official doc for this module right now, so I took the liberty of writing a very long post filled with bits of doc here and there. I feel this is better for introducing something, when you show right at front why and how this is used. But yes, this is definitely no reason for not having good reference doc. But I didnt have enough time to do both seperately, so here it is a mix of both - I'll probably just copy aste stuff from here later to make 2 seperate parts.</p>
 <p>I purposedly miss only method which is already there, called <code>w(obj).save_as(arg_name)</code>. How it works is that is stores whatever it matches with as <code>"arg_name"</code> and returns a dict filled with all such values, when <code>==</code>d with <code>other</code>. For eg <code>w([2, w(int).save_as("a"), OR(str,dict)).save_as("b")]) == [2,5,{"q":1}]</code> returns <code>{"a":5,"b":{"q":1}}</code>. I didnt document it well beacuse I am not mentally ok with a <code>==</code> call returning anything other than a <code>boolean</code>. Maybe, I will change the API in some way to make it better and document it then. But feel free to also try this, I am proud of this feature :)</p>
 <p>And thats all for now, have fun and write more code.</p>
-</section>                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
+</section>
+    </div><!-- /.entry-content -->
 
-            <li><article class="hentry">
-                <header>
-                    <h1><a href="/Polipo Use tor over http.html" rel="bookmark"
-                           title="Permalink to Polipo - Use tor over http and access git on windows">Polipo - Use tor over http and access git on windows</a></h1>
-                </header>
-
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2015-06-02T22:00:00+02:00">
-                Published: Tue 02 June 2015
-        </abbr>
-
-        <address class="vcard author">
-                By                         <a class="url fn" href="/author/bendtherules.html">bendtherules</a>
-        </address>
-<p>In <a href="/category/trying-stuff.html">Trying stuff</a>. </p>
-<p>tags: <a href="/tag/polipo.html">Polipo</a> <a href="/tag/tools.html">Tools</a> <a href="/tag/trying-stuff.html">Trying stuff</a> <a href="/tag/proxy.html">Proxy</a> </p>
-</footer><!-- /.post-info -->                <section>
-<h2>Intro:</h2>
-<p>Hi, I am your host Abhas.</p>
-<p>And we have a particularly common problem in our college networks - <em>nefarious draconian stop-everything proxy</em> (namely, squid). All non-http-https ports are blocked alongwith url and content blocking. But hey, that should never stop you from useful stuffs like <em>git access</em> (using git urls ...</p></section>
-                <a class="readmore" href="/Polipo Use tor over http.html">read more</a>
-                </div><!-- /.entry-content -->
-            </article></li>
-                </ol><!-- /#posts-list -->
-<p class="paginator">
-    Page 1 / 1
-</p>
-                </section><!-- /#content -->
+  </article>
+</section>
         <section id="extras" class="body">
                 <div class="blogroll">
                         <h2>blogroll</h2>

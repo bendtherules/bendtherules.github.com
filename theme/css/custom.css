@@ -53,3 +53,51 @@ article section code
     background-color: rgb(225,225,255);
     padding: 0.25em 0.35em;
 }
+
+
+.linenos
+{
+  width: 4em;
+}
+
+.linenodiv pre
+{
+    background-color: transparent;
+}
+
+/*
+.highlight pre
+{
+    margin: 0 !important;
+    padding: 0;
+}*/
+
+
+.highlighttable {
+    font-size: 1em;
+    overflow: auto;
+    
+    /*display: block;*/
+    border: solid 1px #d9d9d9;
+    border-radius: 3px;
+    
+    background-color: rgb(238, 238, 238);
+}
+
+.highlighttable *, article section code
+{
+    font-family: "Consolas", "INCONSOLATA", "DROID SANS MONO", "Monaco", "Source Code Pro",  monospace;
+}
+
+/*.linenos {
+    border-right: 10px solid #d9d9d9;
+    background: #eee;
+    padding: 0.5em 0.8em;
+}*/
+
+.highlight pre 
+{
+    /*overflow: auto;*/
+}
+
+
