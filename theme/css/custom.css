@@ -51,9 +51,14 @@ a:hover
 article section code
 {
     background-color: rgb(225,225,255);
-    padding: 0.25em 0.35em;
+    padding: 0.1em 0.35em;
 }
 
+
+article
+{
+    font-size: 1.12em !important;
+}
 
 .linenos
 {
