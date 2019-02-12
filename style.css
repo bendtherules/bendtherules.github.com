@@ -59,6 +59,34 @@ body {
     }
 }
 
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.links-container>a {
+    margin: 0px 2px;
+}
+
+.links-container>a:last-child {
+    margin-right: 0;
+}
+
+.links-container>a:first-child {
+    margin-left: 0;
+}
+
+.muted-link {
+    font-size: .75em;
+    color: inherit;
+    text-decoration: none;
+}
+
+.muted-link:hover {
+    text-decoration: underline;
+}
+
 .intro {
     font-family: 'Lustria', sans-serif;
     font-weight: 700;
