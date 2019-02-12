@@ -59,6 +59,13 @@ body {
     }
 }
 
+@media only screen and (max-device-width: 560px) {
+    .body-container {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
 .links-container {
     display: flex;
     flex-direction: row;
