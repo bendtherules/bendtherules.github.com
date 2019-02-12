@@ -75,9 +75,30 @@ body {
     line-height: 1.5;
 }
 
-.hand-wave {
+.hand-wave-container {
     font-size: 1.2em;
     margin-bottom: 16px;
+    display: flex;
+}
+
+.hand-wave {
+    transform-origin: right bottom;
+    animation: hand-wave-animation 1s cubic-bezier(0.39, 0.575, 0.565, 1) 1s forwards;
+}
+
+@keyframes hand-wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-15deg);
+    }
+    75% {
+        transform: rotate(+15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 .highlight {
