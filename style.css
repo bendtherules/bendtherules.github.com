@@ -8,12 +8,8 @@ body {
   padding: 0;
 }
 
-::selection {
-  background-color: #ffeb3b;
-}
-
-::-moz-selection {
-  background-color: #ffeb3b;
+::selection, ::-moz-selection {
+  background-color: #f7de00;
 }
 
 body {
