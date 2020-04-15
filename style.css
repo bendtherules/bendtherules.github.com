@@ -17,7 +17,7 @@ body {
   background-color: #f4f4f4;
 }
 
-@media only screen and (min-device-width: 600px) {
+@media only screen and (min-width: 600px) {
   body {
     zoom: 1.2;
   }
@@ -32,31 +32,31 @@ body {
   background-color: white;
 }
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-width: 320px) {
   .body-container {
     padding: 20px;
   }
 }
 
-@media only screen and (min-device-width: 321px) and (max-device-width: 425px) {
+@media only screen and (min-width: 321px) and (max-width: 425px) {
   .body-container {
     padding: 35px;
   }
 }
 
-@media only screen and (min-device-width: 426px) {
+@media only screen and (min-width: 426px) {
   .body-container {
     padding: 50px;
   }
 }
 
-@media only screen and (max-device-width: 425px) {
+@media only screen and (max-width: 425px) {
   br[lg-screen-only] {
     display: none;
   }
 }
 
-@media only screen and (max-device-width: 560px) {
+@media only screen and (max-width: 560px) {
   .body-container {
     margin-top: 0;
     margin-bottom: 0;
