@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  --text-color-split-duration: 0.25s
+  --text-color-split-duration: 0.25s;
 }
 
 html,
@@ -173,7 +173,8 @@ a.highlight-yellow {
   mix-blend-mode: multiply;
   visibility: hidden;
 
-  transition: var(--text-color-split-duration) transform ease-in, 0s var(--text-color-split-duration) visibility;
+  transition: var(--text-color-split-duration) transform ease-in,
+    0s var(--text-color-split-duration) visibility;
 
   transform: translate(0, 0);
 }
