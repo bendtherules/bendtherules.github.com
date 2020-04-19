@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  --text-color-split-duration: 0.25s;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+::selection {
+  background-color: #f7de00;
+}
+
+::-moz-selection {
+  background-color: #f7de00;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f4f4f4;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    zoom: 1.2;
+  }
+}
+
+.body-container {
+  width: 100%;
+  max-width: 560px;
+  margin: 60px auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  background-color: white;
+}
+
+@media only screen and (max-width: 320px) {
+  .body-container {
+    padding: 4px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+  .body-container {
+    padding: 8px;
+  }
+}
+
+@media only screen and (min-width: 426px) {
+  .body-container {
+    padding: 35px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .body-container {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.description {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.5;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+.highlight-yellow {
+  padding: 0px 2px;
+  background-color: #ffeb3b;
+}
+
+a.highlight-yellow {
+  background-color: rgba(255, 235, 59, 0.8);
+}
