@@ -5,7 +5,7 @@ Over the last year, some people have asked me about the UI interview process at 
 Here's a detailed version -
 
 📞  A recruiting agency (Interviewbit) contacted me and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited for the same role, on a weekend. 
-(Flipkart loves this group interview format.  Agencies shortlist a few candidates and sends them to Flipkart. and that is your best shot at getting to the door. Most of the colleagues i have heard from also got in through similar route. Its sad, but referral is almost useless here and gets ignored most of the time.) 
+(Flipkart loves this group interview format. Agencies shortlist a few candidates and send them to Flipkart for interview. This is your best shot at getting to the door. Most of the colleagues i have heard from also got in through similar route. Its sad, but referral is almost useless here and gets ignored most of the time.) 
 
 📅  The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI round and finally, manager round. 
 
@@ -30,6 +30,6 @@ What will be asked - Depends. Expect some HR questions (why do you want to move,
 
 I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-oriented rounds), but the general structure should stay the same.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzOTEwMjIyLDExNzc0MjUxMjEsLTEzMD
-E1MzI4OTAsLTk3MDgwMjE1NCwxNjQwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbMjA3MzkxODk5MywxMTc3NDI1MTIxLC0xMz
+AxNTMyODkwLC05NzA4MDIxNTQsMTY0MDQzMjU4NF19
 -->
