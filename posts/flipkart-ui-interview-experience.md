@@ -8,10 +8,9 @@ Here's a detailed version -
 
 📅  The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI round and finally, manager round. 
 
-Machine coding - This is a UI you have to build using plain html/css/js - no ui library like react or vue is allowed. They will give a sheet with all the details - reqd and good to have features, api endpoints, mockup. Complete atleast some of the . But more focus is on clean coding, best practices and logic, rather than on the ui look. 
-Example task - Consider a todo app. You can add, edit, remove items. There might be some form validation. Also, persist todo items on reload. 
-
-Think beforehand how you want to build using plain js, keeping it modular and everything. Have a scaffolding with import/export support ready (webpack or something).
+Machine coding - This is a UI you have to build using plain html/css/js - no ui library like react or vue is allowed. They will give a sheet with all the details - reqd and good to have features, api endpoints, mockup. Complete atleast some of the reqd features. But more focus is on clean coding, best practices and logic, rather than on the ui look. 
+Example task - Consider a todo app. You can add, edit, remove items. There might be some form validation or api. Also, persist todo items on reload. 
+Think beforehand how you want to build using plain js, keeping it modular and everything. Have a scaffolding with import/export support ready (webpack).
 
 
 Ps/ds - 1 problem solving question (leetcode easy problem - sorting, find from both sides, etc) + 1 data structure question (ex. tree traversal starting from leaf, stack, etc) . 
@@ -23,6 +22,6 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2MjA4MTg5LC05NzA4MDIxNTQsMTY0MD
-QzMjU4NF19
+eyJoaXN0b3J5IjpbLTEzNTE4Mzk2MjYsLTk3MDgwMjE1NCwxNj
+QwNDMyNTg0XX0=
 -->
