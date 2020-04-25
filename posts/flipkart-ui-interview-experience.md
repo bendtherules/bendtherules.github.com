@@ -1,4 +1,19 @@
+Actually, i finally wrote it down.
+
+So, a recruiting agency (interviewbit) contacted me and setup the onsite. There was no screening round, directly onsite where about 10 candidates were invited. (flipkart loves this group interviews through agency, noone i have heard was approached directly by fk) 
+
+The interview was a one-day process - morning to late evening. First, they gather everyone in a meeting room and explain the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), ui + Javascript and finally, manager round. 
+
+Machine coding - This is a ui you have to build using plain html/css/js - no ui library like react or vue is allowed. Think beforehand how you want to build using plain js, keeping it modular and everything.
+There is a list of reqd and good to have features. Complete atleast some of them. But more focus is on clean coding, best practices and logic, rather than on the ui look. Have a scaffolding with import/export support ready (webpack or something).
+
+Example task -  Consider a list and detail view of credit cards. There is a existing list of cards, clicking on one of them opens a edit form (for the card details) below. This details form has dynamic validation. When the user is typing card number, detect the type of card and change validation (or remove if reqd) other card details fields like cvv, expiry, etc. 
+
+They provide a json api which gives list of types of cards (amex/visa) and regex/field rules for each of them. It will have a regex to check if this card number is say, amex. And then for amex, details of other card fields - cvv required?, length of cvv, expiry date max range, etc. 
+
+UI+Js - most imp round (i felt), expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE2NjIyMzE5ODZdfQ==
 -->
