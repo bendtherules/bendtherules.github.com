@@ -17,11 +17,12 @@ Example task - Build a todo app. You can add, edit, remove items. Allow sub-task
 This is usually not so hard for ui roles. But in some cases, interviewer might ask full-blown sde level questions like red-black tree, etc. There is officially no distinction for psds round between ui and sde roles, but practically there is.
 
 🔶 UI+Javascript - I felt this was the most imp round. It went relatively smooth for me and lasted for about an hour. Expect moderate advanced Javascript questions and some browser related questions. 
-Ex - debounce + throttling (, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
+Ex - debounce + throttling (very common nowadays), event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, convert setTimeout to promise, async, how does a page load from start, how to make animaetc.
+Most of this are 
 
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjIzNTc0MiwtOTcwODAyMTU0LDE2ND
+eyJoaXN0b3J5IjpbLTgwMjYyNzk1MCwtOTcwODAyMTU0LDE2ND
 A0MzI1ODRdfQ==
 -->
