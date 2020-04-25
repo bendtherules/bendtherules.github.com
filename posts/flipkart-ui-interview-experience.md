@@ -9,7 +9,6 @@ Here's a detailed version -
 📅  The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI round and finally, manager round. 
 
 💻 Machine coding - This is a UI you have to build using plain html/css/js - no ui library like react or vue is allowed. They will give you a sheet with all the details - reqd and good to have features, api endpoints, mockup. Complete atleast some of the reqd features. But more focus is on clean coding, best practices and logic, rather than on the ui look. You'll have 1-2 hour to complete this task. But don't worry - it's not supposed to be complete-able in that timeframe - prioritize the tasks accordingly. 
-
 Think beforehand how you want to build using plain js, keeping it modular and everything. Have a scaffolding with import/export support ready (webpack).
 
 Example task - Build a todo app. You can add, edit, remove items. Allow sub-tasks within a task. There will be some form validation or api call. Also, persist/load todo items on reload. 
@@ -17,11 +16,11 @@ Example task - Build a todo app. You can add, edit, remove items. Allow sub-task
 ☯️ Ps/ds - 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) + 1 data structure question (ex. tree traversal in various orders, stack, etc) . 
 This is usually not so hard for ui roles. But, sometimes interviewer might ask full-blown sde level questions like red-black tree. There is officially no distinction for psds round between ui and sde roles, but practically there is.
 
-🔶 UI+Javascript - most imp round (i felt), expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
+🔶 UI+Javascript - I felt this was the most imp round. , expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
 
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk0NzQ2MDEwLC05NzA4MDIxNTQsMTY0MD
-QzMjU4NF19
+eyJoaXN0b3J5IjpbLTk3NTg1NTY2NSwtOTcwODAyMTU0LDE2ND
+A0MzI1ODRdfQ==
 -->
