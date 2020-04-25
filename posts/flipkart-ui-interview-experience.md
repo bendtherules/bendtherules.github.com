@@ -26,11 +26,11 @@ Most of these are standard questions. Some questions were asked indirectly using
 😎 Hiring manager round - If you have reached this round, that's good news. HR will only present 2-3 potential candidates to the manager to save his/her time. 
 What will be asked - Depends. Expect some HR questions (why do you want to move, what are you looking for in new role), and some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc). Some of the HR questions are asked directly off the internal playbook, so don't read too much into them. 
 
-🧶In general, interviewers were quite helpful and gave me hints when I got stuck. Internally, interviewers have a option to reject any candidate immediately after their round. Mostly though, they will just add their review and notes, and mention which level (say, UI 1 or UI 2) you are most suitab for. 
+🧶In general, interviewers were quite helpful and gave me hints when I got stuck. Internally, interviewers have a option to reject any candidate immediately after their round. Mostly though, they will just add their review and notes, and mention which level (say, UI 1 or UI 2) you are most suitable for. 
 
-I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-oriented rounds), but the general structure should stay the same.
+I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-ish rounds), but the general structure should stay the same.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3ODA1ODE1LDIwNjYzNjc3NzMsMjAzOD
-UwOTAxOSwxMTc3NDI1MTIxLC0xMzAxNTMyODkwLC05NzA4MDIx
-NTQsMTY0MDQzMjU4NF19
+eyJoaXN0b3J5IjpbLTEzODAwMjQ1NDYsMjA2NjM2Nzc3MywyMD
+M4NTA5MDE5LDExNzc0MjUxMjEsLTEzMDE1MzI4OTAsLTk3MDgw
+MjE1NCwxNjQwNDMyNTg0XX0=
 -->
