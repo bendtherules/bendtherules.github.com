@@ -13,14 +13,14 @@ Think beforehand how you want to build using plain js, keeping it modular and ev
 
 Example task - Build a todo app. You can add, edit, remove items. Allow sub-tasks within a task. There will be some form validation or api call. Also, persist/load todo items on reload. 
 
-☯️ Ps/ds - 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) + 1 data structure question (ex. tree traversal in various orders, stack, etc) . 
-This is usually not so hard for ui roles. But sometimes, interviewer might ask full-blown sde level questions like red-black tree, rtc. There is officially no distinction for psds round between ui and sde roles, but practically there is.
+☯️ Ps/ds - 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) + 1 data structure question (ex. tree traversal in various orders, stack, etc) . There was about 30-45min time for the whole round - 
+This is usually not so hard for ui roles. But in some cases, interviewer might ask full-blown sde level questions like red-black tree, etc. There is officially no distinction for psds round between ui and sde roles, but practically there is.
 
-🔶 UI+Javascript - I felt this was the most imp round. It went expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
+🔶 UI+Javascript - I felt this was the most imp round. It went on for about an hour. expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
 
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM5NzE0MTYsLTk3MDgwMjE1NCwxNj
-QwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbLTU1NjYzNzY1NywtOTcwODAyMTU0LDE2ND
+A0MzI1ODRdfQ==
 -->
