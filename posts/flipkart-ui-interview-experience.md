@@ -14,8 +14,8 @@ Think beforehand how you want to build using plain js, keeping it modular and ev
 
 Example task - Build a todo app. You can add, edit, remove items. Allow sub-tasks within a task. There will be some form validation or api call. Also, persist/load todo items on reload. 
 
-☯️ Ps/ds - There was 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) and 1 data structure question (ex. tree traversal in various orders, stack, etc) . It took about 40-45min. You'll have to first explain your approach and then write the code on paper. 
-This is usually not so hard for ui roles. But in some cases, interviewer might ask full-blown sde level questions like red-black tree, etc. There is officially no distinction for psds round between ui and sde roles, but practically there is.
+☯️ Ps/ds - There was 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) and 1 data structure question (ex. tree traversal in various orders, stack, etc). It took about 40-45min. You'll have to first explain your approach and then write the code on paper. 
+This round is usually not so hard for UI roles. But in some cases, interviewer might ask full-blown sde level questions like red-black tree, etc. There is officially no distinction for psds round between ui and sde roles, but practically there is.
 
 🔶 UI+Javascript - I felt this was the most imp round. It went relatively smooth for me and lasted for about an hour. Expect moderate to advanced Javascript and some browser related questions.
 
@@ -30,7 +30,7 @@ What will be asked - Depends. Expect some HR questions (why do you want to move,
 
 I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-oriented rounds), but the general structure should stay the same.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTM3NDUzNSwyMDY2MzY3NzczLDIwMz
+eyJoaXN0b3J5IjpbMjAzNTE3NjgxMSwyMDY2MzY3NzczLDIwMz
 g1MDkwMTksMTE3NzQyNTEyMSwtMTMwMTUzMjg5MCwtOTcwODAy
 MTU0LDE2NDA0MzI1ODRdfQ==
 -->
