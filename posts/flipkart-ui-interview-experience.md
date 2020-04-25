@@ -11,9 +11,14 @@ Example task -  Consider a list and detail view of credit cards. There is a exis
 
 They provide a json api which gives list of types of cards (amex/visa) and regex/field rules for each of them. It will have a regex to check if this card number is say, amex. And then for amex, details of other card fields - cvv required?, length of cvv, expiry date max range, etc. 
 
+Ps/ds - 1 problem solving question (leetcode easy problem - sorting, find from both sides, etc) + 1 data structure question (ex. tree traversal starting from leaf, stack, etc) . 
+This is not so hard (usually) for ui roles, but i have heard if you are unlucky interviewer might go full-blown sde level like red-black tree.
+There is officially no distinction for psds round for ui roles, but practically there is
+
 UI+Js - most imp round (i felt), expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
 
-
+Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
+For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjIyMzE5ODZdfQ==
+eyJoaXN0b3J5IjpbMTY0MDQzMjU4NF19
 -->
