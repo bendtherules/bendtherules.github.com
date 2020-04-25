@@ -5,7 +5,7 @@ Here's a detailed version -
 📞 A recruiting agency (Interviewbit) contacted me and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited to apply for the same role, on a weekend. 
 (Flipkart loves this group interview thing through agencies, and that is your best shot of getting to the door. Most of the colleagues i have heard from also got in through similar route. Its sad, but referral is almost useless here and gets ignored most of the time.) 
 
-The interview was a one-day process - morning to late evening. First, they gather everyone in a meeting room and explain the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), ui + Javascript and finally, manager round. 
+📅 The interview was mostly a one-day process - morning to late evening. First, they gather everyone in a meeting room and explain the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), ui + Javascript and finally, manager round. 
 
 Machine coding - This is a ui you have to build using plain html/css/js - no ui library like react or vue is allowed. Think beforehand how you want to build using plain js, keeping it modular and everything.
 There is a list of reqd and good to have features. Complete atleast some of them. But more focus is on clean coding, best practices and logic, rather than on the ui look. Have a scaffolding with import/export support ready (webpack or something).
@@ -23,5 +23,5 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkyNjI5NjAsMTY0MDQzMjU4NF19
+eyJoaXN0b3J5IjpbLTEzODk0NjY3ODIsMTY0MDQzMjU4NF19
 -->
