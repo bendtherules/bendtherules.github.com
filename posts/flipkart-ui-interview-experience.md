@@ -1,4 +1,6 @@
-🔔 My Flipkart UI interview experience
+ Flipkart UI Engineer interview experience
+
+Some people 
 
 Actually, i finally wrote it down.
 
@@ -22,5 +24,5 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQxODM4MzAzLDE2NDA0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbMjEyNTAwMDMzOCwxNjQwNDMyNTg0XX0=
 -->
