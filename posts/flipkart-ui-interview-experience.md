@@ -23,9 +23,8 @@ Ex - debounce + throttling (very common nowadays), event handling with delegatio
 Most of these are standard questions. Some questions were asked indirectly using a UI scenario.  
 
 Manager round - Depends. 
-Expect some HR questions (why do you want to move, what are you looking for in new role), and some tech questions (authentication, cookies, new react features, .
-For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
+Expect some HR questions (why do you want to move, what are you looking for in new role), and some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc). Some of the HR questions are asked directly off the internal play
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI0NTk3MywtOTcwODAyMTU0LDE2ND
-A0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbNjQ1NjI3NTQyLC05NzA4MDIxNTQsMTY0MD
+QzMjU4NF19
 -->
