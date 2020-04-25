@@ -13,8 +13,6 @@ Think beforehand how you want to build using plain js, keeping it modular and ev
 
 Example task -  Consider a list and detail view of credit cards. There is a existing list of cards, clicking on one of them opens a edit form (for the card details) below. This details form has dynamic validation. When the user is typing card number, detect the type of card and change validation (or remove if reqd) other card details fields like cvv, expiry, etc. 
 
-They provide a json api which gives list of types of cards (amex/visa) and regex/field rules for each of them. It will have a regex to check if this card number is say, amex. And then for amex, details of other card fields - cvv required?, length of cvv, expiry date max range, etc. 
-
 Ps/ds - 1 problem solving question (leetcode easy problem - sorting, find from both sides, etc) + 1 data structure question (ex. tree traversal starting from leaf, stack, etc) . 
 This is not so hard (usually) for ui roles, but i have heard if you are unlucky interviewer might go full-blown sde level like red-black tree.
 There is officially no distinction for psds round for ui roles, but practically there is
@@ -24,6 +22,6 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTIxNDUwMCwtOTcwODAyMTU0LDE2ND
+eyJoaXN0b3J5IjpbMTYzODQzNTg1OCwtOTcwODAyMTU0LDE2ND
 A0MzI1ODRdfQ==
 -->
