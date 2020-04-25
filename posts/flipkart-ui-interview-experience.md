@@ -3,6 +3,7 @@
 Over the last year, some people have asked me about the UI interview process at Flipkart. I have probably said that I will write back in some time, but never got around to it. Sorry for that! 
 
 Here's a detailed version -
+
 📞  A recruiting agency (Interviewbit) contacted me and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited to apply for the same role, on a weekend. 
 (Flipkart loves this group interview thing through agencies, and that is your best shot at getting to the door. Most of the colleagues i have heard from also got in through similar route. Its sad, but referral is almost useless here and gets ignored most of the time.) 
 
@@ -29,6 +30,6 @@ What will be asked - Depends. Expect some HR questions (why do you want to move,
 
 I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-oriented rounds), but the general structure should stay the same.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDE1MzI4OTAsLTk3MDgwMjE1NCwxNj
-QwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbLTkzNjA2OTE5MiwtMTMwMTUzMjg5MCwtOT
+cwODAyMTU0LDE2NDA0MzI1ODRdfQ==
 -->
