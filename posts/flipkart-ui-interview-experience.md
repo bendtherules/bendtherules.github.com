@@ -3,7 +3,7 @@
 Over the last year, some people have asked me about the UI interview process at Flipkart. I might have said I will write back in some time, but never got around to writing. Sorry for that! 
 Here's a detailed version -
 📞 A recruiting agency (Interviewbit) contacted me and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited to apply for the same role, on a weekend. 
-(Flipkart loves this group interview thing through agencies, and that is your best shot of getting to the door. Most of the colleagues i have heard from also got in through similar route. Unfortunately, referral is almost useless 
+(Flipkart loves this group interview thing through agencies, and that is your best shot of getting to the door. Most of the colleagues i have heard from also got in through similar route. Its sad, but referral is almost useless here and gets ignored most of the time.) 
 
 The interview was a one-day process - morning to late evening. First, they gather everyone in a meeting room and explain the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), ui + Javascript and finally, manager round. 
 
@@ -23,5 +23,5 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM5NDc0NDIsMTY0MDQzMjU4NF19
+eyJoaXN0b3J5IjpbLTEyOTkyNjI5NjAsMTY0MDQzMjU4NF19
 -->
