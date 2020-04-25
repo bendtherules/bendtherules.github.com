@@ -4,7 +4,7 @@ Over the last year, some people have asked me about the UI interview process at 
 
 Here's a detailed version -
 📞  A recruiting agency (Interviewbit) contacted me and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited to apply for the same role, on a weekend. 
-(Flipkart loves this group interview thing through agencies, and that is your best shot of getting to the door. Most of the colleagues i have heard from also got in through similar route. Its sad, but referral is almost useless here and gets ignored most of the time.) 
+(Flipkart loves this group interview thing through agencies, and that is your best shot at getting to the door. Most of the colleagues i have heard from also got in through similar route. Its sad, but referral is almost useless here and gets ignored most of the time.) 
 
 📅  The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI round and finally, manager round. 
 
@@ -21,6 +21,6 @@ This is usually not so hard for ui roles. But, sometimes interviewer might ask f
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyMjI3MDY4LC05NzA4MDIxNTQsMTY0MD
-QzMjU4NF19
+eyJoaXN0b3J5IjpbMTc4ODY1MTI5NiwtOTcwODAyMTU0LDE2ND
+A0MzI1ODRdfQ==
 -->
