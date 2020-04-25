@@ -1,8 +1,8 @@
 🎙️ Flipkart UI Engineer interview experience
 
-Over the last year, some people have asked me about the UI interview process at Flipkart. I might have said I will write back
+Over the last year, some people have asked me about the UI interview process at Flipkart. I might have said I will write back in some time, but never got around to writing. Sorry for that! 
 
-Actually, i finally wrote it down.
+Here's a detailed version -
 
 So, a recruiting agency (interviewbit) contacted me and setup the onsite. There was no screening round, directly onsite where about 10 candidates were invited. (flipkart loves this group interviews through agency, noone i have heard was approached directly by fk) 
 
@@ -24,5 +24,5 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzQ2ODI4ODYsMTY0MDQzMjU4NF19
+eyJoaXN0b3J5IjpbMTY4NDY3NDYxMCwxNjQwNDMyNTg0XX0=
 -->
