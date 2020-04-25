@@ -28,9 +28,9 @@ What will be asked - Depends. Expect some HR questions (why do you want to move,
 
 🧶In general, interviewers were quite helpful and gave me hints when I got stuck. Internally, interviewers have a option to reject any candidate immediately after their round. Mostly though, they will just add their review and notes, and mention which level (say, UI 1 or UI 2) you are most suitable for. 
 
-I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-ish rounds), but the general structure should stay the same.
+🌏 I interviewed in early 2019. I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-ish rounds), but the general structure should stay the same.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAwMjQ1NDYsMjA2NjM2Nzc3MywyMD
-M4NTA5MDE5LDExNzc0MjUxMjEsLTEzMDE1MzI4OTAsLTk3MDgw
-MjE1NCwxNjQwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbMTAwMDUzNzI2NiwyMDY2MzY3NzczLDIwMz
+g1MDkwMTksMTE3NzQyNTEyMSwtMTMwMTUzMjg5MCwtOTcwODAy
+MTU0LDE2NDA0MzI1ODRdfQ==
 -->
