@@ -25,8 +25,8 @@ Most of these are standard questions. Some questions were asked indirectly using
 😎 Hiring manager round - If you have reached this round, that's good news. HR will only present 2-3 potential candidates to the manager to save his/her time. 
 What will be asked - Depends. Expect some HR questions (why do you want to move, what are you looking for in new role), and some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc). Some of the HR questions are asked directly off the internal playbook, so don't read too much into them. 
 
-In general, interviewers were quite helpful in all the rounds. They have the option to reject any candidate 
+In general, interviewers were quite helpful in all the rounds. Internally, they have a option to reject any candidate immediately after their round (if it went really bad). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcxODUzNDQwLC05NzA4MDIxNTQsMTY0MD
-QzMjU4NF19
+eyJoaXN0b3J5IjpbMTg5NTE4NDIzNSwtOTcwODAyMTU0LDE2ND
+A0MzI1ODRdfQ==
 -->
