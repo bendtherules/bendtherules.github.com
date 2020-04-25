@@ -9,9 +9,9 @@ Here's a detailed version -
 📅  The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI round and finally, manager round. 
 
 Machine coding - This is a UI you have to build using plain html/css/js - no ui library like react or vue is allowed. There is a list of reqd and good to have features. Complete atleast some of them. But more focus is on clean coding, best practices and logic, rather than on the ui look. 
+Example task -  Consider a todo app. You can add, edit, remove items
 Think beforehand how you want to build using plain js, keeping it modular and everything. Have a scaffolding with import/export support ready (webpack or something).
 
-Example task -  Consider a list and detail view of credit cards. There is a existing list of cards, clicking on one of them opens a edit form (for the card details) below. This details form has dynamic validation. When the user is typing card number, detect the type of card and change validation (or remove if reqd) other card details fields like cvv, expiry, etc. 
 
 Ps/ds - 1 problem solving question (leetcode easy problem - sorting, find from both sides, etc) + 1 data structure question (ex. tree traversal starting from leaf, stack, etc) . 
 This is not so hard (usually) for ui roles, but i have heard if you are unlucky interviewer might go full-blown sde level like red-black tree.
@@ -22,6 +22,6 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODQzNTg1OCwtOTcwODAyMTU0LDE2ND
-A0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbOTk0NjI4ODUzLC05NzA4MDIxNTQsMTY0MD
+QzMjU4NF19
 -->
