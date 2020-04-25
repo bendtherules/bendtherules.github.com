@@ -14,7 +14,7 @@ Think beforehand how you want to build using plain js, keeping it modular and ev
 
 Example task - Build a todo app. You can add, edit, remove items. Allow sub-tasks within a task. There will be some form validation or api call. Also, persist/load todo items on reload. 
 
-☯️ Ps/ds - 1 problem solving question (leetcode easy problem - sorting, find from both sides, etc) + 1 data structure question (ex. tree traversal starting from leaf, stack, etc) . 
+☯️ Ps/ds - 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) + 1 data structure question (ex. tree traversal in various orders, stack, etc) . 
 This is not so hard (usually) for ui roles, but i have heard if you are unlucky interviewer might go full-blown sde level like red-black tree.
 There is officially no distinction for psds round for ui roles, but practically there is
 
@@ -23,6 +23,6 @@ UI+Js - most imp round (i felt), expect somewhat advanced js + browser related q
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzg2NzM2MCwtOTcwODAyMTU0LDE2ND
-A0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbMTUyMzExNjcwLC05NzA4MDIxNTQsMTY0MD
+QzMjU4NF19
 -->
