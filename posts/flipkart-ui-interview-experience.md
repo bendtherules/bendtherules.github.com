@@ -1,6 +1,6 @@
 🎙️ Flipkart UI Engineer interview - My experience
 
-Over the last year, some people have asked me about the UI interview process at Flipkart. I might have said I will write back in some time, but never got around to writing. Sorry for that! 
+Over the last year, some people have asked me about the UI interview process at Flipkart. I have probably said that I will write back in some time, but never got around to it. Sorry for that! 
 
 Here's a detailed version -
 📞  A recruiting agency (Interviewbit) contacted me and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited to apply for the same role, on a weekend. 
@@ -16,11 +16,11 @@ Example task - Build a todo app. You can add, edit, remove items. Allow sub-task
 ☯️ Ps/ds - 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) + 1 data structure question (ex. tree traversal in various orders, stack, etc) . 
 This is usually not so hard for ui roles. But, sometimes interviewer might ask full-blown sde level questions like red-black tree. There is officially no distinction for psds round between ui and sde roles, but practically there is.
 
-🔶 UI+Javascript - I felt this was the most imp round. , expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
+🔶 UI+Javascript - I felt this was the most imp round. It went expect somewhat advanced js + browser related questions (debounce, event handling with delegation, event capturing phase, scope, let/var, promise + promise.all, async, how does a page load from start, etc) 
 
 Manager round - Depends. Some HR questions (why you want to move / join), mostly tech questions.
 For me it was - how authentication, cookies, what all cookie contains, react new version, how do you learn, etc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NTg1NTY2NSwtOTcwODAyMTU0LDE2ND
-A0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbNzkyMjI3MDY4LC05NzA4MDIxNTQsMTY0MD
+QzMjU4NF19
 -->
