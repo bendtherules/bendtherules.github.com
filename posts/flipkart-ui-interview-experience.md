@@ -7,7 +7,7 @@ Here's a detailed version -
 📞  A recruiting agency (Interviewbit) contacted me for UI Engineer 1 opening in Flipkart and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited for the same role, on a weekend. 
 (Flipkart loves this group interview format, where agencies shortlist a few candidates and send them to Flipkart for interview. This is your best shot at getting to the door. Its sad, but referral is almost useless here and gets ignored most of the time.) 
 
-📅  The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI round and finally, manager round. There is probably a additional system design round for UI 2 and above. 
+📅  The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI round and finally, manager round. There is probably one more system design round for UI 2 and above. 
 
 💻 Machine coding - This is a UI you have to build using plain html/css/js - no ui library like react or vue is allowed. They will give you a sheet with all the details - reqd and good to have features, api endpoints, mockup. Complete atleast some of the reqd features. But focus more on clean coding, best practices and logic, rather than on the ui look. You'll have 1-2 hour to complete this task. But don't worry - it's not supposed to be complete-able in that timeframe. I was able to finish only half of the required features . So, prioritize the imp tasks and explain how you'll do the rest during review. 
 Think beforehand how you want to build using plain js, keeping it modular and everything. Have a scaffolding with import/export support ready (webpack).
@@ -30,7 +30,7 @@ What will be asked - Depends. Expect some HR questions (why do you want to move,
 
 I expect some of these rounds to change in the current remote interview situation (less touchpoint with interviewers, more hackerrank-oriented rounds), but the general structure should stay the same.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE5NjY3NjQsMjAzODUwOTAxOSwxMT
-c3NDI1MTIxLC0xMzAxNTMyODkwLC05NzA4MDIxNTQsMTY0MDQz
-MjU4NF19
+eyJoaXN0b3J5IjpbMjA2NjM2Nzc3MywyMDM4NTA5MDE5LDExNz
+c0MjUxMjEsLTEzMDE1MzI4OTAsLTk3MDgwMjE1NCwxNjQwNDMy
+NTg0XX0=
 -->
