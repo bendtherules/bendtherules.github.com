@@ -9,8 +9,8 @@ It's already been one year from then, but I never publicly wrote about it. Over 
 A recruiting agency (Interviewbit) contacted me for UI Engineer 1 opening in Flipkart and setup the onsite. There was no screening round, it was directly onsite. About 10-12 candidates were invited for the same role, on a weekend.  
 (Flipkart loves this group interview format, where agencies shortlist a few candidates and send them for interview. Going through agencies is your best shot at getting to the door. It's sad, but referral is almost useless here and gets ignored most of the time.) 
 
-📅 The interview was mostly a one-day process - from morning to late evening. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds are ps/ds (problem solving + data structure), UI + Javascript round and finally, manager round.  
-There is probably one more system design round for UI 2 and above. 
+📅 The interview was mostly a one-day process - from morning to late evening. I actually liked how the whole process got over in the same day. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds were ps/ds (problem solving + data structure), UI + Javascript round and finally, manager round. There is probably one more system design round for UI 2 and above.  
+There was quite a few hours of gap in between every round and it wasn't at
 
 ## 🛠 Machine coding (MC) 
 
@@ -47,8 +47,8 @@ The manager can ask whatever they want to make a final decision. Expect some HR 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI1Mjk0NzQsLTg5OTkxMDk1Miw2MT
-EyNzI0NTYsMjA2NjM2Nzc3MywyMDM4NTA5MDE5LDExNzc0MjUx
-MjEsLTEzMDE1MzI4OTAsLTk3MDgwMjE1NCwxNjQwNDMyNTg0XX
-0=
+eyJoaXN0b3J5IjpbMTIwNjc0Mzg0NCwtODk5OTEwOTUyLDYxMT
+I3MjQ1NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEy
+MSwtMTMwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ
+==
 -->
