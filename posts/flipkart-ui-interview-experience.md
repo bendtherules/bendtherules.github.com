@@ -1,4 +1,5 @@
 
+
 🎙️ Hi, I am Abhas. I interviewed at Flipkart for UI engineer 1 role at the start of 2019.  
 
 It's already been one year from then, but I never publicly wrote about it. Over time, some people have asked me about the UI interview process at Flipkart. I have probably said that I will write back in some time, but never back. Really sorry for that! I have finally got around to writing today.
@@ -49,7 +50,7 @@ Most of these are standard questions. Some questions were asked indirectly throu
 
 If you have reached till this round, that's good news. HR will only present 2-3 potential candidates to the manager to save his/her time.  
 The manager can technically ask anything they need to make a final decision. Expect some -  
-a. HR questions (why do you want to move, what are you looking for in new role), and 
+a. HR questions (why do you want to move, what are you looking for in new role), and  
 b. some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc).  
 
 Don't read too much into the HR questions - they are pretty standard and nothing personal about you. 
@@ -66,8 +67,9 @@ Don't read too much into the HR questions - they are pretty standard and nothing
 The exact interview process and experience depends on the team you're applying for. Due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.).  
 The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NzM4ODI1NCwtMzQzMTU3NDc0LC0zMD
-YxMDkzNTUsMTI0NTQ1MTUwOSwtODk5OTEwOTUyLDYxMTI3MjQ1
-NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEyMSwtMT
-MwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbOTM2NTk1MjE2LDE2NTczODgyNTQsLTM0Mz
+E1NzQ3NCwtMzA2MTA5MzU1LDEyNDU0NTE1MDksLTg5OTkxMDk1
+Miw2MTEyNzI0NTYsMjA2NjM2Nzc3MywyMDM4NTA5MDE5LDExNz
+c0MjUxMjEsLTEzMDE1MzI4OTAsLTk3MDgwMjE1NCwxNjQwNDMy
+NTg0XX0=
 -->
