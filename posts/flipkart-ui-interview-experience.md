@@ -27,7 +27,7 @@ The solution is reviewed in a few hours by a interviewer. There is some point fo
 
 Example task - Build a todo app. You can add, edit, remove items. Allow sub-tasks within a task. There will be some form validation or api call. Also, persist/load todo items on reload. 
 
-## ☯️ Problem solving (psds) 
+## ☯️ Problem solving (ps/ds) 
 
 There was -  
 a. 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) and  
@@ -52,7 +52,7 @@ The manager can technically ask anything they need to make a final decision. Exp
 a. HR questions (why do you want to move, what are you looking for in new role), and 
 b. some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc).  
 
-Don't read too much into the HR questions - they are pretty standard 
+Don't read too much into the HR questions - they are pretty standard and nothing personal about you. 
 
 ## 🧶 In summary
 
@@ -66,8 +66,8 @@ Don't read too much into the HR questions - they are pretty standard
 The exact interview process and experience depends on the team you're applying for. Due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.).  
 The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk2NTg3NDMsLTM0MzE1NzQ3NCwtMz
-A2MTA5MzU1LDEyNDU0NTE1MDksLTg5OTkxMDk1Miw2MTEyNzI0
-NTYsMjA2NjM2Nzc3MywyMDM4NTA5MDE5LDExNzc0MjUxMjEsLT
-EzMDE1MzI4OTAsLTk3MDgwMjE1NCwxNjQwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbMTY1NzM4ODI1NCwtMzQzMTU3NDc0LC0zMD
+YxMDkzNTUsMTI0NTQ1MTUwOSwtODk5OTEwOTUyLDYxMTI3MjQ1
+NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEyMSwtMT
+MwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ==
 -->
