@@ -2,8 +2,7 @@
 
 🎙️ Hi, I am Abhas. I interviewed at Flipkart for UI engineer 1 role at the start of 2019.  
 
-It's already been one year from then, but I never publicly wrote about it. Over time, some people have asked me about the UI interview process at Flipkart. I have probably said that I will write back in some time, but never have. Really sorry for that!  
-I finally got around to writing today.
+It's already been one year from then, but I never publicly wrote about it. Over time, some people have asked me about the UI interview process at Flipkart. I have probably said that I will write back in some time, but never have. (Really sorry for that!) I finally got around to it today.
 
 **This is my effort to document the general process, while abstracting away the actual questions.**
 
@@ -68,9 +67,9 @@ Don't read too much into the HR questions - they are pretty standard and nothing
 The exact interview process and experience depends on the team you're applying for. Due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.).  
 The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODM1MzA4NDEsOTM2NTk1MjE2LDE2NT
-czODgyNTQsLTM0MzE1NzQ3NCwtMzA2MTA5MzU1LDEyNDU0NTE1
-MDksLTg5OTkxMDk1Miw2MTEyNzI0NTYsMjA2NjM2Nzc3MywyMD
-M4NTA5MDE5LDExNzc0MjUxMjEsLTEzMDE1MzI4OTAsLTk3MDgw
-MjE1NCwxNjQwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbLTkwNjQ4MzI3OSw5MzY1OTUyMTYsMTY1Nz
+M4ODI1NCwtMzQzMTU3NDc0LC0zMDYxMDkzNTUsMTI0NTQ1MTUw
+OSwtODk5OTEwOTUyLDYxMTI3MjQ1NiwyMDY2MzY3NzczLDIwMz
+g1MDkwMTksMTE3NzQyNTEyMSwtMTMwMTUzMjg5MCwtOTcwODAy
+MTU0LDE2NDA0MzI1ODRdfQ==
 -->
