@@ -50,12 +50,14 @@ Most of these are standard questions. Some questions were asked indirectly throu
 If you have reached till this round, that's good news. HR will only present 2-3 potential candidates to the manager to save his/her time.  
 The manager can ask anything they want to make a final decision. Expect some HR questions (why do you want to move, what are you looking for in new role), and some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc). Some of the HR questions are asked directly off the internal playbook, so don't read too much into them. 
 
-🧶 In general, interviewers were quite helpful and gave me hints when I got stuck. Internally, interviewers have a option to reject any candidate immediately after their round. Mostly though, they will just add their review and notes, and mention which level (say, UI 1 or UI 2) you are most suitable for. 
+## 🧶 In summary
+
+ In general, interviewers were quite helpful and gave me hints when I got stuck. Internally, interviewers have a option to reject any candidate immediately after their round. Mostly though, they will just add their review and notes, and mention which level (say, UI 1 or UI 2) you are most suitable for. 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzUzMjM5MzksLTMwNjEwOTM1NSwxMj
-Q1NDUxNTA5LC04OTk5MTA5NTIsNjExMjcyNDU2LDIwNjYzNjc3
-NzMsMjAzODUwOTAxOSwxMTc3NDI1MTIxLC0xMzAxNTMyODkwLC
-05NzA4MDIxNTQsMTY0MDQzMjU4NF19
+eyJoaXN0b3J5IjpbLTM0MzE1NzQ3NCwtMzA2MTA5MzU1LDEyND
+U0NTE1MDksLTg5OTkxMDk1Miw2MTEyNzI0NTYsMjA2NjM2Nzc3
+MywyMDM4NTA5MDE5LDExNzc0MjUxMjEsLTEzMDE1MzI4OTAsLT
+k3MDgwMjE1NCwxNjQwNDMyNTg0XX0=
 -->
