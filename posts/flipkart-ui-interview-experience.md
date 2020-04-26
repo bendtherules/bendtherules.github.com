@@ -52,14 +52,16 @@ The manager can technically ask anything they need to make a final decision. Exp
 
 ## 🧶 In summary
 
-Apply through recruitment agencies - that's your best 
+Apply through recruitment agencies - that's your best chance of getting a interview
+
+The exact interview process and experience depends on the team you're applying for.
 
 In general, interviewers were quite helpful and gave me hints when I got stuck. Internally, interviewers have a option to reject any candidate immediately after their round. Mostly though, they will just add their review and notes, and mention which level (say, UI 1 or UI 2) you are most suitable for. 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU4MjY5MjMsLTM0MzE1NzQ3NCwtMz
-A2MTA5MzU1LDEyNDU0NTE1MDksLTg5OTkxMDk1Miw2MTEyNzI0
-NTYsMjA2NjM2Nzc3MywyMDM4NTA5MDE5LDExNzc0MjUxMjEsLT
-EzMDE1MzI4OTAsLTk3MDgwMjE1NCwxNjQwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbMTkwMTgwMTQyMSwtMzQzMTU3NDc0LC0zMD
+YxMDkzNTUsMTI0NTQ1MTUwOSwtODk5OTEwOTUyLDYxMTI3MjQ1
+NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEyMSwtMT
+MwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ==
 -->
