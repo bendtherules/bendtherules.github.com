@@ -54,7 +54,7 @@ The manager can technically ask anything they need to make a final decision. Exp
 
 - Apply through recruitment agencies - that's your best chance of getting a interview.
 - Have patience during the onsite - it's not super organised.
-- Prepare basic Leetcode questions for algo/ds. You don't nee
+- Prepare basic leetcode questions for algo/ds. The questions are not going to build on top of 
 
 The exact interview process and experience depends on the team you're applying for. Also, interviewers are mostly unaware of which team you're actually hiring for. They'll probably check your resume in the last 30 seconds before calling you in.
 
@@ -62,7 +62,7 @@ In general, interviewers were quite helpful and gave me hints when I got stuck. 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDE0NDE0OCwtMzQzMTU3NDc0LC0zMD
+eyJoaXN0b3J5IjpbMTE1MDEzNzY0MiwtMzQzMTU3NDc0LC0zMD
 YxMDkzNTUsMTI0NTQ1MTUwOSwtODk5OTEwOTUyLDYxMTI3MjQ1
 NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEyMSwtMT
 MwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ==
