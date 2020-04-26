@@ -17,9 +17,9 @@ Lunch and snacks were arranged for all interviewees. You can go the cafeteria (n
 
 ## 🛠 Machine coding (MC) 
 
-This is a UI you have to build using **plain html/css/js** - no ui library like react or vue is allowed. They will give you a sheet with all the details - reqd and good to have features, api endpoints, mockup. 
+This is a UI you have to build using **plain html/css/js** - no ui library like react or vue is allowed. They will give you a sheet with all the details - like required and good to have features, api endpoints, mockup. 
  
-Complete atleast some of the reqd features. But focus more on clean coding, best practices and logic, rather than on the ui look. You'll have 1-2 hour to complete this task. But don't worry - it's not supposed to be complete-able in that timeframe. I was able to finish only half of the required features and still got through. So, prioritize the imp tasks and explain how you'll do the rest during review.
+Complete atleast some of the reqd. features. But focus more on clean coding, best practices and logic, rather than on the ui look. You'll have 1-2 hour to complete this task. But don't worry - it's not supposed to be complete-able in that timeframe. I was able to finish only half of the required features and still got through. So, prioritize the imp tasks and explain how you'll do the rest during review.
 
 The solution is reviewed in a few hours by a interviewer - there is some point for each small feature and edge cases (objective), but also points for clean coding, separation of concerns (multiple components or files) and good architecture (believe me, you'll end up with some sort of render+update approach).
 
@@ -50,8 +50,7 @@ The manager can ask whatever they want to make a final decision. Expect some HR 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkwMjIyNiwtODk5OTEwOTUyLDYxMT
-I3MjQ1NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEy
-MSwtMTMwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ
-==
+eyJoaXN0b3J5IjpbNDAyMDk3NDc0LC04OTk5MTA5NTIsNjExMj
+cyNDU2LDIwNjYzNjc3NzMsMjAzODUwOTAxOSwxMTc3NDI1MTIx
+LC0xMzAxNTMyODkwLC05NzA4MDIxNTQsMTY0MDQzMjU4NF19
 -->
