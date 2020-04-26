@@ -10,8 +10,8 @@ A recruiting agency (Interviewbit) contacted me for UI Engineer 1 opening in Fli
 (Flipkart loves this group interview format, where agencies shortlist a few candidates and send them for interview. Going through agencies is your best shot at getting to the door. It's sad, but referral is almost useless here and gets ignored most of the time.) 
 
 📅 The interview was mostly a one-day process - from morning to late evening. I actually liked how the whole process got over in the same day. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds were ps/ds (problem solving + data structure), UI + Javascript round and finally, manager round. There is probably one more system design round for UI 2 and above.  
-There was quite a few hours of gap in between every round. It wasn't clear at all when your name is going to come up or which round is going on currently. Some candidate actually start watching movies in between.  
-Lunch and snacks were arranged for all interviewees.
+There was quite a few hours of gap in between every round. It wasn't clear at all when your name is going to come up or which round is going on currently. Some people legit start watching movies in between 🍿.  
+Lunch and snacks were arranged for all interviewees .
 
 ## 🛠 Machine coding (MC) 
 
@@ -48,8 +48,7 @@ The manager can ask whatever they want to make a final decision. Expect some HR 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDYyMzg0NiwtODk5OTEwOTUyLDYxMT
-I3MjQ1NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEy
-MSwtMTMwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ
-==
+eyJoaXN0b3J5IjpbMzEwMDE3NTIzLC04OTk5MTA5NTIsNjExMj
+cyNDU2LDIwNjYzNjc3NzMsMjAzODUwOTAxOSwxMTc3NDI1MTIx
+LC0xMzAxNTMyODkwLC05NzA4MDIxNTQsMTY0MDQzMjU4NF19
 -->
