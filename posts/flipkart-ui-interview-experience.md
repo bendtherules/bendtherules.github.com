@@ -48,7 +48,11 @@ Most of these are standard questions. Some questions were asked indirectly throu
 ## 😎 Hiring manager round
 
 If you have reached till this round, that's good news. HR will only present 2-3 potential candidates to the manager to save his/her time.  
-The manager can technically ask anything they need to make a final decision. Expect some HR questions (why do you want to move, what are you looking for in new role), and some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc). Some of the HR questions are asked directly off the internal playbook, so don't read too much into them. 
+The manager can technically ask anything they need to make a final decision. Expect some -  
+a. HR questions (why do you want to move, what are you looking for in new role), and 
+b. some tech questions (authentication, cookies in details, localstorage, new react features, some repeat questions from prev round, etc).  
+
+Don't read too much into the HR questions - they are pretty standard 
 
 ## 🧶 In summary
 
@@ -62,8 +66,8 @@ The manager can technically ask anything they need to make a final decision. Exp
 The exact interview process and experience depends on the team you're applying for. Due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.).  
 The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2NTU1MTIyLC0zNDMxNTc0NzQsLTMwNj
-EwOTM1NSwxMjQ1NDUxNTA5LC04OTk5MTA5NTIsNjExMjcyNDU2
-LDIwNjYzNjc3NzMsMjAzODUwOTAxOSwxMTc3NDI1MTIxLC0xMz
-AxNTMyODkwLC05NzA4MDIxNTQsMTY0MDQzMjU4NF19
+eyJoaXN0b3J5IjpbLTE5Njk2NTg3NDMsLTM0MzE1NzQ3NCwtMz
+A2MTA5MzU1LDEyNDU0NTE1MDksLTg5OTkxMDk1Miw2MTEyNzI0
+NTYsMjA2NjM2Nzc3MywyMDM4NTA5MDE5LDExNzc0MjUxMjEsLT
+EzMDE1MzI4OTAsLTk3MDgwMjE1NCwxNjQwNDMyNTg0XX0=
 -->
