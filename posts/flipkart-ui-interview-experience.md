@@ -13,7 +13,7 @@ A recruiting agency (Interviewbit) contacted me for UI Engineer 1 opening in Fli
 ## 📅 About the day
 The interview was mostly a one-day process - from morning to late evening. I actually liked how the whole process got over in the same day. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds were ps/ds (problem solving + data structure), UI + Javascript round and finally, manager round. There is probably one more system design round for UI 2 and above.
 
-There was a lot of waiting in between every round. It wasn't clear when your name is going to come up, or which round is going on currently. Some people legit started watching movies 🍿 in between.  
+There was a lot of waiting in between every round. It wasn't clear when your name is going to come up, or which round is going on currently. Some people legit started watching movies🍿 in between.  
 Lunch and snack was arranged by HR. You can go the cafeteria (not free) if you want to.
 
 ## 🛠 Machine coding (MC) 
@@ -22,7 +22,7 @@ This is a UI you have to build using **plain html/css/js** - no ui library like 
  
 Complete atleast some of the reqd. features. But focus more on clean coding, best practices and logic, rather than on the ui look. You'll have 1-2 hour to complete this task. But don't worry - it's not supposed to be complete-able in that timeframe. I was able to finish only half of the required features and still got through. So, prioritize the imp tasks and explain how you'll do the rest during review.
 
-The solution is reviewed in a few hours by a interviewer. There is some point for each small feature and edge cases (objective), but also points for clean coding, separation of concerns (multiple components or files) and good architecture (believe me, you'll end up with some sort of render+update approach).
+The solution is reviewed in a few hours by a interviewer. There is some point for each small feature and edge case (objective), and also some point for - clean coding, separation of concerns (multiple components or files) and good architecture (believe me, you'll end up with some sort of render+update approach).
 
 🌟 Think beforehand how you want to build using plain js, keeping it modular and everything. Have a scaffolding with import/export support ready (webpack).
 
@@ -67,9 +67,9 @@ Don't read too much into the HR questions - they are pretty standard and nothing
 The exact interview process and experience depends on the team you're applying for. Due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.).  
 The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1ODc3OTksMjA1MjQyMzAwNiw5MzY1OT
-UyMTYsMTY1NzM4ODI1NCwtMzQzMTU3NDc0LC0zMDYxMDkzNTUs
-MTI0NTQ1MTUwOSwtODk5OTEwOTUyLDYxMTI3MjQ1NiwyMDY2Mz
-Y3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEyMSwtMTMwMTUzMjg5
-MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbMTEzODg3NjAxMiw4NzU4Nzc5OSwyMDUyND
+IzMDA2LDkzNjU5NTIxNiwxNjU3Mzg4MjU0LC0zNDMxNTc0NzQs
+LTMwNjEwOTM1NSwxMjQ1NDUxNTA5LC04OTk5MTA5NTIsNjExMj
+cyNDU2LDIwNjYzNjc3NzMsMjAzODUwOTAxOSwxMTc3NDI1MTIx
+LC0xMzAxNTMyODkwLC05NzA4MDIxNTQsMTY0MDQzMjU4NF19
 -->
