@@ -29,7 +29,11 @@ Example task - Build a todo app. You can add, edit, remove items. Allow sub-task
 
 ## ☯️ Problem solving (psds) 
 
-There was -  1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) and 1 data structure question (ex. tree traversal in various orders, stack, etc). Total time to complete both is about 40-45min. You'll have to first explain your approach and then write the code on paper.
+There was -  
+a. 1 problem solving question (leetcode easy problem - search from both sides, basic dynamic programming, etc) and  
+b. 1 data structure question (ex. tree traversal in various orders, stack, etc).  
+
+Total time to complete both is about 40-45min. You'll have to first explain your approach and then write the code on paper.
 
 This round is usually not so hard for UI roles. But in some cases, interviewer might ask full-blown sde level questions like red-black tree, etc. There is officially no distinction for psds round between ui and sde roles, but practically there is.
 
@@ -50,8 +54,8 @@ The manager can ask anything they want to make a final decision. Expect some HR 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDc4OTc3MiwtMzA2MTA5MzU1LDEyND
-U0NTE1MDksLTg5OTkxMDk1Miw2MTEyNzI0NTYsMjA2NjM2Nzc3
-MywyMDM4NTA5MDE5LDExNzc0MjUxMjEsLTEzMDE1MzI4OTAsLT
-k3MDgwMjE1NCwxNjQwNDMyNTg0XX0=
+eyJoaXN0b3J5IjpbLTE2MzUzMjM5MzksLTMwNjEwOTM1NSwxMj
+Q1NDUxNTA5LC04OTk5MTA5NTIsNjExMjcyNDU2LDIwNjYzNjc3
+NzMsMjAzODUwOTAxOSwxMTc3NDI1MTIxLC0xMzAxNTMyODkwLC
+05NzA4MDIxNTQsMTY0MDQzMjU4NF19
 -->
