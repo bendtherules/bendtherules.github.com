@@ -55,14 +55,15 @@ The manager can technically ask anything they need to make a final decision. Exp
 - Apply through recruitment agencies - that's your best chance of getting a interview.
 - Have patience during the onsite - it's not super organised.
 - Prepare basic leetcode questions for algo/ds. The questions are not going to build on top of popular algorithms. Interviewers will explain the problem and expect you to atleast come up with some naive solution and then optimise it (with hints).
-- UI+JS round is quite important. Understand javascript well, and remember
+- UI+JS round is quite important. Understand javascript and browser well. Explain things through UI usecases.
+- Manager round
 The exact interview process and experience depends on the team you're applying for. Also, interviewers are mostly unaware of which team you're actually hiring for. They'll probably check your resume in the last 30 seconds before calling you in.
 
 In general, interviewers were quite helpful and gave me hints when I got stuck. Internally, interviewers have a option to reject any candidate immediately after their round. Mostly though, they will just add their review and notes, and mention which level (say, UI 1 or UI 2) you are most suitable for. 
 
 🌏 I interviewed in early 2019 - so, just about a year back from now. But due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.). The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODgyODEyMiwtMzQzMTU3NDc0LC0zMD
+eyJoaXN0b3J5IjpbLTEzMTAyNjA2MiwtMzQzMTU3NDc0LC0zMD
 YxMDkzNTUsMTI0NTQ1MTUwOSwtODk5OTEwOTUyLDYxMTI3MjQ1
 NiwyMDY2MzY3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEyMSwtMT
 MwMTUzMjg5MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ==
