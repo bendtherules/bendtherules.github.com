@@ -13,8 +13,8 @@ A recruiting agency (Interviewbit) contacted me for UI Engineer 1 opening in Fli
 ## 📅 About the day
 The interview was mostly a one-day process - from morning to late evening. I actually liked how the whole process got over in the same day. First, they asked us to gather in a meeting room and explained the machine coding task (1st round). Next rounds were ps/ds (problem solving + data structure), UI + Javascript round and finally, manager round. There is probably one more system design round for UI 2 and above.
 
-There was quite a few hours of gap in between every round. It wasn't clear at all when your name is going to come up or which round is going on currently. Some people legit started watching movies in between 🍿.  
-Lunch and snacks were arranged for all interviewees. You can go the cafeteria (not free) if you want to.
+There was a lot of waiting in between every round. It wasn't clear when your name is going to come up, or which round is going on currently. Some people legit started watching movies 🍿 in between.  
+Lunch and snack was arranged by HR. You can go the cafeteria (not free) if you want to.
 
 ## 🛠 Machine coding (MC) 
 
@@ -67,9 +67,9 @@ Don't read too much into the HR questions - they are pretty standard and nothing
 The exact interview process and experience depends on the team you're applying for. Due to the current situation, some of these rounds might have changed slightly (like less interaction with interviewers, more hackerrank-ish rounds, etc.).  
 The general structure and advice should still hold true.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjQyMzAwNiw5MzY1OTUyMTYsMTY1Nz
-M4ODI1NCwtMzQzMTU3NDc0LC0zMDYxMDkzNTUsMTI0NTQ1MTUw
-OSwtODk5OTEwOTUyLDYxMTI3MjQ1NiwyMDY2MzY3NzczLDIwMz
-g1MDkwMTksMTE3NzQyNTEyMSwtMTMwMTUzMjg5MCwtOTcwODAy
-MTU0LDE2NDA0MzI1ODRdfQ==
+eyJoaXN0b3J5IjpbODc1ODc3OTksMjA1MjQyMzAwNiw5MzY1OT
+UyMTYsMTY1NzM4ODI1NCwtMzQzMTU3NDc0LC0zMDYxMDkzNTUs
+MTI0NTQ1MTUwOSwtODk5OTEwOTUyLDYxMTI3MjQ1NiwyMDY2Mz
+Y3NzczLDIwMzg1MDkwMTksMTE3NzQyNTEyMSwtMTMwMTUzMjg5
+MCwtOTcwODAyMTU0LDE2NDA0MzI1ODRdfQ==
 -->
