@@ -16,8 +16,7 @@ They are all control flow statements and internally, return a [completion record
 Normally, statements within a block of code are run one-by-one and the process ends when the last statement has finished execution.  
 Control flow statements change the normal order of execution. They let us exit prematurely or jump back to a different block of code. 
 
-⬆️ Given this definition, it might be hard to think of `return` statements as "exiting prematurely". After all, that's how we are supposed to return anything from a function.  
-But the other way of thinking is that return is a user-specified way of exiting from any part of the function body, with a specific value. It doesn't necessarily has to return from the end of the function 
+⬆️ Given this definition, it might be hard to think of `return` statements as "exiting prematurely". After all, that's how we are supposed to return anything from a function. But the other way of thinking is that return is a user-specified way of exiting from any part of the function body, with a specific value. return doesn
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODc5NDE3NywtNTM0NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbLTE3Mzc5ODU2MTAsLTUzNDU0NDYzMl19
 -->
