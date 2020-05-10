@@ -14,13 +14,13 @@ We will talk about a few separate but interesting bits today. We'll start with c
 What's common between `continue`, `break`, `return` and `throw`?  
 They are all control flow statements and internally, return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
 
-Statements within a block of code are normally run one-by-one and the process ends when the last statement has finished execution. Control flow statements change that normal order of execution. They let us exit prematurely or jump back to a different block of code. 
+Statements within a block of code are normally run one-by-one and the process ends when the last statement has finished execution. Control flow statements change that normal order of execution. They let us exit prematurely or jump back to a different block of code. This is known as non-local transfer of control.
 
-⬆️ Given this definition, it might be hard to think of `return` statements as "exiting prematurely". After all, that's how we are supposed to return any value from a function.  
+⬆️ It might be hard to think of `return` statements as "exiting prematurely". After all, that's how we are supposed to return any value from a function.  
 But the other way of thinking is that return is a user-specified way of exiting from any part of the function body, with a specific value. `return` can be used in the middle of a function, not just at the end.
 
-Completion record 
+### Completion record 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUyNTY4NCwtMTIzNjYzNjQ3MSwxMj
+eyJoaXN0b3J5IjpbMTMxMzA0MDE5OCwtMTIzNjYzNjQ3MSwxMj
 EyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
