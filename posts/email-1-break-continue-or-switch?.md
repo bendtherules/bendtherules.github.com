@@ -15,7 +15,7 @@ They are all control flow statements and internally, return a [completion record
 
 Why is this called control flow? Well, normally statements in Javascript are run one-by-one till the end of the block. There can be function calls in between, but even within a function - it runs the whole body. A control flow is something 
 
-Control flow statements change the normal order of execution - where statements are run one-by-one till the end. 
+Control flow statements change the normal order of execution. Normally, statements within a block of code are run one-by-one and the process ends till the end. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDgzODM2MDMsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbLTE4ODE3NTIzNDksLTUzNDU0NDYzMl19
 -->
