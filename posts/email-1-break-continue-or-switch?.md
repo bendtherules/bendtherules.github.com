@@ -13,7 +13,7 @@ We will talk about a few separate but interesting bits today. We'll start with c
 What's common between `continue`, `break`, `return` and `throw`?  
 They are all control flow statements and internally, return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
 
-Why is this called control flow? Well, normally - . A control flow is something 
+Why is this called control flow? Well, normally our . A control flow is something 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc4NzAyNjEsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbMTQyNDk2Njg5MCwtNTM0NTQ0NjMyXX0=
 -->
