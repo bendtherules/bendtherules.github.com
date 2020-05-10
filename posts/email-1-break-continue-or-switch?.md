@@ -15,6 +15,8 @@ They are all control flow statements and internally, return a [completion record
 
 Normally, statements within a block of code are run one-by-one and the process ends when the last statement has finished execution.  
 Control flow statements change the normal order of execution. They let us exit prematurely or jump back to a different block of code. 
+
+⬆️ Given this definition, it might be hard to think of `return` statements 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA2MjM4MzQsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbLTE4NDAwOTcwNzksLTUzNDU0NDYzMl19
 -->
