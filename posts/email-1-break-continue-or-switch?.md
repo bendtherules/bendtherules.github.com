@@ -30,8 +30,8 @@ b. [[Value]] - Completion records can contain a value to store what data was ret
 Ex - when we write `throw foo;`, it returns a completion record with [[Type]] = 'throw', [[Value]] = foo.  
 Similarly, when we write a return statement, the return value is stored within this field.
 
-c. [[Target]] - This is a lesser used construct. If y
+c. [[Target]] - This is a lesser used construct. If you remember, continue and throw statements have a optional label - like `break ` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Njc5Mzc4NywtMTIzNjYzNjQ3MSwxMj
-EyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbNzIzNTk1NTcyLC0xMjM2NjM2NDcxLDEyMT
+IyMzgxNzEsLTEwMDEzNTg2OTMsLTUzNDU0NDYzMl19
 -->
