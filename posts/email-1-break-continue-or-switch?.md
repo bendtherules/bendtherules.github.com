@@ -11,7 +11,7 @@ We will talk about a few separate but interesting bits today. We'll start with c
 
 # Control flow statements
 What's common between `continue`, `break`, `return` and `throw`?  
-They are all control flow statements and internally, return as [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
+They are all control flow statements and internally, return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzYxNjc0NiwtNTM0NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbLTcwNzAxMTE3NSwtNTM0NTQ0NjMyXX0=
 -->
