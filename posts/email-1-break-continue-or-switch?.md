@@ -13,7 +13,7 @@ We will talk about a few separate but interesting bits today. We'll start with c
 What's common between `continue`, `break`, `return` and `throw`?  
 They are all control flow statements and internally, return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
 
-Why is this called control flow? Well, normally statements in Javascript are run line-by-line . A control flow is something 
+Why is this called control flow? Well, normally statements in Javascript are run one-by-one till the end of the block. A control flow is something 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMDI3OTQwLC01MzQ1NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbLTY2MzY4NzY4NiwtNTM0NTQ0NjMyXX0=
 -->
