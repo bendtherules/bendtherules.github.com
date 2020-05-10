@@ -22,13 +22,13 @@ Statements within a block of code are normally run one-by-one and the process en
 But the other way of thinking is that return is a user-specified way of exiting from any part of the function body, with a specific value. `return` can be used in the middle of a function, not just at the end.
 -->
 
-**Completion record** is a internal data structure (called as record) which holds the following keys and their values -  
+**Completion record** is a internal data structure (called as record) which holds the following fields and their values -  
 
 a. [[Type]] - Possible values are normal, break, continue, return, or throw. Ex - when we write `break;`, it returns a completion record with [[Type]] = 'break'
 
 b. [[Value]] - Completion records can contain a value to store what data was returned. If not provided, it defaults to `undefined`.  
-Ex - when we write `throw foo;`, it returns a completion record with [[Type]] = 'throw', [[Value]] = foo 
+Ex - when we write `throw foo;`, it returns a completion record with [[Type]] = 'throw', [[Value]] = foo. Similarly, when we write a return statement, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMjA1MTAwMywtMTIzNjYzNjQ3MSwxMj
+eyJoaXN0b3J5IjpbMTgwOTM0NjE5MywtMTIzNjYzNjQ3MSwxMj
 EyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
