@@ -10,7 +10,8 @@ Now, back to our topic -
 We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at the wild side of switch-case statements and wrap it up with some animation I built just yesterday.
 
 # Control flow statements
+What's common between continue, break, return and throw? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA0OTIyMTYyLC01MzQ1NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbLTc3MzE0NzQ0OSwtNTM0NTQ0NjMyXX0=
 -->
