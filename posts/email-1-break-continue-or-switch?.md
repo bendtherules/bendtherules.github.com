@@ -24,10 +24,10 @@ But the other way of thinking is that return is a user-specified way of exiting 
 
 **Completion record** is a internal data structure (called as record) which holds the following keys and their values -  
 
-a. [[Type]] - Possible values are normal, break, continue, return, or throw. Ex - when we write `break;`, it actually returns a completion record with [[Type]] = 'break'
+a. [[Type]] - Possible values are normal, break, continue, return, or throw. Ex - when we write `break;`, it returns a completion record with [[Type]] = 'break'
 
-b. [[Value]] - 
+b. [[Value]] - Some completion records can contain a value. If not provided, it default
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwOTgxNTAyLC0xMjM2NjM2NDcxLDEyMT
+eyJoaXN0b3J5IjpbNTIyMTYwNjA2LC0xMjM2NjM2NDcxLDEyMT
 IyMzgxNzEsLTEwMDEzNTg2OTMsLTUzNDU0NDYzMl19
 -->
