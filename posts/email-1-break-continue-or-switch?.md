@@ -26,8 +26,9 @@ But the other way of thinking is that return is a user-specified way of exiting 
 
 a. [[Type]] - Possible values are normal, break, continue, return, or throw. Ex - when we write `break;`, it returns a completion record with [[Type]] = 'break'
 
-b. [[Value]] - Completion records can contain a value to st returned. If not provided, it defaults to `undefined`
+b. [[Value]] - Completion records can contain a value to store what data was returned. If not provided, it defaults to `undefined`.  
+Ex - when we write `throw foo;`, it returns a completion record with [[Type]] = 'throw', [[Value]] = foo 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjcwODEzMywtMTIzNjYzNjQ3MSwxMj
+eyJoaXN0b3J5IjpbLTUzMjA1MTAwMywtMTIzNjYzNjQ3MSwxMj
 EyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
