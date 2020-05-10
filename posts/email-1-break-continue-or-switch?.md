@@ -17,7 +17,7 @@ Normally, statements within a block of code are run one-by-one and the process e
 Control flow statements change the normal order of execution. They let us exit prematurely or jump back to a different block of code. 
 
 ⬆️ Given this definition, it might be hard to think of `return` statements as "exiting prematurely". After all, that's how we are supposed to return anything from a function.  
-But the other way of thinking is that return is a user-specified way of exiting from any part of the function body, with a specific value. `return` can be used in the middle of a function, not just at the end of the body.
+But the other way of thinking is that return is a user-specified way of exiting from any part of the function body, with a specific value. `return` can be used in the middle of a function, not just at the end of it.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzk5NjY4MTAsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbLTE5ODU4ODg0ODAsLTUzNDU0NDYzMl19
 -->
