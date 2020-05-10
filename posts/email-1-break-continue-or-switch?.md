@@ -14,7 +14,7 @@ What's common between `continue`, `break`, `return` and `throw`?
 They are all control flow statements and internally, return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
 
 Normally, statements within a block of code are run one-by-one and the process ends when the last statement has finished execution.  
-Control flow statements change the normal order of execution. They let us exit prematurely or jump back to a different block of code
+Control flow statements change the normal order of execution. They let us exit prematurely or jump back to a different block of code. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NTUyODk4NCwtNTM0NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbLTIwMjA2MjM4MzQsLTUzNDU0NDYzMl19
 -->
