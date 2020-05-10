@@ -9,8 +9,8 @@ Now, back to our topic -
 
 We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at the wild side of switch-case statements and wrap it up with some animation I built just yesterday.
 
-<br/><br/><br/><br/>
+# Control flow statements
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbMzA0OTIyMTYyLC01MzQ1NDQ2MzJdfQ==
 -->
