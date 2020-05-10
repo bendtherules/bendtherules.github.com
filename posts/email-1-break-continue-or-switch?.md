@@ -20,11 +20,11 @@ Statements within a block of code are normally run one-by-one and the process en
 ⬆️ It might be hard to think of `return` statements as "exiting prematurely". After all, that's how we are supposed to return any value from a function.  
 
 But the other way of thinking is that return is a user-specified way of exiting from any part of the function body, with a specific value. `return` can be used in the middle of a function, not just at the end.
-
+-->
 
 **Completion record** is a internal data structure (called as record) which holds the following keys and their values -  
-a. [[Type]] - Possible values are normal, break, continue, return, or throw
+a. [[Type]] - Possible values are normal, break, continue, return, or throw. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTg0MDEyNCwtMTIzNjYzNjQ3MSwxMj
-EyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbLTE5NjMwOTE3NTQsLTEyMzY2MzY0NzEsMT
+IxMjIzODE3MSwtMTAwMTM1ODY5MywtNTM0NTQ0NjMyXX0=
 -->
