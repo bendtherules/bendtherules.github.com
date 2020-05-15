@@ -54,8 +54,11 @@ But... what if you need mergedData in multiple methods? Just copy paste?
 
 ```js
 getMergedData = () => [...props.data, state.ownData]
+```
+
+But... if mergedData is nneded in 3 places, we will end up crea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTcwNzY5NSwtMjA5NjQyOTM3NiwtMT
+eyJoaXN0b3J5IjpbMTAyMTQ1NDEzNCwtMjA5NjQyOTM3NiwtMT
 Y1MDc4MTA4NCwxNjE1MjI4NTM0LC01MzkxMzUwODQsLTE4NTgz
 OTMwMzYsLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMTMwMjg4MD
 gyN119
