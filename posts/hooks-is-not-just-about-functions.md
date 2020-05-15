@@ -86,14 +86,14 @@ if (nextProps.foo !== props.foo) ...
 ### Level 2
 ```js
 if (nextProps.foo !== props.foo ||
-) ...
+  nextProps.bar !== props.bar) ...
 ```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Mjg1NjI5OCwxMjAwNDk5ODg1LC0yOT
+eyJoaXN0b3J5IjpbMTk5MTY0NTkwOCwxMjAwNDk5ODg1LC0yOT
 UzMDIzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2LC04Nzk5NDA2Nzgs
 LTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMTYxNTIyODUzNCwtNT
 M5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgw
