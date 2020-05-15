@@ -76,9 +76,11 @@ Or, use a memoization helper. (Which, frankly, no one does.) Also cleanup on unm
 ```js
 const mergedData = useMemo([...props.data, state.ownData]);
 ```
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTM3ODQwMzAsNTQ1OTY4OTE2LC04Nz
-k5NDA2NzgsLTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMTYxNTIy
-ODUzNCwtNTM5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIyODMzNT
-U2LC0xNDgwNDMwMzYxLDEzMDI4ODA4MjddfQ==
+eyJoaXN0b3J5IjpbMzk5NDYyOTk4LDU0NTk2ODkxNiwtODc5OT
+QwNjc4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUyMjg1
+MzQsLTUzOTEzNTA4NCwtMTg1ODM5MzAzNiwtMjEyMjgzMzU1Ni
+wtMTQ4MDQzMDM2MSwxMzAyODgwODI3XX0=
 -->
