@@ -12,8 +12,18 @@ But all the smaller gains or micro-features gets looked over. Let's talk about t
 
 No need to create big manually accumulated setStates. ex- 
 ```jsx
-componentWillReceiveProps() {
-	
+onOptionChange(value) {
+  const newState = {
+      showX: !this.state.showX,
+      selectedType: null,
+  };
+
+  if (value !== this.state.selectedType) {
+      newState.selectedType = value;
+      newState.showX = true;
+  }
+
+  this.setState(newState);
 }
 ```
 
@@ -21,6 +31,6 @@ Good for hooks. But also good for groupby feature within a component - each feat
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMT
-MwMjg4MDgyN119
+eyJoaXN0b3J5IjpbLTE4NTgzOTMwMzYsLTIxMjI4MzM1NTYsLT
+E0ODA0MzAzNjEsMTMwMjg4MDgyN119
 -->
