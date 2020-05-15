@@ -6,8 +6,8 @@ But all the smaller gains or micro-features gets looked over. Let's talk about t
 
 ## 1. State Slices (or Partial isolated state)
 
-
+**Partial** - Instead of one big object, we can create and manage state slices separately.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODU2NjM3MSwtMTQ4MDQzMDM2MSwxMz
-AyODgwODI3XX0=
+eyJoaXN0b3J5IjpbODk3NzEwMzE1LC0xNDgwNDMwMzYxLDEzMD
+I4ODA4MjddfQ==
 -->
