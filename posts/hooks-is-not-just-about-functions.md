@@ -56,12 +56,13 @@ But... what if you need mergedData in multiple methods? Just copy paste?
 getMergedData = () => [...props.data, state.ownData]
 ```
 
-But... if mergedData is nneded in 3 places, we will end up creating 3 copies on every render. What if you need the same array?
+But... if mergedData is needed in 3 places, we will end up creating 3 copies on every render. What if you need the same array or want to check if it changed?
 
+### Try 3 - Create instance variable on props change
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA3MTE3MzMsLTIwOTY0MjkzNzYsLT
-E2NTA3ODEwODQsMTYxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4
-MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4OD
-A4MjddfQ==
+eyJoaXN0b3J5IjpbLTg3OTk0MDY3OCwtMjA5NjQyOTM3NiwtMT
+Y1MDc4MTA4NCwxNjE1MjI4NTM0LC01MzkxMzUwODQsLTE4NTgz
+OTMwMzYsLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMTMwMjg4MD
+gyN119
 -->
