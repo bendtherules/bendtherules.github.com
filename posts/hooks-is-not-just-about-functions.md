@@ -63,10 +63,16 @@ Well, cache the derived variable value on props or state change.
 
 ```js
 componentWillUpdate(nextProps, nextState) {
+  if (nextProps.data !== props.data || 
+      nextState.ownData !== this.state.ownData) {
+    this.mergedData = [...props.data, state.ownData];
+  }
 }
 ```
+
+Or, use a memoization helper. (Which, frankly, no one does. ALso)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDg2MzkwOSwtODc5OTQwNjc4LC0yMD
+eyJoaXN0b3J5IjpbMTc0NjY5MjM4NywtODc5OTQwNjc4LC0yMD
 k2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEz
 NTA4NCwtMTg1ODM5MzAzNiwtMjEyMjgzMzU1NiwtMTQ4MDQzMD
 M2MSwxMzAyODgwODI3XX0=
