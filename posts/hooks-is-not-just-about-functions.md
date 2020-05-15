@@ -92,10 +92,18 @@ if (nextProps.foo !== props.foo ||
 
 ### Level 3
 ```js
-getFooSquare
+getFooPlusBar() {
+  return this.props.foo + this.props.bar;
+}
+
+/*
+getFooPlusBar() {
+  return this.props.foo + this.props.bar;
+}
+
 
 componentWillReceiveProps() {
-  if (nextProps.foo !== props.foo) {
+  if (getFooPlusBar(nextProps) !== getFooPlusBar(this.props)) {
     // ...
   }
 }
@@ -106,9 +114,9 @@ componentWillReceiveProps() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NTQ5MTc5LDE5OTE2NDU5MDgsMTIwMD
-Q5OTg4NSwtMjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwt
-ODc5OTQwNjc4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MT
-UyMjg1MzQsLTUzOTEzNTA4NCwtMTg1ODM5MzAzNiwtMjEyMjgz
-MzU1NiwtMTQ4MDQzMDM2MSwxMzAyODgwODI3XX0=
+eyJoaXN0b3J5IjpbLTE1NzI2MDU5OTEsMTk5MTY0NTkwOCwxMj
+AwNDk5ODg1LC0yOTUzMDIzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2
+LC04Nzk5NDA2NzgsLTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMT
+YxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIy
+ODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4ODA4MjddfQ==
 -->
