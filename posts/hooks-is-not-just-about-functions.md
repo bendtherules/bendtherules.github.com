@@ -8,8 +8,12 @@ But all the smaller gains or micro-features gets looked over. Let's talk about t
 
 **Partial** - Instead of one big object, we can create and manage state slices separately. Initialize it, update it without thinking about other slices.
 
-**Isolated** - WIth reusable logic, you want to make sure that two slice namespaces never collide.
+**Isolated** - WIth reusable logic, you need to make sure that two slice namespaces never collide. Else using hooks will be very hard, because you need to know its internal details.
+
+Good for hooks. But also good for groupby feature within a component - each feature can manage their own state without worrying.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyMDYwMTM5LC0xNDgwNDMwMzYxLDEzMD
-I4ODA4MjddfQ==
+eyJoaXN0b3J5IjpbLTE1NjY2NDQ2MjIsLTE0ODA0MzAzNjEsMT
+MwMjg4MDgyN119
 -->
