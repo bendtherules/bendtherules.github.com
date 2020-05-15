@@ -77,10 +77,12 @@ Or, use a memoization helper. (Which, frankly, no one does.) Also cleanup on unm
 const mergedData = useMemo([...props.data, state.ownData]);
 ```
 
-## 
+## 3. Dependency list (in useEffect)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NDYyOTk4LDU0NTk2ODkxNiwtODc5OT
-QwNjc4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUyMjg1
-MzQsLTUzOTEzNTA4NCwtMTg1ODM5MzAzNiwtMjEyMjgzMzU1Ni
-wtMTQ4MDQzMDM2MSwxMzAyODgwODI3XX0=
+eyJoaXN0b3J5IjpbLTI5NTMwMjM2LDM5OTQ2Mjk5OCw1NDU5Nj
+g5MTYsLTg3OTk0MDY3OCwtMjA5NjQyOTM3NiwtMTY1MDc4MTA4
+NCwxNjE1MjI4NTM0LC01MzkxMzUwODQsLTE4NTgzOTMwMzYsLT
+IxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMTMwMjg4MDgyN119
 -->
