@@ -39,9 +39,14 @@ componentWillReceiveProps(newProps) {
 
 ## 2. Usememo for derived variables
 
+What we want - Merge props.data and state.ownData into mergedData.
+
+### Try 1
+```js
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMT
-YxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIy
-ODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4ODA4MjddfQ==
+eyJoaXN0b3J5IjpbMTk4OTM4NDE0NSwtMjA5NjQyOTM3NiwtMT
+Y1MDc4MTA4NCwxNjE1MjI4NTM0LC01MzkxMzUwODQsLTE4NTgz
+OTMwMzYsLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMTMwMjg4MD
+gyN119
 -->
