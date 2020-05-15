@@ -111,12 +111,14 @@ componentWillReceiveProps() {
 
 ### Level 4
 ```js
+// <Child dataArray={[...this.props.data, ownData]} />
+
 if (nextProps.dataArray !== props.dataArray) ...
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ5MDU1MzQsLTE0ODA4MzU0MzQsMT
+eyJoaXN0b3J5IjpbLTE1MTI0OTI0NjMsLTE0ODA4MzU0MzQsMT
 k5MTY0NTkwOCwxMjAwNDk5ODg1LC0yOTUzMDIzNiwzOTk0NjI5
 OTgsNTQ1OTY4OTE2LC04Nzk5NDA2NzgsLTIwOTY0MjkzNzYsLT
 E2NTA3ODEwODQsMTYxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4
