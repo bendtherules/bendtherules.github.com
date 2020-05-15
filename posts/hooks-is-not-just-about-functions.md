@@ -6,8 +6,10 @@ But all the smaller gains or micro-features gets looked over. Let's talk about t
 
 ## 1. State Slices (or Partial isolated state)
 
-**Partial** - Instead of one big object, we can create and manage state slices separately.
+**Partial** - Instead of one big object, we can create and manage state slices separately. Initialize it, update it without thinking about other slices.
+
+**Isolated** - WIth reusable logic, you want to make sure that two slice namespaces never collide.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3NzEwMzE1LC0xNDgwNDMwMzYxLDEzMD
+eyJoaXN0b3J5IjpbMjMyMDYwMTM5LC0xNDgwNDMwMzYxLDEzMD
 I4ODA4MjddfQ==
 -->
