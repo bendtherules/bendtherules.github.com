@@ -37,10 +37,11 @@ componentWillReceiveProps(newProps) {
 }
 ```
 
+## 2. Usememo for derived variables
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTA3ODEwODQsMTYxNTIyODUzNCwtNT
-M5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgw
-NDMwMzYxLDEzMDI4ODA4MjddfQ==
+eyJoaXN0b3J5IjpbLTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMT
+YxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIy
+ODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4ODA4MjddfQ==
 -->
