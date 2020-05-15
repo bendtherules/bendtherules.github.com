@@ -47,9 +47,13 @@ render() {
   const mergedData = [...props.data, state.ownData];
 }
 ```
+
+But... what if you need mergedData in multiple methods? Just copy paste?
+
+### Try 2 - Create in common m
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzM3MjgzMDQsLTIwOTY0MjkzNzYsLT
-E2NTA3ODEwODQsMTYxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4
-MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4OD
-A4MjddfQ==
+eyJoaXN0b3J5IjpbNzYyMTgyOTI4LC0yMDk2NDI5Mzc2LC0xNj
+UwNzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEzNTA4NCwtMTg1ODM5
+MzAzNiwtMjEyMjgzMzU1NiwtMTQ4MDQzMDM2MSwxMzAyODgwOD
+I3XX0=
 -->
