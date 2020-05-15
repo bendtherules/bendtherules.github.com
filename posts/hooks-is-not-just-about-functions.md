@@ -4,8 +4,10 @@ Whenever I hear someone (new) talk about hooks, it's all about - oh, functions a
 
 But all the smaller gains or micro-features gets looked over. Let's talk about them.
 
+## 1. State Slices (or Partial isolated state)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxNDI2Mjc3LC0xNDgwNDMwMzYxLDEzMD
-I4ODA4MjddfQ==
+eyJoaXN0b3J5IjpbMTA3ODU2NjM3MSwtMTQ4MDQzMDM2MSwxMz
+AyODgwODI3XX0=
 -->
