@@ -70,10 +70,10 @@ componentWillUpdate(nextProps, nextState) {
 }
 ```
 
-Or, use a memoization helper. (Which, frankly, no one does. ALso)
+Or, use a memoization helper. (Which, frankly, no one does.) Also cleanup on unmount.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NjY5MjM4NywtODc5OTQwNjc4LC0yMD
-k2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEz
-NTA4NCwtMTg1ODM5MzAzNiwtMjEyMjgzMzU1NiwtMTQ4MDQzMD
-M2MSwxMzAyODgwODI3XX0=
+eyJoaXN0b3J5IjpbNTQ1OTY4OTE2LC04Nzk5NDA2NzgsLTIwOT
+Y0MjkzNzYsLTE2NTA3ODEwODQsMTYxNTIyODUzNCwtNTM5MTM1
+MDg0LC0xODU4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMz
+YxLDEzMDI4ODA4MjddfQ==
 -->
