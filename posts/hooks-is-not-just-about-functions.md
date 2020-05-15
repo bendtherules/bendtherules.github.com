@@ -41,7 +41,7 @@ componentWillReceiveProps(newProps) {
 
 What we want - Merge props.data and state.ownData into mergedData.
 
-### Try 1 - Just create when needed
+### Try 1 - just create when needed
 ```js
 render() {
   const mergedData = [...props.data, state.ownData];
@@ -50,10 +50,13 @@ render() {
 
 But... what if you need mergedData in multiple methods? Just copy paste?
 
-### Try 2 - Create in common m
+### Try 2 - create getMergedData method
+
+```js
+getMergedData = () => [...props.data, state.ownData]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyMTgyOTI4LC0yMDk2NDI5Mzc2LC0xNj
-UwNzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEzNTA4NCwtMTg1ODM5
-MzAzNiwtMjEyMjgzMzU1NiwtMTQ4MDQzMDM2MSwxMzAyODgwOD
-I3XX0=
+eyJoaXN0b3J5IjpbLTEzOTcwNzY5NSwtMjA5NjQyOTM3NiwtMT
+Y1MDc4MTA4NCwxNjE1MjI4NTM0LC01MzkxMzUwODQsLTE4NTgz
+OTMwMzYsLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMTMwMjg4MD
+gyN119
 -->
