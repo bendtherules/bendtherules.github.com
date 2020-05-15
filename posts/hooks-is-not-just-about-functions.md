@@ -110,8 +110,7 @@ componentWillReceiveProps() {
 
 ### With hooks
 ```js
-useEffect(() => {...}, 
-	)
+useEffect( () => {...}, [foo, foo+bar])
 ```
 
 ### Level 4 - derived
@@ -123,7 +122,7 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTczMzIyMCwtMTUxMjQ5MjQ2MywtMT
+eyJoaXN0b3J5IjpbLTYzMTg4ODkxMiwtMTUxMjQ5MjQ2MywtMT
 Q4MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5NTMw
 MjM2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OCwtMj
 A5NjQyOTM3NiwtMTY1MDc4MTA4NCwxNjE1MjI4NTM0LC01Mzkx
