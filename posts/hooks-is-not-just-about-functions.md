@@ -14,17 +14,22 @@ Good for hooks. But also good for groupby feature within a component - each feat
 
 No need to create big manually accumulated setStates. ex- 
 ```jsx
-onOptionChange(value) {
+componentWillReceiveProps(newProps) {
   // Create "newState" based on old (?? ❌)
   const newState = {
       showX: !this.state.showX,
       selectedType: null,
+      isAuthorized: false,
   };
 
   // Aggregate changes
-  if (value !== this.state.selectedType) {
-      newState.selectedType = value;
+  if (newProps.selectedType !== this.state.selectedType) {
       newState.showX = true;
+      newState.selectedType = value;
+  }
+
+  if (newProps.status !== "FAILURE") {
+    newState.isAuthorized = true;
   }
 
   // Finally, set aggregated newState
@@ -35,7 +40,7 @@ onOptionChange(value) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTIyODUzNCwtNTM5MTM1MDg0LC0xOD
-U4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4
-ODA4MjddfQ==
+eyJoaXN0b3J5IjpbLTE2NTA3ODEwODQsMTYxNTIyODUzNCwtNT
+M5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgw
+NDMwMzYxLDEzMDI4ODA4MjddfQ==
 -->
