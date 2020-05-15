@@ -79,13 +79,23 @@ const mergedData = useMemo([...props.data, state.ownData]);
 
 ## 3. Dependency list (aka detecting props change)
 
+### Level 1
+```js
+if (nextProps.foo !== props.foo) ...
+```
+### Level 2
+```js
+if (nextProps.foo !== props.foo ||
+) ...
+```
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDQ5OTg4NSwtMjk1MzAyMzYsMzk5ND
-YyOTk4LDU0NTk2ODkxNiwtODc5OTQwNjc4LC0yMDk2NDI5Mzc2
-LC0xNjUwNzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEzNTA4NCwtMT
-g1ODM5MzAzNiwtMjEyMjgzMzU1NiwtMTQ4MDQzMDM2MSwxMzAy
-ODgwODI3XX0=
+eyJoaXN0b3J5IjpbMTc4Mjg1NjI5OCwxMjAwNDk5ODg1LC0yOT
+UzMDIzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2LC04Nzk5NDA2Nzgs
+LTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMTYxNTIyODUzNCwtNT
+M5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgw
+NDMwMzYxLDEzMDI4ODA4MjddfQ==
 -->
