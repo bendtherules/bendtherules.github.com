@@ -95,12 +95,11 @@ if (nextProps.foo !== props.foo ||
 getFooPlusBar() {
   return this.props.foo + this.props.bar;
 }
-
 /*
-getFooPlusBar() {
-  return this.props.foo + this.props.bar;
+getFooPlusBar(props) {
+  return props.foo + props.bar;
 }
-
+*/
 
 componentWillReceiveProps() {
   if (getFooPlusBar(nextProps) !== getFooPlusBar(this.props)) {
@@ -114,7 +113,7 @@ componentWillReceiveProps() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI2MDU5OTEsMTk5MTY0NTkwOCwxMj
+eyJoaXN0b3J5IjpbLTE0ODA4MzU0MzQsMTk5MTY0NTkwOCwxMj
 AwNDk5ODg1LC0yOTUzMDIzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2
 LC04Nzk5NDA2NzgsLTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMT
 YxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4MzkzMDM2LC0yMTIy
