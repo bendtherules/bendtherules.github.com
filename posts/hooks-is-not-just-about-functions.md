@@ -10,6 +10,8 @@ But all the smaller gains or micro-features gets looked over. Let's talk about t
 
 **Isolated** - WIth reusable logic, you need to make sure that two slice namespaces never collide. Else using hooks will be very hard, because you need to know its internal details.
 
+Good for hooks. But also good for groupby feature within a component - each feature can manage their own state without worrying.
+
 No need to create big manually accumulated setStates. ex- 
 ```jsx
 onOptionChange(value) {
@@ -30,10 +32,10 @@ onOptionChange(value) {
 }
 ```
 
-Good for hooks. But also good for groupby feature within a component - each feature can manage their own state without worrying.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTEzNTA4NCwtMTg1ODM5MzAzNiwtMj
-EyMjgzMzU1NiwtMTQ4MDQzMDM2MSwxMzAyODgwODI3XX0=
+eyJoaXN0b3J5IjpbMTYxNTIyODUzNCwtNTM5MTM1MDg0LC0xOD
+U4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4
+ODA4MjddfQ==
 -->
