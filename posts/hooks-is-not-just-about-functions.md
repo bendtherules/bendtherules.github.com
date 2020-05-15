@@ -106,10 +106,15 @@ componentWillReceiveProps() {
     // ...
   }
 }
-
 ```
 
-### Level 4
+### With hooks
+```js
+useEffect(() => {...}, 
+	)
+```
+
+### Level 4 - derived
 ```js
 // <Child dataArray={[...this.props.data, ownData]} />
 
@@ -118,10 +123,10 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTI0OTI0NjMsLTE0ODA4MzU0MzQsMT
-k5MTY0NTkwOCwxMjAwNDk5ODg1LC0yOTUzMDIzNiwzOTk0NjI5
-OTgsNTQ1OTY4OTE2LC04Nzk5NDA2NzgsLTIwOTY0MjkzNzYsLT
-E2NTA3ODEwODQsMTYxNTIyODUzNCwtNTM5MTM1MDg0LC0xODU4
-MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMzYxLDEzMDI4OD
-A4MjddfQ==
+eyJoaXN0b3J5IjpbMTQ1MTczMzIyMCwtMTUxMjQ5MjQ2MywtMT
+Q4MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5NTMw
+MjM2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OCwtMj
+A5NjQyOTM3NiwtMTY1MDc4MTA4NCwxNjE1MjI4NTM0LC01Mzkx
+MzUwODQsLTE4NTgzOTMwMzYsLTIxMjI4MzM1NTYsLTE0ODA0Mz
+AzNjEsMTMwMjg4MDgyN119
 -->
