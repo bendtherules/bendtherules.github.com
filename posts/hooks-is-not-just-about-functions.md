@@ -1,6 +1,6 @@
-# React hoooks is not just about functions
+# React hooks is not just about functions
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjk0MDIyMzZdfQ==
+eyJoaXN0b3J5IjpbMTMwMjg4MDgyN119
 -->
