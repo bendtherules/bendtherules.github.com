@@ -91,6 +91,8 @@ if (nextProps.foo !== this.props.foo) {
 } else if (nextProps.someThing !== this.props.someThing) {
   // ... do something else
 }
+
+<Child foo={foo} someThing={someThing} />
 ```
 
 ### Level 3
@@ -125,11 +127,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTExOTIyMTkyLC05MjUzNTM1MzcsLTQ5ND
-EwOTMxOCwtMTUxMjQ5MjQ2MywtMTQ4MDgzNTQzNCwxOTkxNjQ1
-OTA4LDEyMDA0OTk4ODUsLTI5NTMwMjM2LDM5OTQ2Mjk5OCw1ND
-U5Njg5MTYsLTg3OTk0MDY3OCwtMjA5NjQyOTM3NiwtMTY1MDc4
-MTA4NCwxNjE1MjI4NTM0LC01MzkxMzUwODQsLTE4NTgzOTMwMz
-YsLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMTMwMjg4MDgyN119
-
+eyJoaXN0b3J5IjpbLTE4NTAwMTU4ODMsLTkyNTM1MzUzNywtND
+k0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwODM1NDM0LDE5OTE2
+NDU5MDgsMTIwMDQ5OTg4NSwtMjk1MzAyMzYsMzk5NDYyOTk4LD
+U0NTk2ODkxNiwtODc5OTQwNjc4LC0yMDk2NDI5Mzc2LC0xNjUw
+NzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEzNTA4NCwtMTg1ODM5Mz
+AzNiwtMjEyMjgzMzU1NiwtMTQ4MDQzMDM2MSwxMzAyODgwODI3
+XX0=
 -->
