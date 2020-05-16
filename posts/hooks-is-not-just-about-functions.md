@@ -168,8 +168,12 @@ Separate method for -
 4. Unmount
 
 *Co-located effect and cleanup code
+
+<br/><br/><br/><br/>
+
+## Groupby feature vs Groupby lifecycle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTc0MTI3NSwxNDUwMDk3NDIzLC03OD
+eyJoaXN0b3J5IjpbMjExOTU4MTk2OCwxNDUwMDk3NDIzLC03OD
 kzODgwNjYsLTE5NzgzNDA5MjYsLTE2MzE5OTQ2NDUsMTMyNDQ2
 MTg2MSwtMzI1NjYxNjQsLTE4NTAwMTU4ODMsLTkyNTM1MzUzNy
 wtNDk0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwODM1NDM0LDE5
