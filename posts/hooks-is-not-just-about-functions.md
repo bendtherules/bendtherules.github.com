@@ -1,8 +1,12 @@
 # React hooks is not just about functions
 
+<!--
 Whenever I hear someone (new) talk about hooks, it's all about - oh, functions are the future - that's why react moved to function components. And maybe a little bit about composition instead of inheritance, wrapper hell and reusing logic.
+-->
 
-But all the smaller gains or micro-features gets looked over. Let's talk about them.
+All the smaller gains or micro-features gets looked over. Let's talk about them.
+
+<br/><br/><br/><br/><br/><br/>
 
 ## 1. State Slices (or Partial isolated state)
 
@@ -132,11 +136,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgzNDA5MjYsLTE2MzE5OTQ2NDUsMT
-MyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAwMTU4ODMsLTkyNTM1
-MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwODM1ND
-M0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwtMjk1MzAyMzYsMzk5
-NDYyOTk4LDU0NTk2ODkxNiwtODc5OTQwNjc4LC0yMDk2NDI5Mz
-c2LC0xNjUwNzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEzNTA4NCwt
-MTg1ODM5MzAzNl19
+eyJoaXN0b3J5IjpbLTE1MDA0NzM2MDIsLTE5NzgzNDA5MjYsLT
+E2MzE5OTQ2NDUsMTMyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAw
+MTU4ODMsLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyND
+YzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwt
+Mjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwtODc5OTQwNj
+c4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUyMjg1MzQs
+LTUzOTEzNTA4NF19
 -->
