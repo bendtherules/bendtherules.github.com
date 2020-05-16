@@ -71,12 +71,12 @@ But... what if you need mergedData in multiple methods? Just copy paste?
 getMergedData = () => [...props.data, state.ownData]
 ```
 
-<br/><br/>
+<br/><br/><br/>
 
 But... if mergedData is needed in 3 places, we will end up creating 3 copies. 
 What if you need the same array or want to check if it changed?
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 ### Try 3 - Create instance variable on props change
 Well, cache the derived variable value on props or state change.
@@ -90,12 +90,15 @@ componentWillUpdate(nextProps, nextState) {
 }
 ```
 
+<br/><br/><br/><br/>
 Or, use a memoization helper. (Which, frankly, no one does.) Also cleanup on unmount.
+<br/><br/><br/><br/>
 
 ### With hooks
 ```js
 const mergedData = useMemo([...props.data, state.ownData]);
 ```
+<br/><br/><br/><br/><br/><br/>
 
 ## 3. Dependency list (aka detecting props change)
 
@@ -151,11 +154,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc2MTkwOTMsLTE5NzgzNDA5MjYsLT
-E2MzE5OTQ2NDUsMTMyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAw
-MTU4ODMsLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyND
-YzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwt
-Mjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwtODc5OTQwNj
-c4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUyMjg1MzQs
-LTUzOTEzNTA4NF19
+eyJoaXN0b3J5IjpbNzk3OTg1MDMyLC0xOTc4MzQwOTI2LC0xNj
+MxOTk0NjQ1LDEzMjQ0NjE4NjEsLTMyNTY2MTY0LC0xODUwMDE1
+ODgzLC05MjUzNTM1MzcsLTQ5NDEwOTMxOCwtMTUxMjQ5MjQ2My
+wtMTQ4MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5
+NTMwMjM2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OC
+wtMjA5NjQyOTM3NiwtMTY1MDc4MTA4NCwxNjE1MjI4NTM0LC01
+MzkxMzUwODRdfQ==
 -->
