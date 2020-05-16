@@ -71,7 +71,12 @@ But... what if you need mergedData in multiple methods? Just copy paste?
 getMergedData = () => [...props.data, state.ownData]
 ```
 
-But... if mergedData is needed in 3 places, we will end up creating 3 copies on every render. What if you need the same array or want to check if it changed?
+<br/><br/>
+
+But... if mergedData is needed in 3 places, we will end up creating 3 copies. 
+What if you need the same array or want to check if it changed?
+
+<br/><br/>
 
 ### Try 3 - Create instance variable on props change
 Well, cache the derived variable value on props or state change.
@@ -146,7 +151,7 @@ if (nextProps.dataArray !== props.dataArray) ...
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDE0NTE5MDMsLTE5NzgzNDA5MjYsLT
+eyJoaXN0b3J5IjpbLTEwNTc2MTkwOTMsLTE5NzgzNDA5MjYsLT
 E2MzE5OTQ2NDUsMTMyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAw
 MTU4ODMsLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyND
 YzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwt
