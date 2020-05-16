@@ -86,13 +86,14 @@ if (nextProps.foo !== this.props.foo) ...
 
 ### Level 2
 ```js
-if (nextProps.foo !== this.props.foo) {
+if (nextProps.foo !== this.props.foo ||
+  nextProps.bar !== this.props.bar ||
+  nextProps.baz !== this.props.baz ||
+  nextProps.foo2 !== this.props.foo2) {
   // ... do something
 } else if (nextProps.someThing !== this.props.someThing) {
   // ... do something else
 }
-
-<Child foo={foo} someThing={someThing} />
 ```
 
 ### Level 3
@@ -127,11 +128,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTAwMTU4ODMsLTkyNTM1MzUzNywtND
-k0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwODM1NDM0LDE5OTE2
-NDU5MDgsMTIwMDQ5OTg4NSwtMjk1MzAyMzYsMzk5NDYyOTk4LD
-U0NTk2ODkxNiwtODc5OTQwNjc4LC0yMDk2NDI5Mzc2LC0xNjUw
-NzgxMDg0LDE2MTUyMjg1MzQsLTUzOTEzNTA4NCwtMTg1ODM5Mz
-AzNiwtMjEyMjgzMzU1NiwtMTQ4MDQzMDM2MSwxMzAyODgwODI3
-XX0=
+eyJoaXN0b3J5IjpbLTQxODExNjIxMiwtMTg1MDAxNTg4MywtOT
+I1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0ODA4
+MzU0MzQsMTk5MTY0NTkwOCwxMjAwNDk5ODg1LC0yOTUzMDIzNi
+wzOTk0NjI5OTgsNTQ1OTY4OTE2LC04Nzk5NDA2NzgsLTIwOTY0
+MjkzNzYsLTE2NTA3ODEwODQsMTYxNTIyODUzNCwtNTM5MTM1MD
+g0LC0xODU4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMzYx
+LDEzMDI4ODA4MjddfQ==
 -->
