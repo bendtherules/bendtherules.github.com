@@ -91,7 +91,10 @@ if (nextProps.foo !== props.foo ||
   nextProps.baz == props.baz ||
   nextProps.foo2 !== props.foo2) {
   // ... do something
-} else 
+  
+} else if (nextProps.someThing !== props.someThing) {
+  // ... do something else
+}
 ```
 
 ### Level 3
@@ -126,7 +129,7 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDg2Njc1MywtNDk0MTA5MzE4LC0xNT
+eyJoaXN0b3J5IjpbLTI1NjEwMjAyNSwtNDk0MTA5MzE4LC0xNT
 EyNDkyNDYzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5
 OTg4NSwtMjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwtOD
 c5OTQwNjc4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUy
