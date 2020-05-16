@@ -12,7 +12,7 @@ But all the smaller gains or micro-features gets looked over. Let's talk about t
 
 Good for hooks. But also good for groupby feature within a component - each feature can manage their own state without worrying.
 
-*Couplin
+*Coupling
 No need to create big manually accumulated setStates. ex- 
 ```jsx
 componentWillReceiveProps(newProps) {
@@ -132,7 +132,7 @@ if (nextProps.dataArray !== props.dataArray) ...
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzczNTk1MjMsLTE2MzE5OTQ2NDUsMT
+eyJoaXN0b3J5IjpbLTE5NzgzNDA5MjYsLTE2MzE5OTQ2NDUsMT
 MyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAwMTU4ODMsLTkyNTM1
 MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwODM1ND
 M0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwtMjk1MzAyMzYsMzk5
