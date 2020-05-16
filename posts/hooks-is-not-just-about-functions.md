@@ -13,7 +13,7 @@ All the smaller gains or micro-features gets looked over. Let's talk about them.
 **Partial**
 <br/><br/>
 **Isolated**
-<br/><br/><br/><br/><br/>
+<br/><br/><br/>
 
 <!--
 **Partial** - Instead of one big object, we can create state slices - and update them separately. Initialize it, update it without thinking about other slices.
@@ -24,6 +24,17 @@ Good for hooks. But also good for groupby feature within a component - each feat
 -->
 
 *Coupling
+
+<br/><br/>
+```jsx
+this.state = {
+  showModal: false,
+  selectedValue: undefined,
+  isAuthorized: false,
+};
+```
+
+<br/><br/>
 No need to create big manually accumulated setStates. ex- 
 ```jsx
 componentWillReceiveProps(newProps) {
@@ -244,11 +255,11 @@ https://bendtherul.es - Youtube, newsletter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzk1OTcwMSwtMjc4NzY1NzIsMTE2Mz
-IzMjA4NSwxNDY1Mzk1MDMzLC0xODA4MzIxNTMwLC0yMDk2ODI5
-OTgyLDIxMTk1ODE5NjgsMTQ1MDA5NzQyMywtNzg5Mzg4MDY2LC
-0xOTc4MzQwOTI2LC0xNjMxOTk0NjQ1LDEzMjQ0NjE4NjEsLTMy
-NTY2MTY0LC0xODUwMDE1ODgzLC05MjUzNTM1MzcsLTQ5NDEwOT
-MxOCwtMTUxMjQ5MjQ2MywtMTQ4MDgzNTQzNCwxOTkxNjQ1OTA4
-LDEyMDA0OTk4ODVdfQ==
+eyJoaXN0b3J5IjpbLTgyMzcxMzgyLDE1MzM5NTk3MDEsLTI3OD
+c2NTcyLDExNjMyMzIwODUsMTQ2NTM5NTAzMywtMTgwODMyMTUz
+MCwtMjA5NjgyOTk4MiwyMTE5NTgxOTY4LDE0NTAwOTc0MjMsLT
+c4OTM4ODA2NiwtMTk3ODM0MDkyNiwtMTYzMTk5NDY0NSwxMzI0
+NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAxNTg4MywtOTI1MzUzNT
+M3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0ODA4MzU0MzQs
+MTk5MTY0NTkwOF19
 -->
