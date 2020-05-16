@@ -86,10 +86,7 @@ if (nextProps.foo !== this.props.foo) ...
 
 ### Level 2
 ```js
-if (nextProps.foo !== this.props.foo ||
-  nextProps.bar !== this.props.bar ||
-  nextProps.baz == this.props.baz ||
-  nextProps.foo2 !== this.props.foo2) {
+if (nextProps.foo !== this.props.foo) {
   // ... do something
 } else if (nextProps.someThing !== this.props.someThing) {
   // ... do something else
@@ -128,10 +125,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNT
-EyNDkyNDYzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5
-OTg4NSwtMjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwtOD
-c5OTQwNjc4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUy
-Mjg1MzQsLTUzOTEzNTA4NCwtMTg1ODM5MzAzNiwtMjEyMjgzMz
-U1NiwtMTQ4MDQzMDM2MSwxMzAyODgwODI3XX0=
+eyJoaXN0b3J5IjpbOTExOTIyMTkyLC05MjUzNTM1MzcsLTQ5ND
+EwOTMxOCwtMTUxMjQ5MjQ2MywtMTQ4MDgzNTQzNCwxOTkxNjQ1
+OTA4LDEyMDA0OTk4ODUsLTI5NTMwMjM2LDM5OTQ2Mjk5OCw1ND
+U5Njg5MTYsLTg3OTk0MDY3OCwtMjA5NjQyOTM3NiwtMTY1MDc4
+MTA4NCwxNjE1MjI4NTM0LC01MzkxMzUwODQsLTE4NTgzOTMwMz
+YsLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEsMTMwMjg4MDgyN119
+
 -->
