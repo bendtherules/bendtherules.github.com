@@ -201,26 +201,17 @@ function ListContainer(props) {
 
   // ------------
   // 2. Updates
-  // Fetch - initially on mount + when end of list is reached
+  // Fetch
   useEffect(() => {
-    if (loadMoreData) {
-      // Prepare fetchURL
-      let fetchUrl = `${apiRootURL}/messages`;
-      if (lastPageToken !== undefined) {
-        fetchUrl = `${fetchUrl}?pageToken=${lastPageToken}`;
-      }
+  let fetchUrl = `${apiRootURL}/messages`;
 
-      // Fetch and store data
-      fetch(fetchUrl)
-        .then(res => res.json() as Promise<IAPIResponse>)
-        .then(responseObj => {
-          // Store pageToken
-          setLastPageToken(responseObj.pageToken);
-
-          // Append messages
-          setListData(oldMessages => [...oldMessages, ...responseObj.messages]);
-        });
-    }
+  // Fetch and store data
+  fetch(fetchUrl)
+    .then(res => res.json() as Promise<IAPIResponse>)
+    .then(responseObj => {
+      // Append messages
+      setListData(oldMessages => [...oldMessages, ...responseObj.messages]);
+    });
   }, [loadMoreData]);
 
   const removeDataByIndex = useCallback(removeID => {
@@ -256,7 +247,7 @@ function ListContainer(props) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDk4MjQwMCwyMTE5NTgxOTY4LDE0NT
+eyJoaXN0b3J5IjpbLTQyODc2NDU5OCwyMTE5NTgxOTY4LDE0NT
 AwOTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0MDkyNiwtMTYzMTk5
 NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAxNTg4My
 wtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0
