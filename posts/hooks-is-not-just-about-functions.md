@@ -124,7 +124,7 @@ if (nextProps.foo !== this.props.foo) ...
 ```js
 if (nextProps.foo !== this.props.foo ||
   nextProps.bar !== this.props.bar ||
-  nextProps.baz !== this.props.baz ||
+  nextProps.baz == this.props.baz ||
   nextProps.foo2 !== this.props.foo2) {
   // ... do something
 } else if (nextProps.xyz !== this.props.xyz) {
@@ -254,11 +254,11 @@ https://bendtherul.es - Youtube, newsletter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTU1NTAyNSwxNTMzOTU5NzAxLC0yNz
-g3NjU3MiwxMTYzMjMyMDg1LDE0NjUzOTUwMzMsLTE4MDgzMjE1
-MzAsLTIwOTY4Mjk5ODIsMjExOTU4MTk2OCwxNDUwMDk3NDIzLC
-03ODkzODgwNjYsLTE5NzgzNDA5MjYsLTE2MzE5OTQ2NDUsMTMy
-NDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAwMTU4ODMsLTkyNTM1Mz
-UzNywtNDk0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwODM1NDM0
-LDE5OTE2NDU5MDhdfQ==
+eyJoaXN0b3J5IjpbLTI0ODQ0NjUxMiwtNjQ5NTU1MDI1LDE1Mz
+M5NTk3MDEsLTI3ODc2NTcyLDExNjMyMzIwODUsMTQ2NTM5NTAz
+MywtMTgwODMyMTUzMCwtMjA5NjgyOTk4MiwyMTE5NTgxOTY4LD
+E0NTAwOTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0MDkyNiwtMTYz
+MTk5NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAxNT
+g4MywtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMs
+LTE0ODA4MzU0MzRdfQ==
 -->
