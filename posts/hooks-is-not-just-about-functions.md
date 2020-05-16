@@ -185,7 +185,7 @@ function ListContainer(props) {
   // Extract props --------
   const {x, y, z} = props;
 
- //
+  // Process props --------
 
   // Init hooks --------
   const [lastPageToken, setLastPageToken] = useState(
@@ -199,6 +199,8 @@ function ListContainer(props) {
     markerRef: bottomMarkerRef
   } = useBottomMarker();
 
+  // ------------
+  // 2. Updates
   // Fetch - initially on mount + when end of list is reached
   useEffect(() => {
     if (loadMoreData) {
@@ -254,11 +256,11 @@ function ListContainer(props) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTMxODQ3LDIxMTk1ODE5NjgsMTQ1MD
-A5NzQyMywtNzg5Mzg4MDY2LC0xOTc4MzQwOTI2LC0xNjMxOTk0
-NjQ1LDEzMjQ0NjE4NjEsLTMyNTY2MTY0LC0xODUwMDE1ODgzLC
-05MjUzNTM1MzcsLTQ5NDEwOTMxOCwtMTUxMjQ5MjQ2MywtMTQ4
-MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5NTMwMj
-M2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OCwtMjA5
-NjQyOTM3Nl19
+eyJoaXN0b3J5IjpbMTgzNDk4MjQwMCwyMTE5NTgxOTY4LDE0NT
+AwOTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0MDkyNiwtMTYzMTk5
+NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAxNTg4My
+wtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0
+ODA4MzU0MzQsMTk5MTY0NTkwOCwxMjAwNDk5ODg1LC0yOTUzMD
+IzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2LC04Nzk5NDA2NzgsLTIw
+OTY0MjkzNzZdfQ==
 -->
