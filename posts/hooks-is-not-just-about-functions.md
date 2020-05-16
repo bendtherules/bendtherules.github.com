@@ -81,18 +81,17 @@ const mergedData = useMemo([...props.data, state.ownData]);
 
 ### Level 1
 ```js
-if (nextProps.foo !== props.foo) ...
+if (nextProps.foo !== this.props.foo) ...
 ```
 
 ### Level 2
 ```js
-if (nextProps.foo !== props.foo ||
-  nextProps.bar !== props.bar ||
-  nextProps.baz == props.baz ||
-  nextProps.foo2 !== props.foo2) {
+if (nextProps.foo !== this.props.foo ||
+  nextProps.bar !== this.props.bar ||
+  nextProps.baz == this.props.baz ||
+  nextProps.foo2 !== this.props.foo2) {
   // ... do something
-  
-} else if (nextProps.someThing !== props.someThing) {
+} else if (nextProps.someThing !== this.props.someThing) {
   // ... do something else
 }
 ```
@@ -129,7 +128,7 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NjEwMjAyNSwtNDk0MTA5MzE4LC0xNT
+eyJoaXN0b3J5IjpbLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNT
 EyNDkyNDYzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5
 OTg4NSwtMjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwtOD
 c5OTQwNjc4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUy
