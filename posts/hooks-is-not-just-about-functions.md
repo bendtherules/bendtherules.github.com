@@ -97,7 +97,7 @@ Or, use a memoization helper. (Which, frankly, no one does.) <!-- Also cleanup o
 ### With hooks
 ```js
 const mergedData = useMemo(
-() =>[...props.data, state.ownData],
+() => [...props.data, state.ownData],
 [props.data, state.ownData]);
 ```
 <br/><br/><br/><br/><br/><br/>
@@ -108,6 +108,7 @@ const mergedData = useMemo(
 ```js
 if (nextProps.foo !== this.props.foo) ...
 ```
+<br/><br/><br/><br/>
 
 ### Level 2
 ```js
@@ -120,6 +121,7 @@ if (nextProps.foo !== this.props.foo ||
   // ... do something else
 }
 ```
+<br/><br/>
 
 ### Level 3
 ```js
@@ -138,11 +140,13 @@ componentWillReceiveProps() {
   }
 }
 ```
+<br/><br/>
 
 ### With hooks
 ```js
 useEffect( () => {...}, [foo, foo + bar])
 ```
+<br/><br/><br/><br/><br/><br/><br/><br/>
 
 ### Level 4 - derived
 ```js
@@ -153,10 +157,12 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 *Incentive mismatch
 
+<br/><br/><br/><br/>
+
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDU0OTI2NiwtMTk3ODM0MDkyNiwtMT
+eyJoaXN0b3J5IjpbLTgwMDk4Nzc4MCwtMTk3ODM0MDkyNiwtMT
 YzMTk5NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAx
 NTg4MywtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0Nj
 MsLTE0ODA4MzU0MzQsMTk5MTY0NTkwOCwxMjAwNDk5ODg1LC0y
