@@ -6,7 +6,7 @@ Whenever I hear someone (new) talk about hooks, it's all about - oh, functions a
 
 All the smaller gains or micro-features gets looked over. Let's talk about them.
 
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## 1. State Slices (or Partial isolated state)
 
@@ -244,11 +244,11 @@ https://bendtherul.es - Youtube, newsletter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODc2NTcyLDExNjMyMzIwODUsMTQ2NT
-M5NTAzMywtMTgwODMyMTUzMCwtMjA5NjgyOTk4MiwyMTE5NTgx
-OTY4LDE0NTAwOTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0MDkyNi
-wtMTYzMTk5NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1
-MDAxNTg4MywtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OT
-I0NjMsLTE0ODA4MzU0MzQsMTk5MTY0NTkwOCwxMjAwNDk5ODg1
-LC0yOTUzMDIzNl19
+eyJoaXN0b3J5IjpbMTUzMzk1OTcwMSwtMjc4NzY1NzIsMTE2Mz
+IzMjA4NSwxNDY1Mzk1MDMzLC0xODA4MzIxNTMwLC0yMDk2ODI5
+OTgyLDIxMTk1ODE5NjgsMTQ1MDA5NzQyMywtNzg5Mzg4MDY2LC
+0xOTc4MzQwOTI2LC0xNjMxOTk0NjQ1LDEzMjQ0NjE4NjEsLTMy
+NTY2MTY0LC0xODUwMDE1ODgzLC05MjUzNTM1MzcsLTQ5NDEwOT
+MxOCwtMTUxMjQ5MjQ2MywtMTQ4MDgzNTQzNCwxOTkxNjQ1OTA4
+LDEyMDA0OTk4ODVdfQ==
 -->
