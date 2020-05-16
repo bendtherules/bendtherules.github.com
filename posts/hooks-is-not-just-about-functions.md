@@ -91,7 +91,7 @@ if (nextProps.foo !== this.props.foo ||
   nextProps.baz !== this.props.baz ||
   nextProps.foo2 !== this.props.foo2) {
   // ... do something
-} else if (nextProps.someThing !== this.props.someThing) {
+} else if (nextProps.xyz !== this.props.xyz) {
   // ... do something else
 }
 ```
@@ -128,11 +128,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxODExNjIxMiwtMTg1MDAxNTg4MywtOT
-I1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0ODA4
-MzU0MzQsMTk5MTY0NTkwOCwxMjAwNDk5ODg1LC0yOTUzMDIzNi
-wzOTk0NjI5OTgsNTQ1OTY4OTE2LC04Nzk5NDA2NzgsLTIwOTY0
-MjkzNzYsLTE2NTA3ODEwODQsMTYxNTIyODUzNCwtNTM5MTM1MD
-g0LC0xODU4MzkzMDM2LC0yMTIyODMzNTU2LC0xNDgwNDMwMzYx
-LDEzMDI4ODA4MjddfQ==
+eyJoaXN0b3J5IjpbLTMyNTY2MTY0LC0xODUwMDE1ODgzLC05Mj
+UzNTM1MzcsLTQ5NDEwOTMxOCwtMTUxMjQ5MjQ2MywtMTQ4MDgz
+NTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5NTMwMjM2LD
+M5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OCwtMjA5NjQy
+OTM3NiwtMTY1MDc4MTA4NCwxNjE1MjI4NTM0LC01MzkxMzUwOD
+QsLTE4NTgzOTMwMzYsLTIxMjI4MzM1NTYsLTE0ODA0MzAzNjEs
+MTMwMjg4MDgyN119
 -->
