@@ -91,12 +91,14 @@ componentWillUpdate(nextProps, nextState) {
 ```
 
 <br/><br/><br/><br/>
-Or, use a memoization helper. (Which, frankly, no one does.) Also cleanup on unmount.
+Or, use a memoization helper. (Which, frankly, no one does.) <!-- Also cleanup on unmount. -->
 <br/><br/><br/><br/>
 
 ### With hooks
 ```js
-const mergedData = useMemo([...props.data, state.ownData]);
+const mergedData = useMemo(
+() =>[...props.data, state.ownData],
+[props.data, state.ownData]);
 ```
 <br/><br/><br/><br/><br/><br/>
 
@@ -154,11 +156,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3OTg1MDMyLC0xOTc4MzQwOTI2LC0xNj
-MxOTk0NjQ1LDEzMjQ0NjE4NjEsLTMyNTY2MTY0LC0xODUwMDE1
-ODgzLC05MjUzNTM1MzcsLTQ5NDEwOTMxOCwtMTUxMjQ5MjQ2My
-wtMTQ4MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5
-NTMwMjM2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OC
-wtMjA5NjQyOTM3NiwtMTY1MDc4MTA4NCwxNjE1MjI4NTM0LC01
-MzkxMzUwODRdfQ==
+eyJoaXN0b3J5IjpbMjA5MDU0OTI2NiwtMTk3ODM0MDkyNiwtMT
+YzMTk5NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAx
+NTg4MywtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0Nj
+MsLTE0ODA4MzU0MzQsMTk5MTY0NTkwOCwxMjAwNDk5ODg1LC0y
+OTUzMDIzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2LC04Nzk5NDA2Nz
+gsLTIwOTY0MjkzNzYsLTE2NTA3ODEwODQsMTYxNTIyODUzNCwt
+NTM5MTM1MDg0XX0=
 -->
