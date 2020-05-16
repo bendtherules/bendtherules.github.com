@@ -6,7 +6,7 @@ Whenever I hear someone (new) talk about hooks, it's all about - oh, functions a
 
 All the smaller gains or micro-features gets looked over. Let's talk about them.
 
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
 
 ## 1. State Slices (or Partial isolated state)
 
@@ -136,7 +136,7 @@ if (nextProps.dataArray !== props.dataArray) ...
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA0NzM2MDIsLTE5NzgzNDA5MjYsLT
+eyJoaXN0b3J5IjpbLTE3NzIwOTQxOTUsLTE5NzgzNDA5MjYsLT
 E2MzE5OTQ2NDUsMTMyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAw
 MTU4ODMsLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyND
 YzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwt
