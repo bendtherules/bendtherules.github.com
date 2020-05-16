@@ -168,10 +168,11 @@ Separate method for -
 4. Unmount
 
 *Co-located effect and cleanup code
-
-[Imgur](https://i.imgur.com/QWyCdnK.jpg)
-
 <br/><br/><br/><br/>
+
+![Lifecycle 1](https://i.imgur.com/QWyCdnK.jpg)
+
+[Imgur](https://i.imgur.com/i3kTU3u.jpg)
 
 ## Groupby feature vs Groupby lifecycle
 
@@ -228,11 +229,11 @@ function ListContainer(props) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3NTk5NDQ5LC0yMDk2ODI5OTgyLDIxMT
-k1ODE5NjgsMTQ1MDA5NzQyMywtNzg5Mzg4MDY2LC0xOTc4MzQw
-OTI2LC0xNjMxOTk0NjQ1LDEzMjQ0NjE4NjEsLTMyNTY2MTY0LC
-0xODUwMDE1ODgzLC05MjUzNTM1MzcsLTQ5NDEwOTMxOCwtMTUx
-MjQ5MjQ2MywtMTQ4MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OT
-k4ODUsLTI5NTMwMjM2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3
-OTk0MDY3OF19
+eyJoaXN0b3J5IjpbMTkyNzIxMDE3OSwtMjA5NjgyOTk4MiwyMT
+E5NTgxOTY4LDE0NTAwOTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0
+MDkyNiwtMTYzMTk5NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NC
+wtMTg1MDAxNTg4MywtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1
+MTI0OTI0NjMsLTE0ODA4MzU0MzQsMTk5MTY0NTkwOCwxMjAwND
+k5ODg1LC0yOTUzMDIzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2LC04
+Nzk5NDA2NzhdfQ==
 -->
