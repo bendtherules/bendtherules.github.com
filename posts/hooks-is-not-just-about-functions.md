@@ -181,17 +181,23 @@ Humans vs computers
 ```js
 function ListContainer(props) {
   // 1. Initialize
-  // Extract props
+ 
+  // Extract props --------
   const {x, y, z} = props;
+
+ //
+
+  // Init hooks --------
   const [lastPageToken, setLastPageToken] = useState(
     undefined
   );
-  const [listData, setListData] = useState<IMessage[]>([]);
-  // Init custom hooks
+  const [listData, setListData] = useState([]);
+  
+  // Init custom hooks ------
   const {
     isIntersecting: loadMoreData,
     markerRef: bottomMarkerRef
-  } = useBottomMarker<HTMLDivElement>();
+  } = useBottomMarker();
 
   // Fetch - initially on mount + when end of list is reached
   useEffect(() => {
@@ -248,7 +254,7 @@ function ListContainer(props) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNTExMTgxLDIxMTk1ODE5NjgsMTQ1MD
+eyJoaXN0b3J5IjpbMTc3MTMxODQ3LDIxMTk1ODE5NjgsMTQ1MD
 A5NzQyMywtNzg5Mzg4MDY2LC0xOTc4MzQwOTI2LC0xNjMxOTk0
 NjQ1LDEzMjQ0NjE4NjEsLTMyNTY2MTY0LC0xODUwMDE1ODgzLC
 05MjUzNTM1MzcsLTQ5NDEwOTMxOCwtMTUxMjQ5MjQ2MywtMTQ4
