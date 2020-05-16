@@ -235,16 +235,18 @@ function ListContainer(props) {
 ```
 
 ##  That's all!
-https://linkedin.com/in/bendtherules
-https://bendtherul.es
+https://linkedin.com/in/bendtherules - Small posts
+
+https://bendtherul.es - Youtube, newsletter
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3OTA3NzEyLDE0NjUzOTUwMzMsLTE4MD
-gzMjE1MzAsLTIwOTY4Mjk5ODIsMjExOTU4MTk2OCwxNDUwMDk3
-NDIzLC03ODkzODgwNjYsLTE5NzgzNDA5MjYsLTE2MzE5OTQ2ND
-UsMTMyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAwMTU4ODMsLTky
-NTM1MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwOD
-M1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwtMjk1MzAyMzYs
-Mzk5NDYyOTk4XX0=
+eyJoaXN0b3J5IjpbLTE0MTQ2NDEyNzAsMTQ2NTM5NTAzMywtMT
+gwODMyMTUzMCwtMjA5NjgyOTk4MiwyMTE5NTgxOTY4LDE0NTAw
+OTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0MDkyNiwtMTYzMTk5ND
+Y0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAxNTg4Mywt
+OTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0OD
+A4MzU0MzQsMTk5MTY0NTkwOCwxMjAwNDk5ODg1LC0yOTUzMDIz
+NiwzOTk0NjI5OThdfQ==
 -->
