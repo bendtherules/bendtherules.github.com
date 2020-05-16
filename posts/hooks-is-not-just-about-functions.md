@@ -171,8 +171,8 @@ Separate method for -
 <br/><br/><br/><br/>
 
 ![Lifecycle 1](https://i.imgur.com/QWyCdnK.jpg)
-
-[Imgur](https://i.imgur.com/i3kTU3u.jpg)
+<br/><br/>
+![Lifecycle 2](https://i.imgur.com/i3kTU3u.jpg)
 
 ## Groupby feature vs Groupby lifecycle
 
@@ -229,11 +229,11 @@ function ListContainer(props) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzIxMDE3OSwtMjA5NjgyOTk4MiwyMT
-E5NTgxOTY4LDE0NTAwOTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0
-MDkyNiwtMTYzMTk5NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NC
-wtMTg1MDAxNTg4MywtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1
-MTI0OTI0NjMsLTE0ODA4MzU0MzQsMTk5MTY0NTkwOCwxMjAwND
-k5ODg1LC0yOTUzMDIzNiwzOTk0NjI5OTgsNTQ1OTY4OTE2LC04
-Nzk5NDA2NzhdfQ==
+eyJoaXN0b3J5IjpbLTE4MDgzMjE1MzAsLTIwOTY4Mjk5ODIsMj
+ExOTU4MTk2OCwxNDUwMDk3NDIzLC03ODkzODgwNjYsLTE5Nzgz
+NDA5MjYsLTE2MzE5OTQ2NDUsMTMyNDQ2MTg2MSwtMzI1NjYxNj
+QsLTE4NTAwMTU4ODMsLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0x
+NTEyNDkyNDYzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMD
+Q5OTg4NSwtMjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwt
+ODc5OTQwNjc4XX0=
 -->
