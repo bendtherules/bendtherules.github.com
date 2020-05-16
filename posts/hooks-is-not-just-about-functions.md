@@ -212,7 +212,11 @@ function ListContainer(props) {
 
   // ------------
   // 3. Render
-
+  renderHeader = () => ();
+  renderBody = () => ();
+  
+  const renderData = [];
+  
   return (
     <div role="main">
       {renderHeader()}
@@ -222,11 +226,11 @@ function ListContainer(props) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0OTg2MDQ2LDIxMTk1ODE5NjgsMTQ1MD
-A5NzQyMywtNzg5Mzg4MDY2LC0xOTc4MzQwOTI2LC0xNjMxOTk0
-NjQ1LDEzMjQ0NjE4NjEsLTMyNTY2MTY0LC0xODUwMDE1ODgzLC
-05MjUzNTM1MzcsLTQ5NDEwOTMxOCwtMTUxMjQ5MjQ2MywtMTQ4
-MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5NTMwMj
-M2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OCwtMjA5
-NjQyOTM3Nl19
+eyJoaXN0b3J5IjpbLTIwOTY4Mjk5ODIsMjExOTU4MTk2OCwxND
+UwMDk3NDIzLC03ODkzODgwNjYsLTE5NzgzNDA5MjYsLTE2MzE5
+OTQ2NDUsMTMyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAwMTU4OD
+MsLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyNDYzLC0x
+NDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwtMjk1Mz
+AyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwtODc5OTQwNjc4LC0y
+MDk2NDI5Mzc2XX0=
 -->
