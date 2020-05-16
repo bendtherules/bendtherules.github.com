@@ -177,8 +177,76 @@ Humans vs computers
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 ## ❌ Organising function components
+
+```js
+function ListContainer() {
+  // Initialize
+  const [lastPageToken, setLastPageToken] = useState<undefined | string>(
+    undefined
+  );
+  const [listData, setListData] = useState<IMessage[]>([]);
+  // Init custom hooks
+  const {
+    isIntersecting: loadMoreData,
+    markerRef: bottomMarkerRef
+  } = useBottomMarker<HTMLDivElement>();
+
+  // Fetch - initially on mount + when end of list is reached
+  useEffect(() => {
+    if (loadMoreData) {
+      // Prepare fetchURL
+      let fetchUrl = `${apiRootURL}/messages`;
+      if (lastPageToken !== undefined) {
+        fetchUrl = `${fetchUrl}?pageToken=${lastPageToken}`;
+      }
+
+      // Fetch and store data
+      fetch(fetchUrl)
+        .then(res => res.json() as Promise<IAPIResponse>)
+        .then(responseObj => {
+          // Store pageToken
+          setLastPageToken(responseObj.pageToken);
+
+          // Append messages
+          setListData(oldMessages => [...oldMessages, ...responseObj.messages]);
+        });
+    }
+  }, [loadMoreData]);
+
+  const removeDataByIndex = useCallback(removeID => {
+    setListData(oldListData => {
+      return [...oldListData].filter(({ id }) => id !== removeID);
+    });
+  }, []);
+
+  return (
+    <div role="main">
+      <ul className="listContainer">
+        {listData.map((eachData, index) => (
+          <li key={eachData.id}>
+            <ListElement
+              id={eachData.id}
+              prevID={index > 0 ? listData[index - 1].id : undefined}
+              nextID={
+                index < listData.length - 1 ? listData[index + 1].id : undefined
+              }
+              {...eachData}
+              onSwipeSuccess={() => {
+                removeDataByIndex(eachData.id);
+              }}
+            />
+          </li>
+        ))}
+        <li key="fakeElement">
+          <FakeListElement ref={bottomMarkerRef} loading={loadMoreData} />
+        </li>
+      </ul>
+    </div>
+  );
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjgxNTI1NiwyMTE5NTgxOTY4LDE0NT
+eyJoaXN0b3J5IjpbMTYwNzQyNTE2MiwyMTE5NTgxOTY4LDE0NT
 AwOTc0MjMsLTc4OTM4ODA2NiwtMTk3ODM0MDkyNiwtMTYzMTk5
 NDY0NSwxMzI0NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAxNTg4My
 wtOTI1MzUzNTM3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0
