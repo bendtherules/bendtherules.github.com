@@ -10,11 +10,18 @@ All the smaller gains or micro-features gets looked over. Let's talk about them.
 
 ## 1. State Slices (or Partial isolated state)
 
+**Partial**
+<br/><br/>
+**Isolated**
+<br/><br/><br/><br/><br/>
+
+<!--
 **Partial** - Instead of one big object, we can create state slices - and update them separately. Initialize it, update it without thinking about other slices.
 
 **Isolated** - WIth reusable logic, you need to make sure that two slice namespaces never collide. Else using hooks will be very hard, because you need to know its internal details.
 
 Good for hooks. But also good for groupby feature within a component - each feature can manage their own state without worrying.
+-->
 
 *Coupling
 No need to create big manually accumulated setStates. ex- 
@@ -136,11 +143,11 @@ if (nextProps.dataArray !== props.dataArray) ...
 ## 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIwOTQxOTUsLTE5NzgzNDA5MjYsLT
-E2MzE5OTQ2NDUsMTMyNDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAw
-MTU4ODMsLTkyNTM1MzUzNywtNDk0MTA5MzE4LC0xNTEyNDkyND
-YzLC0xNDgwODM1NDM0LDE5OTE2NDU5MDgsMTIwMDQ5OTg4NSwt
-Mjk1MzAyMzYsMzk5NDYyOTk4LDU0NTk2ODkxNiwtODc5OTQwNj
-c4LC0yMDk2NDI5Mzc2LC0xNjUwNzgxMDg0LDE2MTUyMjg1MzQs
-LTUzOTEzNTA4NF19
+eyJoaXN0b3J5IjpbOTE0NTM3MDk5LC0xOTc4MzQwOTI2LC0xNj
+MxOTk0NjQ1LDEzMjQ0NjE4NjEsLTMyNTY2MTY0LC0xODUwMDE1
+ODgzLC05MjUzNTM1MzcsLTQ5NDEwOTMxOCwtMTUxMjQ5MjQ2My
+wtMTQ4MDgzNTQzNCwxOTkxNjQ1OTA4LDEyMDA0OTk4ODUsLTI5
+NTMwMjM2LDM5OTQ2Mjk5OCw1NDU5Njg5MTYsLTg3OTk0MDY3OC
+wtMjA5NjQyOTM3NiwtMTY1MDc4MTA4NCwxNjE1MjI4NTM0LC01
+MzkxMzUwODRdfQ==
 -->
