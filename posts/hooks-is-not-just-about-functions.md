@@ -11,6 +11,7 @@ All the smaller gains or micro-features gets looked over. Let's talk about them.
 ## 1. State Slices (or Partial isolated state)
 
 **Partial**
+(Coupling)
 <br/><br/>
 **Isolated**
 <br/><br/><br/>
@@ -22,8 +23,6 @@ All the smaller gains or micro-features gets looked over. Let's talk about them.
 
 Good for hooks. But also good for groupby feature within a component - each feature can manage their own state without worrying.
 -->
-
-*Coupling
 
 <br/><br/>
 ```jsx
@@ -255,11 +254,11 @@ https://bendtherul.es - Youtube, newsletter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzcxMzgyLDE1MzM5NTk3MDEsLTI3OD
-c2NTcyLDExNjMyMzIwODUsMTQ2NTM5NTAzMywtMTgwODMyMTUz
-MCwtMjA5NjgyOTk4MiwyMTE5NTgxOTY4LDE0NTAwOTc0MjMsLT
-c4OTM4ODA2NiwtMTk3ODM0MDkyNiwtMTYzMTk5NDY0NSwxMzI0
-NDYxODYxLC0zMjU2NjE2NCwtMTg1MDAxNTg4MywtOTI1MzUzNT
-M3LC00OTQxMDkzMTgsLTE1MTI0OTI0NjMsLTE0ODA4MzU0MzQs
-MTk5MTY0NTkwOF19
+eyJoaXN0b3J5IjpbLTY0OTU1NTAyNSwxNTMzOTU5NzAxLC0yNz
+g3NjU3MiwxMTYzMjMyMDg1LDE0NjUzOTUwMzMsLTE4MDgzMjE1
+MzAsLTIwOTY4Mjk5ODIsMjExOTU4MTk2OCwxNDUwMDk3NDIzLC
+03ODkzODgwNjYsLTE5NzgzNDA5MjYsLTE2MzE5OTQ2NDUsMTMy
+NDQ2MTg2MSwtMzI1NjYxNjQsLTE4NTAwMTU4ODMsLTkyNTM1Mz
+UzNywtNDk0MTA5MzE4LC0xNTEyNDkyNDYzLC0xNDgwODM1NDM0
+LDE5OTE2NDU5MDhdfQ==
 -->
