@@ -30,15 +30,15 @@ b. `[[Value]]` - Completion records can contain a value to store what data was r
 Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 'throw',  [[Value]]: foo }`.
 
 ⭐️ Return statements also create a completion record - where `[[Value]]` stores the returned value  and `[[Type]]` is 'return'.  
-☝️ That is rather expected, but what happens when your function doesn't return anything? Well, it returns a "normal" completion record (`[[Type]]` is normal). Infact, not just functions - but almost everything returns a normal completion record. For ex, if you write any expression like `2 + 3`, that returns a normal completion with `[[Value]]` = 5. All expressions return a normal completion record with their value.  
-And all statements other than return, break, continue or throw also return a normal completion. 
+☝️ That is rather expected, but what happens when your function doesn't return anything? Well, it returns a "normal" completion record (`[[Type]]` is normal). Infact, not just functions - but almost everything returns a normal completion record. For ex, if you write any expression like `2 + 3`, that returns a normal completion with `[[Value]]` = 5.   
+All expressions return a normal completion record with their value. And all statements other than return, break, continue or throw also return a normal completion. To summarise, normal completion is the de-facto completion type unless the user explicitly
 
 c. `[[Target]]` - This is a lesser used construct. continue and break statements can have a optional label - which can be used like `break foo;`. This label 'foo' is stored in the [[Target]] field.
 
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTA1MTg0MjUsNDc4NTEzODQyLDEzNj
-YzODA5MTAsNTQ4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgx
-NzEsLTEwMDEzNTg2OTMsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbMzIzMjcyMDI0LDQ3ODUxMzg0MiwxMzY2Mz
+gwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4MTcx
+LC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
