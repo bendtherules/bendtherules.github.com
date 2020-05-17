@@ -225,10 +225,12 @@ Similarly, to declare `let foo` -
 [![Animation for "How are function and block scopes maintained internally?"](https://media.giphy.com/media/eJd1rdhKx834Emp6kK/giphy.gif)](https://www.youtube.com/watch?v=zVbVhBWceVw)
 (Click the animation to view in youtube)
 
+# What else?
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NzkwMDEwMSwtMTM5MjgxODA1MSw5MT
+eyJoaXN0b3J5IjpbMTU5NzUxNTk2MiwtMTM5MjgxODA1MSw5MT
 IyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5
 NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLT
 Y2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0
