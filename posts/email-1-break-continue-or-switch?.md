@@ -168,17 +168,17 @@ First of all, both `var` and `let` declarations are added to the EnvironmentReco
 `Environment` = Scope 
 `Environment.EnvironmentRecord` = Scope data. This stores the actual variable names and their values within the scope.
 
-So, the scope doesn't store the variable names directly. That's probably because the scope needs to store multiple types of information and not just variable data. So, it is stored in the `EnvironmentRecord` section of a scope.
+So, what we think of as scope is formally called a `Environment`. It stores multiple types of information and not just variable data. So, it is stored in the `EnvironmentRecord` section of a scope.
 
 Now, scopes can be of multiple types - like `DeclarationEnvironment`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA5NTIwMTksNjU4MzQwOTQ2LDE2MD
-EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
-NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
-YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
-NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5ND
-IsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYz
-ODA5MTBdfQ==
+eyJoaXN0b3J5IjpbMjExMTM0NTc5OSw2NTgzNDA5NDYsMTYwMT
+A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
+MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
+MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
+MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
+w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
+MDkxMF19
 -->
