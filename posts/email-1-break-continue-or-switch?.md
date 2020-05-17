@@ -8,7 +8,7 @@ And guess what's special today? Happy Mother's Day 👩‍👦‍👦!
 
 Now, back to our topic -
 
-We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at how function and block scopes are maintained internally and wrap it up with some animation I built last week.
+We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at how function and block scopes are maintained internally and wrap it up with a animation I built last week.
 
 # Control flow statements
 What's common between `continue`, `break`, `return` and `throw`?  They are all control flow statements and internally return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
@@ -147,13 +147,14 @@ for (var i = 0; i < 5; i++) {
 
 We mentioned earlier that you can also write `break` inside switch case statements. So, naturally it's also worth taking a look at how it works internally.
 
-# What happens when you declare `var foo`? 
+# How are function and block scopes maintained? 
 
+Let's actually start with a 
 
-
+🔅What is your mental model for declaring a variable using var? The way I understand is - 1. Find closest function scope (Go to closest scope and repeatedly look for parent scope till the scope type is "function") 2. In that scope, add a entry for foo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQzMTM2NTcsNjU4MzQwOTQ2LDE2MD
+eyJoaXN0b3J5IjpbLTE4Mjk1MjM5MzIsNjU4MzQwOTQ2LDE2MD
 EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
 NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
 YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
