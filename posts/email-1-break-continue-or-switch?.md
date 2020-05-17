@@ -106,8 +106,10 @@ for (var i = 1; i <= 5; i++) {
 ### Algo
 
 Now let's talk about the algo. Quick reminder to for loops - in every iteration, if some condition is satisfied then it executes the body and then increments some variable. So, how does for loop handle continue and break?  
- It has a internal variable called `labelset` - which contains the list of labels for this for loop. Now, after for loop executes the body - it looks at its completion record.  
- If completion record is `normal`, then continue
+ It has a internal variable called `labelset` - which contains the list of labels for this for loop. Now, after for loop executes the body - it looks at its completion record and decides whether to continue with the rest of the loop.  
+
+* If completion record is `normal`, then continue.
+* If completion record is `normal`, then continue.
 
 ### So, who handles what?
 
@@ -131,7 +133,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODgxNjI3MywtNjYyNjMxNzgzLC02Nj
+eyJoaXN0b3J5IjpbMTQ4NTkyNTY5OCwtNjYyNjMxNzgzLC02Nj
 I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
 LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
 k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
