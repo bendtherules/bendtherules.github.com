@@ -8,7 +8,7 @@ And guess what's special today? Happy Mother's Day 👩‍👦‍👦!
 
 Now, back to our topic -
 
-We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at the wild side of switch-case statements and wrap it up with some animation I built just yesterday.
+We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at the wild side of switch-case statements and wrap it up with some animation I built last week.
 
 # Control flow statements
 What's common between `continue`, `break`, `return` and `throw`?  
@@ -35,7 +35,7 @@ c. [[Target]] - This is a lesser used construct. continue and break statements c
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMz
-Y2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5MywtNTM0NTQ0
-NjMyXX0=
+eyJoaXN0b3J5IjpbLTUxOTM3OTAsMTM2NjM4MDkxMCw1NDgyNj
+I1OTYsLTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5
+MywtNTM0NTQ0NjMyXX0=
 -->
