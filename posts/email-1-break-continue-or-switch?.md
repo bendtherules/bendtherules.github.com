@@ -53,8 +53,10 @@ outer:
 for (var i = 0; i < arr.length; i++){
   for (var j = 0; j < arr[i].length; j++){
     if (arr[i][j] === value) {
-	  // break out of both loops
+	  
+	  // break upwards till it reaches outer
       break outer;
+      
     }
   }
 }
@@ -82,7 +84,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDQwOTAyMiwyNzY1MjQ2ODksLTE5Nj
+eyJoaXN0b3J5IjpbLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5Nj
 E1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5
 NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0OTAsND
 c4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMjM2NjM2
