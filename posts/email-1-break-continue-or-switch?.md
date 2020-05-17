@@ -8,7 +8,7 @@ And guess what's special today? Happy Mother's Day 👩‍👦‍👦!
 
 Now, back to our topic -
 
-We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at how function and block scopes are maintained internally and wrap it up with a animation I built last week.
+We will talk about two separate but interesting things today. We'll start with control flow statements (like break, return), then look at how function and block scopes are maintained internally and wrap it up with a animation I built last week.
 
 # Control flow statements
 What's common between `continue`, `break`, `return` and `throw`?  They are all control flow statements and internally return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
@@ -223,12 +223,14 @@ Similarly, to declare `let foo` -
 
 ![Animation for "How are function and block scopes maintained internally?"](https://media.giphy.com/media/eJd1rdhKx834Emp6kK/giphy.gif)
 [For better quality, view the animation on [Youtube](https://www.youtube.com/watch?v=zVbVhBWceVw) ]
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjM0OTEwMyw5MTIyNzk4MDUsLTQ5Nj
-gwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0
-NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNj
-YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
-OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMT
-A5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQw
-ODQ5MF19
+eyJoaXN0b3J5IjpbLTEzOTI4MTgwNTEsOTEyMjc5ODA1LC00OT
+Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
+NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
+Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
+ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
+EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
+MDg0OTBdfQ==
 -->
