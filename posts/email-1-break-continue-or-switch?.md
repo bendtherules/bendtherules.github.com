@@ -145,12 +145,12 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-👇 We said 
+We mentioned earlier that you can also write `break` inside switch case statements. So, naturally it's also wort
 
 # Switch case statements
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzQxNzUxOSwxNjAxMDgzODk0LC0xMT
+eyJoaXN0b3J5IjpbLTE4NjEzNzE3NCwxNjAxMDgzODk0LC0xMT
 k5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMx
 NzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMj
 c2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAz
