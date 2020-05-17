@@ -66,11 +66,11 @@ for (var i = 0; i < 5; i++) {
   test();
 }
 ```
-This will give syntax error. It is one of the early errors
+This will give syntax error. It is one of the early errors described in the static semantics.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgyNDcyOTEsMTQ5Mjk2NDE4MCwtMj
-g0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAx
-MTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNT
-Q4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEz
-NTg2OTMsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbODk2NTA2NjU1LDE0OTI5NjQxODAsLTI4ND
+AzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1
+OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0OD
+I2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4
+NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
