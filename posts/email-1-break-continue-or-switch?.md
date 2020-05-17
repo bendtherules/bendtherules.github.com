@@ -93,7 +93,7 @@ for (;;) {
 }
 ```
 
-`continue` is also used very similar to `break` - it can have multiple labels, move up till outer loop - **but** it only works within iteration statements, not within switch-case. `continue` is used to skip rest of the current iteration and continue with the next iteration. Example -
+`continue` is also used very similar to `break` - it can have multiple labels, move up till outer loop - **but** it only works within iteration statements, not within switch-case. `continue` is used to "skip" rest of the current iteration and continue with the next iteration. Example -
 
 ```js
 for (var i = 1; i <= 5; i++) {
@@ -126,7 +126,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTE0NTY2NywtNjYyNjMxNzgzLC02Nj
+eyJoaXN0b3J5IjpbLTgwMjMxOTM1MSwtNjYyNjMxNzgzLC02Nj
 I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
 LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
 k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
