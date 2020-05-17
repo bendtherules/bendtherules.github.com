@@ -158,14 +158,14 @@ The way I think is -
 1. Find closest function scope. That is, go to closest scope and repeatedly look for parent scope till the scope type is "function".
 2. In that scope, add a entry for the variable name.
 
-That is also what I expected to see in the spec. When it talk about declaring a variable, specially using `var`
+That is also what I expected to see in the spec. When it talks about declaring a variable, specially using `var` - it must do some kind of repeated lookup, right? Turns out, it doesn't. It looked like
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQzODY3NDUsNjU4MzQwOTQ2LDE2MD
-EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
-NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
-YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
-NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5ND
-IsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYz
-ODA5MTBdfQ==
+eyJoaXN0b3J5IjpbMTk5Nzc4Nzc3Myw2NTgzNDA5NDYsMTYwMT
+A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
+MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
+MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
+MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
+w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
+MDkxMF19
 -->
