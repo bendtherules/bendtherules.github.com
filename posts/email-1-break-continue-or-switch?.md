@@ -132,7 +132,7 @@ Just to repeat, for `continue;`- First, the loop body skips the rest of the stat
 | break           | switch-case, Iteration (matching label) |
 | throw           | try/catch  |
 
-*Iteration statements = for, for-in, for-of, for-await-of, while, do-while.
+(*Iteration statements = for, for-in, for-of, for-await-of, while, do-while.
 
 Also, continue and break statements are not valid across function boundaries. So, you can't write -
 ```js
@@ -148,11 +148,11 @@ This will give syntax error. It is one of the early errors described in the stat
 # Switch case statements
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMT
-U5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMx
-NzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMT
-k2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEz
-ODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQwODQ5MC
-w0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMzY2
-MzY0NzFdfQ==
+eyJoaXN0b3J5IjpbLTI3NTE0MTE5NCwxNjAxMDgzODk0LC0xMT
+k5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMx
+NzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMj
+c2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAz
+MTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OC
+wxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2
+MjU5Nl19
 -->
