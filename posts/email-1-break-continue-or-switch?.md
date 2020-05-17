@@ -46,8 +46,16 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 
 ### How does `break label;` work? 
 
+### So, who handles what?
+
+| Completion type | Handler |
+|-----------------|---------|
+|                 |         |
+|                 |         |
+|                 |         |
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDYzMzgzODMsLTI4NDAzMTY4LC0xMD
+eyJoaXN0b3J5IjpbLTEyNTYzNDI0NDYsLTI4NDAzMTY4LC0xMD
 k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
 NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
 IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
