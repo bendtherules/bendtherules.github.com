@@ -183,7 +183,7 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 ### Algo
 
-**When a enter a function -**
+**When we enter a function -**
 
 1. save *current execution context* as `callerContext`
 2. create a new execution context called `calleeContext`
@@ -191,15 +191,15 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
    (push it to call stack)
 4. create new DeclarationEnvironment called `funcEnv`
 5. point both LE and VE to `funcEnv`
-6. Evaluate the function code
-7. Remove `calleeContext` from call stack.
+6. evaluate the function code
+7. remove `calleeContext` from call stack.
 
 
-**When a enter a block scope -**
+**When we enter a block scope -**
 
 1. save current value of LE as oldLE
-2. create new DeclarativeEnvironment called blockEnv
-3. point LE to blockEnv
+2. create new DeclarativeEnvironment called `blockEnv`
+3. point LE to `blockEnv`
 4. Evaluate the function code
 5. point back LE to oldLE
 
@@ -210,11 +210,11 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1ODA3ODg5LDkxMjI3OTgwNSwtNDk2OD
-A2MzU0LDY1ODM0MDk0NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3
-LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMxNzgzLC02Nj
-I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
-LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
-k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
-NDkwXX0=
+eyJoaXN0b3J5IjpbLTExMDMzODIxNzEsOTEyMjc5ODA1LC00OT
+Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
+NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
+Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
+ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
+EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
+MDg0OTBdfQ==
 -->
