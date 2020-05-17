@@ -187,7 +187,9 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 1. save current value of VE and LE as oldVE and oldLE
 2. create a new execution context and set that as the `current execution context`.
-3. point both LE and VE to 
+3. point both LE and VE to `current execution context`
+4. Evaluate the function code
+5. point back LE and VE to oldVE and oldLE
 
 
 
@@ -196,11 +198,11 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzgwNzE2NzksLTQ5NjgwNjM1NCw2NT
-gzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEy
-NzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLD
-U4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1
-MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NC
-wtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1
-MTM4NDJdfQ==
+eyJoaXN0b3J5IjpbNDg4MDI1MjY1LC00OTY4MDYzNTQsNjU4Mz
+QwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2
+MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1OD
+k1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTEx
+NzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLT
+EwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEz
+ODQyXX0=
 -->
