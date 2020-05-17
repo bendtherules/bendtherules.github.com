@@ -164,9 +164,15 @@ This was a little bit odd and not what I expected. So, I want to explain what I 
 
 First of all, both `var` and `let` declarations are added to the EnvironmentRecord of a Declaration environment. But this Declaration environment doesn't store the scope type as "function" or "block". So, you can't really do a lookup and check the scope type.
 
+🌟 Roughly speaking, 
+`Environment` = Scope 
+`Environment.EnvironmentRecord` = Scope data. This stores the actual variable names and their values within the scope.
+
+So, the scope doesn't store the variable names directly. 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNDc4Mzc5MSw2NTgzNDA5NDYsMTYwMT
+eyJoaXN0b3J5IjpbMTczMzQwMDA0Myw2NTgzNDA5NDYsMTYwMT
 A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
 MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
 MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
