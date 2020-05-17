@@ -104,8 +104,9 @@ for (var i = 1; i <= 5; i++) {
 
 ### Algo
 
-Now let's talk about the algo. Quick reminder to for loops - in every iteration, if some condition is satisfied then it executes the body and then increments some variable. So, how does for loop handle continue and break?  
- It has a internal variable called `labelset` - which contains the list of labels for this for loop. So, what happens when for loop executes the body? The body runs each statement one-by-one and if any of the statements return *abrupt completion*
+Now let's talk about the algo. Quick reminder to for loops - in every iteration, if some condition is satisfied then it executes the body and then increments some variable. It has a internal variable called `labelset` - which contains the list of labels for this for loop.  
+
+So, what happens when for loop executes the body? The body runs each statement one-by-one and if any of the statements return *abrupt completion*, then it skips the rest of the statements and returns the same completion record.
  it looks at its completion record and decides whether to continue with the rest of the loop.  
 
 * If completion record is `normal` or `continue`, then continue as is.
@@ -138,11 +139,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY2OTM2MDcsMTc5Mzg1MTQzNCwtNj
-YyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2
-MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLT
-I4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUw
-MTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLD
-U0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAx
-MzU4NjkzXX0=
+eyJoaXN0b3J5IjpbOTA3MjI3Mjc4LDE3OTM4NTE0MzQsLTY2Mj
+YzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIz
+LDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yOD
+QwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDEx
+NTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1ND
+gyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1
+ODY5M119
 -->
