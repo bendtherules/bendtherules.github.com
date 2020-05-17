@@ -1,5 +1,6 @@
 
 
+
 Welcome back to the second issue. This is that time of the weekend when I try to put on a writer's hat and spend hours looking for that perfect opening Gif 😀.
 
 This one was kind of soothing!
@@ -213,11 +214,13 @@ Effectively, function creates both "function" scope as well as "block" scope; bu
 💎 So, now we know that LE always points to the closest block scope and VE points to closest function scope. 
 
 To declare `var foo` -
-1. Find `<current execution context>.VariableEnvironment`
+
+1. Access **VariableEnvironment** in *current execution context*.
 2. Then within its `EnvironmentRecord`, add a new mutable binding for `foo` - if it doesn't already exist.
 
 Similarly, to declare `const foo` -
-1. Find `<current execution context>.LexicalEnvironment`
+
+1. Access **LexicalEnvironment** in *current execution context*.
 2. Then within its `EnvironmentRecord`, add a new immutable binding for `foo`.
 
 🤓 Here is a little animation I made (with Apple motion) to explain it more visually -
@@ -242,11 +245,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDAwODc5MCwtMTkwMTc5NzM3NiwtMT
-M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
-NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
-E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
-NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
-wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
-NTc2OTk0Ml19
+eyJoaXN0b3J5IjpbNjQ4MjQ2NjIyLC05MjAwMDg3OTAsLTE5MD
+E3OTczNzYsLTEzOTI4MTgwNTEsOTEyMjc5ODA1LC00OTY4MDYz
+NTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLT
+E1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYz
+MTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLT
+E5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQx
+Mzg5NzRdfQ==
 -->
