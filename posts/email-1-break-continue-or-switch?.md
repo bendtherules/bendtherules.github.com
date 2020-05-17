@@ -149,16 +149,20 @@ We mentioned earlier that you can also write `break` inside switch case statemen
 
 # How are function and block scopes maintained? 
 
-Let's actually start with a 
+Let's actually start with a different question - something that it easier to visualize.
 
-🔅What is your mental model for declaring a variable using var? The way I understand is - 1. Find closest function scope (Go to closest scope and repeatedly look for parent scope till the scope type is "function") 2. In that scope, add a entry for foo
+**What is your mental model for declaring a variable using var?**
+
+The way I understand is - 
+1. Find closest function scope. That is, go to closest scope and repeatedly look for parent scope till the scope type is "function".
+2. In that scope, add a entry for foo
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk1MjM5MzIsNjU4MzQwOTQ2LDE2MD
-EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
-NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
-YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
-NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5ND
-IsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYz
-ODA5MTBdfQ==
+eyJoaXN0b3J5IjpbMTM2NDY2OTg1Miw2NTgzNDA5NDYsMTYwMT
+A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
+MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
+MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
+MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
+w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
+MDkxMF19
 -->
