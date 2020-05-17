@@ -62,10 +62,13 @@ Also, continue and break statements are not valid across function boundaries. So
 function test() {
   break;
 }
-for ( var i = 0
+for (var i = 0; i < 5; i++) {
+  test();
+}
 ```
+This is one of the early errors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDk3NDYxMiwxNDkyOTY0MTgwLC0yOD
+eyJoaXN0b3J5IjpbMTk4NTIwNjAwOCwxNDkyOTY0MTgwLC0yOD
 QwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDEx
 NTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1ND
 gyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1
