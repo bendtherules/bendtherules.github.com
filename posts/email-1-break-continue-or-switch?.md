@@ -96,11 +96,11 @@ for (;;) {
 `continue` is also used very similar to `break` - it can have multiple labels, move up till outer loop - **but** it only works within iteration statements, not within switch-case. `continue` is used to skip rest of the current iteration and continue with the next iteration. Example -
 
 ```js
-for (var i = 0; i <= 5; i++) {
-  if (i == 2) { continue; }
+for (var i = 1; i <= 5; i++) {
+  if (i == 3) { continue; }
   console.log(i);
 }
-// > will print "0 1 3 4"
+// > will print "1 2 4 5"
 ```
 
 
@@ -126,11 +126,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjg3MjM5MDEsLTY2MjYzMTc4MywtNj
-YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
-OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMT
-A5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQw
-ODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYsLT
-EyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5MywtNTM0
-NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbLTQxNTE0NTY2NywtNjYyNjMxNzgzLC02Nj
+I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
+LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
+IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
+NDQ2MzJdfQ==
 -->
