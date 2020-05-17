@@ -168,7 +168,7 @@ First of all, both `var` and `let` declarations are added to the EnvironmentReco
 `Environment` = Scope 
 `Environment.EnvironmentRecord` = Scope data. This stores the actual variable names and their values within the scope.
 
-`execution context` = Call stack.
+`execution context stack` = Call stack.
 `current execution context` = Latest call frame in the call stack.
 
 ### About Environment -
@@ -187,10 +187,11 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 1. save `current execution context` as `callerContext`
 2. create a new execution context called `calleeContext`
-3. set that `calleeContext` as the `current execution context`
-4. point both LE and VE to `current execution context`
-5. Evaluate the function code
-6. point back LE and VE to oldVE and oldLE
+3. set `calleeContext` as `current execution context` 
+   (push it to call stack)
+5. point both LE and VE to `current execution context`
+6. Evaluate the function code
+7. point back LE and VE to oldVE and oldLE
 
 
 **When a enter a block scope -**
@@ -208,11 +209,11 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ5ODEzNDAsOTEyMjc5ODA1LC00OT
-Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
-NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
-Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
-ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
-EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
-MDg0OTBdfQ==
+eyJoaXN0b3J5IjpbMzE1MDk1MTAsOTEyMjc5ODA1LC00OTY4MD
+YzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcs
+LTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2Mj
+YzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODks
+LTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOT
+QxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0
+OTBdfQ==
 -->
