@@ -185,7 +185,7 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 **When a enter a function -**
 
-1. save current value of VE and LE as oldVE and oldLE
+1. save `current execution context` as 
 2. create a new execution context and set that as the `current execution context`
 3. point both LE and VE to `current execution context`
 4. Evaluate the function code
@@ -195,9 +195,10 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 **When a enter a block scope -**
 
 1. save current value of LE as oldLE
-3. point both LE and VE to `current execution context`
+2. create new DeclarativeEnvironment called blockEnv
+3. point LE to blockEnv
 4. Evaluate the function code
-5. point back LE and VE to oldVE and oldLE
+5. point back LE to oldLE
 
 
 
@@ -206,11 +207,11 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyMjc5ODA1LC00OTY4MDYzNTQsNjU4Mz
-QwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2
-MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1OD
-k1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTEx
-NzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLT
-EwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEz
-ODQyXX0=
+eyJoaXN0b3J5IjpbNDIxMzM2Nzc0LDkxMjI3OTgwNSwtNDk2OD
+A2MzU0LDY1ODM0MDk0NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3
+LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMxNzgzLC02Nj
+I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
+LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwXX0=
 -->
