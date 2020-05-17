@@ -122,16 +122,16 @@ After body is executed, for-loop looks at its completion record and decides whet
 	*  else, stop and return same record.
 
 So, if **break** has no label or has a label which marks this for loop, then it acts as a "handler" and returns a normal completion record. Similarly, if **continue** has no label or matching label, it will act as a handler - **but** continue with the rest of the iteration logic instead of exiting out of it.
-And for both - if the label is not part of its `labelset`, then it returns the same `break` or `continue` completion record. This will again bubble up and get handled by one of its parent for loops (or switch-case).
+And for both - if the label is not part of its `labelset`, then it returns the same `break` or `continue` completion record. This will ensure that it bubbles up and gets handled by one of its parent for loops (or switch-case).
 
-Just to repeat, for `continue;`- First, the loop body skips the rest of the statements because it is a abrupt completion. Then, for loop continues with the rest of the iteration. So, effectively `continue` skips the rest of the body for current iteration, but the algo will still execute the full body for next iterations.
+Just to repeat, for `continue;`- First, the loop body skips the rest of the statements because it is a abrupt completion. Then, for loop continues with the rest of the iteration as usual. So, effectively `continue` skips the rest of the body for current iteration, but the full body is still executed in the next iterations.
 
 ### To summarize, who handles what?
 
 | Completion type | Handler    |
 |-----------------|------------|
 | return          | Function   |
-| continue        | Iteration (matching label) |
+| continue        | Iteration statements (matching label) |
 | break           | switch-case, Iteration (matching label) |
 | throw           | try/catch  |
 
@@ -243,11 +243,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUzMzIwODU4LC0xOTAxNzk3Mzc2LC0xMz
-kyODE4MDUxLDkxMjI3OTgwNSwtNDk2ODA2MzU0LDY1ODM0MDk0
-NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3NjAsMT
-c5Mzg1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2
-MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LD
-E0OTI5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1
-NzY5OTQyXX0=
+eyJoaXN0b3J5IjpbLTk2Mjc0MTk1OSwtMTkwMTc5NzM3NiwtMT
+M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
+NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
+E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
+NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
+wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
+NTc2OTk0Ml19
 -->
