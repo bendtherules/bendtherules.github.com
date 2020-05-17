@@ -178,15 +178,17 @@ Now, Environment can be of multiple types - like `DeclarationEnvironment`, `Obje
 What we deal with mostly is `DeclarationEnvironment`.
 
 ## About execution context
-Execution context has two properties - `VariableEnvironment` and `LexicalEnvironment` which always point to the closest function scope and block scope respectively. This is carefully maintained by the algorithm for each construct
 
+Execution context has two properties - `VariableEnvironment` and `LexicalEnvironment` which always point to the closest function scope and block scope respectively. This is carefully maintained by the algorithm of each construct.
+
+Whenever a function is called, it creates a new execut
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDk1ODI0Myw2NTgzNDA5NDYsMTYwMT
+eyJoaXN0b3J5IjpbLTU4Nzk4MjcyMiw2NTgzNDA5NDYsMTYwMT
 A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
 MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
 MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
