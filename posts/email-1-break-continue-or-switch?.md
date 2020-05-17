@@ -230,15 +230,16 @@ Similarly, to declare `let foo` -
 It has been one whole month since I sent the last email. So, I just wanted to share some other things I worked on in the meantime.  
 **Did you work on something recently? Hit reply and let me know. I'll be happy to feature them in the next email.**
 
-I made a video on "[How to read Ecmascript specification](https://www.youtube.com/watch?v=1OLiwuOeVUY)". I showed how to read basic constructs like if statement or Object.assign and how to find what you are looking for (in the spec). So, if you would like to get started, this can be helpful.
+I made a video on "[How to read Ecmascript specification](https://www.youtube.com/watch?v=1OLiwuOeVUY)". Here I showed how to read basic constructs like if statement or Object.assign and how to find what you are looking for (in the spec). So, if you would like to get started, this can be helpful.
 
+And I also gave a small talk in yesterday's React meetup on "[React hooks is not just about functions](https://youtu.be/y7PLTYiYXu4?t=60)"
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE3OTczNzYsLTEzOTI4MTgwNTEsOT
-EyMjc5ODA1LC00OTY4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4
-OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC
-02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5
-NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MC
-wtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYy
-NTAxMTU4XX0=
+eyJoaXN0b3J5IjpbMjAzMTQ1MjY2NywtMTkwMTc5NzM3NiwtMT
+M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
+NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
+E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
+NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
+wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
+NTc2OTk0Ml19
 -->
