@@ -219,13 +219,15 @@ Similarly, to declare `let foo` -
 
 🤓 Here is a little animation I built (with Apple motion) to explain it more visually -
 
-[Please give your feedback on this]
+[Please give your feedback on this. It takes me a long to build these, so I am not sure if they are worth the effort.]
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5ODkxMjcwNiw5MTIyNzk4MDUsLTQ5Nj
-gwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0
-NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNj
-YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
-OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMT
-A5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQw
-ODQ5MF19
+eyJoaXN0b3J5IjpbLTE1NjU0MTQ5MDUsOTEyMjc5ODA1LC00OT
+Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
+NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
+Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
+ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
+EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
+MDg0OTBdfQ==
 -->
