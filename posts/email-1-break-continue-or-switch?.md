@@ -167,7 +167,8 @@ First of all, both `var` and `let` declarations are added to the EnvironmentReco
 🌟 Roughly speaking, 
 `Environment` = Scope 
 `Environment.EnvironmentRecord` = Scope data. This stores the actual variable names and their values within the scope.
-
+`execution context` = Call stack.
+`current execution context` = Call stack.
 
 So, what we think of as scope is formally called a `Environment`. It stores multiple type of information and not just variable data. The variables and their values are stored in the `EnvironmentRecord` section of a `Environment`.  
 
@@ -180,7 +181,7 @@ What we deal with mostly is `DeclarationEnvironment`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODgzNzA0OSw2NTgzNDA5NDYsMTYwMT
+eyJoaXN0b3J5IjpbMTc0NjQ2OTc0Miw2NTgzNDA5NDYsMTYwMT
 A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
 MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
 MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
