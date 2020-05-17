@@ -45,11 +45,11 @@ All non-normal completions are called as abrupt completions. They are handled sp
 So, different types of abrupt completions have their own handlers. If a construct can't handle a particular type of abrupt completion, it stops itself and allows the abrupt completion to bubble up. For ex., functions don't know how to handle "throw" completions - so if an error happens within a function, it bubbles up till the closest `try/catch` statement. Now the handler can decide to stop the bubbling and return a normal completion record.  
 Interestingly, there are some "conditional" handlers which will only "sometimes" stop the bubbling. We will talk about that next.
 
-How does `break someLabel;` work? 
+### How does `break someLabel;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NDU4MTMxOSw5NjI1MDExNTgsMTEzOT
-QwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYs
-LTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5MywtNT
-M0NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMz
+k0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2
+LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2OTMsLT
+UzNDU0NDYzMl19
 -->
