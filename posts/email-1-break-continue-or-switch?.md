@@ -95,7 +95,7 @@ for (;;) {
 }
 ```
 
-`continue` is also used similarly to `break` - it can have a optional label, move up till outer loop - **but** it only works within iteration statements, not within switch-case. `continue` is used to "skip" rest of the current iteration and continue with the next iteration. Example -
+`continue` is used to "skip" rest of the current iteration and continue with the next iteration. It is quite similar to `break` - **but** it can be o within iteration statements, not within switch-case.  Example -
 
 ```js
 for (var i = 1; i <= 5; i++) {
@@ -243,7 +243,7 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDE5Nzg2MCwtMTkwMTc5NzM3NiwtMT
+eyJoaXN0b3J5IjpbLTMxNDE2Mjk5MCwtMTkwMTc5NzM3NiwtMT
 M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
 NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
 E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
