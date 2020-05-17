@@ -170,15 +170,17 @@ First of all, both `var` and `let` declarations are added to the EnvironmentReco
 
 So, what we think of as scope is formally called a `Environment`. It stores multiple type of information and not just variable data. The variables and their values are stored in the `EnvironmentRecord` section of a `Environment`.
 
-Now, Environments can be of multiple types - like `DeclarationEnvironment`, `ObjectEnvironment` and `GlobalEnvironment`.
+Now, Environment can be of multiple types - like `DeclarationEnvironment`, `ObjectEnvironment` and `GlobalEnvironment`. What we deal with mostly is `DeclarationEnvironment`.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM4MzMyODE5LDY1ODM0MDk0NiwxNjAxMD
-gzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQz
-NCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02Mz
-M0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQx
-ODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLD
-k2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2Mzgw
-OTEwXX0=
+eyJoaXN0b3J5IjpbMTE3MjQzOTc3Nyw2NTgzNDA5NDYsMTYwMT
+A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
+MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
+MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
+MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
+w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
+MDkxMF19
 -->
