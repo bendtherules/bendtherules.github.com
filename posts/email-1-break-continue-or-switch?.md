@@ -42,7 +42,8 @@ In short, normal completion is the de-facto completion type unless the user expl
 
 All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm.  
 ⭐️ For ex - when you use a return statement deep within a function, all inner constructs stop their algorithm immediately and forward the same completion record to their parent. This happens till it hits the parent function. Now, a function knows how to "handle" a return completion - so instead of forwarding it again, it returns a normal completion with the same value.  
-So, different types of abrupt completions have their own handlers. If a construct can't handle a particular type of abrupt completion, it stops itself and returns the abrupt completion to allow it to bubble up. For ex, functions don't know how to handle "throw" completions - so if an error happens within a function, it bubbles up past the function till the closest `try/catch` statement. The handler can stop the bubbling and return a normal completion record. When it returns a normal completion, rest of the code outside it can continue normally.  
+So, different types of abrupt completions have their own handlers. If a construct can't handle a particular type of abrupt completion, it stops itself and returns the abrupt completion to allow it to bubble up. For ex, functions don't know how to handle "throw" completions - so if an error happens within a function, it bubbles up past the function till the closest `try/catch` statement. The handler can stop the bubbling and return a normal completion record. When it returns a normal completion, rest of the code outside it can continue normally.
+  
 Interestingly, there are some conditional handlers which will only "sometimes" stop the bubbling. Let's talk about that next.
 
 ### How does `break label;` work? 
@@ -94,7 +95,7 @@ for (;;) {
 }
 ```
 
-`continue` is also used very similar to `break` - it can have multiple labels, move up till outer loop - **but** it only works within iteration statements, not within switch-case. `continue` is used to "skip" rest of the current iteration and continue with the next iteration. Example -
+`continue` is also used similarly to `break` - it can have a optional label, move up till outer loop - **but** it only works within iteration statements, not within switch-case. `continue` is used to "skip" rest of the current iteration and continue with the next iteration. Example -
 
 ```js
 for (var i = 1; i <= 5; i++) {
@@ -242,7 +243,7 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTI4MjQzNywtMTkwMTc5NzM3NiwtMT
+eyJoaXN0b3J5IjpbMTQ1MDE5Nzg2MCwtMTkwMTc5NzM3NiwtMT
 M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
 NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
 E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
