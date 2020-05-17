@@ -171,7 +171,7 @@ First of all, both `var` and `let` declarations are added to the EnvironmentReco
 `execution context` = Call stack.
 `current execution context` = Latest call frame in the call stack.
 
-### About Environment -
+## About Environment -
 So, what we think of as scope is formally called a `Environment`. It stores multiple type of information and not just variable data. The variables and their values are stored in the `EnvironmentRecord` section of a `Environment`.  
 
 Now, Environment can be of multiple types - like `DeclarationEnvironment`, `ObjectEnvironment` and `GlobalEnvironment`.  
@@ -179,20 +179,20 @@ What we deal with mostly is `DeclarationEnvironment`.
 
 ## About execution context
 
-Execution context has two properties - `VariableEnvironment` and `LexicalEnvironment` which always point to the closest function scope and block scope respectively. This is carefully maintained by the algorithm of each construct.
+Execution context has two properties - `VariableEnvironment` and `LexicalEnvironment`.  which always point to the closest function scope and block scope respectively. This is carefully maintained by the algorithm of each construct.
 
-Whenever a function is called, it creates a new execut
+Whenever a function is called, it creates a new execution context and sets that as the `current execution context`.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Nzk4MjcyMiw2NTgzNDA5NDYsMTYwMT
-A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
-MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
-MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
-MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
-w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
-MDkxMF19
+eyJoaXN0b3J5IjpbLTExNDU4MDE2OTYsNjU4MzQwOTQ2LDE2MD
+EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
+NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
+YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
+NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5ND
+IsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYz
+ODA5MTBdfQ==
 -->
