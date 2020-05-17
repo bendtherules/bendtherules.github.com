@@ -49,16 +49,17 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 ### So, who handles what?
 
 | Completion type | Handler    |
-|-----------------|---------   |
-| return          | Function|
-| continue        |         |
-| break           |         |
-| throw           |         |
+|-----------------|------------|
+| return          | Function   |
+| continue        | Iteration statements|
+| break           |            |
+| throw           |            |
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3MzEwNjAsLTI4NDAzMTY4LC0xMDk0MT
-M4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkw
-LDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNj
-YzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTQ1MjQ1NTIsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
+IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
+NDQ2MzJdfQ==
 -->
