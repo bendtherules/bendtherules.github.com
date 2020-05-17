@@ -29,14 +29,14 @@ a. `[[Type]]` - Possible values are normal, break, continue, return, or throw. E
 b. `[[Value]]` - Completion records can contain a value to store what data was returned. If value is not provided, it defaults to `undefined`.  
 Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 'throw',  [[Value]]: foo }`.
 
-⭐️ Return statements also create a completion record - where `[[Value]]` stores the returned value  and `[[Type]]` is 'return'`. 👈 That is rather expected, but what is interesting
+⭐️ Return statements also create a completion record - where `[[Value]]` stores the returned value  and `[[Type]]` is 'return'`. 👈 That is rather expected, but what happens when your function doesn't return anything?
 
 c. `[[Target]]` - This is a lesser used construct. continue and break statements can have a optional label - which can be used like `break foo;`. This label 'foo' is stored in the [[Target]] field.
 
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4Mj
-YyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2
-OTMsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbMTg4OTU3MjI1LDQ3ODUxMzg0MiwxMzY2Mz
+gwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4MTcx
+LC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
