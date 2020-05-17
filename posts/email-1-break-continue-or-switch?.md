@@ -106,17 +106,17 @@ for (var i = 1; i <= 5; i++) {
 
 Now let's talk about the algo. Quick reminder to for loops - in every iteration, if some condition is satisfied then it executes the body and then increments some variable. It also has a internal variable called `labelset` - which contains the list of labels for this for loop.  
 
-So, what happens when for loop executes the body? The body runs each statement one-by-one. If any of the statements return *abrupt completion*, then it skips the rest of the statements and returns the same completion record. Else, it returns normal completion.  
+So, what happens when for loop executes the body? The body runs each statement one-by-one. If any of the statements return *abrupt completion*, then it skips the rest of the statements and returns the same abrupt completion. Else, it returns normal completion.  
 Then for-loop looks at body's completion record and decides whether to continue with the rest of the iteration.  
 
 * If completion record is `normal`, then continue as is.
 * If completion record is `throw`, then stop and return same record.
 * If completion record is `continue` and -
 	*  if its `[[Target]]` is empty or present in `labelset`, **then continue as is**
-	*  else, stop and return same continue record.
+	*  else, stop and return same completion record.
 * If completion record is `break` and -
 	*  if its `[[Target]]` is empty or present in `labelset`, **then stop  and return normal completion**
-	*  else, stop and return same record.
+	*  else, stop and return same completion record.
 
 So, if break has no label or has a label which marks this for loop, then it acts as a "handler" - and returns a normal completion record.  
 If the label is not part of its `labelset`, then it returns the same `break` completion. This will again bubble up and get handled by one of its parent for loops (or switch-case).
@@ -143,7 +143,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYyMjY4NTEsLTE1OTYxMjc2MCwxNz
+eyJoaXN0b3J5IjpbLTE1MzIxOTkyNTksLTE1OTYxMjc2MCwxNz
 kzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYx
 NjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMT
 Q5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3
