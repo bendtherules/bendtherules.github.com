@@ -29,15 +29,15 @@ a. `[[Type]]` - Possible values are normal, break, continue, return, or throw. E
 b. `[[Value]]` - Completion records can contain a value to store what data was returned. If value is not provided, it defaults to `undefined`.  
 Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 'throw',  [[Value]]: foo }`.
 
-⭐️ Return statements also create a completion record - where `[[Value]]` stores the returned value  and `[[Type]]` is 'return'.  
-☝️ That is rather expected, but what happens when your function doesn't return anything? Well, it returns a "normal" completion record (`[[Type]]` is normal). Infact, not just functions - but almost everything returns a normal completion record. For ex, if you write any expression like `2 + 3`, that returns a normal completion with `[[Value]]` = 5.  All expressions return a normal completion record with their value. And all statements other than return, break, continue or throw also return a normal completion. To summarise, normal completion is the de-facto completion type unless the user explicitly uses one of those control flow statements. Normal completion indicates that everything is fine and the language can continue with the rest of the algorithm. All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm.
 
 c. `[[Target]]` - This is a lesser used construct. continue and break statements can have a optional label - which can be used like `break foo;`. This label 'foo' is stored in the [[Target]] field.
+
+Little note about return statements and "normal" completions
 
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUwMTY5MzYsNDc4NTEzODQyLDEzNj
+eyJoaXN0b3J5IjpbLTE3NzI0MzUwMjQsNDc4NTEzODQyLDEzNj
 YzODA5MTAsNTQ4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgx
 NzEsLTEwMDEzNTg2OTMsLTUzNDU0NDYzMl19
 -->
