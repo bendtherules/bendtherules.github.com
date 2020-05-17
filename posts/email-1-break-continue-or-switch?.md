@@ -154,15 +154,18 @@ Let's actually start with a different question - something that it easier to vis
 **What is your mental model for declaring a variable using `var`?**
 
 The way I think is - 
+
 1. Find closest function scope. That is, go to closest scope and repeatedly look for parent scope till the scope type is "function".
-2. In that scope, add a entry for foo
+2. In that scope, add a entry for the variable name.
+
+That is also what I expected to see in the spec. When it talk about declaring a variable, specially using `var`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwODkyMzQyLDY1ODM0MDk0NiwxNjAxMD
-gzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQz
-NCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02Mz
-M0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQx
-ODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLD
-k2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2Mzgw
-OTEwXX0=
+eyJoaXN0b3J5IjpbLTE3MzQzODY3NDUsNjU4MzQwOTQ2LDE2MD
+EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
+NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
+YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
+NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5ND
+IsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYz
+ODA5MTBdfQ==
 -->
