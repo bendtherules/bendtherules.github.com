@@ -55,11 +55,11 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 | break           | switch-case, Iteration  statements |
 | throw           | try/catch  |
 
-Iteration statements = for, for-in, for-of, for await of.
+Iteration statements = for, for-in, for-of, for-await-of.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM1MTczMTgsLTI4NDAzMTY4LC0xMD
-k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
-NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
-IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
-NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOT
+QxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0
+OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMj
+M2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2OTMsLTUzNDU0
+NDYzMl19
 -->
