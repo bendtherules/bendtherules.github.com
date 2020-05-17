@@ -14,7 +14,7 @@ We will talk about a few separate but interesting bits today. We'll start with c
 What's common between `continue`, `break`, `return` and `throw`?  
 They are all control flow statements and internally, return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
 
-Statements within a block of code are normally run one-by-one and the process ends when the last statement has finished execution. Control flow statements change that normal order of execution. They let us exit prematurely or jump back to a different block of code. This is known as non-local transfer of control.
+Statements within a block of code are normally run one-by-one till it reaches the last statement. Control flow statements change that normal order of execution. They let us exit prematurely or jump back to a different block of code. This is known as non-local transfer of control.
 
 <!--
 ⬆️ It might be hard to think of `return` statements as "exiting prematurely". After all, that's how we are supposed to return any value from a function.  
@@ -48,8 +48,8 @@ Interestingly, there are some "conditional" handlers which will only "sometimes"
 ### How does `break someLabel;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMz
-k0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2
-LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2OTMsLT
-UzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOT
+YyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5
+MTAsNTQ4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLT
+EwMDEzNTg2OTMsLTUzNDU0NDYzMl19
 -->
