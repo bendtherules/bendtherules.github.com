@@ -35,7 +35,7 @@ c. `[[Target]]` - This is a lesser used construct. continue and break statements
 ### Little note about "normal" completions and "abrupt" completions
 
 Return statements also create a completion record - where `[[Value]]` stores the returned value. So, `return 5;` creates `{ [[Type]]: 'return', [[Value]]: 5 }`.   
-👈 That is rather expected, but what happens when your function doesn't return anything?
+☝️ That is rather expected, but what happens when your function doesn't return anything?
  
 Well, it returns a "normal" completion record (`[[Type]]` is normal). Infact, not just functions - but almost everything returns a normal completion record. For ex, if you write any expression like `2 + 3`, that returns a normal completion with `[[Value]]: 5` .   All expressions return a normal completion record with their value. And all statements other than return, break, continue or throw also return a normal completion.  
 
@@ -45,8 +45,8 @@ All non-normal completions are called as abrupt completions. They are handled sp
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTMyNDAwMTIsMTEzOTQwODQ5MCw0Nz
-g1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMzY2MzY0
-NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5MywtNTM0NTQ0NjMyXX
-0=
+eyJoaXN0b3J5IjpbMTkzMzA5NDI1MywxMTM5NDA4NDkwLDQ3OD
+UxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3
+MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ
+==
 -->
