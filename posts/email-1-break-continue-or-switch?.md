@@ -227,10 +227,10 @@ Similarly, to declare `let foo` -
 
 # What else?
 
-
+It has been one whole month since I sent the last email
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzUxNTk2MiwtMTM5MjgxODA1MSw5MT
+eyJoaXN0b3J5IjpbLTQ2Mzc2NjEzOCwtMTM5MjgxODA1MSw5MT
 IyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5
 NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLT
 Y2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0
