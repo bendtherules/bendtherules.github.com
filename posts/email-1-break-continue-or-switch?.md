@@ -144,12 +144,12 @@ for (var i = 0; i < 5; i++) {
   test();
 }
 ```
-Also, as you might already know, you can't use a return, continue or break statement if there is no enclosing handler. So, you can't write `continue;` if there is no for loop outside it.
+Similarly, as you can guess, you can't use a return, continue or break statement if there is no enclosing handler. So, you can't write `continue;` if there is no for loop outside it.
 
 # Switch case statements
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk1MTkzOCwxNjAxMDgzODk0LC0xMT
+eyJoaXN0b3J5IjpbMTMzNDY5MTczMCwxNjAxMDgzODk0LC0xMT
 k5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMx
 NzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMj
 c2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAz
