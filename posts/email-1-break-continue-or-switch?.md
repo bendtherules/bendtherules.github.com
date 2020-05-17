@@ -183,7 +183,11 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 ### Algo
 
-When a enter afunction is called - it creates a new execution context and sets that as the `current execution context`.
+**When a enter a function -**
+
+2. saves current value of VE and LE as oldVE and oldLE.
+1. it creates a new execution context and sets that as the `current execution context`.
+
 
 
 
@@ -191,11 +195,11 @@ When a enter afunction is called - it creates a new execution context and sets t
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTE0ODExOTIsLTQ5NjgwNjM1NCw2NT
-gzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEy
-NzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLD
-U4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1
-MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NC
-wtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1
-MTM4NDJdfQ==
+eyJoaXN0b3J5IjpbLTEyODQ4ODkxMSwtNDk2ODA2MzU0LDY1OD
+M0MDk0NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3
+NjAsMTc5Mzg1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNT
+g5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUx
+MTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC
+0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUx
+Mzg0Ml19
 -->
