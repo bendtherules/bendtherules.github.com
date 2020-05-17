@@ -42,13 +42,14 @@ In short, normal completion is the de-facto completion type unless the user expl
 All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm.  
 ⭐️ For ex - when you use a return statement deep within a function, all inner constructs stop their algorithm immediately and forward the same completion record to their parent. This happens till it hits the parent function. Now, a function knows how to "handle" a return completion - so instead of forwarding it again, it returns a normal completion with the same value.  
 So, different types of abrupt completions have their own handlers. If a construct can't handle a particular type of abrupt completion, it stops itself and allows the abrupt completion to bubble up. For ex., functions don't know how to handle "throw" completions - so if an error happens within a function, it bubbles up till the closest `try/catch` statement. Now the handler can decide to stop the bubbling and return a normal completion record.  
-Interestingly, there are some "conditional" handlers which will only "sometimes" stop the bubbling. We will talk about that next.
+Interestingly, there are some conditional handlers which will only "sometimes" stop the bubbling. Let's talk about that next.
 
-### How does `break someLabel;` work? 
+### How does `break label;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMD
-Q1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0
-MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMj
-EyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbLTIxNDYzMzgzODMsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
+IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
+NDQ2MzJdfQ==
 -->
