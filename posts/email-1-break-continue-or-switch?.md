@@ -205,6 +205,8 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 🌟 In simple words, function creates a new scope and points both LE and VE to it. After function is over, they are reset back to their old value.  
 And block scope also creates a new scope, but points only LE to it. After function is over, LE is reset back to its old value.
 
+Effectively, function creates both "function" scope as well as "block" scope; but block only creates "block" scope.
+
 
 
 
@@ -213,11 +215,11 @@ And block scope also creates a new scope, but points only LE to it. After functi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjUxMDkyNyw5MTIyNzk4MDUsLTQ5Nj
-gwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0
-NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNj
-YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
-OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMT
-A5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQw
-ODQ5MF19
+eyJoaXN0b3J5IjpbLTEyNzYyMTE5MzksOTEyMjc5ODA1LC00OT
+Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
+NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
+Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
+ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
+EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
+MDg0OTBdfQ==
 -->
