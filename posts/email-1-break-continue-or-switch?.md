@@ -62,7 +62,21 @@ for (var i = 0; i < arr.length; i++){
 }
 ```
 As you can see, using **break with a label** lets us exit out of multiple loops at once.  
-Also, it doesn't just have to be simple for loops. `break` is handled by *iteration statements* as well as *switch-case statements*.
+Also, it doesn't just have to be simple for loops. `break` is handled by *iteration statements* as well as *switch-case statements*. So, this will also work -
+
+```js
+label1:
+switch (1) {
+  case 1:
+    console.log("in case 1");
+    for (var i = 0; i < 5; i++) {
+      break label1;
+    }
+    console.log("after for");
+  case 2:
+    console.log("in case2");
+}
+```
 
 ### So, who handles what?
 
@@ -86,7 +100,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzczMjQ0NzcsNTg5NTM2MTY5LC02Mz
+eyJoaXN0b3J5IjpbLTExNjc0MDM2NDEsNTg5NTM2MTY5LC02Mz
 M0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQx
 ODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLD
 k2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2Mzgw
