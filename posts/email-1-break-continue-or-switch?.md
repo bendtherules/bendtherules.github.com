@@ -148,7 +148,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-Now. let's look at something different. How are `var` and `let` declarations different
+👇 Now, let's look at something different. How are `var` and `let` variables declared in the scope?
 
 # How are function and block scopes maintained? 
 
@@ -214,11 +214,11 @@ Effectively, function creates both "function" scope as well as "block" scope; bu
 
 To declare `var foo` -
 1. Find `<current execution context>.VariableEnvironment`
-2. Then within its `EnvironmentRecord`, add a new entry for `foo` - if it doesn't exist already.
+2. Then within its `EnvironmentRecord`, add a new mutable binding for `foo` - if it doesn't already exist.
 
-Similarly, to declare `let foo` -
+Similarly, to declare `const foo` -
 3. Find `<current execution context>.LexicalEnvironment`
-4. Then within its `EnvironmentRecord`, add a new entry for `foo`.
+4. Then within its `EnvironmentRecord`, add a new immutable for `foo`.
 
 🤓 Here is a little animation I built (with Apple motion) to explain it more visually -
 
@@ -243,11 +243,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NTM1ODAyLC0xOTAxNzk3Mzc2LC0xMz
-kyODE4MDUxLDkxMjI3OTgwNSwtNDk2ODA2MzU0LDY1ODM0MDk0
-NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3NjAsMT
-c5Mzg1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2
-MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LD
-E0OTI5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1
-NzY5OTQyXX0=
+eyJoaXN0b3J5IjpbLTE1OTUwMDcwNywtMTkwMTc5NzM3NiwtMT
+M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
+NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
+E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
+NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
+wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
+NTc2OTk0Ml19
 -->
