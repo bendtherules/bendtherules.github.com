@@ -233,7 +233,7 @@ It has been one whole month since I sent the last email. So, I just wanted to sh
 
 I made a video on "[How to read Ecmascript specification](https://www.youtube.com/watch?v=1OLiwuOeVUY)". Here I showed how to read basic constructs like if statement or Object.assign and how to find what you are looking for (in the spec). So, if you would like to get started, this can be helpful.
 
-And I also gave a small talk in yesterday's meetup about how "[React hooks is not just about functions](https://youtu.be/y7PLTYiYXu4?t=60)". Here we talked about some of the things which were harder to do in React class components, but got much better with hooks - things like memoized variables, deep props checking and state slices.
+Also, gave a small talk in yesterday's meetup about how "[React hooks is not just about functions](https://youtu.be/y7PLTYiYXu4?t=60)". Here we talked about some of the things which are hard to do in React class components, but got much better with hooks - things like memoized variables, deep props checking and state slices.
 
 **Did you work on something recently? Hit reply and let me know. I'll be happy to feature them in the next email.**
 
@@ -242,7 +242,7 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjAzNzEzNiwtMTkwMTc5NzM3NiwtMT
+eyJoaXN0b3J5IjpbLTkyMDAwODc5MCwtMTkwMTc5NzM3NiwtMT
 M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
 NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
 E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
