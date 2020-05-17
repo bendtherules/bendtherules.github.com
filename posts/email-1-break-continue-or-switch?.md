@@ -148,6 +148,7 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
+Now. let's look at something different. How do f
 
 # How are function and block scopes maintained? 
 
@@ -242,7 +243,7 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk2MjUyMjUsLTE5MDE3OTczNzYsLT
+eyJoaXN0b3J5IjpbLTEwNjEzNjcxMDIsLTE5MDE3OTczNzYsLT
 EzOTI4MTgwNTEsOTEyMjc5ODA1LC00OTY4MDYzNTQsNjU4MzQw
 OTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MC
 wxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1
