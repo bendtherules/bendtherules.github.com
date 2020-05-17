@@ -208,17 +208,20 @@ And block scope also creates a new scope, but points only LE to it. After functi
 Effectively, function creates both "function" scope as well as "block" scope; but block only creates "block" scope.
 
 💎 So, now we know that LE always points to the closest block scope and VE points to closest function scope. 
+To declare `var foo` -
+1. Find `<current execution context>.VariableEnvironment`
+2. Then within its `EnvironmentRecord`
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcwNjExMzYsOTEyMjc5ODA1LC00OT
-Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
-NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
-Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
-ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
-EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
-MDg0OTBdfQ==
+eyJoaXN0b3J5IjpbMTIwMTg0NzMyOCw5MTIyNzk4MDUsLTQ5Nj
+gwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0
+NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNj
+YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
+OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMT
+A5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQw
+ODQ5MF19
 -->
