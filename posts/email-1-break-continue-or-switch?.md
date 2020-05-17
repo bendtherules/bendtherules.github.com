@@ -144,12 +144,15 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
+
+# Switch case statements
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNz
-kzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYx
-NjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMT
-Q5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3
-Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLD
-EzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIy
-MzgxNzFdfQ==
+eyJoaXN0b3J5IjpbMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMT
+U5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMx
+NzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMT
+k2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEz
+ODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQwODQ5MC
+w0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMzY2
+MzY0NzFdfQ==
 -->
