@@ -106,7 +106,7 @@ for (var i = 1; i <= 5; i++) {
 ### Algo
 
 Now let's talk about the algo. How does for loop (or other iteration statements) handle continue and break?  
-It has a variable called `labelset` - which
+It has a variable called `labelset` - which contains the list of labels for the current for loop. Now, after for loop executes the body of the loop
 
 ### So, who handles what?
 
@@ -130,11 +130,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NzI2MjM5LC02NjI2MzE3ODMsLTY2Mj
-YzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODks
-LTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOT
-QxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0
-OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMj
-M2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2OTMsLTUzNDU0
-NDYzMl19
+eyJoaXN0b3J5IjpbLTY5ODUxNjU1NywtNjYyNjMxNzgzLC02Nj
+I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
+LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
+IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
+NDQ2MzJdfQ==
 -->
