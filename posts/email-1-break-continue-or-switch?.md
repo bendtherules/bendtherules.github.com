@@ -158,14 +158,15 @@ The way I think is -
 1. Find closest function scope. That is, go to closest scope and repeatedly look for parent scope till the scope type is "function".
 2. In that scope, add a entry for the variable name.
 
-That is also what I expected to see in the spec. When it talks about declaring a variable, specially using `var` - it must do some kind of repeated lookup, right? Turns out, it doesn't. The spec says to add a entry for that variable name in `<current execution context>.VariableEnvironment.EnvironmentRecord`.  
+That is also what I expected to see in the spec. When it talks about declaring a variable, specially using `var` - it must do some kind of repeated lookup, right? Turns out, it doesn't. The spec says to add an entry for that variable name in `<current execution context>.VariableEnvironment.EnvironmentRecord`.  
 
 This was a little bit odd and not what I expected. So, I want to explain what I understand about the process now -
 
-First of all, both `var` and `let` declarations are added to the EnvironmentRecord of a Declaration environment. But this Declaration environment
+First of all, both `var` and `let` declarations are added to the EnvironmentRecord of a Declaration environment. But this Declaration environment doesn't store the scope type as "function" or "block". So, you can't really do a lookup and check the scope type.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjYyMDQyMiw2NTgzNDA5NDYsMTYwMT
+eyJoaXN0b3J5IjpbMTMyNDc4Mzc5MSw2NTgzNDA5NDYsMTYwMT
 A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
 MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
 MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
