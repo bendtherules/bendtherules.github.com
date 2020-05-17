@@ -27,14 +27,15 @@ But the other way of thinking is that return is a user-specified way of exiting 
 a. `[[Type]]` - Possible values are normal, break, continue, return, or throw. Ex - when we use `break;`, it returns a completion record with `{ [[Type]]: 'break' }`.
 
 b. `[[Value]]` - Completion records can contain a value to store what data was returned. If value is not provided, it defaults to `undefined`.  
-Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 'throw',  [[Value]]: foo }`.  Return statements also work similarly - [[Type]]: 'throw' return a completion record with return value inside [[value]].
+Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 'throw',  [[Value]]: foo }`.   
+Return statements also work similarly - where the returnVal is stored inside `[[Value]]` and `[[Type]]` is 'return'`.
 
 c. [[Target]] - This is a lesser used construct. continue and break statements can have a optional label - which looks like `break foo;`. This label 'foo' is stored in [[Target]] field.
 
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5MjQ0NTg0LDEzNjYzODA5MTAsNTQ4Mj
-YyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2
-OTMsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbLTEzNTE1Nzk3NDgsMTM2NjM4MDkxMCw1ND
+gyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1
+ODY5MywtNTM0NTQ0NjMyXX0=
 -->
