@@ -203,7 +203,7 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 5. point back LE to oldLE
 
 🌟 In simple words, function creates a new scope and points both LE and VE to it. After function is over, they are reset back to their old value.  
-And block scope creates a new scope and points only LE to it. After function is over, LE is reset back to its old value.
+And block scope also creates a new scope, but points only LE to it. After function is over, LE is reset back to its old value.
 
 
 
@@ -213,7 +213,7 @@ And block scope creates a new scope and points only LE to it. After function is 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzE5ODU4Niw5MTIyNzk4MDUsLTQ5Nj
+eyJoaXN0b3J5IjpbLTk5NjUxMDkyNyw5MTIyNzk4MDUsLTQ5Nj
 gwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0
 NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNj
 YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
