@@ -221,16 +221,17 @@ Similarly, to declare `let foo` -
 
 [Please give your feedback. It takes me a long to build these, so I am not sure if the animations are worth the effort.]
 
-![Animation for "How are function and block scopes maintained internally?"](https://media.giphy.com/media/eJd1rdhKx834Emp6kK/giphy.gif)
-[For better quality, view the animation on [Youtube](https://www.youtube.com/watch?v=zVbVhBWceVw) ]
 
+[![Animation for "How are function and block scopes maintained internally?"](https://media.giphy.com/media/eJd1rdhKx834Emp6kK/giphy.gif)](https://www.youtube.com/watch?v=zVbVhBWceVw)
+
+Click the animation on 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTI4MTgwNTEsOTEyMjc5ODA1LC00OT
-Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
-NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
-Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
-ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
-EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
-MDg0OTBdfQ==
+eyJoaXN0b3J5IjpbLTg2NTgyODg2OSwtMTM5MjgxODA1MSw5MT
+IyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5
+NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLT
+Y2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0
+NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC
+0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1
+MDExNThdfQ==
 -->
