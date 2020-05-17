@@ -186,7 +186,15 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 **When a enter a function -**
 
 1. save current value of VE and LE as oldVE and oldLE
-2. create a new execution context and set that as the `current execution context`.
+2. create a new execution context and set that as the `current execution context`
+3. point both LE and VE to `current execution context`
+4. Evaluate the function code
+5. point back LE and VE to oldVE and oldLE
+
+
+**When a enter a block scope -**
+
+1. save current value of LE as oldLE
 3. point both LE and VE to `current execution context`
 4. Evaluate the function code
 5. point back LE and VE to oldVE and oldLE
@@ -198,7 +206,7 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MDI1MjY1LC00OTY4MDYzNTQsNjU4Mz
+eyJoaXN0b3J5IjpbOTEyMjc5ODA1LC00OTY4MDYzNTQsNjU4Mz
 QwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2
 MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1OD
 k1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTEx
