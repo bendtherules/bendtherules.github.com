@@ -110,7 +110,9 @@ Now let's talk about the algo. Quick reminder to for loops - in every iteration,
 
 * If completion record is `normal` or `continue`, then continue as is.
 * If completion record is `throw`, then stop.
-* If completion record is `break` and its `[[Value]]` is either e, then stop.
+* If completion record is `break` and -
+	*  its `[[Value]]` is empty, then stop.
+	*  its `[[Value]]` is present in `labelset`, then stop.
 
 ### So, who handles what?
 
@@ -134,7 +136,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3MTk5MzE2LC02NjI2MzE3ODMsLTY2Mj
+eyJoaXN0b3J5IjpbMzYwODYzOTQ0LC02NjI2MzE3ODMsLTY2Mj
 YzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODks
 LTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOT
 QxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0
