@@ -46,6 +46,8 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 
 ### How does `break label;` work? 
 
+First off, why is it even useful?
+
 ### So, who handles what?
 
 | Completion type | Handler    |
@@ -68,9 +70,9 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMj
-g0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAx
-MTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNT
-Q4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEz
-NTg2OTMsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OT
+I5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5
+OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMz
+Y2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4
+MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
