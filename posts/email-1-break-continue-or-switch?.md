@@ -39,12 +39,12 @@ Return statements also create a completion record - where `[[Value]]` stores the
 Well, it returns a "normal" completion record (`[[Type]]` is normal). Infact, not just functions - but almost everything returns a normal completion record. For ex, if you write any expression like `2 + 3`, that returns a normal completion with `[[Value]]: 5` .   All expressions return a normal completion record with their value. And all statements other than return, break, continue or throw also return a normal completion.  
 
 In short, normal completion is the de-facto completion type unless the user explicitly uses one of those control flow statements. Normal completion indicates that everything is fine and the language can continue with the rest of the algorithm.  
-All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm. For ex - when you use a return statement deep within a function, all inner constructs stop their algorithm immediately
+All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm. For ex - when you use a return statement deep within a function, all inner constructs stop their algorithm immediately and return/forward the return completion record to their parent, till it hits the function construct.
 
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk0NzIxMjEsMTEzOTQwODQ5MCw0Nz
+eyJoaXN0b3J5IjpbLTEwNjAyNTk5MzcsMTEzOTQwODQ5MCw0Nz
 g1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMzY2MzY0
 NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5MywtNTM0NTQ0NjMyXX
 0=
