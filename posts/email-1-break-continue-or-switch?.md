@@ -121,6 +121,8 @@ Then for-loop looks at body's completion record and decides whether to continue 
 So, if **break** has no label or has a label which marks this for loop, then it acts as a "handler" and returns a normal completion record. Similarly, if **continue** has no label or matching label, it still acts as a handler - **but** just continues with the rest of the iteration logic instead of exiting out of it.
 And for both - if the label is not part of its `labelset`, then it returns the same `break` or `continue` completion record. This will again bubble up and get handled by one of its parent for loops (or switch-case).
 
+Just to repeat, for `continue` - the loop body 
+
 ### So, who handles what?
 
 | Completion type | Handler    |
@@ -143,11 +145,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxNzIxMDA0LC0xNTk2MTI3NjAsMTc5Mz
-g1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5
-LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OT
-I5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5
-OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMz
-Y2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4
-MTcxXX0=
+eyJoaXN0b3J5IjpbLTIwOTg1MDExODIsLTE1OTYxMjc2MCwxNz
+kzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYx
+NjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMT
+Q5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3
+Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLD
+EzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIy
+MzgxNzFdfQ==
 -->
