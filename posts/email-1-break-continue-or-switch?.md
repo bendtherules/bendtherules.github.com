@@ -128,11 +128,11 @@ Just to repeat, for `continue;`- First, the loop body skips the rest of the stat
 | Completion type | Handler    |
 |-----------------|------------|
 | return          | Function   |
-| continue        | Iteration (check label) |
-| break           | switch-case, Iteration (check label) |
+| continue        | Iteration (matching label) |
+| break           | switch-case, Iteration (matching label) |
 | throw           | try/catch  |
 
-*Iteration statements = for, for-in, for-of, for-await-of.
+*Iteration statements = for, for-in, for-of, for-await-of, while, do-while.
 
 Also, continue and break statements are not valid across function boundaries. So, you can't write -
 ```js
@@ -145,11 +145,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTAzNTE3LC0xNTk2MTI3NjAsMTc5Mz
-g1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5
-LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OT
-I5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5
-OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMz
-Y2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4
-MTcxXX0=
+eyJoaXN0b3J5IjpbLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNz
+kzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYx
+NjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMT
+Q5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3
+Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLD
+EzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIy
+MzgxNzFdfQ==
 -->
