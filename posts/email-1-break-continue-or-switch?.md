@@ -137,22 +137,23 @@ Just to repeat, for `continue;`- First, the loop body skips the rest of the stat
 💛 Also, continue and break statements are not valid across function boundaries. So, you can't write -
 ```js
 function test() {
+  // syntax error
   break;
 }
 for (var i = 0; i < 5; i++) {
   test();
 }
 ```
-This will give syntax error. Other than this, as you might already know, you can;t use a return
+Also as you might already know, you can't use a return, continue or break statement if there is no eclosing handler. So, you can't write continue if there is no for loop outside it.
 
 # Switch case statements
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTEzODcwNSwxNjAxMDgzODk0LC0xMT
-k5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMx
-NzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMj
-c2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAz
-MTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OC
-wxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2
-MjU5Nl19
+eyJoaXN0b3J5IjpbODI4NTUzMDQ5LDE2MDEwODM4OTQsLTExOT
+kzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3
+ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNz
+Y1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMx
+NjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LD
+ExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYy
+NTk2XX0=
 -->
