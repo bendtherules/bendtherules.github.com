@@ -1,9 +1,9 @@
 
 Welcome back to the second issue. This is that time of the weekend when I try to put on a writer's hat and spend hours looking for that perfect opening Gif 😀.
 
-This one was kind of funny! 
+This one was kind of soothing!
 ![Happy doggo!](https://media.giphy.com/media/4Zo41lhzKt6iZ8xff9/giphy.gif)
-<br/><br/>
+<br/>
 
 Now, back to our topic -
 
@@ -238,11 +238,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ1MzQ3MDcsLTE5MDE3OTczNzYsLT
-EzOTI4MTgwNTEsOTEyMjc5ODA1LC00OTY4MDYzNTQsNjU4MzQw
-OTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MC
-wxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1
-MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNz
-gsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEw
-NDU3Njk5NDJdfQ==
+eyJoaXN0b3J5IjpbLTQwMTU1NzAxOSwtMTkwMTc5NzM3NiwtMT
+M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
+NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
+E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
+NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
+wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
+NTc2OTk0Ml19
 -->
