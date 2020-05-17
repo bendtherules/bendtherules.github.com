@@ -123,13 +123,13 @@ And for both - if the label is not part of its `labelset`, then it returns the s
 
 Just to repeat, for `continue;`- First, the loop body skips the rest of the statements because it is a abrupt completion. Then, for loop continues with the rest of the iteration. So, effectively `continue` skips the rest of the body for current iteration, but the algo will still execute the full body for next iterations.
 
-### So, who handles what?
+### To summarize, who handles what?
 
 | Completion type | Handler    |
 |-----------------|------------|
 | return          | Function   |
-| continue        | Iteration statements |
-| break           | switch-case, Iteration  statements |
+| continue        | Iteration (check label) |
+| break           | switch-case, Iteration (check label) |
 | throw           | try/catch  |
 
 *Iteration statements = for, for-in, for-of, for-await-of.
@@ -145,11 +145,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTQzMjc0NSwtMTU5NjEyNzYwLDE3OT
-M4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2
-OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxND
-kyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2
-OTk0Miw5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMT
-M2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIz
-ODE3MV19
+eyJoaXN0b3J5IjpbLTk1OTAzNTE3LC0xNTk2MTI3NjAsMTc5Mz
+g1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5
+LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OT
+I5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5
+OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMz
+Y2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4
+MTcxXX0=
 -->
