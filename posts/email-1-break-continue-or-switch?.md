@@ -110,7 +110,7 @@ for (var i = 1; i <= 5; i++) {
 Now let's talk about the algo. Quick reminder about for loops - in every iteration, if some condition is true, then it executes the body and then increments some variable. It also has a internal variable called `labelset` - which contains the list of labels for this for loop.  
 
 So, what happens when for loop executes the body? The body runs each statement one-by-one. If any of the statements return *abrupt completion*, then it skips the rest of the statements and returns the same abrupt completion. Else, it returns normal completion.  
-Then for-loop looks at body's completion record and decides whether to continue with the rest of the iteration.  
+After body is executed, for-loop looks at its completion record and decides whether to continue with the rest of the iteration.  
 
 * If completion record is `normal`, then continue as is.
 * If completion record is `throw`, then stop and return same record.
@@ -243,7 +243,7 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODMyNTAzMCwtMTkwMTc5NzM3NiwtMT
+eyJoaXN0b3J5IjpbMTIxMjEwNDUxMiwtMTkwMTc5NzM3NiwtMT
 M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
 NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
 E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
