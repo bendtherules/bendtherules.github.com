@@ -81,7 +81,12 @@ switch (1) {
 // > only prints "in case 1"
 ```
 
-We can also add multiple labels for the same for loop or switch case and break using any of the labels.
+We can also add multiple labels for the same for loop or switch case and break using any of the labels. Probably not very practical, but good to note for the algo. Example -
+```js
+label1:
+label2:
+for ()
+```
 
 
 ### So, who handles what?
@@ -106,7 +111,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDYxNDkwMywtNjYyNjMxNzgzLC02Nj
+eyJoaXN0b3J5IjpbLTcwNTUxMjgxOSwtNjYyNjMxNzgzLC02Nj
 I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
 LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
 k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
