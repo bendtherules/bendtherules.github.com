@@ -194,8 +194,6 @@ Execution context has two properties - `VariableEnvironment` and `LexicalEnviron
 6. evaluate the function code
 7. remove `calleeContext` from call stack.
 
-In simple words, function creates a new scope and points both LE and VE to it. After function is over, they are reset back to their old value.
-
 **When we enter a block scope -**
 
 1. save current value of LE as oldLE
@@ -204,7 +202,8 @@ In simple words, function creates a new scope and points both LE and VE to it. A
 4. Evaluate the function code
 5. point back LE to oldLE
 
-In simple words, function creates a new scope and points both LE and VE to it. After function is over, they are reset back to their old value.
+🌟 In simple words, function creates a new scope and points both LE and VE to it. After function is over, they are reset back to their old value.  
+And block scope creates a new scope and points only LE to it. After function is over, LE is reset back to its old value.
 
 
 
@@ -214,11 +213,11 @@ In simple words, function creates a new scope and points both LE and VE to it. A
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MTgzOTY3LDkxMjI3OTgwNSwtNDk2OD
-A2MzU0LDY1ODM0MDk0NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3
-LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMxNzgzLC02Nj
-I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
-LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
-k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
-NDkwXX0=
+eyJoaXN0b3J5IjpbMTcyMzE5ODU4Niw5MTIyNzk4MDUsLTQ5Nj
+gwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0
+NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYzMTc4MywtNj
+YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
+OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMT
+A5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQw
+ODQ5MF19
 -->
