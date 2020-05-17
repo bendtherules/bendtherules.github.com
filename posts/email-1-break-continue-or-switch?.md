@@ -62,7 +62,7 @@ for (var i = 0; i < arr.length; i++){
   }
 }
 ```
-As you can see, using **break with a label** lets us exit out of multiple loops at once. Using just `break;` will only exit from the current loop.   
+As you can see, using **break with a label** lets us exit out of multiple loops at once. Using `break;` will only exit from the current loop.  
 Also, it doesn't just have to be simple for loops. `break` is handled by *iteration statements* as well as *switch-case statements*. So, this will also work -
 
 ```js
@@ -104,11 +104,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIzOTgyMywtNjYyNjMxNzgzLC02Nj
-I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
-LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
-k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
-NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
-IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
-NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbODAxMzUzOTUzLC02NjI2MzE3ODMsLTY2Mj
+YzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODks
+LTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOT
+QxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0
+OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMj
+M2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2OTMsLTUzNDU0
+NDYzMl19
 -->
