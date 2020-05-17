@@ -28,7 +28,6 @@ a. `[[Type]]` - Possible values are normal, break, continue, return, or throw. E
 b. `[[Value]]` - Completion records can contain a value to store what data was returned. If value is not provided, it defaults to `undefined`.  
 Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 'throw',  [[Value]]: foo }`.
 
-
 c. `[[Target]]` - This is a lesser used construct. continue and break statements can have a optional label - which can be used like `break foo;`. This label 'foo' is stored in the [[Target]] field.
 
 ### Little note about "normal" completions and "abrupt" completions
@@ -111,10 +110,10 @@ Now let's talk about the algo. Quick reminder to for loops - in every iteration,
 * If completion record is `normal` or `continue`, then continue as is.
 * If completion record is `throw`, then stop and return same record.
 * If completion record is `break` and -
-	*  if its `[[Value]]` is empty or present in `labelset`, then stop  and return normal completion.
+	*  if its `[[Target]]` is empty or present in `labelset`, then stop  and return normal completion.
 	*  else, stop and return same record.
 
-So, if break has no label or has a label which marks
+So, if break has no label or has a label which marks the current for loop, then it acts as a "handler" - and returns a normal completion record
 
 ### So, who handles what?
 
@@ -138,11 +137,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIxMzQ2NzMsLTY2MjYzMTc4MywtNj
-YyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4
-OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMT
-A5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQw
-ODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYsLT
-EyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5MywtNTM0
-NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbMTc5Mzg1MTQzNCwtNjYyNjMxNzgzLC02Nj
+I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
+LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
+IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
+NDQ2MzJdfQ==
 -->
