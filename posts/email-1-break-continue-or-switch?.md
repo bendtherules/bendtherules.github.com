@@ -1,6 +1,4 @@
 
-
-
 Welcome back to the second issue. This is that time of the weekend when I try to put on a writer's hat and spend hours looking for that perfect opening Gif 😀.
 
 This one was kind of soothing!
@@ -129,12 +127,12 @@ Just to repeat, for `continue;`- First, the loop body skips the rest of the stat
 
 ### To summarize, who handles what?
 
-| Completion type | Handler    |
+| **Completion type** | **Handler**    |
 |-----------------|------------|
-| return          | Function   |
-| continue        | Iteration statements |
-| break           | switch-case, Iteration statements |
-| throw           | try/catch  |
+| `return`          | Function   |
+| `continue`        | Iteration statements |
+| `break`           | switch-case, Iteration statements |
+| `throw`           | try/catch  |
 
 (Iteration statements = for, for-in, for-of, for-await-of, while, do-while)
 
@@ -162,18 +160,18 @@ The way I think is -
 1. Find closest function scope. That is, go to closest scope and repeatedly look for parent scope till the scope type is "function".
 2. In that scope, add a entry for the variable name.
 
-That is also what I expected to see in the spec. When it talks about declaring a variable, specially using `var` - it must do some kind of repeated lookup, right? Turns out, it doesn't. The spec says to add an entry for that variable name in `<current execution context>.VariableEnvironment.EnvironmentRecord`.  
+That is also what I expected to see in the spec. When it talks about declaring a variable, specially using `var` - it must do some kind of repeated lookup, right? Turns out, it doesn't. The spec says to add an entry for that variable name in *current execution context*`.VariableEnvironment.EnvironmentRecord`.  
 
 This was a little bit odd and not what I expected. So, I want to explain what I understand about the process now -
 
 First of all, both `var` and `let` declarations are added to the EnvironmentRecord of a Declaration environment. But this Declaration environment doesn't store the scope type as "function" or "block". So, you can't really do a lookup and check the scope type.
 
-🌟 Roughly speaking, 
-`Environment` = Scope 
+🌟 Roughly speaking,  
+`Environment` = Scope  
 `Environment.EnvironmentRecord` = Scope data. This stores the actual variable names and their values within the scope.
 
-`execution context stack` = Call stack.
-`current execution context` = Latest call frame in the call stack.
+*execution context stack* = Call stack.  
+*current execution context* = Latest call frame in the call stack.
 
 ### About Environment -
 So, what we think of as scope is formally called a `Environment`. It stores multiple type of information and not just variable data. The variables and their values are stored in the `EnvironmentRecord` section of a `Environment`.  
@@ -245,11 +243,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MjQ2NjIyLC05MjAwMDg3OTAsLTE5MD
-E3OTczNzYsLTEzOTI4MTgwNTEsOTEyMjc5ODA1LC00OTY4MDYz
-NTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLT
-E1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYz
-MTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLT
-E5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQx
-Mzg5NzRdfQ==
+eyJoaXN0b3J5IjpbMTY0Mjg3ODQ4MCw2NDgyNDY2MjIsLTkyMD
+AwODc5MCwtMTkwMTc5NzM3NiwtMTM5MjgxODA1MSw5MTIyNzk4
+MDUsLTQ5NjgwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5NCwtMT
+E5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLTY2MjYz
+MTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0NjIzLD
+I3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC0yODQw
+MzE2OF19
 -->
