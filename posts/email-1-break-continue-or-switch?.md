@@ -218,7 +218,7 @@ To declare `var foo` -
 
 Similarly, to declare `const foo` -
 3. Find `<current execution context>.LexicalEnvironment`
-4. Then within its `EnvironmentRecord`, add a new immutable for `foo`.
+4. Then within its `EnvironmentRecord`, add a new immutable binding for `foo`.
 
 🤓 Here is a little animation I built (with Apple motion) to explain it more visually -
 
@@ -243,11 +243,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUwMDcwNywtMTkwMTc5NzM3NiwtMT
-M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
-NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
-E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
-NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
-wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
-NTc2OTk0Ml19
+eyJoaXN0b3J5IjpbNzk4OTU2ODIsLTE5MDE3OTczNzYsLTEzOT
+I4MTgwNTEsOTEyMjc5ODA1LC00OTY4MDYzNTQsNjU4MzQwOTQ2
+LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNz
+kzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYx
+NjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMT
+Q5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3
+Njk5NDJdfQ==
 -->
