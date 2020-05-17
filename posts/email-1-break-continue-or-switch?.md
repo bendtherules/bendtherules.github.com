@@ -8,7 +8,7 @@ And guess what's special today? Happy Mother's Day 👩‍👦‍👦!
 
 Now, back to our topic -
 
-We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at the wild side of switch-case statements and wrap it up with some animation I built last week.
+We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at how var and wrap it up with some animation I built last week.
 
 # Control flow statements
 What's common between `continue`, `break`, `return` and `throw`?  They are all control flow statements and internally return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
@@ -151,11 +151,11 @@ We mentioned earlier that you can also write `break` inside switch case statemen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOT
-kzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3
-ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNz
-Y1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMx
-NjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LD
-ExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYy
-NTk2XX0=
+eyJoaXN0b3J5IjpbLTE2NTgxMTk5Myw2NTgzNDA5NDYsMTYwMT
+A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
+MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
+MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
+MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
+w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
+MDkxMF19
 -->
