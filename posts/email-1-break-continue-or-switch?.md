@@ -52,14 +52,14 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 |-----------------|------------|
 | return          | Function   |
 | continue        | Iteration statements |
-| break           | switch-case, Iteration  statements |
+| break           | switch-case Iteration  statements |
 | throw           | try/catch  |
 
 Iteration statements = for, for-in, for-of, for-await-of.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOT
-QxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0
-OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMj
-M2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2OTMsLTUzNDU0
-NDYzMl19
+eyJoaXN0b3J5IjpbLTYzNDkyODcwMiwxNDkyOTY0MTgwLC0yOD
+QwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDEx
+NTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1ND
+gyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1
+ODY5MywtNTM0NTQ0NjMyXX0=
 -->
