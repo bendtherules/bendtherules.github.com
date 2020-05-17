@@ -207,19 +207,18 @@ And block scope also creates a new scope, but points only LE to it. After functi
 
 Effectively, function creates both "function" scope as well as "block" scope; but block only creates "block" scope.
 
-
-
+💎
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYyMTE5MzksOTEyMjc5ODA1LC00OT
-Y4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4
-NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC02NjI2MzE3ODMsLT
-Y2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2
-ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLT
-EwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0
-MDg0OTBdfQ==
+eyJoaXN0b3J5IjpbLTk0NjgyOTE0LDkxMjI3OTgwNSwtNDk2OD
+A2MzU0LDY1ODM0MDk0NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3
+LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMxNzgzLC02Nj
+I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
+LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwXX0=
 -->
