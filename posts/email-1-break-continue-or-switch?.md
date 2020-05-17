@@ -42,13 +42,13 @@ Well, it returns a "normal" completion record (`[[Type]]` is normal). Infact, no
 In short, normal completion is the de-facto completion type unless the user explicitly uses one of those control flow statements. Normal completion indicates that everything is fine and the language can continue with the rest of the algorithm.  
 All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm.  
 ⭐️ For ex - when you use a return statement deep within a function, all inner constructs stop their algorithm immediately and forward the same completion record to their parent. This happens till it hits the parent function. Now, a function knows how to "handle" a return completion - so instead of forwarding it again, it returns a normal completion with the same value.  
-So, different types of abrupt completions have their own handlers
+So, different types of abrupt completions have their own handlers. If a construct doesn't know to handle a particular type of abrupt completion, it stops itself and let
 
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU4NzMzODk1LDk2MjUwMTE1OCwxMTM5ND
-A4NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5Niwt
-MTIzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01Mz
-Q1NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbLTQyMDk1NDgyMCw5NjI1MDExNTgsMTEzOT
+QwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYs
+LTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1ODY5MywtNT
+M0NTQ0NjMyXX0=
 -->
