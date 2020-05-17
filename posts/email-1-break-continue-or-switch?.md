@@ -113,13 +113,13 @@ Then for-loop looks at body's completion record and decides whether to continue 
 * If completion record is `throw`, then stop and return same record.
 * If completion record is `continue` and -
 	*  if its `[[Target]]` is empty or present in `labelset`, **then continue as is**
-	*  else, stop and return same completion record.
+	*  else, stop and return same record.
 * If completion record is `break` and -
 	*  if its `[[Target]]` is empty or present in `labelset`, **then stop  and return normal completion**
-	*  else, stop and return same completion record.
+	*  else, stop and return same record.
 
-So, if break has no label or has a label which marks this for loop, then it acts as a "handler" - and returns a normal completion record.  
-If the label is not part of its `labelset`, then it returns the same `break` completion. This will again bubble up and get handled by one of its parent for loops (or switch-case).
+So, if **break** has no label or has a label which marks this for loop, then it acts as a "handler" - and returns a normal completion record. 
+If the label is not part of its `labelset`, then it returns the same `break` or `continue` completion record. This will again bubble up and get handled by one of its parent for loops (or switch-case).
 
 ### So, who handles what?
 
@@ -143,7 +143,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIxOTkyNTksLTE1OTYxMjc2MCwxNz
+eyJoaXN0b3J5IjpbLTIxMzEzODU1NTQsLTE1OTYxMjc2MCwxNz
 kzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYx
 NjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMT
 Q5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3
