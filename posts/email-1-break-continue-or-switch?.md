@@ -57,9 +57,15 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 
 *Iteration statements = for, for-in, for-of, for-await-of.
 
-Also, continue and break statement are not valid across function boundaries
+Also, continue and break statements are not valid across function boundaries. So, you can't write -
+```js
+function test() {
+  break;
+}
+for ( var i = 0
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODA0OTM1MSwxNDkyOTY0MTgwLC0yOD
+eyJoaXN0b3J5IjpbLTk4NDk3NDYxMiwxNDkyOTY0MTgwLC0yOD
 QwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDEx
 NTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1ND
 gyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1
