@@ -159,14 +159,15 @@ The way I think is -
 2. In that scope, add a entry for the variable name.
 
 That is also what I expected to see in the spec. When it talks about declaring a variable, specially using `var` - it must do some kind of repeated lookup, right? Turns out, it doesn't. The spec says to add a entry for that variable name in `<current execution context>.VariableEnvironment.EnvironmentRecord`.  
-This was a little bit odd and not wha
+
+This was a little bit odd and not what I expected. So, I wanted to understand what all of this means.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0MzY4MzMzLDY1ODM0MDk0NiwxNjAxMD
-gzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQz
-NCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02Mz
-M0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQx
-ODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5OTQyLD
-k2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMzY2Mzgw
-OTEwXX0=
+eyJoaXN0b3J5IjpbLTIwMzQ1OTc4NTEsNjU4MzQwOTQ2LDE2MD
+EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
+NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
+YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
+NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5ND
+IsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYz
+ODA5MTBdfQ==
 -->
