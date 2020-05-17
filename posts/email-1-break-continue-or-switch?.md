@@ -8,7 +8,7 @@ And guess what's special today? Happy Mother's Day 👩‍👦‍👦!
 
 Now, back to our topic -
 
-We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at how var and wrap it up with some animation I built last week.
+We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at how var and let declarations work and wrap it up with some animation I built last week.
 
 # Control flow statements
 What's common between `continue`, `break`, `return` and `throw`?  They are all control flow statements and internally return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
@@ -151,7 +151,7 @@ We mentioned earlier that you can also write `break` inside switch case statemen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTgxMTk5Myw2NTgzNDA5NDYsMTYwMT
+eyJoaXN0b3J5IjpbMTE2MzY4Nzg4OSw2NTgzNDA5NDYsMTYwMT
 A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
 MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
 MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
