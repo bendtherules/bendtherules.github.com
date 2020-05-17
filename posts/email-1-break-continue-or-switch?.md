@@ -11,8 +11,7 @@ Now, back to our topic -
 We will talk about a few separate but interesting bits today. We'll start with control flow statements (like break, return), then look at the wild side of switch-case statements and wrap it up with some animation I built last week.
 
 # Control flow statements
-What's common between `continue`, `break`, `return` and `throw`?  
-They are all control flow statements and internally, return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
+What's common between `continue`, `break`, `return` and `throw`?  They are all control flow statements and internally return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
 
 Statements within a block of code are normally run one-by-one till it reaches the last statement. Control flow statements change that normal order of execution. They let us exit prematurely or jump back to a different block of code. This is known as non-local transfer of control.
 
@@ -48,8 +47,8 @@ Interestingly, there are some "conditional" handlers which will only "sometimes"
 ### How does `break someLabel;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOT
-YyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5
-MTAsNTQ4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLT
-EwMDEzNTg2OTMsLTUzNDU0NDYzMl19
+eyJoaXN0b3J5IjpbLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMD
+Q1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0
+MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMj
+EyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
 -->
