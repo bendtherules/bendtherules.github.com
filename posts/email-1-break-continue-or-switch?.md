@@ -118,8 +118,8 @@ Then for-loop looks at body's completion record and decides whether to continue 
 	*  if its `[[Target]]` is empty or present in `labelset`, **then stop  and return normal completion**
 	*  else, stop and return same record.
 
-So, if **break** has no label or has a label which marks this for loop, then it acts as a "handler" and returns a normal completion record. Similarly, if **continue** has no label or matching label, it still acts as a handler -**but** just continues with the rest of the iteration logic instead of exiting out of it.
-If the label is not part of its `labelset`, then it returns the same `break` or `continue` completion record. This will again bubble up and get handled by one of its parent for loops (or switch-case).
+So, if **break** has no label or has a label which marks this for loop, then it acts as a "handler" and returns a normal completion record. Similarly, if **continue** has no label or matching label, it still acts as a handler - **but** just continues with the rest of the iteration logic instead of exiting out of it.
+And for both - if the label is not part of its `labelset`, then it returns the same `break` or `continue` completion record. This will again bubble up and get handled by one of its parent for loops (or switch-case).
 
 ### So, who handles what?
 
@@ -143,11 +143,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDMyNzQ4NiwtMTU5NjEyNzYwLDE3OT
-M4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2
-OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxND
-kyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2
-OTk0Miw5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMT
-M2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIz
-ODE3MV19
+eyJoaXN0b3J5IjpbNTMxNzIxMDA0LC0xNTk2MTI3NjAsMTc5Mz
+g1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5
+LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OT
+I5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5
+OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMz
+Y2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4
+MTcxXX0=
 -->
