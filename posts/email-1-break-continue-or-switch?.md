@@ -121,7 +121,7 @@ Then for-loop looks at body's completion record and decides whether to continue 
 So, if **break** has no label or has a label which marks this for loop, then it acts as a "handler" and returns a normal completion record. Similarly, if **continue** has no label or matching label, it still acts as a handler - **but** just continues with the rest of the iteration logic instead of exiting out of it.
 And for both - if the label is not part of its `labelset`, then it returns the same `break` or `continue` completion record. This will again bubble up and get handled by one of its parent for loops (or switch-case).
 
-Just to repeat, for `continue;`- First, the loop body skips the rest of the statements because it is a abrupt completion. Then, for loop continues with the rest of the iteration. So, effectively `continue` skips the rest of the body for current iteration, but the full body.
+Just to repeat, for `continue;`- First, the loop body skips the rest of the statements because it is a abrupt completion. Then, for loop continues with the rest of the iteration. So, effectively `continue` skips the rest of the body for current iteration, but executes the full body for next iterations.
 
 ### So, who handles what?
 
@@ -145,7 +145,7 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Mzg2Nzk5OCwtMTU5NjEyNzYwLDE3OT
+eyJoaXN0b3J5IjpbMTg0ODMwMzQ2MiwtMTU5NjEyNzYwLDE3OT
 M4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2
 OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxND
 kyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2
