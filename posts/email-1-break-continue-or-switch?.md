@@ -46,6 +46,7 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 
 ### How does `break label;` work? 
 
+#### Example
 First off, why is it even useful?  Let's think of - searching for a value in a 2D array. We will need nested for loops to navigate the structure and want to break out of **both** loops as soon as we find the element.
 ```js
 // This is the label
@@ -102,10 +103,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OT
-UzNjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3
-OCwxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMT
-A0NTc2OTk0Miw5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4
-NDIsMTM2NjM4MDkxMCw1NDgyNjI1OTYsLTEyMzY2MzY0NzEsMT
-IxMjIzODE3MSwtMTAwMTM1ODY5MywtNTM0NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbLTI0NjAxMzg1OSwtNjYyNjMxNzgzLC02Nj
+I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
+LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
+k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
+NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
+IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
+NDQ2MzJdfQ==
 -->
