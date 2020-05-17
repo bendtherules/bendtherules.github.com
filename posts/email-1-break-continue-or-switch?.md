@@ -66,11 +66,11 @@ for (var i = 0; i < 5; i++) {
   test();
 }
 ```
-This is one of the early errors
+This will give syntax error. It is one of the early errors
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTIwNjAwOCwxNDkyOTY0MTgwLC0yOD
-QwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1MDEx
-NTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4MDkxMCw1ND
-gyNjI1OTYsLTEyMzY2MzY0NzEsMTIxMjIzODE3MSwtMTAwMTM1
-ODY5MywtNTM0NTQ0NjMyXX0=
+eyJoaXN0b3J5IjpbLTE3MTgyNDcyOTEsMTQ5Mjk2NDE4MCwtMj
+g0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAx
+MTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNT
+Q4MjYyNTk2LC0xMjM2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEz
+NTg2OTMsLTUzNDU0NDYzMl19
 -->
