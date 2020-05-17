@@ -32,7 +32,7 @@ Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 
 
 c. `[[Target]]` - This is a lesser used construct. continue and break statements can have a optional label - which can be used like `break foo;`. This label 'foo' is stored in the [[Target]] field.
 
-### Little note about return statements and "normal" completions
+### Little note about "normal" completions and "abrupt" completions
 
 Return statements also create a completion record - where `[[Value]]` stores the returned value  and `[[Type]]` is 'return'.  👈 That is rather expected, but what happens when your function doesn't return anything?
  
@@ -44,7 +44,7 @@ All non-normal completions are called as abrupt completions. They are handled sp
 How does `break foo;` work? 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MjQ2MDAyMywxMTM5NDA4NDkwLDQ3OD
+eyJoaXN0b3J5IjpbMTIwNDcxODIwOCwxMTM5NDA4NDkwLDQ3OD
 UxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3
 MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ
 ==
