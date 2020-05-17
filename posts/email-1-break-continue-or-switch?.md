@@ -31,7 +31,7 @@ Ex - When we use `throw foo;`, it returns a completion record with `{ [[Type]]: 
 
 c. `[[Target]]` - This is a lesser used construct. continue and break statements can have a optional label - which can be used like `break foo;`. This label 'foo' is stored in the [[Target]] field.
 
-### Little note about "normal" completions and "abrupt" completions
+### About "normal" completions and "abrupt" completions
 
 Return statements also create a completion record - where `[[Value]]` stores the returned value. So, `return 5;` creates `{ [[Type]]: 'return', [[Value]]: 5 }`.   
 ☝️ That is rather expected, but what happens when your function body doesn't return anything?
@@ -39,7 +39,8 @@ Return statements also create a completion record - where `[[Value]]` stores the
 Well, it returns a "normal" completion record (`[[Type]]` is normal). Infact, not just functions - but almost everything returns a normal completion record. For ex, if you write any expression like `2 + 3`, that returns a normal completion with `[[Value]]: 5` .   All expressions return a normal completion record with their value. And all statements other than return, break, continue or throw also return a normal completion.  
 
 In short, normal completion is the de-facto completion type unless the user explicitly uses one of those control flow statements. Normal completion indicates that everything is fine and the language can continue with the rest of the algorithm.  
-All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm.  
+
+All non-normal completions are called as abrupt completions. They are handled specially inside the algorithm.
 ⭐️ For ex - when you use a return statement deep within a function, all inner constructs stop their algorithm immediately and forward the same completion record to their parent. This happens till it hits the parent function. Now, a function knows how to "handle" a return completion - so instead of forwarding it again, it returns a normal completion with the same value.  
 So, different types of abrupt completions have their own handlers. If a construct can't handle a particular type of abrupt completion, it stops itself and allows the abrupt completion to bubble up. For ex., functions don't know how to handle "throw" completions - so if an error happens within a function, it bubbles up till the closest `try/catch` statement. Now the handler can decide to stop the bubbling and return a normal completion record.  
 Interestingly, there are some conditional handlers which will only "sometimes" stop the bubbling. Let's talk about that next.
@@ -241,7 +242,7 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDY0NTA2NSwtMTkwMTc5NzM3NiwtMT
+eyJoaXN0b3J5IjpbMTQ5MTYyNzc3MSwtMTkwMTc5NzM3NiwtMT
 M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
 NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
 E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
