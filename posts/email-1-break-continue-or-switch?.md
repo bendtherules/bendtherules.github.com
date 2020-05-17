@@ -46,7 +46,7 @@ Interestingly, there are some conditional handlers which will only "sometimes" s
 
 ### How does `break label;` work? 
 
-First off, why is it even useful?
+First off, why is it even useful? Let's think of some sorting algorithm like Bubble sort which uses nested for lopps
 
 ### So, who handles what?
 
@@ -70,9 +70,10 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OT
-I5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1NzY5
-OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLDQ3ODUxMzg0MiwxMz
-Y2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYzNjQ3MSwxMjEyMjM4
-MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbLTE3MzQ4ODAxMTQsMjc2NTI0Njg5LC0xOT
+YxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4
+OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4NDkwLD
+Q3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMTIzNjYz
+NjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1NDQ2Mz
+JdfQ==
 -->
