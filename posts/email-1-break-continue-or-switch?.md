@@ -168,11 +168,11 @@ First of all, both `var` and `let` declarations are added to the EnvironmentReco
 `Environment` = Scope 
 `Environment.EnvironmentRecord` = Scope data. This stores the actual variable names and their values within the scope.
 
-So, the scope doesn't store the variable names directly. 
+So, the scope doesn't store the variable names directly. That's probably because the scope needs to store multiple types of information and not just variable information.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzQwMDA0Myw2NTgzNDA5NDYsMTYwMT
+eyJoaXN0b3J5IjpbLTUzNTM1OTMzNyw2NTgzNDA5NDYsMTYwMT
 A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
 MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
 MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
