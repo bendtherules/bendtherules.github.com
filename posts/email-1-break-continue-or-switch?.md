@@ -143,12 +143,12 @@ for (var i = 0; i < 5; i++) {
   test();
 }
 ```
-This will give syntax error. It is one of the errors described in static semantics of for loop (i.e. something the engine should check statically before running your code).
+This will give syntax error. Other than this, as you might already know, you can;t use a return
 
 # Switch case statements
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjI4NTgyMSwxNjAxMDgzODk0LC0xMT
+eyJoaXN0b3J5IjpbMjA1MTEzODcwNSwxNjAxMDgzODk0LC0xMT
 k5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMx
 NzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMj
 c2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAz
