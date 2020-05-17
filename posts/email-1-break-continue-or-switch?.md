@@ -227,10 +227,11 @@ Similarly, to declare `let foo` -
 
 # What else?
 
-It has been one whole month since I sent the last email
+It has been one whole month since I sent the last email. So, I just wanted to share some other things I worked on in the meantime.  
+Did you work on something recently? Hit reply and let me know. I'll be happy to feature them in the next email
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2Mzc2NjEzOCwtMTM5MjgxODA1MSw5MT
+eyJoaXN0b3J5IjpbLTkzNjE5NDkyMSwtMTM5MjgxODA1MSw5MT
 IyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5
 NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLT
 Y2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0
