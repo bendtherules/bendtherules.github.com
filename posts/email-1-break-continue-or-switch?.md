@@ -1,8 +1,6 @@
 
 Welcome back to the second issue. This is that time of the weekend when I try to put on a writer's hat and spend hours looking for that perfect opening Gif 😀.
 
-And guess what's special today? Happy Mother's Day 👩‍👦‍👦!
-
 ![Happy mother's day](https://media.giphy.com/media/xUA7b1YdLklDWnATMQ/giphy.gif)
 <br/><br/>
 
@@ -237,13 +235,13 @@ And I also gave a small talk in yesterday's React meetup on "[React hooks is not
 Thanks. That's all!  
 Enjoy your weekend. Or What's left of it.
 
-![enter image description here](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
+![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcxNTAyNTk2LC0xOTAxNzk3Mzc2LC0xMz
-kyODE4MDUxLDkxMjI3OTgwNSwtNDk2ODA2MzU0LDY1ODM0MDk0
-NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3NjAsMT
-c5Mzg1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2
-MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LD
-E0OTI5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1
-NzY5OTQyXX0=
+eyJoaXN0b3J5IjpbMTI2ODU4MjU3MSwtMTkwMTc5NzM3NiwtMT
+M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
+NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
+E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
+NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
+wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
+NTc2OTk0Ml19
 -->
