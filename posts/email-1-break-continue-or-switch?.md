@@ -9,7 +9,7 @@ This one was kind of soothing!
 
 Now, back to our topic -
 
-We will talk about two separate but interesting things today. We'll start with control flow statements (like break, return), then look at how function and block scopes are maintained internally and wrap it up with a animation I built last week.
+We will talk about two separate but interesting things today. We'll start with control flow statements (like break, return), then look at how function and block scopes are maintained internally and wrap it up with a animation I made last week.
 
 # Control flow statements
 What's common between `continue`, `break`, `return` and `throw`?  They are all control flow statements and internally return a [completion record](https://tc39.es/ecma262/#sec-completion-record-specification-type). 
@@ -241,11 +241,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk5MTAxNzYsLTE5MDE3OTczNzYsLT
-EzOTI4MTgwNTEsOTEyMjc5ODA1LC00OTY4MDYzNTQsNjU4MzQw
-OTQ2LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MC
-wxNzkzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1
-MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNz
-gsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEw
-NDU3Njk5NDJdfQ==
+eyJoaXN0b3J5IjpbMTI2NDY0NTA2NSwtMTkwMTc5NzM3NiwtMT
+M5MjgxODA1MSw5MTIyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5
+NDYsMTYwMTA4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLD
+E3OTM4NTE0MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUz
+NjE2OSwtNjMzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OC
+wxNDkyOTY0MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0
+NTc2OTk0Ml19
 -->
