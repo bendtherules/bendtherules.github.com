@@ -217,13 +217,10 @@ To declare `var foo` -
 2. Then within its `EnvironmentRecord`, add a new mutable binding for `foo` - if it doesn't already exist.
 
 Similarly, to declare `const foo` -
-3. Find `<current execution context>.LexicalEnvironment`
-4. Then within its `EnvironmentRecord`, add a new immutable binding for `foo`.
+1. Find `<current execution context>.LexicalEnvironment`
+2. Then within its `EnvironmentRecord`, add a new immutable binding for `foo`.
 
-🤓 Here is a little animation I built (with Apple motion) to explain it more visually -
-
-[Please give your feedback. It takes me a long to build these, so I am not sure if the animations are worth the effort.]
-
+🤓 Here is a little animation I made (with Apple motion) to explain it more visually -
 
 [![Animation for "How are function and block scopes maintained internally?"](https://media.giphy.com/media/eJd1rdhKx834Emp6kK/giphy.gif)](https://www.youtube.com/watch?v=zVbVhBWceVw)
 (Click the animation to view in youtube)
@@ -243,11 +240,11 @@ Enjoy your weekend. Or What's left of it.
 
 ![weekend is almost finished](https://media.giphy.com/media/MdRt6eC1rhAjdNAvhJ/giphy.gif)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4OTU2ODIsLTE5MDE3OTczNzYsLTEzOT
-I4MTgwNTEsOTEyMjc5ODA1LC00OTY4MDYzNTQsNjU4MzQwOTQ2
-LDE2MDEwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNz
-kzODUxNDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYx
-NjksLTYzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMT
-Q5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3
-Njk5NDJdfQ==
+eyJoaXN0b3J5IjpbNTMxMzc0OTY1LC0xOTAxNzk3Mzc2LC0xMz
+kyODE4MDUxLDkxMjI3OTgwNSwtNDk2ODA2MzU0LDY1ODM0MDk0
+NiwxNjAxMDgzODk0LC0xMTk5MzIwODQ3LC0xNTk2MTI3NjAsMT
+c5Mzg1MTQzNCwtNjYyNjMxNzgzLC02NjI2MzE3ODMsNTg5NTM2
+MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5LC0xOTYxNTUxMTc4LD
+E0OTI5NjQxODAsLTI4NDAzMTY4LC0xMDk0MTM4OTc0LC0xMDQ1
+NzY5OTQyXX0=
 -->
