@@ -108,8 +108,9 @@ for (var i = 1; i <= 5; i++) {
 Now let's talk about the algo. Quick reminder to for loops - in every iteration, if some condition is satisfied then it executes the body and then increments some variable. So, how does for loop handle continue and break?  
  It has a internal variable called `labelset` - which contains the list of labels for this for loop. Now, after for loop executes the body - it looks at its completion record and decides whether to continue with the rest of the loop.  
 
-* If completion record is `normal`, then continue.
-* If completion record is `normal`, then continue.
+* If completion record is `normal` or `continue`, then continue as is.
+* If completion record is `throw`, then stop.
+* If completion record is `break` and its `[[Value]]` is either e, then stop.
 
 ### So, who handles what?
 
@@ -133,11 +134,11 @@ for (var i = 0; i < 5; i++) {
 ```
 This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTkyNTY5OCwtNjYyNjMxNzgzLC02Nj
-I2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMjc2NTI0Njg5
-LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAzMTY4LC0xMD
-k0MTM4OTc0LC0xMDQ1NzY5OTQyLDk2MjUwMTE1OCwxMTM5NDA4
-NDkwLDQ3ODUxMzg0MiwxMzY2MzgwOTEwLDU0ODI2MjU5NiwtMT
-IzNjYzNjQ3MSwxMjEyMjM4MTcxLC0xMDAxMzU4NjkzLC01MzQ1
-NDQ2MzJdfQ==
+eyJoaXN0b3J5IjpbNjQ3MTk5MzE2LC02NjI2MzE3ODMsLTY2Mj
+YzMTc4Myw1ODk1MzYxNjksLTYzMzQ5NDYyMywyNzY1MjQ2ODks
+LTE5NjE1NTExNzgsMTQ5Mjk2NDE4MCwtMjg0MDMxNjgsLTEwOT
+QxMzg5NzQsLTEwNDU3Njk5NDIsOTYyNTAxMTU4LDExMzk0MDg0
+OTAsNDc4NTEzODQyLDEzNjYzODA5MTAsNTQ4MjYyNTk2LC0xMj
+M2NjM2NDcxLDEyMTIyMzgxNzEsLTEwMDEzNTg2OTMsLTUzNDU0
+NDYzMl19
 -->
