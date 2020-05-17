@@ -230,13 +230,13 @@ Similarly, to declare `let foo` -
 It has been one whole month since I sent the last email. So, I just wanted to share some other things I worked on in the meantime.  
 **Did you work on something recently? Hit reply and let me know. I'll be happy to feature them in the next email.**
 
-I made a video on "How to read Ecmascript specification". I showed how to start with basic constructs like if statement, or Object.assign .So, if you would like to read it for yourself, this can help as a hands-on guide.
+I made a video on "How to read Ecmascript specification". I showed how to read basic constructs like if statement, Object.assign and how to find what you are looking for (in the spec). So, if you would like to read it for yourself, this can help as a hands-on guide.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTgwNjE1MzksLTEzOTI4MTgwNTEsOT
-EyMjc5ODA1LC00OTY4MDYzNTQsNjU4MzQwOTQ2LDE2MDEwODM4
-OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0LC
-02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLTYzMzQ5
-NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4MC
-wtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOTYy
-NTAxMTU4XX0=
+eyJoaXN0b3J5IjpbMTQxMjY1NDEzOCwtMTM5MjgxODA1MSw5MT
+IyNzk4MDUsLTQ5NjgwNjM1NCw2NTgzNDA5NDYsMTYwMTA4Mzg5
+NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0MzQsLT
+Y2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNjMzNDk0
+NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0MTgwLC
+0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Miw5NjI1
+MDExNThdfQ==
 -->
