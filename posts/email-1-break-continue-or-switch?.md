@@ -177,7 +177,8 @@ So, what we think of as scope is formally called a `Environment`. It stores mult
 Now, Environment can be of multiple types - like `DeclarationEnvironment`, `ObjectEnvironment` and `GlobalEnvironment`.  
 What we deal with mostly is `DeclarationEnvironment`.
 
-
+## About execution context
+Execution context has two properties - `VariableEnvironment` and `LexicalEnvironment` which always point to the closest function scope and block scope respectively. This is carefully maintained by the algorithm for each construct
 
 
 
@@ -185,11 +186,11 @@ What we deal with mostly is `DeclarationEnvironment`.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NDI1ODAsNjU4MzQwOTQ2LDE2MDEwOD
-M4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUxNDM0
-LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLTYzMz
-Q5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2NDE4
-MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5NDIsOT
-YyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYzODA5
-MTBdfQ==
+eyJoaXN0b3J5IjpbMjAyNDk1ODI0Myw2NTgzNDA5NDYsMTYwMT
+A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
+MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
+MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
+MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
+w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
+MDkxMF19
 -->
