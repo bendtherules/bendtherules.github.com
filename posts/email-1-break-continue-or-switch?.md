@@ -132,9 +132,9 @@ Just to repeat, for `continue;`- First, the loop body skips the rest of the stat
 | break           | switch-case, Iteration (matching label) |
 | throw           | try/catch  |
 
-(*Iteration statements = for, for-in, for-of, for-await-of, while, do-while.
+(Iteration statements = for, for-in, for-of, for-await-of, while, do-while)
 
-Also, continue and break statements are not valid across function boundaries. So, you can't write -
+💛 Also, continue and break statements are not valid across function boundaries. So, you can't write -
 ```js
 function test() {
   break;
@@ -143,12 +143,12 @@ for (var i = 0; i < 5; i++) {
   test();
 }
 ```
-This will give syntax error. It is one of the early errors described in the static semantics (i.e. something the engine should check statically before running your code).
+This will give syntax error. It is one of the errors described in static semantics of for loop (i.e. something the engine should check statically before running your code).
 
 # Switch case statements
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTE0MTE5NCwxNjAxMDgzODk0LC0xMT
+eyJoaXN0b3J5IjpbLTM2NjI4NTgyMSwxNjAxMDgzODk0LC0xMT
 k5MzIwODQ3LC0xNTk2MTI3NjAsMTc5Mzg1MTQzNCwtNjYyNjMx
 NzgzLC02NjI2MzE3ODMsNTg5NTM2MTY5LC02MzM0OTQ2MjMsMj
 c2NTI0Njg5LC0xOTYxNTUxMTc4LDE0OTI5NjQxODAsLTI4NDAz
