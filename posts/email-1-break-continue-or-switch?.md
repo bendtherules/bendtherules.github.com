@@ -147,15 +147,17 @@ for (var i = 0; i < 5; i++) {
 
 We mentioned earlier that you can also write `break` inside switch case statements. So, naturally it's also worth taking a look at how it works internally.
 
-# What happens when you declare var foo? 
+# What happens when you declare `var foo`? 
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzY1OTM0Myw2NTgzNDA5NDYsMTYwMT
-A4Mzg5NCwtMTE5OTMyMDg0NywtMTU5NjEyNzYwLDE3OTM4NTE0
-MzQsLTY2MjYzMTc4MywtNjYyNjMxNzgzLDU4OTUzNjE2OSwtNj
-MzNDk0NjIzLDI3NjUyNDY4OSwtMTk2MTU1MTE3OCwxNDkyOTY0
-MTgwLC0yODQwMzE2OCwtMTA5NDEzODk3NCwtMTA0NTc2OTk0Mi
-w5NjI1MDExNTgsMTEzOTQwODQ5MCw0Nzg1MTM4NDIsMTM2NjM4
-MDkxMF19
+eyJoaXN0b3J5IjpbLTE2MzQzMTM2NTcsNjU4MzQwOTQ2LDE2MD
+EwODM4OTQsLTExOTkzMjA4NDcsLTE1OTYxMjc2MCwxNzkzODUx
+NDM0LC02NjI2MzE3ODMsLTY2MjYzMTc4Myw1ODk1MzYxNjksLT
+YzMzQ5NDYyMywyNzY1MjQ2ODksLTE5NjE1NTExNzgsMTQ5Mjk2
+NDE4MCwtMjg0MDMxNjgsLTEwOTQxMzg5NzQsLTEwNDU3Njk5ND
+IsOTYyNTAxMTU4LDExMzk0MDg0OTAsNDc4NTEzODQyLDEzNjYz
+ODA5MTBdfQ==
 -->
