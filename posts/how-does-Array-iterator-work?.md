@@ -1,5 +1,6 @@
 
 
+
 # How does in-built Array iterator work?
 
 We use `[...someArray]` or `array.values()` to get multiple values out of a array.  And we kind of know how it works - basically it gives us all the values from the array.  Internally, both of them uses the iterator protocol which is already defined on arrays.
@@ -44,12 +45,12 @@ In general, it can be `“key”`, `“value”` or `“key+value”`. This allo
 
 Yes, all of them internally use this same iterator mechanism.
 
-## ArrayIterator.next ( )
+## ⭐️ ArrayIterator.next( )
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMD
-QwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5
-MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NT
-ldfQ==
+eyJoaXN0b3J5IjpbLTE3ODAyODU0ODgsLTEzNjE1NzM4NzUsOT
+gyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4
+NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MT
+A0LC00Mzk5OTc4NTldfQ==
 -->
