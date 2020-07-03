@@ -47,10 +47,12 @@ Yes, all of them internally use this same iterator mechanism.
 
 ## ⭐️ ArrayIterator.next( )
 
+Now that we know about the iterator
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODAyODU0ODgsLTEzNjE1NzM4NzUsOT
-gyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4
-NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MT
-A0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbODI1NDEyODk0LC0xMzYxNTczODc1LDk4Mj
+Y0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2
+MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNC
+wtNDM5OTk3ODU5XX0=
 -->
