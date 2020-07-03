@@ -27,14 +27,14 @@ Array has in-built support for iterable/iterator protocol, through prototype. Ar
 
 ArrayIterator internally contains these properties -
 * [[ IteratedArrayLike ]] - which points back to the actual array.  
-(Remember “this” within the ArrayIterator is the iterator object itself, not the actual array. So, it stores a link to the array during creation)
+( Remember, “this” within the ArrayIterator is the iterator object itself, not the actual array. So, it has to store a link to the array during creation )
 
-* [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. Default is 0.  
+* [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. At start, it is 0.  
   
 * [[ ArrayLikeIterationKind ]] - For normal purpose, it is “value”.  
 Can be “key”, “value” or “key+value”. This is what allows reusing the iterator mechanism for array.keys and array.entries - which sets it to “key” and “key+value” mode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNjcyNTkwLC0yMDQwMjE1NTM0LC0xMT
+eyJoaXN0b3J5IjpbNTM1Njk1OTYxLC0yMDQwMjE1NTM0LC0xMT
 I2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1
 NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
 -->
