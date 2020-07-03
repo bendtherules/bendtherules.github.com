@@ -49,12 +49,15 @@ Yes, all of them internally use this same iterator mechanism.
 
 Now that we have the in-built array iterator, the most important thing is how `iter.next()` will spit out the array values. Let's look at how that works, in details -
 
-( `arr` = [[IteratedArrayLike]], `index` = [[ArrayLikeNextIndex]], `kind` =  [[ArrayLikeIterationKind]])
+(  Say, `arr` = [[IteratedArrayLike]], `index` = [[ArrayLikeNextIndex]], `kind` =  [[ArrayLikeIterationKind]] )
+
+0. If `arr` is `undefined`, return `{value: undefined, done: false}`  
+(This is a special step - explained in 2.a.)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTkxMjY0MiwtMTM2MTU3Mzg3NSw5OD
-I2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2
-NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMD
-QsLTQzOTk5Nzg1OV19
+eyJoaXN0b3J5IjpbMTk5OTYxMDE1LC0xMzYxNTczODc1LDk4Mj
+Y0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2
+MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNC
+wtNDM5OTk3ODU5XX0=
 -->
