@@ -51,13 +51,24 @@ Now that we have the in-built array iterator, the most important thing is how `i
 
 (  Say, `arr` = [[IteratedArrayLike]], `index` = [[ArrayLikeNextIndex]], `kind` =  [[ArrayLikeIterationKind]] )
 
-0. If `arr` is `undefined`, return `{value: undefined, done: false}`  
-(This is a special step - explained in 2.a.)
+0. If `arr` is `undefined`, return `{value: undefined, done: true}`  
+(This is a special step, caused by step 2.a.)
+
+1. If index < arr.length, ( i.e. while values are available)  
+a. set key = index  
+b. If kind is “key”, return `{value: key, done: false}`  
+(incase of [arr.keys](http://arr.keys/)(), just return the key)  
+c. Set value = arr[index]  
+d. If kind is “value”, return `{value: value, done: false}`  
+e. If kind is “key+value”, return `{value: [key, value], done: false}`  
+(for [arr.entries](http://arr.entries/)(), return both key, value)  
+f. Set [[ArrayLikeNextIndex]] = index + 1  
+(⭐️ Always increments key to next index and uses that to get value irrespective of holes)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTYxMDE1LC0xMzYxNTczODc1LDk4Mj
-Y0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2
-MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNC
-wtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTE4MTM3NDgxODQsLTEzNjE1NzM4NzUsOT
+gyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4
+NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MT
+A0LC00Mzk5OTc4NTldfQ==
 -->
