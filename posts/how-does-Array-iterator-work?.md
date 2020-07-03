@@ -45,13 +45,13 @@ In general, it can be `“key”`, `“value”` or `“key+value”`. This allo
 
 Yes, all of them internally use this same iterator mechanism.
 
-## ⭐️ ArrayIterator.next( )
+## ⭐️ Array Iterator.next( )
 
-Now that we know about the iterator
+Now that we know how to create the in-built array iterator, the most important
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NDEyODk0LC0xMzYxNTczODc1LDk4Mj
+eyJoaXN0b3J5IjpbMTU1ODM4MjQ1LC0xMzYxNTczODc1LDk4Mj
 Y0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2
 MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNC
 wtNDM5OTk3ODU5XX0=
