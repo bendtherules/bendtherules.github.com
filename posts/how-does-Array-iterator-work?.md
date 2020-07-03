@@ -19,14 +19,16 @@ When we use spread operator, like `[...someArray]` - it treats someArray as a ge
 This is how the iterable/iterator stuff works.  
 In this case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one.
 
-### On arrays
+Normally, you have to support this protocol by writing code for these methods, but Array already has definition for these.  
 
-Normally, you have to support this protocol by writing code for these methods, but Array already has in-built definition for these.  
-Array.prototype has this property `Symbol.iterator`, which creates a ArrayIterator. ArrayIterator internally contains these properties -
+## On arrays
 
-* 
+Array has in-Array.prototype has this method on `Symbol.iterator`, which when called creates a ArrayIterator. ArrayIterator internally contains these properties -
+
+* [[ IteratedArrayLike ]] - which points back to the actual array.  
+(Remember “this” within the iterator is the iterator object itself, not the actually array. So, it stores this link during creation)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjMzODg0MSwtMjA0MDIxNTUzNCwtMT
-EyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2
-NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTE1NDMxMjY2NDcsLTIwNDAyMTU1MzQsLT
+ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
+NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV19
 -->
