@@ -23,7 +23,7 @@ Normally, you have to support this protocol by writing code for these methods, b
 
 ## On arrays
 
-Array has in-built support for iterable/iterator protocol, through prototype. Array.prototype has this method on `Symbol.iterator`, which creates a ArrayIterator. 
+Array has in-built support for iterable/iterator protocol, through prototype. Array.prototype has this method with key `Symbol.iterator`, which creates a ArrayIterator. 
 
 ArrayIterator internally contains these properties -
 * [[ IteratedArrayLike ]] - which points back to the actual array.  
@@ -41,7 +41,7 @@ In general, it can be “key”, “value” or “key+value”. This is what al
 | `arr.values()`  | "value"     |
 | `arr.entries()` | "key+value" |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNzY2Njc4NiwtMjA0MDIxNTUzNCwtMT
-EyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2
-NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMT
+I2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1
+NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
 -->
