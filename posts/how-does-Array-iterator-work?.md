@@ -19,11 +19,13 @@ When we use spread operator, like `[...someArray]` - it treats someArray as a ge
 This is how the iterable/iterator stuff works.  
 In this case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one.
 
+Normally, you have to support this protocol by adding these methods on a 
+
 ### On arrays
 
-Array has in-built support for this iterable protocol. Array.prototype 
+Array has in-built support for this iterable protocol. Array.prototype has this property `Symbol.iterator`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMzE0MzY2LC0yMDQwMjE1NTM0LC0xMT
-I2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1
-NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMjA3ODg3ODgxNSwtMjA0MDIxNTUzNCwtMT
+EyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2
+NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
 -->
