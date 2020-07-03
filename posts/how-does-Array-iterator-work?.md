@@ -44,10 +44,12 @@ In general, it can be `“key”`, `“value”` or `“key+value”`. This allo
 
 Yes, all of them internally use this same iterator mechanism.
 
+## ArrayIterator.next ( )
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTk1MDQ3Miw5ODI2NDg5MDAsLTIwND
-AyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkz
-MDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV
-19
+eyJoaXN0b3J5IjpbLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMD
+QwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5
+MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NT
+ldfQ==
 -->
