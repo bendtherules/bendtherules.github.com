@@ -29,12 +29,12 @@ ArrayIterator internally contains these properties -
 * [[ IteratedArrayLike ]] - which points back to the actual array.  
 ( Remember, “this” within the ArrayIterator is the iterator object itself, not the actual array. So, it has to store a link to the array during creation )
 
-* [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. At start, it is 0.  
+* [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. Default is 0.  
   
-* [[ ArrayLikeIterationKind ]] - For normal purpose, it is “value”.  
-Can be “key”, “value” or “key+value”. This is what allows reusing the iterator mechanism for array.keys and array.entries - which sets it to “key” and “key+value” mode.
+* [[ ArrayLikeIterationKind ]] - For normal purpose (like incase of `...someArray`), it is “value”.  
+In general, ian be “key”, “value” or “key+value”. This is what allows reusing the iterator mechanism for array.keys and array.entries - which sets it to “key” and “key+value” mode.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1Njk1OTYxLC0yMDQwMjE1NTM0LC0xMT
-I2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1
-NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbLTIxMDE1MjA1NDIsLTIwNDAyMTU1MzQsLT
+ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
+NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV19
 -->
