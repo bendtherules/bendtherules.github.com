@@ -47,12 +47,12 @@ Yes, all of them internally use this same iterator mechanism.
 
 ## ⭐️ Array Iterator.next( )
 
-Now that we know how to create the in-built array iterator, the most important thing is how spits out array values when `iter.next()` is called
+Now that have the in-built array iterator, the most important thing is how `iter.next()` will spit out the array values.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjY5MzcwNCwtMTM2MTU3Mzg3NSw5OD
-I2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2
-NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMD
-QsLTQzOTk5Nzg1OV19
+eyJoaXN0b3J5IjpbLTE5MzMxMzU2MDEsLTEzNjE1NzM4NzUsOT
+gyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4
+NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MT
+A0LC00Mzk5OTc4NTldfQ==
 -->
