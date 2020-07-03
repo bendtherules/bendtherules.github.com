@@ -7,9 +7,11 @@ But do we really know the details of how in-built Array iterator works? Can you 
 ## A little about the iterator protocol
 
 When we use spread operator, like `[...someArray]` - it treats someArray as a general iterable, not specifically as an array.  
-It tries to get a iterator from the iterable, using `iter = someArray[Symbol.iterator]()`. Then it consumes all the values from the iterable by calling `iter.next()` repeatedly. `.next()` returns response in this structure 
+1. It tries to get a iterator from the iterable, using `iter = someArray[Symbol.iterator]()`. 
+2. Then it consumes all the values from the iterable by calling `iter.next()` repeatedly. 
+3. This method `.next()` returns response in this structure `{value: "something", done: true|false}`.  While values are available, it returns `d`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NjIyMzkzOSwtODUxODY2MjUsLTE1MT
-U5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3
-ODU5XX0=
+eyJoaXN0b3J5IjpbMjY1NDIwNDc4LC04NTE4NjYyNSwtMTUxNT
+k5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4
+NTldfQ==
 -->
