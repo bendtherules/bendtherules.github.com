@@ -33,8 +33,15 @@ ArrayIterator internally contains these properties -
   
 * [[ ArrayLikeIterationKind ]] - For normal purpose (like incase of `...someArray`), it is “value”.  
 In general, it can be “key”, “value” or “key+value”. This is what allows reusing the same iterator mechanism for array.keys(), .values() and .entries().
+
+| syntax        | kind        |
+|---------------|-------------|
+| `...arr`        | "value"     |
+| `arr.keys()`    | "key"       |
+| `arr.values()`  | "value"     |
+| `arr.entries()` | "key+value" |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE5MDIzOTAsLTIwNDAyMTU1MzQsLT
-ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
-NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV19
+eyJoaXN0b3J5IjpbLTQyNzY2Njc4NiwtMjA0MDIxNTUzNCwtMT
+EyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2
+NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
 -->
