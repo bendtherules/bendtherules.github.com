@@ -54,10 +54,10 @@ Now that we have the in-built array iterator, the most important thing is how `i
 0. If `arr` is `undefined`, return `{value: undefined, done: true}`  
 (This is a special step, caused by step 2.a.)
 
-1. If index < arr.length, ( i.e. while values are available)  
-a. set key = index  
-b. If kind is “key”, return `{value: key, done: false}`  
-(incase of [arr.keys](http://arr.keys/)(), just return the key)  
+1. If index < arr.length, ( i.e. while values are available)   
+	a. set `key` = `index`  
+	b. If `kind` is `“key”`, return `{value: key, done: false}`  
+(incase of arr.keys(), just return the key)  
 c. Set value = arr[index]  
 d. If kind is “value”, return `{value: value, done: false}`  
 e. If kind is “key+value”, return `{value: [key, value], done: false}`  
@@ -67,8 +67,8 @@ f. Set [[ArrayLikeNextIndex]] = index + 1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3NDgxODQsLTEzNjE1NzM4NzUsOT
-gyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4
-NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MT
-A0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NSw5OD
+I2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2
+NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMD
+QsLTQzOTk5Nzg1OV19
 -->
