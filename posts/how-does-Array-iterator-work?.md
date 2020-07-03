@@ -47,12 +47,14 @@ Yes, all of them internally use this same iterator mechanism.
 
 ## ⭐️ Array Iterator.next( )
 
-Now that have the in-built array iterator, the most important thing is how `iter.next()` will spit out the array values.
+Now that we have the in-built array iterator, the most important thing is how `iter.next()` will spit out the array values. Let's look at how that works, in details -
+
+( `arr` = [[IteratedArrayLike]], `index` = [[ArrayLikeNextIndex]], `kind` =  [[ArrayLikeIterationKind]])
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzMxMzU2MDEsLTEzNjE1NzM4NzUsOT
-gyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4
-NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MT
-A0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMTIyOTkxMjY0MiwtMTM2MTU3Mzg3NSw5OD
+I2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2
+NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMD
+QsLTQzOTk5Nzg1OV19
 -->
