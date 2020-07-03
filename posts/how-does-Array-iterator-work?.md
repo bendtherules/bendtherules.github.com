@@ -1,4 +1,5 @@
 
+
 # How does in-built Array iterator work?
 
 We use `[...someArray]` or `array.values()` to get multiple values out of a array.  And we kind of know how it works - basically it gives us all the values from the array.  Internally, both of them uses the iterator protocol which is already defined on arrays.
@@ -29,19 +30,20 @@ ArrayIterator internally contains these properties -
 * [[ IteratedArrayLike ]] - which points back to the actual array.  
 ( Remember, “this” within the ArrayIterator is the iterator object itself, not the actual array. So, it has to store a link to the array during creation )
 
-* [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. Default is 0.  
+* [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. Default is `0`.  
   
-* [[ ArrayLikeIterationKind ]] - For normal purpose (like incase of `...someArray`), it is “value”.  
-In general, it can be “key”, “value” or “key+value”. This is what allows reusing the same iterator mechanism for array.keys(), .values() and .entries().
+* [[ ArrayLikeIterationKind ]] - For normal purpose, it is `“value”`.  
+In general, it can be `“key”`, `“value”` or `“key+value”`. This allows reuse of the same iterator mechanism for array.keys(), .values() and .entries().
 
-| syntax        | kind        |
-|---------------|-------------|
+| syntax          | kind        |
+|---------------  |-------------|
 | `...arr`        | "value"     |
 | `arr.keys()`    | "key"       |
 | `arr.values()`  | "value"     |
 | `arr.entries()` | "key+value" |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMT
-I2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1
-NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMTgzNDg3NzczNSw5ODI2NDg5MDAsLTIwND
+AyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkz
+MDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV
+19
 -->
