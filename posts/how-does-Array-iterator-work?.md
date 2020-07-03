@@ -41,9 +41,13 @@ In general, it can be `“key”`, `“value”` or `“key+value”`. This allo
 | `arr.keys()`    | "key"       |
 | `arr.values()`  | "value"     |
 | `arr.entries()` | "key+value" |
+
+Yes, all of them internally use this same iterator mechanism.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDkxMTQzLDk4MjY0ODkwMCwtMjA0MD
-IxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMw
-ODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX
-0=
+eyJoaXN0b3J5IjpbLTMwNTk1MDQ3Miw5ODI2NDg5MDAsLTIwND
+AyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkz
+MDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV
+19
 -->
