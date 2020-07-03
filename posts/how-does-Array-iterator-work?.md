@@ -6,7 +6,8 @@ But do we really know the details of how in-built Array iterator works? Can you 
 
 ## A little about the iterator protocol
 
-When we write, 
+When we use spread operator, like `[…someArray]`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTY4NDgwNDk2OSwxMDM2MDk3MTA0LC00Mz
+k5OTc4NTldfQ==
 -->
