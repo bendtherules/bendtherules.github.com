@@ -36,14 +36,14 @@ ArrayIterator internally contains these properties -
 In general, it can be `“key”`, `“value”` or `“key+value”`. This allows reuse of the same iterator mechanism for array.keys(), .values() and .entries().
 
 | syntax          | kind        |
-|---------------  |-------------|
+|-----------------|-------------|
 | `...arr`        | "value"     |
 | `arr.keys()`    | "key"       |
 | `arr.values()`  | "value"     |
 | `arr.entries()` | "key+value" |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDg3NzczNSw5ODI2NDg5MDAsLTIwND
-AyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkz
-MDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV
-19
+eyJoaXN0b3J5IjpbMTcxMDkxMTQzLDk4MjY0ODkwMCwtMjA0MD
+IxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMw
+ODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX
+0=
 -->
