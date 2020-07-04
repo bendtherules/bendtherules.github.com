@@ -64,15 +64,16 @@ Now that we have the in-built array iterator, the most important thing is how `i
 	
 	d. If kind is “value”, return `{value: value, done: false}`  
 	e. If kind is “key+value”, return `{value: [key, value], done: false}`  
-	(for [arr.entries](http://arr.entries/)(), return array of key, value)  
+	(for arr.entries(), return array of key, value)  
 	
 	f. Set [[ArrayLikeNextIndex]] = index + 1  
 	(⭐️ Always increments key to next index and uses that to get value irrespective of holes)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjk2OTMwOSwxODQzNjEzMjk5LC0xMz
-YxNTczODc1LDk4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUx
-ODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMD
-QsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4ND
+M2MTMyOTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1
+NTM0LC0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MS
+wtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
+
 -->
