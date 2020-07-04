@@ -57,7 +57,7 @@ Now that we have the in-built array iterator, the most important thing is how `i
 1. If index < arr.length, ( i.e. while values are available)   
 	a. set `key` = `index`  
 	b. If `kind` is `“key”`, return `{value: key, done: false}`  
-(incase of arr.keys(), just return the key)  
+	(incase of arr.keys(), just return the key)  
 c. Set value = arr[index]  
 d. If kind is “value”, return `{value: value, done: false}`  
 e. If kind is “key+value”, return `{value: [key, value], done: false}`  
@@ -67,8 +67,8 @@ f. Set [[ArrayLikeNextIndex]] = index + 1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NSw5OD
-I2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1MTg2
-NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOTcxMD
-QsLTQzOTk5Nzg1OV19
+eyJoaXN0b3J5IjpbMjAzNjYyODI5OSwxODQzNjEzMjk5LC0xMz
+YxNTczODc1LDk4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUx
+ODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMD
+QsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
 -->
