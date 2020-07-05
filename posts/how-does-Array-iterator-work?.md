@@ -67,13 +67,13 @@ Now that we have the in-built array iterator, the most important thing is how `i
 	(for arr.entries(), return array of [key, value])  
 	
 	f. Set [[ArrayLikeNextIndex]] = index + 1  
-	(⭐️ Always increments key to next index and uses that to get value irrespective of holes)
+	(⭐️ Always increments key to next index. This sequential index is used to get value irrespective of holes (whether that index exists or not))
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDkwMjAyNTgsMTY3MDk4NzI4NiwxND
-E2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4NzUsOTgyNjQ4
-OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4NjYyNS
-wtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00
-Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMjA5MjEzMzgxLDE2NzA5ODcyODYsMTQxNj
+k2OTMwOSwxODQzNjEzMjk5LC0xMzYxNTczODc1LDk4MjY0ODkw
+MCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2MjUsLT
+E1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNCwtNDM5
+OTk3ODU5XX0=
 -->
