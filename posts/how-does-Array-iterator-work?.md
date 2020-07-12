@@ -92,17 +92,18 @@ foo.hasOwnProperty(1); // false
 bar.hasOwnProperty(1); // true
 
 // ✅ Object.keys
-// ⚠️ same for array.keys()
+Object.keys(foo) // 0, 2, 3
+// ⚠️ array.keys() - returns the empty indexes
 foo.keys(); // 0, 1, 2, 3
 ```
 
 3. Array iterator will never return more values after it has finished once - even if the array has more values now. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzI0Mjg1MjIsLTE5MjkyNDA4NTgsLT
-E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
-NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
-UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
-NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MD
-k3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMTI0MDQ5MDE0MCwtMTkyOTI0MDg1OCwtMT
+g5NjEyNjQ3MywtNTk3MDc3NTk3LDg3NTg4MTI0NCwxNjcwOTg3
+Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NS
+w5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1
+MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOT
+cxMDQsLTQzOTk5Nzg1OV19
 -->
