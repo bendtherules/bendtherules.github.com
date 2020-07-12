@@ -51,7 +51,7 @@ Now that we have the in-built array iterator, the most important thing is knowin
 (  Say, `arr` = [[IteratedArrayLike]], `index` = [[ArrayLikeNextIndex]], `kind` =  [[ArrayLikeIterationKind]] )
 
 0. If `arr` is `undefined`, return `{value: undefined, done: true}`  
-(This is a special step, caused by step 2.a. It will reach here if you call `.next()` event after generator has finished.)
+(This is a special step, caused by step 2.a. It will reach here if you call `.next()` even after iterator has finished.)
 
 1. If `index < arr.length`, ( i.e. while values are available)   
 	a. set `key` = `index`  
@@ -83,9 +83,10 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4Nz
-U4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMy
-OTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC
-0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5
-NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbLTE5MjkyNDA4NTgsLTE4OTYxMjY0NzMsLT
+U5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5
+MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC
+0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUx
+NTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OT
+c4NTldfQ==
 -->
