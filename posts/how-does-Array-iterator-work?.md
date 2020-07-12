@@ -22,7 +22,7 @@ This is how the iterable/iterator stuff works.
 
 In our case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one.
 
-## On arrays
+## Array 
 
 Array has in-built support for iterable/iterator protocol, through prototype. Array.prototype has a method with key `Symbol.iterator`, which creates a ArrayIterator. 
 
@@ -119,10 +119,11 @@ iter.next() // {value: undefined, done: true}
 
 That's all. [Follow me on LinkedIn](https://www.linkedin.com/in/bendtherules) for more updates.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM4NTY0MzEsNDE4OTUyMDY1LC0xOT
-I5MjQwODU4LC0xODk2MTI2NDczLC01OTcwNzc1OTcsODc1ODgx
-MjQ0LDE2NzA5ODcyODYsMTQxNjk2OTMwOSwxODQzNjEzMjk5LC
-0xMzYxNTczODc1LDk4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMTEy
-NjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2NT
-QzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTM4NDEyODM3OSwtMTMwMzg1NjQzMSw0MT
+g5NTIwNjUsLTE5MjkyNDA4NTgsLTE4OTYxMjY0NzMsLTU5NzA3
+NzU5Nyw4NzU4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LD
+E4NDM2MTMyOTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQw
+MjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5Mz
+A4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTld
+fQ==
 -->
