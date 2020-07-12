@@ -98,8 +98,25 @@ foo.keys(); // 0, 1, 2, 3
 
 2. Array iterator will never return more values after it has finished once - even if the array has more values now. [⭐️2️⃣ above](#note-2)
 
+```js
+arr = [10]
+iter = arr[Symbol.iterator]()
+
+iter.next() // 10 - this was the last v
+
+// modify array
+arr.push(20)
+// ⭐️ uses updated length, since iterator is not finished
+iter.next() // {value: 20, done: false}
+
+iter.next() // end of iterator
+arr.push(30)
+// ⭐️ doesn't use updated length
+iter.next() // {value: undefined, done: true}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYxOTE5NzcsLTE5MjkyNDA4NTgsLT
+eyJoaXN0b3J5IjpbLTEwOTgzMTQ1NDcsLTE5MjkyNDA4NTgsLT
 E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
 NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
 UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
