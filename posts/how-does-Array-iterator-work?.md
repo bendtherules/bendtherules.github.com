@@ -73,7 +73,7 @@ Now that we have the in-built array iterator, the most important thing is knowin
 
 	a. Set `[[IteratedArrayLike]]` = `undefined`.
 	(<span id="note-2">⭐️2️⃣</span> Yes, once it reaches the end - it sets linked array to undefined. This is to ensure the once the iterator has finished, it will never return any more value. This undefined array is handled in step 0.  
-	If this was not done, then array length could have increased before next call and then it would again return new values after saying `done:true` earlier.)
+	If this was not done and if array length was increased before next call, then it would again return new values after saying `done:true` earlier.)
 
 	b. Return `{value: undefined, done: false}`
 
@@ -84,10 +84,10 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array has more values now. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA5OTEzNTIsLTE5MjkyNDA4NTgsLT
-E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
-NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
-UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
-NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MD
-k3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbNzAyNzczNjM4LC0xOTI5MjQwODU4LC0xOD
+k2MTI2NDczLC01OTcwNzc1OTcsODc1ODgxMjQ0LDE2NzA5ODcy
+ODYsMTQxNjk2OTMwOSwxODQzNjEzMjk5LC0xMzYxNTczODc1LD
+k4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUx
+ODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5Nz
+EwNCwtNDM5OTk3ODU5XX0=
 -->
