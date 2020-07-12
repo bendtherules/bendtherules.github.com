@@ -27,7 +27,7 @@ In our case, Iterable is `someArray` - which has a special property `Symbol.iter
 Array has in-built support for iterable/iterator protocol, through prototype. Array.prototype has a method with key `Symbol.iterator`, which creates a ArrayIterator. 
 
 ArrayIterator internally contains these properties -
-* [[IteratedArrayLike ]] - which points back to the actual array.  
+* [[ IteratedArrayLike ]] - which points back to the actual array.  
 ( Remember, “this” within the ArrayIterator is the iterator object itself, not the actual array. So, it has to store a link to the array during creation )
 
 * [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. Default is `0`.  
@@ -83,10 +83,10 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MzU3NTA4LC0xOTI5MjQwODU4LC0xOD
-k2MTI2NDczLC01OTcwNzc1OTcsODc1ODgxMjQ0LDE2NzA5ODcy
-ODYsMTQxNjk2OTMwOSwxODQzNjEzMjk5LC0xMzYxNTczODc1LD
-k4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUx
-ODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5Nz
-EwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTEyNTM5NDY5MDYsLTE5MjkyNDA4NTgsLT
+E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
+NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
+UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
+NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MD
+k3MTA0LC00Mzk5OTc4NTldfQ==
 -->
