@@ -3,7 +3,7 @@
 
 # How does in-built Array iterator work?
 
-We use `[...someArray]` or `array.values()` to get multiple values out of a array.  And we kind of know how it works - it just returns us all the values from the array.  Internally, both of them uses the iterator protocol, which is already defined on array prototype.
+We use `[...someArray]` or `array.values()` to get multiple values out of a array.  And we kind of know how it works - it just returns us all the values from the array.  Internally, both of them uses the iterator protocol - which is already defined on array prototype.
 
 But do we really know the details of how in-built Array iterator works? Can you write a precise polyfill to implement iterator protocol on Array?
 
@@ -16,7 +16,7 @@ When we use spread operator, like `[...someArray]` - it treats someArray as a ge
 2. Then it consumes all the values from the iterable by calling `iter.next()` repeatedly.  
     This method `.next()` returns response in this structure `{value: "something", done: true|false}`.
     
-3. While values are available, it returns `done: true`; after all values are finished, it returns `done: false`. That is when the consumer (i.e. spread operator) stops asking for more values.
+3. While values are available, it returns `done: true`; after all values are finished, it returns `done: false`. After this, the consumer (i.e. spread operator) should stop asking for more values.
 
 This is how the iterable/iterator stuff works.  
 In this case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one.
@@ -84,9 +84,9 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDIwMjE3NTQsLTU5NzA3NzU5Nyw4Nz
-U4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMy
-OTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC
-0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5
-NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMTA3NTg3Mzk3NiwtNTk3MDc3NTk3LDg3NT
+g4MTI0NCwxNjcwOTg3Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5
+OSwtMTM2MTU3Mzg3NSw5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLT
+ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
+NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV19
 -->
