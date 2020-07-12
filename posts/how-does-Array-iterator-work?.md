@@ -47,7 +47,7 @@ Yes, all of them internally use this same iterator mechanism.
 
 ## ⭐️ Array Iterator.next( )
 
-Now that we have the in-built array iterator, the most important thing is how `iter.next()` will spit out the array values. Let's look at how that works, in details -
+Now that we have the in-built array iterator, the most important thing is knowing how `iter.next()` will return the array values one-by-one. Let's look at how that works, in details -
 
 (  Say, `arr` = [[IteratedArrayLike]], `index` = [[ArrayLikeNextIndex]], `kind` =  [[ArrayLikeIterationKind]] )
 
@@ -70,13 +70,15 @@ Now that we have the in-built array iterator, the most important thing is how `i
 	(⭐️ Always increments key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not))
 
 2. Else, (i.e. when `index >= arr.length` - reached end of array)
-	a. Set [[IteratedArrayLike]] = undefined.
+
+	a. Set `[[IteratedArrayLike]]` = `undefined`.
 	(⭐️ Yes, once it reaches the end - it sets linked array to undefined. This is to ensure the once the iterator has returned `done: true`, it never returns anymore value. If this was not done, then array length could have increased before next call and then it would again return new values after saying `done:true` earlier. This undefined array is handled in step 0. )
-	b.   b. Return `{value: undefined, done: false}`
+
+	b. Return `{value: undefined, done: false}`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMyMTA5MTUsLTU5NzA3NzU5Nyw4Nz
+eyJoaXN0b3J5IjpbLTE1OTQzMDI1NjMsLTU5NzA3NzU5Nyw4Nz
 U4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMy
 OTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC
 0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5
