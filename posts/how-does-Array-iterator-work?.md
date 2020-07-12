@@ -70,11 +70,12 @@ Now that we have the in-built array iterator, the most important thing is how `i
 	(⭐️ Always increments key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not))
 
 2. Else, (i.e. when `index >= arr.length` - reached end of array)
-3. 
+	a. Set [[IteratedArrayLike]] = undefined.
+	(Yes, once it reaches the end - it sets linked array to undefined. This is to ensurThis undefined array is handled in step 0 )
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzU0NTg2MCwtNTk3MDc3NTk3LDg3NT
+eyJoaXN0b3J5IjpbMTA5NjM3Mjk2NCwtNTk3MDc3NTk3LDg3NT
 g4MTI0NCwxNjcwOTg3Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5
 OSwtMTM2MTU3Mzg3NSw5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLT
 ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
