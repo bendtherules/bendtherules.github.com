@@ -54,7 +54,7 @@ Now that we have the in-built array iterator, the most important thing is how `i
 0. If `arr` is `undefined`, return `{value: undefined, done: true}`  
 (This is a special step, caused by step 2.a.)
 
-1. If index < arr.length, ( i.e. while values are available)   
+1. If `index < arr.length`, ( i.e. while values are available)   
 	a. set `key` = `index`  
 	
 	b. If `kind` is `“key”`, return `{value: key, done: false}`  
@@ -69,13 +69,14 @@ Now that we have the in-built array iterator, the most important thing is how `i
 	f. Set [[ArrayLikeNextIndex]] = index + 1  
 	(⭐️ Always increments key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not))
 
-2. Else (i.e. index >= arr.length - a),
+2. Else, (i.e. when `index >= arr.length` - reached end of array)
+3. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAxOTk0ODUsLTU5NzA3NzU5Nyw4Nz
-U4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMy
-OTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC
-0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5
-NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMTYxNzU0NTg2MCwtNTk3MDc3NTk3LDg3NT
+g4MTI0NCwxNjcwOTg3Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5
+OSwtMTM2MTU3Mzg3NSw5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLT
+ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
+NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV19
 -->
