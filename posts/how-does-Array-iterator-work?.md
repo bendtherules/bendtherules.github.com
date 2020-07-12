@@ -80,13 +80,13 @@ Now that we have the in-built array iterator, the most important thing is knowin
 
 1. `[...arr]` converts sparse array to dense array. [⭐️1️⃣ above](#note-1)
 
-2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
+2. Array iterator will never return more values after it has finished once - even if more array has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTMxNjY5OCwtMTkyOTI0MDg1OCwtMT
-g5NjEyNjQ3MywtNTk3MDc3NTk3LDg3NTg4MTI0NCwxNjcwOTg3
-Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NS
-w5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1
-MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOT
-cxMDQsLTQzOTk5Nzg1OV19
+eyJoaXN0b3J5IjpbLTEzNDIyOTAyNTYsLTE5MjkyNDA4NTgsLT
+E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
+NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
+UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
+NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MD
+k3MTA0LC00Mzk5OTc4NTldfQ==
 -->
