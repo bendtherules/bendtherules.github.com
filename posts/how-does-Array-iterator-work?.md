@@ -88,21 +88,21 @@ bar = [...foo]; // [10, undefined, 30, 40]
 
 // ✅ sparse array
 foo.hasOwnProperty(1); // false       
-
 // ⚠️ dense array
 bar.hasOwnProperty(1); // true
 
-// same for array.keys()
+// ✅ Object.keys
+// ⚠️ same for array.keys()
 foo.keys(); // 0, 1, 2, 3
 ```
 
 3. Array iterator will never return more values after it has finished once - even if the array has more values now. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODM5NTMzMywtMTkyOTI0MDg1OCwtMT
-g5NjEyNjQ3MywtNTk3MDc3NTk3LDg3NTg4MTI0NCwxNjcwOTg3
-Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NS
-w5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1
-MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOT
-cxMDQsLTQzOTk5Nzg1OV19
+eyJoaXN0b3J5IjpbLTE1MzI0Mjg1MjIsLTE5MjkyNDA4NTgsLT
+E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
+NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
+UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
+NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MD
+k3MTA0LC00Mzk5OTc4NTldfQ==
 -->
