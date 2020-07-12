@@ -71,13 +71,14 @@ Now that we have the in-built array iterator, the most important thing is how `i
 
 2. Else, (i.e. when `index >= arr.length` - reached end of array)
 	a. Set [[IteratedArrayLike]] = undefined.
-	(Yes, once it reaches the end - it sets linked array to undefined. This is to ensure the once the iterator has returned `done: true`, it never returns anymore value. If this was not done, then array length could have increased before next call and then it would still return new valuesThis undefined array is handled in step 0 )
+	(⭐️ Yes, once it reaches the end - it sets linked array to undefined. This is to ensure the once the iterator has returned `done: true`, it never returns anymore value. If this was not done, then array length could have increased before next call and then it would again return new values after saying `done:true` earlier. This undefined array is handled in step 0. )
+	b.   b. Return `{value: undefined, done: false}`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDU2NzU5MywtNTk3MDc3NTk3LDg3NT
-g4MTI0NCwxNjcwOTg3Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5
-OSwtMTM2MTU3Mzg3NSw5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLT
-ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
-NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV19
+eyJoaXN0b3J5IjpbLTIxMjMyMTA5MTUsLTU5NzA3NzU5Nyw4Nz
+U4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMy
+OTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC
+0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5
+NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
 -->
