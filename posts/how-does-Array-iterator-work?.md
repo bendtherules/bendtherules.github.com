@@ -102,24 +102,26 @@ foo.keys(); // 0, 1, 2, 3
 arr = [10]
 iter = arr[Symbol.iterator]()
 
-iter.next() // 10 - this was the last v
+iter.next() // 10 - this was the last value
 
-// modify array
+// but,modify array
 arr.push(20)
 // ⭐️ uses updated length, since iterator is not finished
 iter.next() // {value: 20, done: false}
 
-iter.next() // end of iterator
+iter.next() // {value: undefined, done: true} - end of iterator
+
+// push again after iterator has ended
 arr.push(30)
 // ⭐️ doesn't use updated length
 iter.next() // {value: undefined, done: true}
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTgzMTQ1NDcsLTE5MjkyNDA4NTgsLT
-E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
-NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
-UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
-NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MD
-k3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbNDE4OTUyMDY1LC0xOTI5MjQwODU4LC0xOD
+k2MTI2NDczLC01OTcwNzc1OTcsODc1ODgxMjQ0LDE2NzA5ODcy
+ODYsMTQxNjk2OTMwOSwxODQzNjEzMjk5LC0xMzYxNTczODc1LD
+k4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUx
+ODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5Nz
+EwNCwtNDM5OTk3ODU5XX0=
 -->
