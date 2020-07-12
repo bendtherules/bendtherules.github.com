@@ -81,11 +81,25 @@ Now that we have the in-built array iterator, the most important thing is knowin
 
 1. `[...arr]` converts sparse array to dense array. [⭐️1️⃣ above](#note-1)
 
+```js
+foo = [10, , 30, 40]; // [10, <hole>, 30, 40]
+
+bar = [...foo]; // [10, undefined, 30, 40]
+
+// ✅ sparse array
+foo.hasOwnProperty(1); // false       
+
+// ⚠️ dense array
+bar.hasOwnProperty(1); // true
+
+// same for array.keys()
+foo.keys(); // 0, 1, 2, 3
+```
 
 3. Array iterator will never return more values after it has finished once - even if the array has more values now. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDc0ODQ2OSwtMTkyOTI0MDg1OCwtMT
+eyJoaXN0b3J5IjpbLTU4ODM5NTMzMywtMTkyOTI0MDg1OCwtMT
 g5NjEyNjQ3MywtNTk3MDc3NTk3LDg3NTg4MTI0NCwxNjcwOTg3
 Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NS
 w5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1
