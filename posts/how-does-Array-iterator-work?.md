@@ -63,6 +63,7 @@ Now that we have the in-built array iterator, the most important thing is knowin
 	c. Set `value` = `arr[index]`  
 	
 	d. If kind is “value”, return `{value: value, done: false}`  
+	(for arr.values() or ...arr, just return value at that position)  
 	e. If kind is “key+value”, return `{value: [key, value], done: false}`  
 	(for arr.entries(), return array of [key, value])  
 	
@@ -78,9 +79,9 @@ Now that we have the in-built array iterator, the most important thing is knowin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NTI3MjQyLC01OTcwNzc1OTcsODc1OD
-gxMjQ0LDE2NzA5ODcyODYsMTQxNjk2OTMwOSwxODQzNjEzMjk5
-LC0xMzYxNTczODc1LDk4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMT
-EyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2
-NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTExMjIyOTcwNzgsLTU5NzA3NzU5Nyw4Nz
+U4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMy
+OTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC
+0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5
+NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OTc4NTldfQ==
 -->
