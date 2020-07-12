@@ -20,11 +20,11 @@ When we use spread operator, like `[...someArray]` - it treats someArray as a ge
 
 This is how the iterable/iterator stuff works.  
 
-In our case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one. Normally, you have to support this protocol defining these methods manually, but Array already has definition for these.  
+In our case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one.  
 
 ## On arrays
 
-Array has in-built support for iterable/iterator protocol, through prototype. Array.prototype has this method with key `Symbol.iterator`, which creates a ArrayIterator. 
+Array has in-built support for iterable/iterator protocol, through prototype. Array.prototype has a method with key `Symbol.iterator`, which creates a ArrayIterator. 
 
 ArrayIterator internally contains these properties -
 * [[ IteratedArrayLike ]] - which points back to the actual array.  
@@ -83,7 +83,7 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ2NTM0OTAsLTU5NzA3NzU5Nyw4Nz
+eyJoaXN0b3J5IjpbLTE4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4Nz
 U4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMy
 OTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC
 0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5
