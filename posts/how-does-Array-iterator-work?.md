@@ -20,14 +20,14 @@ When we use spread operator, like `[...someArray]` - it treats someArray as a ge
 
 This is how the iterable/iterator stuff works.  
 
-In our case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one.  
+In our case, Iterable is `someArray` - which has a special property `Symbol.iterator` whose value is a method. Calling this method returns a iterable (`iter`), which has `.next()` method. Calling this method returns all the values one-by-one.
 
 ## On arrays
 
 Array has in-built support for iterable/iterator protocol, through prototype. Array.prototype has a method with key `Symbol.iterator`, which creates a ArrayIterator. 
 
 ArrayIterator internally contains these properties -
-* [[ IteratedArrayLike ]] - which points back to the actual array.  
+* [[IteratedArrayLike ]] - which points back to the actual array.  
 ( Remember, “this” within the ArrayIterator is the iterator object itself, not the actual array. So, it has to store a link to the array during creation )
 
 * [[ ArrayLikeNextIndex ]] - the next index whose value should be returned. Default is `0`.  
@@ -83,10 +83,10 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjkyNDA4NTgsLTE4OTYxMjY0NzMsLT
-U5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4NzI4NiwxNDE2OTY5
-MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4NzUsOTgyNjQ4OTAwLC
-0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04NTE4NjYyNSwtMTUx
-NTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MDk3MTA0LC00Mzk5OT
-c4NTldfQ==
+eyJoaXN0b3J5IjpbODk3MzU3NTA4LC0xOTI5MjQwODU4LC0xOD
+k2MTI2NDczLC01OTcwNzc1OTcsODc1ODgxMjQ0LDE2NzA5ODcy
+ODYsMTQxNjk2OTMwOSwxODQzNjEzMjk5LC0xMzYxNTczODc1LD
+k4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUx
+ODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5Nz
+EwNCwtNDM5OTk3ODU5XX0=
 -->
