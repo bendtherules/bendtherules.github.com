@@ -62,16 +62,17 @@ Now that we have the in-built array iterator, the most important thing is knowin
 	
 	d. If kind is “value”, return `{value: value, done: false}`  
 	(for arr.values() or ...arr, just return value at that index)  
+	
 	e. If kind is “key+value”, return `{value: [key, value], done: false}`  
 	(for arr.entries(), return array of [key, value])  
 	
 	f. Set [[ArrayLikeNextIndex]] = index + 1  
-	(<span id="note-1">⭐️1️⃣</span> Always increments key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not). it doesn't skip the empty/non-existent indexes.)
+	(<span id="note-1">⭐️1️⃣</span> Always increment key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not). It doesn't skip the empty/non-existent indexes.)
 
 2. Else, (i.e. when `index >= arr.length` - reached end of array)
 
 	a. Set `[[IteratedArrayLike]]` = `undefined`.
-	(<span id="note-2">⭐️2️⃣</span> Yes, once it reaches the end - it sets linked array to undefined. This is to ensure the once the iterator has finished, it would never return any more value. This undefined array is handled in step 0. If this was not done, then array length could have increased before next call and then it would again return new values after saying `done:true` earlier.)
+	(<span id="note-2">⭐️2️⃣</span> Yes, once it reaches the end - it sets linked array to undefined. This is to ensure the once the iterator has finished, it will never return any more value. This undefined array is handled in step 0. If this was not done, then array length could have increased before next call and then it would again return new values after saying `done:true` earlier.)
 
 	b. Return `{value: undefined, done: false}`
 
@@ -82,7 +83,7 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMzQ1MjkxOCwtMTkyOTI0MDg1OCwtMT
+eyJoaXN0b3J5IjpbMTk2MTMxNjY5OCwtMTkyOTI0MDg1OCwtMT
 g5NjEyNjQ3MywtNTk3MDc3NTk3LDg3NTg4MTI0NCwxNjcwOTg3
 Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NS
 w5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1
