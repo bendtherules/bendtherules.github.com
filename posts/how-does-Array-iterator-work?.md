@@ -58,7 +58,7 @@ Now that we have the in-built array iterator, the most important thing is how `i
 	a. set `key` = `index`  
 	
 	b. If `kind` is `“key”`, return `{value: key, done: false}`  
-	(incase of arr.keys(), just return the index. It doesn't even try access the value.)  
+	(incase of arr.keys(), just return the index. It doesn't even try to access the value.)  
 	
 	c. Set `value` = `arr[index]`  
 	
@@ -71,9 +71,9 @@ Now that we have the in-built array iterator, the most important thing is how `i
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1ODgxMjQ0LDE2NzA5ODcyODYsMTQxNj
-k2OTMwOSwxODQzNjEzMjk5LC0xMzYxNTczODc1LDk4MjY0ODkw
-MCwtMjA0MDIxNTUzNCwtMTEyNjUxODkxNSwtODUxODY2MjUsLT
-E1MTU5OTMwODEsLTE3OTQ2NTQzMDQsMTAzNjA5NzEwNCwtNDM5
-OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MD
+k4NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4
+NzUsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC
+04NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2
+MDk3MTA0LC00Mzk5OTc4NTldfQ==
 -->
