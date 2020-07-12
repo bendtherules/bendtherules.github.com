@@ -68,7 +68,7 @@ Now that we have the in-built array iterator, the most important thing is knowin
 	(for arr.entries(), return array of [key, value])  
 	
 	f. Set [[ArrayLikeNextIndex]] = index + 1  
-	(⭐️1️⃣ Always increments key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not))
+	(⭐️1️⃣ Always increments key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not). it doesn't skip the empty/non-existent indexes.)
 
 2. Else, (i.e. when `index >= arr.length` - reached end of array)
 
@@ -79,11 +79,11 @@ Now that we have the in-built array iterator, the most important thing is knowin
 
 ## 🤯 Implications
 
-1. `[...arr]` converts sparse array to dense array
+1. `[...arr]` converts sparse array to dense array. [⭐️1️⃣ above](asd)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MzY4MTY1LC01OTcwNzc1OTcsODc1OD
-gxMjQ0LDE2NzA5ODcyODYsMTQxNjk2OTMwOSwxODQzNjEzMjk5
-LC0xMzYxNTczODc1LDk4MjY0ODkwMCwtMjA0MDIxNTUzNCwtMT
-EyNjUxODkxNSwtODUxODY2MjUsLTE1MTU5OTMwODEsLTE3OTQ2
-NTQzMDQsMTAzNjA5NzEwNCwtNDM5OTk3ODU5XX0=
+eyJoaXN0b3J5IjpbLTE1MjQ3MjEyMCwtNTk3MDc3NTk3LDg3NT
+g4MTI0NCwxNjcwOTg3Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5
+OSwtMTM2MTU3Mzg3NSw5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLT
+ExMjY1MTg5MTUsLTg1MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0
+NjU0MzA0LDEwMzYwOTcxMDQsLTQzOTk5Nzg1OV19
 -->
