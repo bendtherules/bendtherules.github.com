@@ -42,7 +42,6 @@ In general, it can be `“key”`, `“value”` or `“key+value”`. This allo
 | `arr.values()`  | "value"     |
 | `arr.entries()` | "key+value" |
 
-Yes, all of them internally use this same iterator mechanism.
 
 ## ⭐️ Array Iterator.next( )
 
@@ -62,7 +61,7 @@ Now that we have the in-built array iterator, the most important thing is knowin
 	c. Set `value` = `arr[index]`  
 	
 	d. If kind is “value”, return `{value: value, done: false}`  
-	(for arr.values() or ...arr, just return value at that position)  
+	(for arr.values() or ...arr, just return value at that index)  
 	e. If kind is “key+value”, return `{value: [key, value], done: false}`  
 	(for arr.entries(), return array of [key, value])  
 	
@@ -83,10 +82,10 @@ Now that we have the in-built array iterator, the most important thing is knowin
 2. Array iterator will never return more values after it has finished once - even if the array now has more values. [⭐️2️⃣ above](#note-2)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM5NDY5MDYsLTE5MjkyNDA4NTgsLT
-E4OTYxMjY0NzMsLTU5NzA3NzU5Nyw4NzU4ODEyNDQsMTY3MDk4
-NzI4NiwxNDE2OTY5MzA5LDE4NDM2MTMyOTksLTEzNjE1NzM4Nz
-UsOTgyNjQ4OTAwLC0yMDQwMjE1NTM0LC0xMTI2NTE4OTE1LC04
-NTE4NjYyNSwtMTUxNTk5MzA4MSwtMTc5NDY1NDMwNCwxMDM2MD
-k3MTA0LC00Mzk5OTc4NTldfQ==
+eyJoaXN0b3J5IjpbMTMwMzQ1MjkxOCwtMTkyOTI0MDg1OCwtMT
+g5NjEyNjQ3MywtNTk3MDc3NTk3LDg3NTg4MTI0NCwxNjcwOTg3
+Mjg2LDE0MTY5NjkzMDksMTg0MzYxMzI5OSwtMTM2MTU3Mzg3NS
+w5ODI2NDg5MDAsLTIwNDAyMTU1MzQsLTExMjY1MTg5MTUsLTg1
+MTg2NjI1LC0xNTE1OTkzMDgxLC0xNzk0NjU0MzA0LDEwMzYwOT
+cxMDQsLTQzOTk5Nzg1OV19
 -->
