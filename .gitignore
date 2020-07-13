@@ -1,6 +1,9 @@
 .gatsby-context.js
 gatsby-starter-lumen.iml
 
+# Temp files
+.DS_Store
+
 # Logs
 logs
 *.log
