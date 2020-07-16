@@ -6,6 +6,12 @@
     @content;
 }
 
+@mixin breakpoint-xs-only {
+    @media screen and (max-width: $layout-breakpoint-sm) {
+        @content;
+    }
+}
+
 @mixin breakpoint-sm {
     @media screen and (min-width: $layout-breakpoint-sm) {
         @content;

@@ -3,7 +3,6 @@
 
 .content {
   max-width: $layout-post-single-width;
-  padding: 0 15px;
   margin: 0 auto;
 
   &__title {
@@ -60,7 +59,6 @@
 
 @include breakpoint-md {
   .content {
-    padding: 0;
 
     &__title {
       font-size: $typographic-base-font-size * 3;
@@ -79,9 +77,18 @@
         @include line-height(1.125);
         @include margin-bottom(1.125)
       }
-
     }
-
   }
+}
 
+@include breakpoint-sm {
+  .content {
+    padding: 0 64px;
+  }
+}
+
+@include breakpoint-xs-only {
+  .content {
+    padding: 0 8px;
+  }
 }
