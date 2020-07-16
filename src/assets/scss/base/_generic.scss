@@ -121,6 +121,7 @@ ul {
 
 ul, ol {
   @include line-height(1.25);
+  padding-inline-start: 1.25em;
 }
 
 p {
