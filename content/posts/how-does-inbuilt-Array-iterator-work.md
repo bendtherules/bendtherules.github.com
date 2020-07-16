@@ -14,9 +14,9 @@ description: "[...arr] internally uses Array iterator to return all the values. 
 socialImage: "/media/42-line-bible.jpg"
 ---
 
-We use `[...someArray]` or `array.values()` to get multiple values out of a array.  And we kind of know how it works - it just returns us all the values from the array.  Internally, both of them uses the iterator protocol - which is already defined on array prototype.
+We use `[...someArray]` or `array.values()` to get multiple values out of a array.  And we kind of know how it works - it just returns all the values from the array. Now internally, both of them uses the iterator protocol - which is already defined on array prototype.
 
-But do we really know the details of how in-built Array iterator works? Can you write a precise polyfill to implement iterator protocol on Array?
+But do we know exactly how the in-built Array iterator works? Can you write a precise polyfill to implement iterator protocol on Array?
 
 ## A little about the iterator protocol
 
@@ -27,7 +27,7 @@ When we use spread operator, like `[...someArray]` - it treats someArray as a ge
 2. Then it consumes all the values from the iterable by calling `iter.next()` repeatedly.  
     This method `.next()` returns response in this structure `{value: "something", done: true|false}`.
     
-3. While values are available, it returns `done: true`; after all values are finished, it returns `done: false`. After this, the consumer (i.e. spread operator) should stop asking for more values.
+3. While values are available, it returns `done:false`; after all values are finished, it returns `done:true`. After this, the consumer (i.e. spread operator) should stop asking for more values.
 
 This is how the iterable/iterator stuff works.  
 
@@ -46,7 +46,7 @@ In general, it can be `“key”`, `“value”` or `“key+value”`. This allo
 
 | syntax          | kind        |
 |-----------------|-------------|
-| `...arr`        | value     |
+| `...arr`        | "value"     |
 | `arr.keys()`    | "key"       |
 | `arr.values()`  | "value"     |
 | `arr.entries()` | "key+value" |
@@ -58,10 +58,10 @@ Now that we have the in-built array iterator, the most important thing is knowin
 
 (  Say, `arr` = [[IteratedArrayLike]], `index` = [[ArrayLikeNextIndex]], `kind` =  [[ArrayLikeIterationKind]] )
 
-0. If `arr` is `undefined`, return `{value: undefined, done: true}`  
-(This is a special step, caused by step 2.a. It will reach here if you call `.next()` even after iterator has finished.)
+1. If `arr` is `undefined`, return `{value: undefined, done: true}`  
+(This is a special step, caused by step 3.a. It will reach here if you call `.next()` even after iterator has finished.)
 
-1. If `index < arr.length`, ( i.e. while values are available)   
+2. If `index < arr.length`, ( i.e. while values are available)   
 	a. set `key` = `index`  
 	
 	b. If `kind` is `“key”`, return `{value: key, done: false}`  
@@ -76,19 +76,19 @@ Now that we have the in-built array iterator, the most important thing is knowin
 	(for arr.entries(), return array of [key, value])  
 	
 	f. Set [[ArrayLikeNextIndex]] = index + 1  
-	(<span id="note-1">⭐️1️⃣</span> Always increment key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not). It doesn't skip the empty/non-existent indexes.)
+	(⭐️ 1️⃣  Always increment key to next index. This sequential index is used to get the next value, irrespective of holes in that position (whether that index exists or not). It doesn't skip the empty/non-existent indexes.)
 
-2. Else, (i.e. when `index >= arr.length` - reached end of array)
+3. Else, (i.e. when `index >= arr.length` - reached end of array)
 
 	a. Set `[[IteratedArrayLike]]` = `undefined`.  
-	(<span id="note-2">⭐️2️⃣</span> Yes, once it reaches the end - it sets linked array to undefined. This is to ensure the once the iterator has finished, it will never return any more value. This undefined array is handled in step 0.  
+	(⭐️ 2️⃣  Yes, once it reaches the end - it sets linked array to undefined. This is to ensure that once the iterator has finished, it will never return any more value. This undefined array is handled in step 1.  
 	If this was not done and if array length was increased before next call, then it would again return new values after saying `done:true` earlier.)
 
 	b. Return `{value: undefined, done: false}`
 
 ## 🤯 Implications
 
-1. `[...arr]` converts sparse array to dense array. [⭐️1️⃣ above](#note-1)
+A. `[...arr]` converts sparse array to dense array. (Reason -⭐️ 1️⃣ above)
 
 ```js
 foo = [10, , 30, 40]; // [10, <hole>, 30, 40]
@@ -105,7 +105,7 @@ Object.keys(foo) // 0, 2, 3
 foo.keys(); // 0, 1, 2, 3
 ```
 
-2. Array iterator will never return more values after it has finished once - even if the array has more values now. [⭐️2️⃣ above](#note-2)
+B. Array iterator will never return more values after it has finished once - even if the array has more values now. (Reason - ⭐️ 2️⃣ above)
 
 ```js
 arr = [10]
