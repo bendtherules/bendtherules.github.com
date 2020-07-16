@@ -1,48 +1,48 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://bendtherules-blog.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  title: 'bendtherules writes stuff',
+  subtitle: 'Blogs written by Abhas',
+  copyright: '',
+  disqusShortname: 'bendtherules',
+  postsPerPage: 5,
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
     {
       label: 'About me',
       path: '/pages/about'
     },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+    // {
+    //   label: 'Contact me',
+    //   path: '/pages/contacts'
+    // }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Abhas Bhattacharya',
+    photo: '/photo.jpeg', // Fix this
+    bio: 'Hi, I am Abhas. I write about Javascript topics, often by reading things from the Ecmascript specification.\nI works as a UI Engineer at Flipkart.',
     contacts: {
-      email: '',
+      email: 'abhasbhattacharya2@gmail.com',
       facebook: '#',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'abhas_tweeter',
+      github: 'bendtherules',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
+      linkedin: 'bendtherules',
       instagram: '#',
       line: '',
       gitlab: '',
       weibo: '',
       codepen: '',
-      youtube: '',
+      youtube: 'UC3LLuQ-6j1OQpKKTKwHT_MA',
       soundcloud: '',
     }
   }
