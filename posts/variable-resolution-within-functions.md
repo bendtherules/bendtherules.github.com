@@ -211,13 +211,13 @@ console.log(this); // prints `undefined`
 ```
 
 -----------
-That's all. I [post on LinkedIn](https://www.linkedin.com/in/bendtherules) regularly about javascript stuff.
+That's all. I [post on LinkedIn](https://www.linkedin.com/in/bendtherules) regularly about more javascript stuff.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2Nzk4NjgyMCw4MzI1NTE4NzUsLTU0Nz
-M0NDYyOCwxMzE4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2
-NiwxOTcwMDg1Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMT
-U4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0
-MjMzNiw0MTI1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLT
-g4NjI4Mjg1NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUw
-Mzc2OV19
+eyJoaXN0b3J5IjpbLTE1MDQzNDM0ODcsODMyNTUxODc1LC01ND
+czNDQ2MjgsMTMxODAwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAy
+NjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLD
+E1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTcz
+NDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC
+04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1
+MDM3NjldfQ==
 -->
