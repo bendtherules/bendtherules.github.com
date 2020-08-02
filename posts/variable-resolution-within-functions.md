@@ -194,7 +194,7 @@ outer.call(obj);
 ```
 Same logic also applies for nested arrow functions.
 
-2. Block scopes don't have their own `this` value.
+2. Block scopes also don't have their own `this` value.
 ```js
 {
   // just prints global object
@@ -209,12 +209,15 @@ Same logic also applies for nested arrow functions.
 
 console.log(this); // prints `undefined`
 ```
+
+-----------
+That's all. [Follow me on LinkedIn](https://www.linkedin.com/in/bendtherules) for more javascript related.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ5NjY1NzcsODMyNTUxODc1LC01ND
-czNDQ2MjgsMTMxODAwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAy
-NjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLD
-E1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTcz
-NDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC
-04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1
-MDM3NjldfQ==
+eyJoaXN0b3J5IjpbMzk2NjQ5OTA1LDgzMjU1MTg3NSwtNTQ3Mz
+Q0NjI4LDEzMTgwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2
+LDE5NzAwODU2OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNT
+gwOTU3MjQ2LDc3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQy
+MzM2LDQxMjU2NzU1NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtOD
+g2MjgyODU1LDE3OTI5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAz
+NzY5XX0=
 -->
