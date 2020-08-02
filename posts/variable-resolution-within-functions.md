@@ -39,6 +39,7 @@ function outer() {
   // ⭐️ Create phase for `inner`
   // Creation scope = scope A
   return function inner() {
+	console.log(text)
   }
 }
 
@@ -66,8 +67,8 @@ When a function `F` is being created, it stores the current scope (creation scop
 When a function is called, it creates a new execution context (say EC). Now EC has a property called LexicalEnvironment (LE) - which is (roughly) the current scope for lookup. Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE. So, till now - when a function is called, it gets a new execution context, whose LE points to a new scope. This new scope will contain function's own local variables. Now scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] - a internal property). It decides to set this lexical scope as parent, ignoring the caller scope. So, now when a variable lookup happens inside function, it checks current LexicalEnvironment first (which is the new local scope) and if it doesn't find that, it looks up to parent of LE aka F.[[Environment]] aka its closure scope.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDc4NDUzNywtMTY2MjMxNjk1NiwtOD
-k5NjM4MTcxLDIwNzEwNjg2OTUsMTcwMzE1OTc1MiwtMjA3Njkx
-MTUwNiwxMjM2NDEyMDU0LC0yMTAyMzk2NzM2LDIwNDc0OTI1OD
-BdfQ==
+eyJoaXN0b3J5IjpbNjMzMjMzNTQsLTE2NjIzMTY5NTYsLTg5OT
+YzODE3MSwyMDcxMDY4Njk1LDE3MDMxNTk3NTIsLTIwNzY5MTE1
+MDYsMTIzNjQxMjA1NCwtMjEwMjM5NjczNiwyMDQ3NDkyNTgwXX
+0=
 -->
