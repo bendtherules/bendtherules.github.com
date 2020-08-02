@@ -117,7 +117,24 @@ c. and so on.
 
 The lookup will finally end when it reaches the global scope (doesn't have parent scope). If the variable is still not found, it will throw a `ReferenceError`.
 
-If you remember the scope chain of `inner` func, this means that the variable will never be looked up in caller scope (scopeC)
+If you remember the scope chain of `inner` func, this means that the variable will never be looked up in caller scope (scopeC). Even if lexical scope (scopeA) doesn't define
+
+```js
+function outer() {
+  // scopeA
+  return function inner() {
+	// scopeB
+	console.log(myText)
+  }
+}
+
+{
+  // scopeC
+  let myText = 'World'
+  let fn = outer()
+  fn();
+}
+```
 
 ## `this` lookup
 
@@ -125,11 +142,11 @@ If you remember the scope chain of `inner` func, this means that the variable wi
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTc4NjA0MiwxNTgwOTU3MjQ2LDc3MD
-g0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2NzU1
-NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LDE3OT
-I5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1NTM0
-MjAsMTQ3OTg3MjE1Nyw4MDA3ODMyOTEsMTc1MTY0NjM1NiwtMT
-c4NjQ4NzQyMCw1Nzk4NDEzNTIsLTE5NzUwNzI2OTYsLTE2NjIz
-MTY5NTZdfQ==
+eyJoaXN0b3J5IjpbLTE2ODQzNjQ3ODgsMTU4MDk1NzI0Niw3Nz
+A4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1
+NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNz
+kyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUz
+NDIwLDE0Nzk4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYzNTYsLT
+E3ODY0ODc0MjAsNTc5ODQxMzUyLC0xOTc1MDcyNjk2LC0xNjYy
+MzE2OTU2XX0=
 -->
