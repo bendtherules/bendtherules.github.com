@@ -185,10 +185,11 @@ It will finally reach global scope, which always provides a `this` value (global
 }
 ```
 
+2. Arrow functions don't have their own `this` value
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTc5MTQxLDgzMjU1MTg3NSwtNTQ3Mz
+eyJoaXN0b3J5IjpbLTQ5MTA2Njc0LDgzMjU1MTg3NSwtNTQ3Mz
 Q0NjI4LDEzMTgwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2
 LDE5NzAwODU2OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNT
 gwOTU3MjQ2LDc3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQy
