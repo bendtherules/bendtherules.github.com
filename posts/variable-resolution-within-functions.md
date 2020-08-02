@@ -82,10 +82,11 @@ Now, scopes are chained - so, this new function scope (LE) needs to decide what 
 Looking back at our code, that means -
 ```js
 function outer() {
-  // scope A
+  // scopeA
   var text = 'Hello'
+  // inner.[[Environment]].[[LE]] = scope A
   return function inner() {
-	//  scope B
+	// ⭐️ scope B
 	console.log(text)
   }
 }
@@ -109,11 +110,11 @@ So, now when a variable lookup happens inside function, it checks current Lexica
 When a function is called, it creates a new execution context (say EC). Now EC has a property called LexicalEnvironment (LE) - which is (roughly) the current scope for lookup. Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE. So, till now - when a function is called, it gets a new execution context, whose LE points to a new scope. This new scope will contain function's own local variables. Now scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] - a internal property). It decides to set this lexical scope as parent, ignoring the caller scope. So, now when a variable lookup happens inside function, it checks current LexicalEnvironment first (which is the new local scope) and if it doesn't find that, it looks up to parent of LE aka F.[[Environment]] aka its closure scope.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MDE2OTA5MiwtODg2MjgyODU1LDE3OT
-I5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1NTM0
-MjAsMTQ3OTg3MjE1Nyw4MDA3ODMyOTEsMTc1MTY0NjM1NiwtMT
-c4NjQ4NzQyMCw1Nzk4NDEzNTIsLTE5NzUwNzI2OTYsLTE2NjIz
-MTY5NTYsLTg5OTYzODE3MSwyMDcxMDY4Njk1LDE3MDMxNTk3NT
-IsLTIwNzY5MTE1MDYsMTIzNjQxMjA1NCwtMjEwMjM5NjczNiwy
-MDQ3NDkyNTgwXX0=
+eyJoaXN0b3J5IjpbLTEyNzAzNjQ0NjksLTg4NjI4Mjg1NSwxNz
+kyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUz
+NDIwLDE0Nzk4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYzNTYsLT
+E3ODY0ODc0MjAsNTc5ODQxMzUyLC0xOTc1MDcyNjk2LC0xNjYy
+MzE2OTU2LC04OTk2MzgxNzEsMjA3MTA2ODY5NSwxNzAzMTU5Nz
+UyLC0yMDc2OTExNTA2LDEyMzY0MTIwNTQsLTIxMDIzOTY3MzYs
+MjA0NzQ5MjU4MF19
 -->
