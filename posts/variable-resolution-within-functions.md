@@ -105,7 +105,7 @@ function outer() {
 
 ### Variable lookup
 
-Now, when you use something like `console.log(text)`
+Now, when we use something like `console.log(text)` in the function body - it needs to lookup and resolve the value of the variable `text`.
 So, now when a variable lookup happens inside function, it checks current LexicalEnvironment first (which is the new local scope) and if it doesn't find that, it looks up to parent of LE aka F.[[Environment]] aka its closure scope.
 
 ## `this` lookup
@@ -114,11 +114,11 @@ So, now when a variable lookup happens inside function, it checks current Lexica
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDExOTk4Niw0MTI1Njc1NTYsLTM4MD
-M1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNzkyOTcyNDU0
-LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUzNDIwLDE0Nz
-k4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYzNTYsLTE3ODY0ODc0
-MjAsNTc5ODQxMzUyLC0xOTc1MDcyNjk2LC0xNjYyMzE2OTU2LC
-04OTk2MzgxNzEsMjA3MTA2ODY5NSwxNzAzMTU5NzUyLC0yMDc2
-OTExNTA2XX0=
+eyJoaXN0b3J5IjpbMTE0OTg2NDEzLDQxMjU2NzU1NiwtMzgwMz
+UyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LDE3OTI5NzI0NTQs
+MTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1NTM0MjAsMTQ3OT
+g3MjE1Nyw4MDA3ODMyOTEsMTc1MTY0NjM1NiwtMTc4NjQ4NzQy
+MCw1Nzk4NDEzNTIsLTE5NzUwNzI2OTYsLTE2NjIzMTY5NTYsLT
+g5OTYzODE3MSwyMDcxMDY4Njk1LDE3MDMxNTk3NTIsLTIwNzY5
+MTE1MDZdfQ==
 -->
