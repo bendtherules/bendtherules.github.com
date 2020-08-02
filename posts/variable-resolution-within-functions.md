@@ -1,3 +1,4 @@
+
 # Closure and this - How are variables resolved within functions?
 
 Let's start with a example of closure -
@@ -5,16 +6,16 @@ Let's start with a example of closure -
 ```js
 function outer() {
   // scope A
-  var text = 'Hello'
+  var name = 'Hello'
   return function inner() {
 	// scope B
-	console.log(text)
+	console.log(name)
   }
 }
 
 {
   // scope C
-  let text = 'World'
+  let name = 'World'
   let fn = outer()
   fn();
 }
@@ -23,7 +24,7 @@ function outer() {
 Here we have a outer function, which returns a inner function, and this inner function is called later inside another block scope. The scope for each of them is labelled from A to C, and there is also a outermost global scope. 
 
 
-**What is the output above? How is the variable `text` resolved within the function?**
+**What is the output above? How is the variable `name` resolved within the function?**
 
 In the same note, we'll also look at **how is `this` resolved within the function body?**
 
@@ -37,18 +38,18 @@ All these sounds obvious, but it's easy to forget the difference. So, let's actu
 ```js
 function outer() {
   // scope A
-  var text = 'Hello'
+  var name = 'Hello'
   
   // ⭐️ Create phase for `inner`
   // Creation scope = scope A
   return function inner() {
-	console.log(text)
+	console.log(name)
   }
 }
 
 {
   // scope C
-  let text = 'World'
+  let name = 'World'
   let fn = outer()
   
   // ⭐️ Call phase
@@ -86,19 +87,19 @@ Looking back at our code, that means -
 ```js
 function outer() {
   // scopeA
-  var text = 'Hello'
+  var name = 'Hello'
   // inner.[[Environment]].[[LE]] = scopeA
   return function inner() {
 	// new scope = scopeB
 	// ⭐️ scopeB -> scopeA -> global
 	// ❌ Does NOT have scopeC in chain
-	console.log(text)
+	console.log(name)
   }
 }
 
 {
   // scope C
-  let text = 'World'
+  let name = 'World'
   let fn = outer()
   fn();
 }
@@ -106,7 +107,7 @@ function outer() {
 
 ### Variable lookup
 
-Now, when we use something like `console.log(text)` in the function body - it needs to resolve the value of the variable `text`. For variable lookup, 
+Now, when we use something like `console.log(name)` in the function body - it needs to resolve the value of the variable `name`. For variable lookup, 
 a. it will check in the current LexicalEnvironment (i.e. the new local scope) first, and  
 b. if it doesn't find the variable there, it will check in it's parent scope (parent of LE = F.[[Environment]] = lexical/closure scope),
 c. and so on.
@@ -117,11 +118,11 @@ c. and so on.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOT
-czNDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3
-LC04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05OD
-Y1MDM3NjksLTU1NzU1MzQyMCwxNDc5ODcyMTU3LDgwMDc4MzI5
-MSwxNzUxNjQ2MzU2LC0xNzg2NDg3NDIwLDU3OTg0MTM1MiwtMT
-k3NTA3MjY5NiwtMTY2MjMxNjk1NiwtODk5NjM4MTcxLDIwNzEw
-Njg2OTVdfQ==
+eyJoaXN0b3J5IjpbMTU4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMj
+g3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1NTYsLTM4MDM1Mjk1
+MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNzkyOTcyNDU0LDE0Mz
+MxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUzNDIwLDE0Nzk4NzIx
+NTcsODAwNzgzMjkxLDE3NTE2NDYzNTYsLTE3ODY0ODc0MjAsNT
+c5ODQxMzUyLC0xOTc1MDcyNjk2LC0xNjYyMzE2OTU2LC04OTk2
+MzgxNzFdfQ==
 -->
