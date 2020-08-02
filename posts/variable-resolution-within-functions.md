@@ -186,14 +186,22 @@ It will finally reach global scope, which always provides a `this` value (global
 ```
 
 2. Arrow functions don't have their own `this` value
+```js
+function outer() {
+  const inner = () => console.log(this);
+  inner();
+}
+
+outer.
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTA2Njc0LDgzMjU1MTg3NSwtNTQ3Mz
-Q0NjI4LDEzMTgwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2
-LDE5NzAwODU2OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNT
-gwOTU3MjQ2LDc3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQy
-MzM2LDQxMjU2NzU1NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtOD
-g2MjgyODU1LDE3OTI5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAz
-NzY5XX0=
+eyJoaXN0b3J5IjpbLTE5Mjk0Mzk2MTksODMyNTUxODc1LC01ND
+czNDQ2MjgsMTMxODAwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAy
+NjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLD
+E1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTcz
+NDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC
+04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1
+MDM3NjldfQ==
 -->
