@@ -73,7 +73,7 @@ In this article, we'll only look at how `this` is resolved - not the actual valu
 
 ### Scope creation
 
-When a function is called, it creates a new execution context. Execution context has a property called LexicalEnvironment (LE). This LE is (roughly speaking) the current scope which is used for lookup.  
+When a function is called, it creates a new execution context. Execution context has a property called LexicalEnvironment (LE). This LE points to the current scope which should be used for lookup.  
 Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE.  
 So, till now - when a function is called, it gets a new execution context, whose LE points to a new function scope. This new scope will contain function's own local variables.
 
@@ -90,11 +90,11 @@ So, now when a variable lookup happens inside function, it checks current Lexica
 When a function is called, it creates a new execution context (say EC). Now EC has a property called LexicalEnvironment (LE) - which is (roughly) the current scope for lookup. Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE. So, till now - when a function is called, it gets a new execution context, whose LE points to a new scope. This new scope will contain function's own local variables. Now scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] - a internal property). It decides to set this lexical scope as parent, ignoring the caller scope. So, now when a variable lookup happens inside function, it checks current LexicalEnvironment first (which is the new local scope) and if it doesn't find that, it looks up to parent of LE aka F.[[Environment]] aka its closure scope.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTE0Njg0LDE3OTI5NzI0NTQsMTQzMz
-E3MDg5NCwtOTg2NTAzNzY5LC01NTc1NTM0MjAsMTQ3OTg3MjE1
-Nyw4MDA3ODMyOTEsMTc1MTY0NjM1NiwtMTc4NjQ4NzQyMCw1Nz
-k4NDEzNTIsLTE5NzUwNzI2OTYsLTE2NjIzMTY5NTYsLTg5OTYz
-ODE3MSwyMDcxMDY4Njk1LDE3MDMxNTk3NTIsLTIwNzY5MTE1MD
-YsMTIzNjQxMjA1NCwtMjEwMjM5NjczNiwyMDQ3NDkyNTgwXX0=
-
+eyJoaXN0b3J5IjpbLTEwOTUzMjAyMDksMTc5Mjk3MjQ1NCwxND
+MzMTcwODk0LC05ODY1MDM3NjksLTU1NzU1MzQyMCwxNDc5ODcy
+MTU3LDgwMDc4MzI5MSwxNzUxNjQ2MzU2LC0xNzg2NDg3NDIwLD
+U3OTg0MTM1MiwtMTk3NTA3MjY5NiwtMTY2MjMxNjk1NiwtODk5
+NjM4MTcxLDIwNzEwNjg2OTUsMTcwMzE1OTc1MiwtMjA3NjkxMT
+UwNiwxMjM2NDEyMDU0LC0yMTAyMzk2NzM2LDIwNDc0OTI1ODBd
+fQ==
 -->
