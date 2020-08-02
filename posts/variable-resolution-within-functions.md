@@ -142,13 +142,13 @@ function outer() {
 
 Earlier, we looked at how normal variables get resolved in a function. But whenever you write `this.someThing`, the value of `this` does NOT get resolved in the same way. It is called as a `ThisExpression`, which gets resolved specially.
 
-Now, remember `F.[[ThisMode]]` (stored in function  during create) and the `FunctionEnvironment` (new function scope created during call) ?
+Now, remember `F.[[ThisMode]]` (stored in function during create) and the `FunctionEnvironment` (new function scope created during call) ?
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NjQ3NDI2LDE5NzAwODU2OTQsLTM3OT
+eyJoaXN0b3J5IjpbMjA1OTMwODY0LDE5NzAwODU2OTQsLTM3OT
 YxMDI4NCwtMTkyNzk4Njc5MywxNTgwOTU3MjQ2LDc3MDg0OTE5
 NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2NzU1NiwtMz
 gwMzUyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LDE3OTI5NzI0
