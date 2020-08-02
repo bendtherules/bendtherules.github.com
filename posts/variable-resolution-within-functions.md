@@ -175,11 +175,15 @@ b. else, move up to parent scope and repeat.
 
 It will finally reach global scope, which always provides a `this` value (global object). For modules, it will stop at the module scope - whose `this` value is `undefined`.
 
+### What does this explain?
+
+1. Block scopes don't have their own `this` value
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzEwNzc3NCw4MzI1NTE4NzUsLTU0Nz
+eyJoaXN0b3J5IjpbLTgyNzgwNTE2NCw4MzI1NTE4NzUsLTU0Nz
 M0NDYyOCwxMzE4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2
 NiwxOTcwMDg1Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMT
 U4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0
