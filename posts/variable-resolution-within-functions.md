@@ -177,19 +177,13 @@ It will finally reach global scope, which always provides a `this` value (global
 
 ### What does this explain?
 
-1. Block scopes don't have their own `this` value.
-```js
-{
-  // just prints global object
-  console.log(this)
-}
-```
 
-2. Arrow functions don't have their own `this` value. It is taken from the closest `this`-providing scope.
+1. Arrow functions don't have their own `this` value. It is taken from the closest `this`-providing scope.
 ```js
 function outer() {
   const inner = () => {
-    // prints `obj` - which is this value in outer function
+    // prints `obj`
+    // which is this value in outer function
     console.log(this)
   }
   inner();
@@ -200,7 +194,15 @@ outer.call(obj);
 ```
 Same logic also applies for nested arrow functions.
 
-3. In modules, top-level `this` value is `undefined`.
+2. Block scopes don't have their own `this` value.
+```js
+{
+  // just prints global object
+  console.log(this)
+}
+```
+
+3. In modules, top-level `this` is `undefined`.
 ```js
 // Save as file.mjs and run in node.
 // That will run it as a module.
@@ -208,11 +210,11 @@ Same logic also applies for nested arrow functions.
 console.log(this); // prints `undefined`
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTg1MjgxOSw4MzI1NTE4NzUsLTU0Nz
-M0NDYyOCwxMzE4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2
-NiwxOTcwMDg1Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMT
-U4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0
-MjMzNiw0MTI1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLT
-g4NjI4Mjg1NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUw
-Mzc2OV19
+eyJoaXN0b3J5IjpbLTEzMzQ5NjY1NzcsODMyNTUxODc1LC01ND
+czNDQ2MjgsMTMxODAwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAy
+NjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLD
+E1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTcz
+NDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC
+04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1
+MDM3NjldfQ==
 -->
