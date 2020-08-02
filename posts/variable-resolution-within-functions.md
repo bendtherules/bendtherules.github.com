@@ -115,7 +115,7 @@ a. it will check in the current LexicalEnvironment (i.e. the new local scope) fi
 b. if it doesn't find the variable there, it will check in it's parent scope (parent of LE = F.[[Environment]] = lexical/closure scope),
 c. and so on.
 
-The lookup will end 
+The lookup will fi end when it reaches the global scope (doesn't have parent scope)
 
 ## `this` lookup
 
@@ -123,7 +123,7 @@ The lookup will end
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTE4MTkxMiwxNTgwOTU3MjQ2LDc3MD
+eyJoaXN0b3J5IjpbMTExNjI5NDkyNiwxNTgwOTU3MjQ2LDc3MD
 g0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2NzU1
 NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LDE3OT
 I5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1NTM0
