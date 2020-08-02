@@ -14,8 +14,8 @@ function outer() {
 
 {
   // scope C
-  var text = 'World'
-  var fn = outer()
+  let text = 'World'
+  let fn = outer()
   fn();
 }
 ```
@@ -48,8 +48,8 @@ function outer() {
 
 {
   // scope C
-  var text = 'World'
-  var fn = outer()
+  let text = 'World'
+  let fn = outer()
   
   // ⭐️ Call phase
   // Caller scope = scope C
@@ -98,8 +98,8 @@ function outer() {
 
 {
   // scope C
-  var text = 'World'
-  var fn = outer()
+  let text = 'World'
+  let fn = outer()
   fn();
 }
 ```
@@ -117,11 +117,11 @@ c. and so on.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MT
-I1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1
-NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNT
-U3NTUzNDIwLDE0Nzk4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYz
-NTYsLTE3ODY0ODc0MjAsNTc5ODQxMzUyLC0xOTc1MDcyNjk2LC
-0xNjYyMzE2OTU2LC04OTk2MzgxNzEsMjA3MTA2ODY5NSwxNzAz
-MTU5NzUyXX0=
+eyJoaXN0b3J5IjpbNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOT
+czNDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3
+LC04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05OD
+Y1MDM3NjksLTU1NzU1MzQyMCwxNDc5ODcyMTU3LDgwMDc4MzI5
+MSwxNzUxNjQ2MzU2LC0xNzg2NDg3NDIwLDU3OTg0MTM1MiwtMT
+k3NTA3MjY5NiwtMTY2MjMxNjk1NiwtODk5NjM4MTcxLDIwNzEw
+Njg2OTVdfQ==
 -->
