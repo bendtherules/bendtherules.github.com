@@ -150,10 +150,13 @@ If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' a
 This FunctionEnvironment has 2 more helper methods -
 1. `HasThisBinding()` - Returns false if `[[ThisBindingStatus]]` is 'lexical'. Else, returns true.
 
-2. `GetThisBinding()` - Returns `env.[[ThisValue]]`. This will only be called if `HasThisBinding()` is true.
+2. `HasThisBinding()` - Returns `env.[[ThisValue]]`. This will only be called if `HasThisBinding()` is true.
 
 These two methods are implemented on all types of environment (scope). Here is a summary of what these methods return on other environments -
 
+| Environment | HasThisBinding() | GetThisBinding() |
+|--------|--------|--------|
+|  |  |
 
 
 Now, back to the resolving logic -
@@ -162,11 +165,11 @@ Now, back to the resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM3NzAxOTUsMTYyMTYxMTY5NCwtMT
-EyNTIwMjY2LDE5NzAwODU2OTQsLTM3OTYxMDI4NCwtMTkyNzk4
-Njc5MywxNTgwOTU3MjQ2LDc3MDg0OTE5NiwtOTIyODczNzA4LC
-0yMDk3MzQyMzM2LDQxMjU2NzU1NiwtMzgwMzUyOTUzLDE5ODI4
-MzM2NywtODg2MjgyODU1LDE3OTI5NzI0NTQsMTQzMzE3MDg5NC
-wtOTg2NTAzNzY5LC01NTc1NTM0MjAsMTQ3OTg3MjE1Nyw4MDA3
-ODMyOTFdfQ==
+eyJoaXN0b3J5IjpbODczNjg4MjY4LDE2MjE2MTE2OTQsLTExMj
+UyMDI2NiwxOTcwMDg1Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3
+OTMsMTU4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMj
+A5NzM0MjMzNiw0MTI1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMz
+NjcsLTg4NjI4Mjg1NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLT
+k4NjUwMzc2OSwtNTU3NTUzNDIwLDE0Nzk4NzIxNTcsODAwNzgz
+MjkxXX0=
 -->
