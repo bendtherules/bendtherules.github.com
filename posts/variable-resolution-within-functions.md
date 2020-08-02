@@ -144,14 +144,14 @@ Earlier, we looked at how normal variables get resolved in a function. But whene
 
 Now, remember the new function scope (`FunctionEnvironment`) and `F.[[ThisMode]]`? Well, this FunctionEnvironment also has 2 internal properties - `env.[[ThisBindingStatus]]` and `env.[[ThisValue]]`. Their values are set based on `F.[[ThisMode]]`.  
 
-If `[[ThisMode]]` is 'lexical', set `[[ThisBindingStatus]]` to 'lexical' and no need of setting `[[ThisValue]]`.
-If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' and set `[[ThisValue]]` to the actual value of `this` that was passed in.
+If `[[ThisMode]]` is lexical, set `[[ThisBindingStatus]]` to 'lexical' and no need of setting `[[ThisValue]]`.
+If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' and set `[[ThisValue]]` to the actual value of `this` that the function was called with.
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTIwMTEyMSwxOTcwMDg1Njk0LC0zNz
+eyJoaXN0b3J5IjpbLTExMjUyMDI2NiwxOTcwMDg1Njk0LC0zNz
 k2MTAyODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Niw3NzA4NDkx
 OTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1NTYsLT
 M4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNzkyOTcy
