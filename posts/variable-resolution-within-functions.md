@@ -154,10 +154,12 @@ This FunctionEnvironment has 2 more helper methods -
 
 These two methods are implemented on all types of environment (scope). Here is a summary of what these methods return on other environments -
 
-| Env Type | HasThisBinding() | GetThisBinding() |
+| Environment Type | HasThisBinding() | GetThisBinding() |
 |--------|--------|---------------|
 | global | true   | global object |
-| function | true   | global object |
+| module | true   | undefined     |
+| block scope | false   | -       |
+| object | false   | -       |
 
 
 Now, back to the resolving logic -
@@ -166,11 +168,11 @@ Now, back to the resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODAwMTI4NCwxNjIxNjExNjk0LC0xMT
-I1MjAyNjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2
-NzkzLDE1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLT
-IwOTczNDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4Mjgz
-MzY3LC04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC
-05ODY1MDM3NjksLTU1NzU1MzQyMCwxNDc5ODcyMTU3LDgwMDc4
-MzI5MV19
+eyJoaXN0b3J5IjpbMTE2MDUzNDgwMiwxMzE4MDAxMjg0LDE2Mj
+E2MTE2OTQsLTExMjUyMDI2NiwxOTcwMDg1Njk0LC0zNzk2MTAy
+ODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Niw3NzA4NDkxOTYsLT
+kyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1NTYsLTM4MDM1
+Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNzkyOTcyNDU0LD
+E0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUzNDIwLDE0Nzk4
+NzIxNTddfQ==
 -->
