@@ -77,7 +77,7 @@ When a function is called, it creates a new execution context (say, EC). Now EC 
 Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE.  
 So, till now - when a function is called, it gets a new execution context, whose LE points to a new function scope. This new scope will contain function's own local variables.
 
-Now, scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (internally, called outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] ). It decides to set this lexical scope as parent, ignoring the caller scope. 
+Now, scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] ). It decides to set this lexical scope as parent, ignoring the caller scope. 
 
 ### Variable lookup
 
@@ -90,7 +90,7 @@ So, now when a variable lookup happens inside function, it checks current Lexica
 When a function is called, it creates a new execution context (say EC). Now EC has a property called LexicalEnvironment (LE) - which is (roughly) the current scope for lookup. Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE. So, till now - when a function is called, it gets a new execution context, whose LE points to a new scope. This new scope will contain function's own local variables. Now scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] - a internal property). It decides to set this lexical scope as parent, ignoring the caller scope. So, now when a variable lookup happens inside function, it checks current LexicalEnvironment first (which is the new local scope) and if it doesn't find that, it looks up to parent of LE aka F.[[Environment]] aka its closure scope.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzMzODI0MiwtNTU3NTUzNDIwLDE0Nz
+eyJoaXN0b3J5IjpbLTk4NjUwMzc2OSwtNTU3NTUzNDIwLDE0Nz
 k4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYzNTYsLTE3ODY0ODc0
 MjAsNTc5ODQxMzUyLC0xOTc1MDcyNjk2LC0xNjYyMzE2OTU2LC
 04OTk2MzgxNzEsMjA3MTA2ODY5NSwxNzAzMTU5NzUyLC0yMDc2
