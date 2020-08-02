@@ -156,10 +156,10 @@ These two methods are implemented on all types of environment (scope). Here is a
 
 | Environment Type | HasThisBinding() | GetThisBinding() |
 |--------|--------|---------------|
+| block scope | false   | -       |
 | global | true   | global object |
 | module | true   | undefined     |
-| block scope | false   | -       |
-| object | false   | -       |
+| object | false  | -             |
 
 
 Now, back to the resolving logic -
@@ -168,7 +168,7 @@ Now, back to the resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDUzNDgwMiwxMzE4MDAxMjg0LDE2Mj
+eyJoaXN0b3J5IjpbLTM2MzU0Mzc4NiwxMzE4MDAxMjg0LDE2Mj
 E2MTE2OTQsLTExMjUyMDI2NiwxOTcwMDg1Njk0LC0zNzk2MTAy
 ODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Niw3NzA4NDkxOTYsLT
 kyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1NTYsLTM4MDM1
