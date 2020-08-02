@@ -167,12 +167,17 @@ These two methods are implemented on all types of environments (scope). Here is 
 
 
 Now, back to the special resolving logic -
+Starting from LE (i.e.
+a. it will check in the current LexicalEnvironment (i.e. the new local scope) first, and  
+b. if it doesn't find the variable there, it will check in it's parent scope (parent of LE = F.[[Environment]] = lexical/closure scope),
+c. and so on.
+
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTQ3OTM5NiwtNTQ3MzQ0NjI4LDEzMT
+eyJoaXN0b3J5IjpbLTk5MjkzNzY1OSwtNTQ3MzQ0NjI4LDEzMT
 gwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2LDE5NzAwODU2
 OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNTgwOTU3MjQ2LD
 c3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2
