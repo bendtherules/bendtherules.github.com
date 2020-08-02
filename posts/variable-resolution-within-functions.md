@@ -140,17 +140,17 @@ function outer() {
 
 ## `this` lookup
 
-
+Earlier, we looked at how normal variables get resolved in a function. But whenever you write ``
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Niw3Nz
-A4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1
-NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNz
-kyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUz
-NDIwLDE0Nzk4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYzNTYsLT
-E3ODY0ODc0MjAsNTc5ODQxMzUyLC0xOTc1MDcyNjk2LC0xNjYy
-MzE2OTU2XX0=
+eyJoaXN0b3J5IjpbLTE1NzMxMzgyMjEsLTE5Mjc5ODY3OTMsMT
+U4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0
+MjMzNiw0MTI1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLT
+g4NjI4Mjg1NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUw
+Mzc2OSwtNTU3NTUzNDIwLDE0Nzk4NzIxNTcsODAwNzgzMjkxLD
+E3NTE2NDYzNTYsLTE3ODY0ODc0MjAsNTc5ODQxMzUyLC0xOTc1
+MDcyNjk2XX0=
 -->
