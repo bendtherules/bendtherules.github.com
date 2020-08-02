@@ -152,9 +152,9 @@ If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' a
 This FunctionEnvironment also has 2 helper methods -
 1. `HasThisBinding()` - Returns false if `[[ThisBindingStatus]]` is 'lexical'. Else, returns true.
 
-2. `HasThisBinding()` - Returns `env.[[ThisValue]]`. This will only be called if `HasThisBinding()` is true.
+2. `GetThisBinding()` - Returns `env.[[ThisValue]]`. This will only be called if `HasThisBinding()` is true.
 
-These two methods are implemented on all types of environment (scope). Here is a summary of what these methods return on other environments -
+These two methods are implemented on all types of environments (scope). Here is a summary of what these methods return on other environments -
 
 | Environment Type | HasThisBinding() | GetThisBinding() |
 |--------|--------|---------------|
@@ -170,7 +170,7 @@ Now, back to the special resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzODI3MTUyLC01NDczNDQ2MjgsMTMxOD
+eyJoaXN0b3J5IjpbNTE1NTIzMzUzLC01NDczNDQ2MjgsMTMxOD
 AwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAyNjYsMTk3MDA4NTY5
 NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLDE1ODA5NTcyNDYsNz
 cwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTczNDIzMzYsNDEyNTY3
