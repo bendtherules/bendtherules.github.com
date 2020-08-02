@@ -140,13 +140,13 @@ function outer() {
 
 ## `this` lookup
 
-Earlier, we looked at how normal variables get resolved in a function. But whenever you write `this.someThing`, the value of `this` does NOT get resolved in the same way. It is called a ``
+Earlier, we looked at how normal variables get resolved in a function. But whenever you write `this.someThing`, the value of `this` does NOT get resolved in the same way. It is called a `ThisExpression`
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDcwMTQ5NCwtMTkyNzk4Njc5MywxNT
+eyJoaXN0b3J5IjpbLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNT
 gwOTU3MjQ2LDc3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQy
 MzM2LDQxMjU2NzU1NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtOD
 g2MjgyODU1LDE3OTI5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAz
