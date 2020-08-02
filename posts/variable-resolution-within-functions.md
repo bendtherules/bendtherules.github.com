@@ -98,6 +98,7 @@ function outer() {
 
 {
   // scope C
+  var text = 'World'
   var fn = outer()
   fn();
 }
@@ -106,8 +107,8 @@ function outer() {
 ### Variable lookup
 
 Now, when we use something like `console.log(text)` in the function body - it needs to resolve the value of the variable `text`. For variable lookup, 
-a. it will check in the current LexicalEnvironment (i.e. the new local scope) first, and 
-b. if it doesn't find the variable there, it will again check in it's parent scope (parent of LE = F.[[Environment]] = lexical/closure scope),
+a. it will check in the current LexicalEnvironment (i.e. the new local scope) first, and  
+b. if it doesn't find the variable there, it will check in it's parent scope (parent of LE = F.[[Environment]] = lexical/closure scope),
 c. and so on.
 
 ## `this` lookup
@@ -116,7 +117,7 @@ c. and so on.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzg5ODExMSwtMjA5NzM0MjMzNiw0MT
+eyJoaXN0b3J5IjpbLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MT
 I1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1
 NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNT
 U3NTUzNDIwLDE0Nzk4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYz
