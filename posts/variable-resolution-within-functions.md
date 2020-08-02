@@ -189,7 +189,7 @@ It will finally reach global scope, which always provides a `this` value (global
 ```js
 function outer() {
   const inner = () => {
-    // prints `obj` - which is this v
+    // prints `obj` - which is this value in outer function
     console.log(this)
   }
   inner();
@@ -201,7 +201,7 @@ outer.call(obj);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzE5NTc0MCw4MzI1NTE4NzUsLTU0Nz
+eyJoaXN0b3J5IjpbLTIxMDM5ODczNyw4MzI1NTE4NzUsLTU0Nz
 M0NDYyOCwxMzE4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2
 NiwxOTcwMDg1Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMT
 U4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0
