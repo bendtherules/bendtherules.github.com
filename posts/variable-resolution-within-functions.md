@@ -200,8 +200,12 @@ outer.call(obj);
 ```
 Same logic also applies for nested arrow functions.
 
+3. In modules, top-level `this` value is `undefined`.
+```
+// Save as file.mjs and ru
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDk3MjU5LDgzMjU1MTg3NSwtNTQ3Mz
+eyJoaXN0b3J5IjpbMjU4NzQwNTU0LDgzMjU1MTg3NSwtNTQ3Mz
 Q0NjI4LDEzMTgwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2
 LDE5NzAwODU2OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNT
 gwOTU3MjQ2LDc3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQy
