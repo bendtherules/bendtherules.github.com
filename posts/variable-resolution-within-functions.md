@@ -165,6 +165,7 @@ These two methods are implemented on all types of environments (scope). Here is 
 | global | true   | global object |
 | object | false  | -             |
 
+### Resolving logic
 
 Now, back to the special resolving logic -
 
@@ -179,11 +180,11 @@ If
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2OTU4MTAzLC01NDczNDQ2MjgsMTMxOD
-AwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAyNjYsMTk3MDA4NTY5
-NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLDE1ODA5NTcyNDYsNz
-cwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTczNDIzMzYsNDEyNTY3
-NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC04ODYyODI4NTUsMT
-c5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1MDM3NjksLTU1NzU1
-MzQyMF19
+eyJoaXN0b3J5IjpbMTcyOTQ5MTU5OSwtNTQ3MzQ0NjI4LDEzMT
+gwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2LDE5NzAwODU2
+OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNTgwOTU3MjQ2LD
+c3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2
+NzU1NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LD
+E3OTI5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1
+NTM0MjBdfQ==
 -->
