@@ -88,14 +88,13 @@ function outer() {
   return function inner() {
 	// new scope = scopeB
 	// ⭐️ scopeB -> scopeA -> global
-	// ❌ Does NOT 
+	// ❌ Does NOT use scopeC
 	console.log(text)
   }
 }
 
 {
   // scope C
-  var text = 'World'
   var fn = outer()
   fn();
 }
@@ -112,11 +111,11 @@ So, now when a variable lookup happens inside function, it checks current Lexica
 When a function is called, it creates a new execution context (say EC). Now EC has a property called LexicalEnvironment (LE) - which is (roughly) the current scope for lookup. Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE. So, till now - when a function is called, it gets a new execution context, whose LE points to a new scope. This new scope will contain function's own local variables. Now scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] - a internal property). It decides to set this lexical scope as parent, ignoring the caller scope. So, now when a variable lookup happens inside function, it checks current LexicalEnvironment first (which is the new local scope) and if it doesn't find that, it looks up to parent of LE aka F.[[Environment]] aka its closure scope.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxOTE4OTQ0MCwtODg2MjgyODU1LDE3OT
-I5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1NTM0
-MjAsMTQ3OTg3MjE1Nyw4MDA3ODMyOTEsMTc1MTY0NjM1NiwtMT
-c4NjQ4NzQyMCw1Nzk4NDEzNTIsLTE5NzUwNzI2OTYsLTE2NjIz
-MTY5NTYsLTg5OTYzODE3MSwyMDcxMDY4Njk1LDE3MDMxNTk3NT
-IsLTIwNzY5MTE1MDYsMTIzNjQxMjA1NCwtMjEwMjM5NjczNiwy
-MDQ3NDkyNTgwXX0=
+eyJoaXN0b3J5IjpbNTM4Mjc4NDU1LC04ODYyODI4NTUsMTc5Mj
+k3MjQ1NCwxNDMzMTcwODk0LC05ODY1MDM3NjksLTU1NzU1MzQy
+MCwxNDc5ODcyMTU3LDgwMDc4MzI5MSwxNzUxNjQ2MzU2LC0xNz
+g2NDg3NDIwLDU3OTg0MTM1MiwtMTk3NTA3MjY5NiwtMTY2MjMx
+Njk1NiwtODk5NjM4MTcxLDIwNzEwNjg2OTUsMTcwMzE1OTc1Mi
+wtMjA3NjkxMTUwNiwxMjM2NDEyMDU0LC0yMTAyMzk2NzM2LDIw
+NDc0OTI1ODBdfQ==
 -->
