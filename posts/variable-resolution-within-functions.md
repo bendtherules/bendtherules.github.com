@@ -148,7 +148,9 @@ If `[[ThisMode]]` is lexical, set `[[ThisBindingStatus]]` to 'lexical' and no ne
 If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' and set `[[ThisValue]]` to the actual `this` that the function was called with.
 
 This FunctionEnvironment has 2 more helper methods -
-`HasThisBinding()` - Returns false if `[[ThisBindingStatus]]` is `lexical`. Else, returns true.
+1. `HasThisBinding()` - Returns false if `[[ThisBindingStatus]]` is 'lexical'. Else, returns true.
+
+2. `GetThisBinding()` - Returns ``
 
 Now, back to the resolving logic -
 
@@ -156,7 +158,7 @@ Now, back to the resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTYwNjk2OSwxNjIxNjExNjk0LC0xMT
+eyJoaXN0b3J5IjpbMTM4OTgyODcwNiwxNjIxNjExNjk0LC0xMT
 I1MjAyNjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2
 NzkzLDE1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLT
 IwOTczNDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4Mjgz
