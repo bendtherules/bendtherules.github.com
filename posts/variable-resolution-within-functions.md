@@ -63,6 +63,7 @@ Above, function inner will get *created* when outer() is called, and creation sc
 
 When a function `F` is being created, it stores the current scope (creation scope) in `F.[[Environment]]`. This is a internal property, not generally visible to users.
 
+There is another 
 
 ## When function is called
 
@@ -75,9 +76,9 @@ When a function `F` is being created, it stores the current scope (creation scop
 When a function is called, it creates a new execution context (say EC). Now EC has a property called LexicalEnvironment (LE) - which is (roughly) the current scope for lookup. Because function should have its own scope, so a new FunctionEnvironment (function scope) is created and set to LE. So, till now - when a function is called, it gets a new execution context, whose LE points to a new scope. This new scope will contain function's own local variables. Now scopes are chained - so, this new function scope (LE) needs to decide what is its parent scope (outerEnv). It has 2 options - caller scope (which was the current scope before this new one was created) or its lexical scope (which it is carrying around in F.[[Environment]] - a internal property). It decides to set this lexical scope as parent, ignoring the caller scope. So, now when a variable lookup happens inside function, it checks current LexicalEnvironment first (which is the new local scope) and if it doesn't find that, it looks up to parent of LE aka F.[[Environment]] aka its closure scope.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTg3MjE1Nyw4MDA3ODMyOTEsMTc1MT
-Y0NjM1NiwtMTc4NjQ4NzQyMCw1Nzk4NDEzNTIsLTE5NzUwNzI2
-OTYsLTE2NjIzMTY5NTYsLTg5OTYzODE3MSwyMDcxMDY4Njk1LD
-E3MDMxNTk3NTIsLTIwNzY5MTE1MDYsMTIzNjQxMjA1NCwtMjEw
-MjM5NjczNiwyMDQ3NDkyNTgwXX0=
+eyJoaXN0b3J5IjpbLTE0MTk3MTI3NjYsMTQ3OTg3MjE1Nyw4MD
+A3ODMyOTEsMTc1MTY0NjM1NiwtMTc4NjQ4NzQyMCw1Nzk4NDEz
+NTIsLTE5NzUwNzI2OTYsLTE2NjIzMTY5NTYsLTg5OTYzODE3MS
+wyMDcxMDY4Njk1LDE3MDMxNTk3NTIsLTIwNzY5MTE1MDYsMTIz
+NjQxMjA1NCwtMjEwMjM5NjczNiwyMDQ3NDkyNTgwXX0=
 -->
