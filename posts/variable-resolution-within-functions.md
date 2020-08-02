@@ -171,18 +171,19 @@ Now, back to the special resolving logic -
 Starting from the FunctionEnvironment (i.e. current function scope), 
 a. if `env.HasThisBinding()`, then return   `env.GetThisBinding()`
 b. else, move up to parent scope and repeat.
-c. and so on.
+
+
 
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzU3NTE4NiwtNTQ3MzQ0NjI4LDEzMT
-gwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2LDE5NzAwODU2
-OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNTgwOTU3MjQ2LD
-c3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2
-NzU1NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LD
-E3OTI5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1
-NTM0MjBdfQ==
+eyJoaXN0b3J5IjpbLTE2MjYwOTQ2OTcsLTU0NzM0NDYyOCwxMz
+E4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2NiwxOTcwMDg1
+Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Ni
+w3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1
+Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NS
+wxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3
+NTUzNDIwXX0=
 -->
