@@ -188,20 +188,24 @@ It will finally reach global scope, which always provides a `this` value (global
 2. Arrow functions don't have their own `this` value
 ```js
 function outer() {
-  const inner = () => console.log(this);
+  const inner = () => {
+    // prints `obj` - which is this v
+    console.log(this)
+  }
   inner();
 }
 
-outer.
+const obj = {abc: 123};
+outer.call(obj);
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk0Mzk2MTksODMyNTUxODc1LC01ND
-czNDQ2MjgsMTMxODAwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAy
-NjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLD
-E1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTcz
-NDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC
-04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1
-MDM3NjldfQ==
+eyJoaXN0b3J5IjpbMTkwMzE5NTc0MCw4MzI1NTE4NzUsLTU0Nz
+M0NDYyOCwxMzE4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2
+NiwxOTcwMDg1Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMT
+U4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0
+MjMzNiw0MTI1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLT
+g4NjI4Mjg1NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUw
+Mzc2OV19
 -->
