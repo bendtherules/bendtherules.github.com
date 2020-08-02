@@ -145,17 +145,17 @@ Earlier, we looked at how normal variables get resolved in a function. But whene
 Now, remember the new function scope (`FunctionEnvironment`) and `F.[[ThisMode]]`? Well, this FunctionEnvironment also has 2 internal properties - `env.[[ThisBindingStatus]]` and `env.[[ThisValue]]`. Their values are set based on `F.[[ThisMode]]`.  
 
 If `[[ThisMode]]` is lexical, set `[[ThisBindingStatus]]` to 'lexical' and no need of setting `[[ThisValue]]`.
-If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' and set `[[ThisValue]]` to the actual value of `this` that the function was called with.
+If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' and set `[[ThisValue]]` to the actual `this` that the function was called with.
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjUyMDI2NiwxOTcwMDg1Njk0LC0zNz
-k2MTAyODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Niw3NzA4NDkx
-OTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1NTYsLT
-M4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNzkyOTcy
-NDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUzNDIwLD
-E0Nzk4NzIxNTcsODAwNzgzMjkxLDE3NTE2NDYzNTYsLTE3ODY0
-ODc0MjBdfQ==
+eyJoaXN0b3J5IjpbMTYyMTYxMTY5NCwtMTEyNTIwMjY2LDE5Nz
+AwODU2OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNTgwOTU3
+MjQ2LDc3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LD
+QxMjU2NzU1NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtODg2Mjgy
+ODU1LDE3OTI5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC
+01NTc1NTM0MjAsMTQ3OTg3MjE1Nyw4MDA3ODMyOTEsMTc1MTY0
+NjM1Nl19
 -->
