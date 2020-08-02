@@ -173,17 +173,17 @@ Starting from the FunctionEnvironment (i.e. current function scope),
 a. if `env.HasThisBinding()`, then return   `env.GetThisBinding()`
 b. else, move up to parent scope and repeat.
 
-It will finally reach global scope, which will always provide a `this` value.
+It will finally reach global scope, which always provide a `this` value = . For modules, 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMyNTUxODc1LC01NDczNDQ2MjgsMTMxOD
-AwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAyNjYsMTk3MDA4NTY5
-NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLDE1ODA5NTcyNDYsNz
-cwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTczNDIzMzYsNDEyNTY3
-NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC04ODYyODI4NTUsMT
-c5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1MDM3NjksLTU1NzU1
-MzQyMF19
+eyJoaXN0b3J5IjpbLTEzMjcwNjk3NDgsODMyNTUxODc1LC01ND
+czNDQ2MjgsMTMxODAwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAy
+NjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLD
+E1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTcz
+NDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC
+04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1
+MDM3NjldfQ==
 -->
