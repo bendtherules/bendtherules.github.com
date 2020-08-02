@@ -162,17 +162,17 @@ These two methods are implemented on all types of environment (scope). Here is a
 | object | false  | -             |
 
 
-Now, back to the resolving logic -
+Now, back to the special resolving logic -
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzM0NDYyOCwxMzE4MDAxMjg0LDE2Mj
-E2MTE2OTQsLTExMjUyMDI2NiwxOTcwMDg1Njk0LC0zNzk2MTAy
-ODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Niw3NzA4NDkxOTYsLT
-kyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1Njc1NTYsLTM4MDM1
-Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NSwxNzkyOTcyNDU0LD
-E0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3NTUzNDIwLDE0Nzk4
-NzIxNTddfQ==
+eyJoaXN0b3J5IjpbLTE2OTU4MzYyNTEsLTU0NzM0NDYyOCwxMz
+E4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2NiwxOTcwMDg1
+Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Ni
+w3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1
+Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NS
+wxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3
+NTUzNDIwXX0=
 -->
