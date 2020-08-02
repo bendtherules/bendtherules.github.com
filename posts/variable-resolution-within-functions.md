@@ -152,7 +152,7 @@ This FunctionEnvironment has 2 more helper methods -
 
 2. `GetThisBinding()` - Returns `env.[[ThisValue]]`. This will only be called if `HasThisBinding()` is true.
 
-These two methods are implemented on all types of environment (scope). We saw what Function Environment returns Global environment 
+These two methods are implemented on all types of environment (scope). Here is a summary of what these methods return on other environments
 
 Now, back to the resolving logic -
 
@@ -160,11 +160,11 @@ Now, back to the resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Mjc0NjAxLDE2MjE2MTE2OTQsLTExMj
-UyMDI2NiwxOTcwMDg1Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3
-OTMsMTU4MDk1NzI0Niw3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMj
-A5NzM0MjMzNiw0MTI1Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMz
-NjcsLTg4NjI4Mjg1NSwxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLT
-k4NjUwMzc2OSwtNTU3NTUzNDIwLDE0Nzk4NzIxNTcsODAwNzgz
-MjkxXX0=
+eyJoaXN0b3J5IjpbLTc4MDgzMjkwMCwxNjIxNjExNjk0LC0xMT
+I1MjAyNjYsMTk3MDA4NTY5NCwtMzc5NjEwMjg0LC0xOTI3OTg2
+NzkzLDE1ODA5NTcyNDYsNzcwODQ5MTk2LC05MjI4NzM3MDgsLT
+IwOTczNDIzMzYsNDEyNTY3NTU2LC0zODAzNTI5NTMsMTk4Mjgz
+MzY3LC04ODYyODI4NTUsMTc5Mjk3MjQ1NCwxNDMzMTcwODk0LC
+05ODY1MDM3NjksLTU1NzU1MzQyMCwxNDc5ODcyMTU3LDgwMDc4
+MzI5MV19
 -->
