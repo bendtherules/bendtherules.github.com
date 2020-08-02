@@ -149,7 +149,7 @@ Remember the function scope (`FunctionEnvironment`) and `F.[[ThisMode]]`? Well, 
 If `[[ThisMode]]` is lexical, set `[[ThisBindingStatus]]` to 'lexical' and no need of setting `[[ThisValue]]`.
 If `[[ThisMode]]` is non-lexical, set `[[ThisBindingStatus]]` to 'initialized' and set `[[ThisValue]]` to the actual `this` that the function was called with.
 
-In summary, the function scope has 2 properties which say - if it has a `this` value or n
+In summary, the function scope has 2 properties which say - whether the scope has a `this` value or not and if it has, then what is the value. Arrow functions will not have any `this` value, but normal functions will.
 
 This FunctionEnvironment also has 2 helper methods -
 1. `HasThisBinding()` - Returns false if `[[ThisBindingStatus]]` is 'lexical'. Else, returns true.
@@ -172,7 +172,7 @@ Now, back to the special resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzc4ODA0OCwtNTQ3MzQ0NjI4LDEzMT
+eyJoaXN0b3J5IjpbMTIwMTQ3OTM5NiwtNTQ3MzQ0NjI4LDEzMT
 gwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2LDE5NzAwODU2
 OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNTgwOTU3MjQ2LD
 c3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2
