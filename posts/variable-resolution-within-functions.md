@@ -117,7 +117,8 @@ c. and so on.
 
 The lookup will finally end when it reaches the global scope (doesn't have parent scope). If the variable is still not found, it will throw a `ReferenceError`.
 
-If you remember the scope chain of `inner` func, this means that the variable will never be looked up in caller scope (scopeC). Even if there is no definition for `myText` in the lexical scope (scopeA), it will NOT use the value from scopeC
+If you remember the scope chain of `inner` func, this means that the variable will never be looked up in caller scope (scopeC).  
+Even if there is no definition for `myText` in the lexical scope (scopeA), it will NOT use the value from scopeC - and indeed throw a error. Example ⤵️
 
 ```js
 function outer() {
@@ -142,7 +143,7 @@ function outer() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzE4NDAzMywxNTgwOTU3MjQ2LDc3MD
+eyJoaXN0b3J5IjpbLTg4OTgyOTE2MywxNTgwOTU3MjQ2LDc3MD
 g0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2NzU1
 NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LDE3OT
 I5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1NTM0
