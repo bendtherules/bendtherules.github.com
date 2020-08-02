@@ -142,6 +142,8 @@ function outer() {
 
 Earlier, we looked at how normal variables get resolved in a function. But whenever you write `this.someThing`, the value of `this` does NOT get resolved in the same way. It is called as a `ThisExpression`, which gets resolved specially.
 
+Before going further, lets take a small detour
+
 Now, remember the new function scope (`FunctionEnvironment`) and `F.[[ThisMode]]`? Well, this FunctionEnvironment also has 2 internal properties - `env.[[ThisBindingStatus]]` and `env.[[ThisValue]]`. Their values are set based on `F.[[ThisMode]]`.  
 
 If `[[ThisMode]]` is lexical, set `[[ThisBindingStatus]]` to 'lexical' and no need of setting `[[ThisValue]]`.
@@ -168,11 +170,11 @@ Now, back to the special resolving logic -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU4MzYyNTEsLTU0NzM0NDYyOCwxMz
-E4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2NiwxOTcwMDg1
-Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Ni
-w3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1
-Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NS
-wxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3
-NTUzNDIwXX0=
+eyJoaXN0b3J5IjpbMjEyMjcwMTY3OCwtNTQ3MzQ0NjI4LDEzMT
+gwMDEyODQsMTYyMTYxMTY5NCwtMTEyNTIwMjY2LDE5NzAwODU2
+OTQsLTM3OTYxMDI4NCwtMTkyNzk4Njc5MywxNTgwOTU3MjQ2LD
+c3MDg0OTE5NiwtOTIyODczNzA4LC0yMDk3MzQyMzM2LDQxMjU2
+NzU1NiwtMzgwMzUyOTUzLDE5ODI4MzM2NywtODg2MjgyODU1LD
+E3OTI5NzI0NTQsMTQzMzE3MDg5NCwtOTg2NTAzNzY5LC01NTc1
+NTM0MjBdfQ==
 -->
