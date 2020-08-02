@@ -115,7 +115,7 @@ a. it will check in the current LexicalEnvironment (i.e. the new local scope) fi
 b. if it doesn't find the variable there, it will check in it's parent scope (parent of LE = F.[[Environment]] = lexical/closure scope),
 c. and so on.
 
-The lookup will finally end when it reaches the global scope (doesn't have parent scope). If the variable is still not found, it will throw a `ReferenceError`.
+This lookup will finally end when it reaches the global scope (doesn't have parent scope). If the variable is still not found, it will throw a `ReferenceError`.
 
 If you remember the scope chain of `inner` func, this means that the variable will never be looked up in caller scope (scopeC).  
 Even if there is no definition for `myText` in the lexical scope (scopeA), it will NOT use the value from scopeC - and indeed throw a error. Example ⤵️
@@ -172,18 +172,18 @@ Starting from the FunctionEnvironment (i.e. current function scope),
 a. if `env.HasThisBinding()`, then return   `env.GetThisBinding()`
 b. else, move up to parent scope and repeat.
 
-
+If 
 
 
 ### Types of environments
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjYwOTQ2OTcsLTU0NzM0NDYyOCwxMz
-E4MDAxMjg0LDE2MjE2MTE2OTQsLTExMjUyMDI2NiwxOTcwMDg1
-Njk0LC0zNzk2MTAyODQsLTE5Mjc5ODY3OTMsMTU4MDk1NzI0Ni
-w3NzA4NDkxOTYsLTkyMjg3MzcwOCwtMjA5NzM0MjMzNiw0MTI1
-Njc1NTYsLTM4MDM1Mjk1MywxOTgyODMzNjcsLTg4NjI4Mjg1NS
-wxNzkyOTcyNDU0LDE0MzMxNzA4OTQsLTk4NjUwMzc2OSwtNTU3
-NTUzNDIwXX0=
+eyJoaXN0b3J5IjpbMzk2OTU4MTAzLC01NDczNDQ2MjgsMTMxOD
+AwMTI4NCwxNjIxNjExNjk0LC0xMTI1MjAyNjYsMTk3MDA4NTY5
+NCwtMzc5NjEwMjg0LC0xOTI3OTg2NzkzLDE1ODA5NTcyNDYsNz
+cwODQ5MTk2LC05MjI4NzM3MDgsLTIwOTczNDIzMzYsNDEyNTY3
+NTU2LC0zODAzNTI5NTMsMTk4MjgzMzY3LC04ODYyODI4NTUsMT
+c5Mjk3MjQ1NCwxNDMzMTcwODk0LC05ODY1MDM3NjksLTU1NzU1
+MzQyMF19
 -->
