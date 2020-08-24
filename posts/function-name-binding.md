@@ -65,13 +65,14 @@ function hello() {}
 ## Func expression and Arrow function
 
 
-## Method declaration
+## Method and object literal
 
 Todos -
-1. if name is symbol ? (for expressio
+1. if name is symbol? (for expressions)
+2. 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM0ODMxNjY1NywxMTkxNzgx
+BnZm1cbiIsImhpc3RvcnkiOlstMTQ4MDQ4MTIzMiwxMTkxNzgx
 ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
 wtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5
 NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMz
