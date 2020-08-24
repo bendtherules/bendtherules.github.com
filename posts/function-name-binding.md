@@ -21,7 +21,7 @@ This is useful for debugging and readable stack traces.
 
 To understand, let's look at more examples -
 3. You can always store the function in a different variable, but `func.name` will NOT change.  
-`name` is only decided based on how the function is created. It is independent of the name of the variable which points to it.
+`name` is only decided based on how the function is created. It is independent of the name of the variable which you use to access it.
 ```js
 // Example 1
 function func1() {}
@@ -32,7 +32,7 @@ func2.name // prints "func1", NOT "func2"
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstODgzODA1NjQzLDIwMDE2Njg4
+BnZm1cbiIsImhpc3RvcnkiOlstOTYzMDUwNDUyLDIwMDE2Njg4
 NzIsLTIwODIxMDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNi
 wxODMwOTYyODc0LDEyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1
 ODg2ODIwXX0=
