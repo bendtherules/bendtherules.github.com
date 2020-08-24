@@ -18,8 +18,7 @@ This is useful for debugging and readable stack traces.
 	foo()
 	```
 	
-## ⚠️ Are they even different?
-It just looks like the `name` property holds the name of the variable it created. Also,  name is non-writable - so, it's not like you can change it later.  
+⚠️  **Are they even different?** It just looks like the `name` property holds the name of the variable it created. Also,  name is non-writable - so, it's not like you can change it later.  
 
 To understand, let's look at more examples -
 1. You can always store the function in a different variable, but `func.name` will NOT change. 
@@ -34,8 +33,8 @@ To understand, let's look at more examples -
 2. sdsd
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjA5MzY1MjM1OSwtMjAwODc3
-NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC0xMjEzNDY3ND
-AwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMwMDI3NjI1LDEw
-NjIxMjM3NzEsMTIyNTg4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOlsyMTY5NzEzMDcsLTIwMDg3NzU3
+MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMC
+wxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYy
+MTIzNzcxLDEyMjU4ODY4MjBdfQ==
 -->
