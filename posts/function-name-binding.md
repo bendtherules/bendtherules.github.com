@@ -65,7 +65,7 @@ var a = 1;
 function hello() {}
 ```
 
-For function statements, `.name` is simply "hello", i.e. string form of the identifier `hello`. 
+For function statements, `.name` is simply "hello", i.e. string form of the identifier `hello`. For function statement, the name is always a string and it can't be a symbol - 
 
 ## Func expression and Arrow function
 
@@ -80,11 +80,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTY0NjI0ODMzNywtMjAwODA2
-MTYzLDExOTE3ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNy
-wxODI2MjgyNTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5
-Nzk1MzUyLDQyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4OD
-cyLC0yMDgyMTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYs
-MTgzMDk2Mjg3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNT
-g4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOlsxNzM0MDk0NDY4LC0yMDA4MDYx
+NjMsMTE5MTc4MTg0LC0xNTIxNTAyMzQyLC0xNzI3MzU4MTM3LD
+E4MjYyODI1MDMsLTE0Mzg3NjY5MzAsMTg2NDI0NDc1Myw5NTk3
+OTUzNTIsNDI5OTY1OTYyLC0yMDA4Nzc1NzAwLDIwMDE2Njg4Nz
+IsLTIwODIxMDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNiwx
+ODMwOTYyODc0LDEyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1OD
+g2ODIwXX0=
 -->
