@@ -50,12 +50,17 @@ Yes, they are somewhat different . Let's look at more examples -
 	```
 
 # Function statement
+
+
+# Function expression
+
+# Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMDM4MzU2OTUwLDE4MjYyODI1
-MDMsLTE0Mzg3NjY5MzAsMTg2NDI0NDc1Myw5NTk3OTUzNTIsND
-I5OTY1OTYyLC0yMDA4Nzc1NzAwLDIwMDE2Njg4NzIsLTIwODIx
-MDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyOD
-c0LDEyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTM1MjYzNTUzMSwxODI2Mjgy
+NTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLD
+QyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgy
+MTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mj
+g3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 
 -->
