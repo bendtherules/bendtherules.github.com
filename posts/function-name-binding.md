@@ -20,6 +20,7 @@ This is useful for debugging and readable stack traces.
 ⚠️ **Are they even different?** It just looks like that `name` property holds the name of the variable it created. Also,  `name` is non-writable - so, it's not like you can change it later.  
 
 To understand, let's look at more examples -
+1. You can always store the function (`func1`) in a different variable (say, but `func.name` 
 ```js
 // Example 1
 function func1() {}
@@ -30,8 +31,8 @@ func2.name // "func1"
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNzYwMDA0OTk5LDIwMDE2Njg4
-NzIsLTIwODIxMDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNi
-wxODMwOTYyODc0LDEyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1
-ODg2ODIwXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMjA3Njk4ODgyMCwyMDAxNjY4
+ODcyLC0yMDgyMTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3Mj
+YsMTgzMDk2Mjg3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIy
+NTg4NjgyMF19
 -->
