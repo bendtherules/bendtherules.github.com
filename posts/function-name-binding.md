@@ -12,7 +12,7 @@ Let's start with two related but different concepts -
 	```
    This is useful for debugging and readable stack traces.  
  
-2. **name binding** - Normally when we declare a function, it also creates a variable which stores the function object. For ex -
+2. **name binding** - Normally when we declare a function, it also declares a variable which points back to the function object. For ex -
 	```js
 	// This creates a variable `foo` in the current scope
 	function foo(){}
@@ -58,7 +58,7 @@ Yes, they are somewhat different . Let's look at more examples -
 # Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTMwNDk2Mzk2NiwxODI2Mjgy
+BnZm1cbiIsImhpc3RvcnkiOlstMjA5NjM5MzQ0NywxODI2Mjgy
 NTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLD
 QyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgy
 MTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mj
