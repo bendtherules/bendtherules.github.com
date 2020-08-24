@@ -22,7 +22,7 @@ This is useful for debugging and readable stack traces.
 ⚠️  **How are they different?** It just looks like the `name` property stores the name of the variable it created.
 
 Yes, they are somewhat different . Let's look at more examples -
-1. You can always store the function in a different variable, but `func.name` will NOT change. 
+1. You can always store the function in a variable with different name, but `func.name` will NOT change. 
 	```js
 	// Example 1
 	function func1() {}
@@ -34,7 +34,7 @@ Yes, they are somewhat different . Let's look at more examples -
 2. 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxODEyMDcwNDcsNDI5OTY1OTYy
+BnZm1cbiIsImhpc3RvcnkiOls4MTc0OTkyNzYsNDI5OTY1OTYy
 LC0yMDA4Nzc1NzAwLDIwMDE2Njg4NzIsLTIwODIxMDMwOTUsLT
 EyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyODc0LDEyMzAw
 Mjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
