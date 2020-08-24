@@ -54,6 +54,7 @@ Yes, they are. Let's look at more examples -
 ⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
 
 Now. let's finally look at how both the names behave for different function syntaxes (hint: they are different).
+(From now on, I'll use the notations `.name` and bound name)
 
 ## Function statement
 
@@ -61,6 +62,8 @@ Now. let's finally look at how both the names behave for different function synt
 var a = 1;
 function hello() {}
 ```
+
+For function statements, figuring out
 
 ## Func expression and Arrow function
 
@@ -75,7 +78,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMTQzMDQzOTcwLDExOTE3ODE4
+BnZm1cbiIsImhpc3RvcnkiOlstMzM2Njk4NzkwLDExOTE3ODE4
 NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNTAzLC
 0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2
 NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMD
