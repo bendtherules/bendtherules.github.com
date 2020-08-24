@@ -17,12 +17,12 @@ This is useful for debugging and readable stack traces.
 	// which we can call later
 	foo()
 	```
-⚠️ It's easy to get confused at this point. Are they even different
+⚠️ It's easy to get confused at this point. Are they even different? (Specially given that `name` is non-writable.)
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDM3OTUyNTgwLDIwMDE2Njg4
-NzIsLTIwODIxMDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNi
-wxODMwOTYyODc0LDEyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1
-ODg2ODIwXX0=
+BnZm1cbiIsImhpc3RvcnkiOls4MjUyMTk1MjksMjAwMTY2ODg3
+MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LD
+E4MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4
+ODY4MjBdfQ==
 -->
