@@ -35,7 +35,8 @@ Yes, they are somewhat different . Let's look at more examples -
 	```js
 	// A. Diff variable name
 	var someVar = function someName(){}
-	// variable is `someVar`, but function.name is `someName`
+	// Creates only one variable called `someVar`
+	// But function.name is `someName`
 	
 	// B. not stored in any variable, like IIFE
 	(function hello(){})()
@@ -44,9 +45,9 @@ Yes, they are somewhat different . Let's look at more examples -
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMzUwMzg0NDQ2LC0xNDM4NzY2
-OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2NTk2MiwtMj
-AwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC0xMjEz
-NDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMwMDI3Nj
-I1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTQ4MzMxMTY0OCwtMTQzODc2
+NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5NjU5NjIsLT
+IwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIx
+MzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNz
+YyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
 -->
