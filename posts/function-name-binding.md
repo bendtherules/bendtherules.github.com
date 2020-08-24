@@ -2,6 +2,8 @@
 
 This is going to be one of those nitpicky articles where I document everything about function name, that I have learned from the spec.  
 
+# Intro
+
 Let's start with two related but different concepts -
 1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with.   
 This is useful for debugging and readable stack traces.  
@@ -46,12 +48,14 @@ Yes, they are somewhat different . Let's look at more examples -
 	// This DOES NOT create any local variable (aka name binding)
 	hello // DOESN'T exist
 	```
+
+# Function statement
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNDE2NDczNTUsMTgyNjI4MjUw
-MywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mj
-k5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEw
-MzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4Nz
-QsMTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxMDM4MzU2OTUwLDE4MjYyODI1
+MDMsLTE0Mzg3NjY5MzAsMTg2NDI0NDc1Myw5NTk3OTUzNTIsND
+I5OTY1OTYyLC0yMDA4Nzc1NzAwLDIwMDE2Njg4NzIsLTIwODIx
+MDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyOD
+c0LDEyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
 
 -->
