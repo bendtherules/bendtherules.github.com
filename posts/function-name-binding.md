@@ -32,10 +32,16 @@ Yes, they are somewhat different . Let's look at more examples -
 	```
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
 2. *Named function expressions* can be bound to a different variable name, OR not stored in a variable at all.
+	```js
+	// 
+	var someVar = function someName(){}
+	// variable is `someVar`, but `function name` is `someName`
+	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls5NTk3OTUzNTIsNDI5OTY1OTYy
-LC0yMDA4Nzc1NzAwLDIwMDE2Njg4NzIsLTIwODIxMDMwOTUsLT
-EyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyODc0LDEyMzAw
-Mjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
+BnZm1cbiIsImhpc3RvcnkiOls1MjI3MDQzNzAsOTU5Nzk1MzUy
+LDQyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMD
+gyMTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2
+Mjg3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF
+19
 -->
