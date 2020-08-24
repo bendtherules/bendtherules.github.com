@@ -10,8 +10,13 @@ This is useful for debugging and readable stack traces.
 	foo.name // "foo"
 	```
 
-2. **name binding** - Normally when we declare a function, it also creates/initializes a variable which points back to the function object.
+2. **name binding** - Normally when we declare a function, it also creates/initializes a variable which points back to the function object. For ex -
+	```js
+	// This creates a variable `foo` in the current scope
+	function foo(){}
+	foo()
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMwMjk0MDIsMTgzMDk2Mjg3NCwxMj
+eyJoaXN0b3J5IjpbLTEwMjc2OTk4MTUsMTgzMDk2Mjg3NCwxMj
 MwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
