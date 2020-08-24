@@ -70,14 +70,15 @@ function hello() {}
 Todos -
 1. if name is symbol? (for expressions)
 2. if anonymous, name=?
-3. default export
-4. name available inside/outside?
+3. prefix in na
+4. default export
+5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNDg4MzQ3ODgyLDExOTE3ODE4
-NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNTAzLC
-0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2
-NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMD
-k1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwx
-MjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTA5MjI3NjQ5OSwxMTkxNzgx
+ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
+wtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5
+NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMz
+A5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQs
+MTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
 -->
