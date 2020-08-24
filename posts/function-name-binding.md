@@ -53,7 +53,7 @@ Yes, they are. Let's look at more examples -
 
 ⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
 
-(From now on, I'll use the terms `.name` and bound name to distinguish between these two)
+(From now on, I'll use the terms `.name` and bound name to distinguish between these two.)
 
 Now, let's actually look at how both the names behave for different function syntaxes (hint: they are different).
 
@@ -80,10 +80,10 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDQ4MTUyNjE1LDExOTE3ODE4
-NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNTAzLC
-0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2
-NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMD
-k1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwx
-MjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTI2MzY2NTMyNywxMTkxNzgx
+ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
+wtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5
+NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMz
+A5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQs
+MTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
 -->
