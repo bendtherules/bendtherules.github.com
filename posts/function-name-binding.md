@@ -45,8 +45,8 @@ Yes, they are. Let's look at more examples -
 	// But function.name is `someName`
 	
 	// B. not stored in any variable, ex - IIFE
-	(function hello(){})()
-	(function hello(){}).name // "hello"
+	(function foo(){})()
+	(function foo(){}).name // "foo"
 	// This DOES NOT create any variable in this scope
 	hello // DOESN'T exist
 	```
@@ -62,7 +62,7 @@ Yes, they are. Let's look at more examples -
 ## Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls1NDQ0MDg4NTIsLTE1MjE1MDIz
+BnZm1cbiIsImhpc3RvcnkiOlsxMTkxNzgxODQsLTE1MjE1MDIz
 NDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMywtMTQzODc2NjkzMC
 wxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3
 NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2Nz
