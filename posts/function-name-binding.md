@@ -66,9 +66,12 @@ function hello() {}
 
 
 ## Method declaration
+
+Todos -
+1. if name is symbol ? (for expressio
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTkzMDc4ODA1OCwxMTkxNzgx
+BnZm1cbiIsImhpc3RvcnkiOlstMTM0ODMxNjY1NywxMTkxNzgx
 ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
 wtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5
 NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMz
