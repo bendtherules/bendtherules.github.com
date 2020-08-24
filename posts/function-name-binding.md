@@ -41,13 +41,13 @@ Yes, they are somewhat different . Let's look at more examples -
 	// B. not stored in any variable, like IIFE
 	(function hello(){})()
 	(function hello(){}).name // "hello"
-	// This DOES NOT create any local variable or name binding.
+	// This DOES NOT create any local variable (aka name binding)
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQ4MzMxMTY0OCwtMTQzODc2
-NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5NjU5NjIsLT
-IwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIx
-MzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNz
-YyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxODI2MjgyNTAzLC0xNDM4NzY2
+OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2NTk2MiwtMj
+AwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC0xMjEz
+NDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMwMDI3Nj
+I1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
