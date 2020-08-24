@@ -65,7 +65,7 @@ var a = 1;
 function hello() {}
 ```
 
-For function statements, `.name` is simply "hello", i.e. string form of the identifier `hello`
+For function statements, `.name` is simply "hello", i.e. string form of the identifier `hello`.
 
 ## Func expression and Arrow function
 
@@ -80,7 +80,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstOTI3NzQxMjUxLC0yMDA4MDYx
+BnZm1cbiIsImhpc3RvcnkiOlsxOTY0Mjg3NDE1LC0yMDA4MDYx
 NjMsMTE5MTc4MTg0LC0xNTIxNTAyMzQyLC0xNzI3MzU4MTM3LD
 E4MjYyODI1MDMsLTE0Mzg3NjY5MzAsMTg2NDI0NDc1Myw5NTk3
 OTUzNTIsNDI5OTY1OTYyLC0yMDA4Nzc1NzAwLDIwMDE2Njg4Nz
