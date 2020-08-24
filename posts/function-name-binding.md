@@ -14,12 +14,12 @@ This is useful for debugging and readable stack traces.
 	// This creates a variable `foo` in the current scope
 	function foo(){}
 	// `foo` points to the function object
-	// which we can use to call later
+	// which we can call later
 	foo()
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls3NTc4NTU4MDIsLTIwODIxMDMw
-OTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyODc0LD
-EyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsyMDAxNjY4ODcyLC0yMDgyMTAz
+MDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NC
+wxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
