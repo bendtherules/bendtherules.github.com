@@ -65,7 +65,7 @@ var a = 1;
 function hello() {}
 ```
 
-For function statements, `.name` is easy - it is simply
+For function statements, `.name` is simply the string of the indentifier hello
 
 ## Func expression and Arrow function
 
@@ -80,11 +80,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTEyNzQwNzMzMSwtMjAwODA2
-MTYzLDExOTE3ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNy
-wxODI2MjgyNTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5
-Nzk1MzUyLDQyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4OD
-cyLC0yMDgyMTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYs
-MTgzMDk2Mjg3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNT
-g4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOls2MTc1ODY3MzQsLTIwMDgwNjE2
+MywxMTkxNzgxODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMT
+gyNjI4MjUwMywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5
+NTM1Miw0Mjk5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3Mi
+wtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4
+MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4OD
+Y4MjBdfQ==
 -->
