@@ -65,7 +65,7 @@ var a = 1;
 function hello() {}
 ```
 
-For function statements, figuring out
+For function statements, `.name` is simple - it is simply
 
 ## Func expression and Arrow function
 
@@ -80,10 +80,10 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI2MzY2NTMyNywxMTkxNzgx
-ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
-wtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5
-NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMz
-A5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQs
-MTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMjAwODA2MTYzLDExOTE3ODE4
+NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNTAzLC
+0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2
+NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMD
+k1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwx
+MjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
