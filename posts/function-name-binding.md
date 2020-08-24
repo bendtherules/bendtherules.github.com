@@ -22,6 +22,7 @@ This is useful for debugging and readable stack traces.
 ⚠️  **How are they different?** It just looks like the `name` property stores the name of the variable it created.
 
 Yes, they are somewhat different . Let's look at more examples -
+
 1. You can always store the function in a variable with different name, but `func.name` will NOT change. 
 	```js
 	// Example 1
@@ -31,6 +32,7 @@ Yes, they are somewhat different . Let's look at more examples -
 	func2.name // prints "func1", NOT "func2"
 	```
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
+	
 2. *Named function expressions* can be bound to a different variable name. Also, any function expression can be used without storing in a variable at all.
 	```js
 	// A. Diff variable name
@@ -46,7 +48,7 @@ Yes, they are somewhat different . Let's look at more examples -
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls0NzU0NDAwNjUsMTgyNjI4MjUw
+BnZm1cbiIsImhpc3RvcnkiOlstNDE2NDczNTUsMTgyNjI4MjUw
 MywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mj
 k5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEw
 MzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4Nz
