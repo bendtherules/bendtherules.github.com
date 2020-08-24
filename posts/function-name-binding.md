@@ -10,8 +10,8 @@ This is useful for debugging and readable stack traces.
 	foo.name // "foo"
 	```
 
-2. **name binding** - When we declare a function, normally it also creates/sets a variable which stores the function.
+2. **name binding** - Normally when we declare a function, it also creates/initializes a variable which points back to the function object.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Mzk4NjQ5OCwxODMwOTYyODc0LDEyMz
-AwMjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
+eyJoaXN0b3J5IjpbLTEzODMwMjk0MDIsMTgzMDk2Mjg3NCwxMj
+MwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
