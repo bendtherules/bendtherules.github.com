@@ -31,11 +31,11 @@ Yes, they are somewhat different . Let's look at more examples -
 	func2.name // prints "func1", NOT "func2"
 	```
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
-2. 
+2. Named function expressions can be bound to a different variable nam
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4MTc0OTkyNzYsNDI5OTY1OTYy
-LC0yMDA4Nzc1NzAwLDIwMDE2Njg4NzIsLTIwODIxMDMwOTUsLT
-EyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyODc0LDEyMzAw
-Mjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxNjQ2OTgzMTUyLDQyOTk2NTk2
+MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC
+0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMw
+MDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
