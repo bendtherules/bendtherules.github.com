@@ -17,7 +17,7 @@ Let's start with two related but different concepts -
 	// This creates a variable `foo` in the current scope
 	function foo(){}
 	// `foo` points to the function object
-	// which we can call later
+	// So, we can use it to call the function
 	foo()
 	```
 	
@@ -58,7 +58,7 @@ Yes, they are somewhat different . Let's look at more examples -
 # Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM2ODUwMDQ4OCwxODI2Mjgy
+BnZm1cbiIsImhpc3RvcnkiOlstMTcyNzM1ODEzNywxODI2Mjgy
 NTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLD
 QyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgy
 MTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mj
