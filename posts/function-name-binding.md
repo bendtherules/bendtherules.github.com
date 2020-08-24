@@ -18,11 +18,16 @@ This is useful for debugging and readable stack traces.
 	foo()
 	```
 ⚠️ **Are they even different?** It just looks like that `name` property holds the name of the variable it created. Also,  `name` is non-writable - so, it's not like you can change it later.  
-To understand, let's look at more
+
+To understand, let's look at more examples -
+
+1. 
+	```js
+	```
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTM1MjE3Nzk2LDIwMDE2Njg4
+BnZm1cbiIsImhpc3RvcnkiOlsxMDg2MDE5NzAyLDIwMDE2Njg4
 NzIsLTIwODIxMDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNi
 wxODMwOTYyODc0LDEyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1
 ODg2ODIwXX0=
