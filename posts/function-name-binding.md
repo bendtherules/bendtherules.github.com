@@ -5,8 +5,7 @@ This is going to be one of those nitpicky articles where I document everything a
 # Intro
 
 Let's start with two related but different concepts -
-1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with.   
-This is useful for debugging and readable stack traces.  
+1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with. This is useful for debugging and readable stack traces.  
 	```js
 	function foo(){}
 	foo.name // "foo"
@@ -58,7 +57,7 @@ Yes, they are somewhat different . Let's look at more examples -
 # Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDczMzI1NDExLDE4MjYyODI1
+BnZm1cbiIsImhpc3RvcnkiOlstNjAzNjc0NjcxLDE4MjYyODI1
 MDMsLTE0Mzg3NjY5MzAsMTg2NDI0NDc1Myw5NTk3OTUzNTIsND
 I5OTY1OTYyLC0yMDA4Nzc1NzAwLDIwMDE2Njg4NzIsLTIwODIx
 MDMwOTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyOD
