@@ -19,7 +19,7 @@ This is useful for debugging and readable stack traces.
 	foo()
 	```
 	
-⚠️  **How are they different?** It looks like the `name` property just stores the name of the variable it created.
+⚠️  **How are they different?** It just looks like the `name` property just stores the name of the variable it created.
 
 Yes, they are somewhat different . Let's look at more examples -
 1. You can always store the function in a different variable, but `func.name` will NOT change. 
@@ -34,7 +34,7 @@ Yes, they are somewhat different . Let's look at more examples -
 2. 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTUyOTgxNTEzLDQyOTk2NTk2
+BnZm1cbiIsImhpc3RvcnkiOlsxMzc3MjgwMjQ5LDQyOTk2NTk2
 MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC
 0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMw
 MDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
