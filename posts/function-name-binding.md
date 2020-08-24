@@ -13,12 +13,13 @@ This is useful for debugging and readable stack traces.
 	```js
 	// This creates a variable `foo` in the current scope
 	function foo(){}
-	// which we can use later
+	// `foo` points to the function object
+	// which we can use to call later
 	foo()
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjA4MjEwMzA5NSwtMTIxMzQ2
-NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNS
-wxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls3NTc4NTU4MDIsLTIwODIxMDMw
+OTUsLTEyMTM0Njc0MDAsMTY1ODQ5OTcyNiwxODMwOTYyODc0LD
+EyMzAwMjc2MjUsMTA2MjEyMzc3MSwxMjI1ODg2ODIwXX0=
 -->
