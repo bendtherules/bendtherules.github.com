@@ -18,9 +18,9 @@ This is useful for debugging and readable stack traces.
 	foo()
 	```
 	
-⚠️  It just looks like the `name` property holds the name of the variable it created. ()**Are they even different?**
+⚠️  It just looks like the `name` property holds the name of the variable it created. (Also,  `name` is non-writable - so the value can't be changed.) **So, are they even different?**
 
-To understand, let's look at more examples -
+Yes. To understand, let's look at more examples -
 1. You can always store the function in a different variable, but `func.name` will NOT change. 
 	```js
 	// Example 1
@@ -33,7 +33,7 @@ To understand, let's look at more examples -
 2. sdsd
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls5OTAwNTU4MzgsLTIwMDg3NzU3
+BnZm1cbiIsImhpc3RvcnkiOls0Mjk5NjU5NjIsLTIwMDg3NzU3
 MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMC
 wxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYy
 MTIzNzcxLDEyMjU4ODY4MjBdfQ==
