@@ -6,17 +6,17 @@ Let's start with two related but different concepts -
 1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with.   
 This is useful for debugging and readable stack traces.  
 	```js
-	function foo() {}
-	foo.name // "foo"
+	(function foo() {}).name // "foo"
 	```
 
 2. **name binding** - Normally when we declare a function, it also creates/initializes a variable which points back to the function object. For ex -
 	```js
 	// This creates a variable `foo` in the current scope
 	function foo(){}
+	// which we can call later
 	foo()
 	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc2OTk4MTUsMTgzMDk2Mjg3NCwxMj
-MwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
+eyJoaXN0b3J5IjpbMzIwMzU1ODMsMTgzMDk2Mjg3NCwxMjMwMD
+I3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
