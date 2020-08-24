@@ -5,11 +5,13 @@ This is going to be one of those nitpicky articles where I document everything a
 Let's start with two terms, which are related but not exactly the same -
 1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with.   
 This is useful for debugging and readable stack traces.  
-```js
-function foo() {}
-foo.name // "foo"
-```
+	```js
+	function foo() {}
+	foo.name // "foo"
+	```
+
+2. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI0OTY3NDIsMTIzMDAyNzYyNSwxMD
-YyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
+eyJoaXN0b3J5IjpbMTgzMDk2Mjg3NCwxMjMwMDI3NjI1LDEwNj
+IxMjM3NzEsMTIyNTg4NjgyMF19
 -->
