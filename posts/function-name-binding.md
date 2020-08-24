@@ -12,7 +12,7 @@ Let's start with two related but different concepts -
 	```
    This is useful for debugging and readable stack traces.  
  
-2. **name binding** - Normally when we declare a function, it also declares a variable which points to the function object. For ex -
+2. **name binding** - Normally when we declare a function, it also creates a variable in the current scope which points to the function object. For ex -
 	```js
 	// This creates a variable `foo` in the current scope
 	function foo(){}
@@ -20,10 +20,12 @@ Let's start with two related but different concepts -
 	// So, we can use it to call the function
 	foo()
 	```
+	This can be called as name binding.
 	
-⚠️  **How are they different?** It just looks like the `name` property stores the name of the variable it created.
+## ⚠️  **How are they different?** 
+It's easy to get confused here. Right now, it looks like `.name` just stores the name of the variable which name binding created. (That is, `foo.name` is just the variable name `"foo"` as string). Then, are they really different?
 
-Yes, they are somewhat different . Let's look at more examples -
+Yes, they are. Let's look at more examples -
 
 1. You can always store the function in a variable with different name, but `func.name` will NOT change. 
 	```js
@@ -35,7 +37,7 @@ Yes, they are somewhat different . Let's look at more examples -
 	```
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
 	
-2. *Named function expressions* can be bound to a different variable name. Also, any function expression can be used without storing in a variable at all.
+2. *Named function expression* can be bound to a variable name which is different from it's `function.name`. Also, any function expression can be used without storing in a variable at all.
 	```js
 	// A. Diff variable name
 	var someVar = function someName(){}
@@ -45,23 +47,25 @@ Yes, they are somewhat different . Let's look at more examples -
 	// B. not stored in any variable, ex - IIFE
 	(function hello(){})()
 	(function hello(){}).name // "hello"
-	// This DOES NOT create any local variable (aka name binding)
+	// This DOES NOT create any variable in this scope
 	hello // DOESN'T exist
 	```
 
-# Function statement
+So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
+
+## Function statement
 
 
-# Function expression
+## Function expression
 
 
-# Method declaration
+## Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTcyNzM1ODEzNywxODI2Mjgy
-NTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLD
-QyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgy
-MTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mj
-g3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
-
+BnZm1cbiIsImhpc3RvcnkiOls0ODk1Mzg5MzIsLTE3MjczNTgx
+MzcsMTgyNjI4MjUwMywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLD
+k1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2
+ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5Nz
+I2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEy
+MjU4ODY4MjBdfQ==
 -->
