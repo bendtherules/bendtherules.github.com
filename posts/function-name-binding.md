@@ -6,7 +6,8 @@ Let's start with two related but different concepts -
 1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with.   
 This is useful for debugging and readable stack traces.  
 	```js
-	(function foo(){}).name // "foo"
+	function foo(){}
+	foo.name // "foo"
 	```
 
 2. **name binding** - Normally when we declare a function, it also creates/initializes a variable which points back to the function object. For ex -
@@ -18,9 +19,9 @@ This is useful for debugging and readable stack traces.
 	foo()
 	```
 	
-⚠️  **Are they even different?** It just looks like the `name` property holds the name of the variable it created. (Also,  name is non-writable - so the value can't be changed.)
+⚠️  **How are they different?** It looks like the `name` property just stores the name of the variable it created.
 
-Yes. To understand, let's look at more examples -
+Yes, they are somewhat different . Let's look at more examples -
 1. You can always store the function in a different variable, but `func.name` will NOT change. 
 	```js
 	// Example 1
@@ -30,11 +31,11 @@ Yes. To understand, let's look at more examples -
 	func2.name // prints "func1", NOT "func2"
 	```
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
-2. sdsd
+2. 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTY2NTQ1MjkxMiw0Mjk5NjU5
-NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NS
-wtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIz
-MDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTUyOTgxNTEzLDQyOTk2NTk2
+MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC
+0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMw
+MDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
