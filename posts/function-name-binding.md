@@ -56,16 +56,16 @@ Yes, they are. Let's look at more examples -
 ## Function statement
 
 
-## Function expression
+## Func expression and Arrow function
 
 
 ## Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTUyMTUwMjM0MiwtMTcyNzM1
-ODEzNywxODI2MjgyNTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NT
-MsOTU5Nzk1MzUyLDQyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAx
-NjY4ODcyLC0yMDgyMTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OT
-k3MjYsMTgzMDk2Mjg3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEs
-MTIyNTg4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOls1NDQ0MDg4NTIsLTE1MjE1MDIz
+NDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMywtMTQzODc2NjkzMC
+wxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3
+NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2Nz
+QwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwx
+MDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
 -->
