@@ -53,8 +53,14 @@ Yes, they are. Let's look at more examples -
 
 ⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
 
+Now. let's finally look at how both the names behave for different function syntaxes (hint: they are different).
+
 ## Function statement
 
+```js
+var a = 1;
+function hello() {}
+```
 
 ## Func expression and Arrow function
 
@@ -62,10 +68,10 @@ Yes, they are. Let's look at more examples -
 ## Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMTkxNzgxODQsLTE1MjE1MDIz
-NDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMywtMTQzODc2NjkzMC
-wxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3
-NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2Nz
-QwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwx
-MDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTkzMDc4ODA1OCwxMTkxNzgx
+ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
+wtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5
+NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMz
+A5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4NzQs
+MTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
 -->
