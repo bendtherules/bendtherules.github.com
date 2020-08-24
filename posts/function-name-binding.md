@@ -51,7 +51,7 @@ Yes, they are. Let's look at more examples -
 	hello // DOESN'T exist
 	```
 
-So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
+⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
 
 ## Function statement
 
@@ -62,10 +62,10 @@ So, even though `function.name` and name binding is related, they are not always
 ## Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4MjYxNzc0NzMsLTE3MjczNTgx
-MzcsMTgyNjI4MjUwMywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLD
-k1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2
-ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5Nz
-I2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEy
-MjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTUyMTUwMjM0MiwtMTcyNzM1
+ODEzNywxODI2MjgyNTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NT
+MsOTU5Nzk1MzUyLDQyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAx
+NjY4ODcyLC0yMDgyMTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OT
+k3MjYsMTgzMDk2Mjg3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEs
+MTIyNTg4NjgyMF19
 -->
