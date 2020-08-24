@@ -33,15 +33,18 @@ Yes, they are somewhat different . Let's look at more examples -
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
 2. *Named function expressions* can be bound to a different variable name, OR not stored in a variable at all.
 	```js
-	// 
+	// A. Diff variable name
 	var someVar = function someName(){}
-	// variable is `someVar`, but `function name` is `someName`
+	// variable is `someVar`, but function.name is `someName`
+	
+	// B. not stored in variable, like IIFE
+	(function hello(){})()
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls1MjI3MDQzNzAsOTU5Nzk1MzUy
-LDQyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMD
-gyMTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2
-Mjg3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF
-19
+BnZm1cbiIsImhpc3RvcnkiOlsxODY0MjQ0NzUzLDk1OTc5NTM1
+Miw0Mjk5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMj
+A4MjEwMzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5
+NjI4NzQsMTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4Mj
+BdfQ==
 -->
