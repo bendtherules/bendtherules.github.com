@@ -37,7 +37,7 @@ Yes, they are. Let's look at more examples -
 	```
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
 	
-2. *Named function expression* can be bound to a variable name which is different from it's `function.name`. Also, any function expression can be used without storing in a variable at all.
+2. *Named function expression* can be bound to a variable name which is different from it's `function.name`. Also, function expressions can be used without storing in a variable at all.
 	```js
 	// A. Diff variable name
 	var someVar = function someName(){}
@@ -62,7 +62,7 @@ So, even though `function.name` and name binding is related, they are not always
 ## Method declaration
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls0ODk1Mzg5MzIsLTE3MjczNTgx
+BnZm1cbiIsImhpc3RvcnkiOls4MjYxNzc0NzMsLTE3MjczNTgx
 MzcsMTgyNjI4MjUwMywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLD
 k1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2
 ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5Nz
