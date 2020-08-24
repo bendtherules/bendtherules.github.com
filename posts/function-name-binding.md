@@ -38,7 +38,7 @@ Yes, they are somewhat different . Let's look at more examples -
 	// Creates only one variable called `someVar`
 	// But function.name is `someName`
 	
-	// B. not stored in any variable, like IIFE
+	// B. not stored in any variable, ex - IIFE
 	(function hello(){})()
 	(function hello(){}).name // "hello"
 	// This DOES NOT create any local variable (aka name binding)
@@ -46,10 +46,10 @@ Yes, they are somewhat different . Let's look at more examples -
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTAyMzM0NTgzMiwxODI2Mjgy
-NTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLD
-QyOTk2NTk2MiwtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgy
-MTAzMDk1LC0xMjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mj
-g3NCwxMjMwMDI3NjI1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
+BnZm1cbiIsImhpc3RvcnkiOls0NzU0NDAwNjUsMTgyNjI4MjUw
+MywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mj
+k5NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEw
+MzA5NSwtMTIxMzQ2NzQwMCwxNjU4NDk5NzI2LDE4MzA5NjI4Nz
+QsMTIzMDAyNzYyNSwxMDYyMTIzNzcxLDEyMjU4ODY4MjBdfQ==
 
 -->
