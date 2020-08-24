@@ -31,7 +31,7 @@ Yes, they are somewhat different . Let's look at more examples -
 	func2.name // prints "func1", NOT "func2"
 	```
 	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
-2. *Named function expressions* can be bound to a different variable name. Any function expression can be used without storing in a variable at all.
+2. *Named function expressions* can be bound to a different variable name. Also, any function expression can be used without storing in a variable at all.
 	```js
 	// A. Diff variable name
 	var someVar = function someName(){}
@@ -39,12 +39,14 @@ Yes, they are somewhat different . Let's look at more examples -
 	
 	// B. not stored in any variable, like IIFE
 	(function hello(){})()
+	(function hello(){}).name // "hello"
+	// This DOES NOT create any local variable or name binding.
 	```
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQzODc2NjkzMCwxODY0MjQ0
-NzUzLDk1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3NzU3MDAsMj
-AwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMCwxNjU4
-NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYyMTIzNz
-cxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxMzUwMzg0NDQ2LC0xNDM4NzY2
+OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2NTk2MiwtMj
+AwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC0xMjEz
+NDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMwMDI3Nj
+I1LDEwNjIxMjM3NzEsMTIyNTg4NjgyMF19
 -->
