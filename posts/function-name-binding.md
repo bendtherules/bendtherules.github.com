@@ -62,11 +62,12 @@ Now, let's actually look at how both the names behave for different function syn
 
 ```js
 var a = 1;
-function hello() {
+function hello() {}
+// In generic form,
 // function identifier (paramList) {body} 
 ```
 
-For function statements, `.name` is simply "hello", that is string form of the identifier `hello`. Here, the name is always a string - 
+For function statements, `.name` is simply "hello", that is string form of the identifier `hello`. Here, name is always a string - 
 
 ## Func expression and Arrow function
 
@@ -81,7 +82,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzMwODc5MDkyLC0xMTY4NjQy
+BnZm1cbiIsImhpc3RvcnkiOlsxMjc1NTA3NTM4LC0xMTY4NjQy
 OTksMTczNDA5NDQ2OCwtMjAwODA2MTYzLDExOTE3ODE4NCwtMT
 UyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNTAzLC0xNDM4
 NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2NTk2Mi
