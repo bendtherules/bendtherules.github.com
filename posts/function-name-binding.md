@@ -66,7 +66,7 @@ function hello() {}
 // function identifier(paramList) {body} 
 ```
 
-For function statements, `.name` is simply string form of the identifier `hello` - that is "hello". Here, name is always a string and doesn't allow any expression or symbol.
+For function statements, `.name` is simply string form of the identifier `hello` - that is "hello". And it's always going to be a string and doesn't allow any expression or symbol.
 
 ## Func expression and Arrow function
 
@@ -81,11 +81,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszNjQxNjM3NzIsNDU2NjA4Mjk4
-LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLTExNjg2NDI5OSwxNz
-M0MDk0NDY4LC0yMDA4MDYxNjMsMTE5MTc4MTg0LC0xNTIxNTAy
-MzQyLC0xNzI3MzU4MTM3LDE4MjYyODI1MDMsLTE0Mzg3NjY5Mz
-AsMTg2NDI0NDc1Myw5NTk3OTUzNTIsNDI5OTY1OTYyLC0yMDA4
-Nzc1NzAwLDIwMDE2Njg4NzIsLTIwODIxMDMwOTUsLTEyMTM0Nj
-c0MDAsMTY1ODQ5OTcyNl19
+BnZm1cbiIsImhpc3RvcnkiOlsxNTA4MDQ4ODAzLDM2NDE2Mzc3
+Miw0NTY2MDgyOTgsLTEyOTE3NzA4ODEsMTI3NTUwNzUzOCwtMT
+E2ODY0Mjk5LDE3MzQwOTQ0NjgsLTIwMDgwNjE2MywxMTkxNzgx
+ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
+wtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5
+NjU5NjIsLTIwMDg3NzU3MDAsMjAwMTY2ODg3MiwtMjA4MjEwMz
+A5NSwtMTIxMzQ2NzQwMF19
 -->
