@@ -70,7 +70,7 @@ For function statements, `.name` is simply string form of the identifier `hello`
 And it's always going to be a string, because you can't use a expression or symbol in the identifier/name part of function statements. (Ex - `function Symbol("abc"){}` - is not valid) 
 
 > Sidenote - 
-> If you are looking at the spec and reach [evaluation for function declarations](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-evaluation), you might be a little disappointed. It just says 'Return NormalCompletion(empty)' - which basically means when you are going through statements line-by-line and reach a func declaration, DON'T do anything, just move on to next line. 
+> If you are looking at the spec and fi [evaluation for function declarations](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-evaluation), you might be a little disappointed. It just says 'Return NormalCompletion(empty)' - which basically means when you are evaluating statements line-by-line and reach a func declaration, DON'T do anything for that line. 
 > That's odd, right? 
 > 
 
@@ -88,11 +88,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQ5OTM4NjQwNSwyNDk5MjMy
-NzIsMzcxNTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsNDU2Nj
-A4Mjk4LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLTExNjg2NDI5
-OSwxNzM0MDk0NDY4LC0yMDA4MDYxNjMsMTE5MTc4MTg0LC0xNT
-IxNTAyMzQyLC0xNzI3MzU4MTM3LDE4MjYyODI1MDMsLTE0Mzg3
-NjY5MzAsMTg2NDI0NDc1Myw5NTk3OTUzNTIsNDI5OTY1OTYyLC
-0yMDA4Nzc1NzAwXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNzI4NzMxOTQ4LC0xNDk5Mzg2
+NDA1LDI0OTkyMzI3MiwzNzE1MzE1OTYsLTkyMjE2NjQyLDM2ND
+E2Mzc3Miw0NTY2MDgyOTgsLTEyOTE3NzA4ODEsMTI3NTUwNzUz
+OCwtMTE2ODY0Mjk5LDE3MzQwOTQ0NjgsLTIwMDgwNjE2MywxMT
+kxNzgxODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4
+MjUwMywtMTQzODc2NjkzMCwxODY0MjQ0NzUzLDk1OTc5NTM1Mi
+w0Mjk5NjU5NjJdfQ==
 -->
