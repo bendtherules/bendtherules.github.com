@@ -70,9 +70,9 @@ For function statements, `.name` is simply string form of the identifier `hello`
 And it's always going to be a string, because you can't use a expression or symbol in the identifier/name part of function statements. (Ex - `function Symbol("abc"){}` - is not valid) 
 
 > Sidenote - 
-> rjrjjrjr dmfnf fjdjd xjxjx
-> but this is me djdj ajdjd 
-> djdjdmz sje djd 
+> If you are looking at the evaluate section of function declaration 
+> 
+> 
 
 
 ## Func expression and Arrow function
@@ -88,11 +88,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyNDk5MjMyNzIsMzcxNTMxNTk2
-LC05MjIxNjY0MiwzNjQxNjM3NzIsNDU2NjA4Mjk4LC0xMjkxNz
-cwODgxLDEyNzU1MDc1MzgsLTExNjg2NDI5OSwxNzM0MDk0NDY4
-LC0yMDA4MDYxNjMsMTE5MTc4MTg0LC0xNTIxNTAyMzQyLC0xNz
-I3MzU4MTM3LDE4MjYyODI1MDMsLTE0Mzg3NjY5MzAsMTg2NDI0
-NDc1Myw5NTk3OTUzNTIsNDI5OTY1OTYyLC0yMDA4Nzc1NzAwLD
-IwMDE2Njg4NzJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTY5ODIyNTAxOCwyNDk5MjMy
+NzIsMzcxNTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsNDU2Nj
+A4Mjk4LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLTExNjg2NDI5
+OSwxNzM0MDk0NDY4LC0yMDA4MDYxNjMsMTE5MTc4MTg0LC0xNT
+IxNTAyMzQyLC0xNzI3MzU4MTM3LDE4MjYyODI1MDMsLTE0Mzg3
+NjY5MzAsMTg2NDI0NDc1Myw5NTk3OTUzNTIsNDI5OTY1OTYyLC
+0yMDA4Nzc1NzAwXX0=
 -->
