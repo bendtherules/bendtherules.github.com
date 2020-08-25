@@ -62,10 +62,11 @@ Now, let's actually look at how both the names behave for different function syn
 
 ```js
 var a = 1;
-function hello() {}
+function hello() {
+// function identifier (paramList) {body} 
 ```
 
-For function statements, `.name` is simply "hello", i.e. string form of the identifier `hello`. Here, the name is always a string - 
+For function statements, `.name` is simply "hello", that is string form of the identifier `hello`. Here, the name is always a string - 
 
 ## Func expression and Arrow function
 
@@ -80,11 +81,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTE2ODY0Mjk5LDE3MzQwOTQ0
-NjgsLTIwMDgwNjE2MywxMTkxNzgxODQsLTE1MjE1MDIzNDIsLT
-E3MjczNTgxMzcsMTgyNjI4MjUwMywtMTQzODc2NjkzMCwxODY0
-MjQ0NzUzLDk1OTc5NTM1Miw0Mjk5NjU5NjIsLTIwMDg3NzU3MD
-AsMjAwMTY2ODg3MiwtMjA4MjEwMzA5NSwtMTIxMzQ2NzQwMCwx
-NjU4NDk5NzI2LDE4MzA5NjI4NzQsMTIzMDAyNzYyNSwxMDYyMT
-IzNzcxLDEyMjU4ODY4MjBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMzMwODc5MDkyLC0xMTY4NjQy
+OTksMTczNDA5NDQ2OCwtMjAwODA2MTYzLDExOTE3ODE4NCwtMT
+UyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNTAzLC0xNDM4
+NzY2OTMwLDE4NjQyNDQ3NTMsOTU5Nzk1MzUyLDQyOTk2NTk2Mi
+wtMjAwODc3NTcwMCwyMDAxNjY4ODcyLC0yMDgyMTAzMDk1LC0x
+MjEzNDY3NDAwLDE2NTg0OTk3MjYsMTgzMDk2Mjg3NCwxMjMwMD
+I3NjI1LDEwNjIxMjM3NzFdfQ==
 -->
