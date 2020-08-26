@@ -73,7 +73,8 @@ And it's always going to be a string, because you can't use a expression or symb
 > If you are looking at the spec and find [evaluation step for function declarations](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-evaluation), you might be a little disappointed. It just says 'Return NormalCompletion(empty)' - which basically means, when you are evaluating statements line-by-line and reach a func declaration, DON'T do anything for that line. Just move on to the next line.
 > That's odd, right? For function *expression* evaluation, it tells you exactly how a function is created, but not for func *declaration*. Then, when/how will a function declaration get evaluated?
 >  
-> The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - and it calls *InstantiateFunctionObject* operation on the function (ex - step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation)). *InstantiateFunctionObject* on func declaration works similar to f
+> The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - and it calls *InstantiateFunctionObject* operation on the function (ex - step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation)).  
+> *InstantiateFunctionObject* on func declaration works similar to full *evaluation* of func expression. It creates the whole function object and creates a name binding for it.
 > 
 > 
 
@@ -91,11 +92,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxOTc1NTc1NzIxLC0yMDI4Njcy
-MTg2LDIwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNS
-wyNDk5MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3
-NzIsNDU2NjA4Mjk4LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLT
-ExNjg2NDI5OSwxNzM0MDk0NDY4LC0yMDA4MDYxNjMsMTE5MTc4
-MTg0LC0xNTIxNTAyMzQyLC0xNzI3MzU4MTM3LDE4MjYyODI1MD
-MsLTE0Mzg3NjY5MzBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTY0NDA0OTAwMSwtMjAyODY3
+MjE4NiwyMDU2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MD
+UsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYz
+NzcyLDQ1NjYwODI5OCwtMTI5MTc3MDg4MSwxMjc1NTA3NTM4LC
+0xMTY4NjQyOTksMTczNDA5NDQ2OCwtMjAwODA2MTYzLDExOTE3
+ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNT
+AzLC0xNDM4NzY2OTMwXX0=
 -->
