@@ -73,7 +73,7 @@ And it's always going to be a string, because you can't use a expression or symb
 > If you are looking at the spec and find [evaluation step for function declarations](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-evaluation), you might be a little disappointed. It just says 'Return NormalCompletion(empty)' - which basically means, when you are evaluating statements line-by-line and reach a func declaration, DON'T do anything for that line. Just move on to the next line.
 > That's odd, right? For function *expression* evaluation, it tells you exactly how a function is created, but not for func *declaration*. Then, when/how will a function declaration get evaluated?
 >  
-> The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, 
+> The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like Function Declarations
 > 
 > 
 
@@ -91,11 +91,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDU2MzE3OTEzLDIwNTY0NzIz
-NDcsLTE0OTkzODY0MDUsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOT
-IyMTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5OCwtMTI5MTc3MDg4
-MSwxMjc1NTA3NTM4LC0xMTY4NjQyOTksMTczNDA5NDQ2OCwtMj
-AwODA2MTYzLDExOTE3ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1
-ODEzNywxODI2MjgyNTAzLC0xNDM4NzY2OTMwLDE4NjQyNDQ3NT
-MsOTU5Nzk1MzUyXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMjAyODY3MjE4NiwyMDU2MzE3
+OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5OTIzMjcyLD
+M3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5
+OCwtMTI5MTc3MDg4MSwxMjc1NTA3NTM4LC0xMTY4NjQyOTksMT
+czNDA5NDQ2OCwtMjAwODA2MTYzLDExOTE3ODE4NCwtMTUyMTUw
+MjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNTAzLC0xNDM4NzY2OT
+MwLDE4NjQyNDQ3NTNdfQ==
 -->
