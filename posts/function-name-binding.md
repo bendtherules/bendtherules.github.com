@@ -58,7 +58,7 @@ Yes, they are. Let's look at more examples -
 Now, let's actually look at how both the names behave for different function syntaxes (hint: they are different).
 
 
-## Function statement
+# Function statement
 
 ```js
 function hello() {}
@@ -79,10 +79,10 @@ And it's always going to be a string, because you can't use a expression or symb
 > So, because the func declaration gets fully evaluated during pre-evaluation, when the algo reaches it again during *evaluation* step,  it skips over the declaration. 
 
 
-## Func expression and Arrow function
+# Func expression and Arrow function
 
 
-## Method and object literal
+# Method and object literal
 
 Todos -
 1. if name is symbol? (for expressions)
@@ -92,11 +92,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI4MTgwNTIwMSwtMjAyODY3
-MjE4NiwyMDU2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MD
-UsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYz
-NzcyLDQ1NjYwODI5OCwtMTI5MTc3MDg4MSwxMjc1NTA3NTM4LC
-0xMTY4NjQyOTksMTczNDA5NDQ2OCwtMjAwODA2MTYzLDExOTE3
-ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNT
-AzLC0xNDM4NzY2OTMwXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMjAzNDI3MTIyMiwtMTI4MTgw
+NTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OTEzLDIwNTY0NzIzND
+csLTE0OTkzODY0MDUsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOTIy
+MTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5OCwtMTI5MTc3MDg4MS
+wxMjc1NTA3NTM4LC0xMTY4NjQyOTksMTczNDA5NDQ2OCwtMjAw
+ODA2MTYzLDExOTE3ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1OD
+EzNywxODI2MjgyNTAzXX0=
 -->
