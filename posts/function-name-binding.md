@@ -76,7 +76,7 @@ And it's always going to be a string, because you can't use a expression or symb
 > The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - and it calls *InstantiateFunctionObject* operation on the function (ex - step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation)).  
 > *InstantiateFunctionObject* on func declaration works similar to full *evaluation* of func expression. It creates the whole function object and defines a name binding for it.
 > 
-> So, because func declarations get fully evaluate 
+> So, because the func declaration got fully evaluated earlier, when the algo again reaches it during *evaluation* step, it just skips it. 
 
 
 ## Func expression and Arrow function
@@ -92,11 +92,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTIyMzgwNjM2MiwtMjAyODY3
-MjE4NiwyMDU2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MD
-UsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYz
-NzcyLDQ1NjYwODI5OCwtMTI5MTc3MDg4MSwxMjc1NTA3NTM4LC
-0xMTY4NjQyOTksMTczNDA5NDQ2OCwtMjAwODA2MTYzLDExOTE3
-ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1ODEzNywxODI2MjgyNT
-AzLC0xNDM4NzY2OTMwXX0=
+BnZm1cbiIsImhpc3RvcnkiOls0NzA2MTQ2OTksLTIwMjg2NzIx
+ODYsMjA1NjMxNzkxMywyMDU2NDcyMzQ3LC0xNDk5Mzg2NDA1LD
+I0OTkyMzI3MiwzNzE1MzE1OTYsLTkyMjE2NjQyLDM2NDE2Mzc3
+Miw0NTY2MDgyOTgsLTEyOTE3NzA4ODEsMTI3NTUwNzUzOCwtMT
+E2ODY0Mjk5LDE3MzQwOTQ0NjgsLTIwMDgwNjE2MywxMTkxNzgx
+ODQsLTE1MjE1MDIzNDIsLTE3MjczNTgxMzcsMTgyNjI4MjUwMy
+wtMTQzODc2NjkzMF19
 -->
