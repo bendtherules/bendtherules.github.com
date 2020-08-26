@@ -74,9 +74,9 @@ And it's always going to be a string, because you can't use a expression or symb
 > That's odd, right? For function *expression* evaluation, it tells you exactly how a function is created, but not for func *declaration*. Then, when/how will a function declaration get evaluated?
 >  
 > The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - and it calls *InstantiateFunctionObject* operation on the function (ex - step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation)).  
-> *InstantiateFunctionObject* on func declaration works similar to full *evaluation* of func expression. It creates the whole function object and creates a name binding for it.
+> *InstantiateFunctionObject* on func declaration works similar to full *evaluation* of func expression. It creates the whole function object and defines a name binding for it.
 > 
-> 
+> So, because func declarations get fully evaluate 
 
 
 ## Func expression and Arrow function
@@ -92,7 +92,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTY0NDA0OTAwMSwtMjAyODY3
+BnZm1cbiIsImhpc3RvcnkiOlstMTIyMzgwNjM2MiwtMjAyODY3
 MjE4NiwyMDU2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MD
 UsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYz
 NzcyLDQ1NjYwODI5OCwtMTI5MTc3MDg4MSwxMjc1NTA3NTM4LC
