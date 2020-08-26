@@ -6,7 +6,7 @@ This is going to be one of those nitpicky articles where I document everything a
 
 Let's start with two related but different concepts -
 1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with.
-	```js
+	```javascript
 	function foo(){}
 	foo.name // "foo"
 	```
@@ -92,11 +92,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjAzNDI3MTIyMiwtMTI4MTgw
-NTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OTEzLDIwNTY0NzIzND
-csLTE0OTkzODY0MDUsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOTIy
-MTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5OCwtMTI5MTc3MDg4MS
-wxMjc1NTA3NTM4LC0xMTY4NjQyOTksMTczNDA5NDQ2OCwtMjAw
-ODA2MTYzLDExOTE3ODE4NCwtMTUyMTUwMjM0MiwtMTcyNzM1OD
-EzNywxODI2MjgyNTAzXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxMDk5NTY2LC0xMjgxODA1MjAx
+LC0yMDI4NjcyMTg2LDIwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMT
+Q5OTM4NjQwNSwyNDk5MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0
+MiwzNjQxNjM3NzIsNDU2NjA4Mjk4LC0xMjkxNzcwODgxLDEyNz
+U1MDc1MzgsLTExNjg2NDI5OSwxNzM0MDk0NDY4LC0yMDA4MDYx
+NjMsMTE5MTc4MTg0LC0xNTIxNTAyMzQyLC0xNzI3MzU4MTM3LD
+E4MjYyODI1MDNdfQ==
 -->
