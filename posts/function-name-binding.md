@@ -73,7 +73,7 @@ And it's always going to be a string, because you can't use a expression or symb
 > If you are looking at the spec and find [evaluation step for function declarations](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-evaluation), you might be a little disappointed. It just says 'Return NormalCompletion(empty)' - which basically means, when you are evaluating statements line-by-line and reach a func declaration, DON'T do anything for that line. Just move on to the next line.
 > That's odd, right? For function *expression* evaluation, it tells you exactly how a function is created, but not for func *declaration*. Then, when/how will a function declaration get evaluated?
 >  
-> The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - and it calls *InstantiateFunctionObject* step on the function (like step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation). 
+> The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - and it calls *InstantiateFunctionObject* operation on the function (ex - step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation)). *InstantiateFunctionObject* on func declaration works similar to f
 > 
 > 
 
@@ -91,7 +91,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjQ3MDA3NzMwLC0yMDI4Njcy
+BnZm1cbiIsImhpc3RvcnkiOlsxOTc1NTc1NzIxLC0yMDI4Njcy
 MTg2LDIwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNS
 wyNDk5MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3
 NzIsNDU2NjA4Mjk4LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLT
