@@ -69,6 +69,8 @@ function hello() {}
 For function statements, `.name` is simply string form of the identifier `hello` - that is "hello".  
 And it's always going to be a string, because you can't use a expression or symbol in the identifier/name part of function statements. (Ex - `function Symbol("abc"){}` - this is NOT valid) 
 
+
+
 > Sidenote - 
 > If you are looking at the spec and find [evaluation step for function declarations](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-evaluation), you might be a little disappointed. It just says 'Return NormalCompletion(empty)' - which basically means, when you are evaluating statements line-by-line and reach a func declaration, DON'T do anything for that line. Just move on to the next line.
 > That's odd, right? For function *expression* evaluation, it tells you exactly how a function is created, but not for func *declaration*. Then, when/how will a function declaration get evaluated?
@@ -92,11 +94,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTk1ODA0ODc2OCwtMTA3MTU1
-MDU5NiwxMDk5NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LD
-IwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNSwyNDk5
-MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsND
-U2NjA4Mjk4LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLTExNjg2
-NDI5OSwxNzM0MDk0NDY4LC0yMDA4MDYxNjMsMTE5MTc4MTg0LC
-0xNTIxNTAyMzQyXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxNjU2MTIwNTQwLC0xOTU4MDQ4
+NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLT
+IwMjg2NzIxODYsMjA1NjMxNzkxMywyMDU2NDcyMzQ3LC0xNDk5
+Mzg2NDA1LDI0OTkyMzI3MiwzNzE1MzE1OTYsLTkyMjE2NjQyLD
+M2NDE2Mzc3Miw0NTY2MDgyOTgsLTEyOTE3NzA4ODEsMTI3NTUw
+NzUzOCwtMTE2ODY0Mjk5LDE3MzQwOTQ0NjgsLTIwMDgwNjE2My
+wxMTkxNzgxODRdfQ==
 -->
