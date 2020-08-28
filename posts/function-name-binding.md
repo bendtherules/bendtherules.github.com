@@ -74,7 +74,7 @@ And it's always going to be a string, because you can't use a expression or symb
 > That's odd, right? For function *expression* evaluation, it tells you exactly how a function is created, but not for func *declaration*. Then, when/how will a function declaration get evaluated?
 >  
 > The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - where it calls *InstantiateFunctionObject* operation on the function (ex - step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation)).  
-> *InstantiateFunctionObject* on func declaration works similar to full *evaluation* of func expression. It creates the whole function object and defines a name binding for it.
+> [*InstantiateFunctionObject*](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-instantiatefunctionobject) on func declaration works similar to full *evaluation* of func expression. It creates the whole function object and defines a name binding for it.
 > 
 > So, because the func declaration gets fully evaluated during pre-evaluation, when the algo reaches it again during *evaluation* step,  it skips over the declaration. 
 
@@ -92,11 +92,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls0ODQ0OTQ0NDQsLTEwNzE1NTA1
-OTYsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMD
-U2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5OTIz
-MjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYzNzcyLDQ1Nj
-YwODI5OCwtMTI5MTc3MDg4MSwxMjc1NTA3NTM4LC0xMTY4NjQy
-OTksMTczNDA5NDQ2OCwtMjAwODA2MTYzLDExOTE3ODE4NCwtMT
-UyMTUwMjM0Ml19
+BnZm1cbiIsImhpc3RvcnkiOlstMTk1ODA0ODc2OCwtMTA3MTU1
+MDU5NiwxMDk5NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LD
+IwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNSwyNDk5
+MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsND
+U2NjA4Mjk4LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLTExNjg2
+NDI5OSwxNzM0MDk0NDY4LC0yMDA4MDYxNjMsMTE5MTc4MTg0LC
+0xNTIxNTAyMzQyXX0=
 -->
