@@ -71,16 +71,6 @@ And it's always going to be a string, because you can't use a expression or symb
 
 
 
-> Sidenote - 
-> If you are looking at the spec and find [evaluation step for function declarations](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-evaluation), you might be a little disappointed. It just says 'Return NormalCompletion(empty)' - which basically means, when you are evaluating statements line-by-line and reach a func declaration, DON'T do anything for that line. Just move on to the next line.
-> That's odd, right? For function *expression* evaluation, it tells you exactly how a function is created, but not for func *declaration*. Then, when/how will a function declaration get evaluated?
->  
-> The short answer is, **hoisting**. There is a (sort of) *"pre-evaluation"* step and then actual *"evaluation"* step for all statements. During pre-evaluation, it only looks at specific type of statements like FunctionDeclaration - where it calls *InstantiateFunctionObject* operation on the function (ex - step 35 [here](https://tc39.es/ecma262/#sec-functiondeclarationinstantiation)).  
-> [*InstantiateFunctionObject*](https://tc39.es/ecma262/#sec-function-definitions-runtime-semantics-instantiatefunctionobject) on func declaration works similar to full *evaluation* of func expression. It creates the whole function object and defines a name binding for it.
-> 
-> So, because the func declaration gets fully evaluated during pre-evaluation, when the algo reaches it again during *evaluation* step,  it skips over the declaration. 
-
-
 # Func expression and Arrow function
 
 
@@ -94,11 +84,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjU2MTIwNTQwLC0xOTU4MDQ4
-NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLT
-IwMjg2NzIxODYsMjA1NjMxNzkxMywyMDU2NDcyMzQ3LC0xNDk5
-Mzg2NDA1LDI0OTkyMzI3MiwzNzE1MzE1OTYsLTkyMjE2NjQyLD
-M2NDE2Mzc3Miw0NTY2MDgyOTgsLTEyOTE3NzA4ODEsMTI3NTUw
-NzUzOCwtMTE2ODY0Mjk5LDE3MzQwOTQ0NjgsLTIwMDgwNjE2My
-wxMTkxNzgxODRdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxMzk2NzM4MzY1LDE2NTYxMjA1
+NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5OTU2NiwtMT
+I4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OTEzLDIwNTY0
+NzIzNDcsLTE0OTkzODY0MDUsMjQ5OTIzMjcyLDM3MTUzMTU5Ni
+wtOTIyMTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5OCwtMTI5MTc3
+MDg4MSwxMjc1NTA3NTM4LC0xMTY4NjQyOTksMTczNDA5NDQ2OC
+wtMjAwODA2MTYzXX0=
 -->
