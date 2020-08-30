@@ -67,7 +67,7 @@ function hello() {}
 ```
 
 For function statements, `.name` is simply string form of the identifier `hello` - that is "hello".  
-And it's always going to be a string, because you can't use a expression or symbol in the identifier/name part of function statements. (Ex - `function Symbol("abc"){}` - this is NOT valid) 
+And it's always going to be a string, because you can't use a expression or symbol in the name part (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
 
 
 # Func expression and Arrow function
@@ -82,11 +82,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTQwODIyNjUsLTEyMzkxNzMy
-OTMsMTY1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5Ni
-wxMDk5NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LDIwNTYz
-MTc5MTMsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNSwyNDk5MjMyNz
-IsMzcxNTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsNDU2NjA4
-Mjk4LC0xMjkxNzcwODgxLDEyNzU1MDc1MzgsLTExNjg2NDI5OS
-wxNzM0MDk0NDY4XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxNDM4NzY3NTgwLDE1NDA4MjI2
+NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC0xOTU4MDQ4NzY4LC
+0xMDcxNTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLTIwMjg2
+NzIxODYsMjA1NjMxNzkxMywyMDU2NDcyMzQ3LC0xNDk5Mzg2ND
+A1LDI0OTkyMzI3MiwzNzE1MzE1OTYsLTkyMjE2NjQyLDM2NDE2
+Mzc3Miw0NTY2MDgyOTgsLTEyOTE3NzA4ODEsMTI3NTUwNzUzOC
+wtMTE2ODY0Mjk5XX0=
 -->
