@@ -72,9 +72,11 @@ And it's **always** going to be a string, because you can't use a expression or 
 ⭐️ What about name binding then? 
 ```js
 function hello() {
+  // I can use it here, INSIDE
+  hello() ✅
 }
 
-// I can use it here, outside
+// And also here, OUTSIDE
 hello() ✅
 ```
 
@@ -93,7 +95,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM1MzUxMjA2OSwtMTMyNjYy
+BnZm1cbiIsImhpc3RvcnkiOlstMjE0Mjg0NjExNSwtMTMyNjYy
 ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
 E2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5
 OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OT
