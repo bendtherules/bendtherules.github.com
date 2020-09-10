@@ -115,6 +115,8 @@ Now, to answer the above two questions -
  
 In this case, name binding in inner scope works using the first method (explained above). 
 
+
+
 # Func expression and Arrow function
 
 # Method and object literal
@@ -127,7 +129,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM3MzcwNTg0MiwtMzk5NDY4
+BnZm1cbiIsImhpc3RvcnkiOlstMjA5NDgwODIxNCwtMzk5NDY4
 MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMT
 EwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgy
 MjY1LC0xMjM5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3Nj
