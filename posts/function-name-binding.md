@@ -103,7 +103,8 @@ Now, to answer the above two questions -
 2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()` within the function. But how is this working?
     
     There are 2 possible ways this can work -
-    a. There is no `hello` defined within the function (INSIDE scope), but its closure scope (OUTSIDE scope) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from OUTSIDE scope.
+    a. There is no `hello` defined within the function (INSIDE scope), but its closure scope (OUTSIDE scope) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from OUTSIDE scope.  
+    That also means, if you change the value of the variable `hello` in outer scope, it will also 
 
 
 # Func expression and Arrow function
@@ -118,11 +119,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNTgzODcwNDI3LDgzMzc4OTUy
-MywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNT
-QwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MCwtMTk1ODA0
-ODc2OCwtMTA3MTU1MDU5NiwxMDk5NTY2LC0xMjgxODA1MjAxLC
-0yMDI4NjcyMTg2LDIwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMTQ5
-OTM4NjQwNSwyNDk5MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0Mi
-wzNjQxNjM3NzJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNjg2NzM5Nyw4MzM3ODk1MjMs
+MTEwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MD
+gyMjY1LC0xMjM5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3
+NjgsLTEwNzE1NTA1OTYsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMj
+AyODY3MjE4NiwyMDU2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkz
+ODY0MDUsMjQ5OTIzMjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMz
+Y0MTYzNzcyXX0=
 -->
