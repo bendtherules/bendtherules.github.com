@@ -111,7 +111,7 @@ Now, to answer the above two questions -
     }
     hello = 123
     ```
-    B. `hello` is redefined within INSID
+    B. `hello` is redefined within INSIDE scope, whenever you call the function. If this is the case,then it won't get affected by what happens t
 
 
 # Func expression and Arrow function
@@ -126,7 +126,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTQ2NzY2MTg0LDE3MjAyNDY3
+BnZm1cbiIsImhpc3RvcnkiOlstMjEzMDg1NTIyLDE3MjAyNDY3
 MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMT
 MyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTcz
 MjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OT
