@@ -80,7 +80,9 @@ function hello() {
 hello() ✅
 ```
 
-We want to look at two things - 
+We want to look at two things -  
+First, can I call the function using its name in the OUTSIDE scope?
+Second, for things like recursion, can the function call itself using its full name
 
 `hello` gets defined as a variable in the lexical/creation scope of the function - that is, wherever this `function hello(){}`  is defined
 These are the 2 cases that we'll look at for all the function constructs.
@@ -99,11 +101,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTU0NTg4MzE1MSwtMTMyNjYy
-ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
-E2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5
-OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OT
-EzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5OTIzMjcyLDM3
-MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5OC
-wtMTI5MTc3MDg4MV19
+BnZm1cbiIsImhpc3RvcnkiOlsxOTI5NTQwMTk5LC0xMzI2NjI4
+MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMT
+Y1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5NiwxMDk5
+NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LDIwNTYzMTc5MT
+MsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNSwyNDk5MjMyNzIsMzcx
+NTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsNDU2NjA4Mjk4LC
+0xMjkxNzcwODgxXX0=
 -->
