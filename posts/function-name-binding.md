@@ -84,7 +84,7 @@ We want to look at two things -
 1. Can I call the function using its name in the OUTSIDE scope?  
 2. Can the function call itself using its own name? We are calling this as the INSIDE scope. This is useful for recursion.
 
-To write more precisely, OUTSIDE = lexical scope and INSIDE = callee scope.  
+To be more precise, OUTSIDE = lexical scope and INSIDE = callee scope.  
 (I think the term lexical scope is widely misused and used as a magical phrase to explain anything and everything. So, hopefully a more common term like outer/outside scope will be easier to understand.)
 
 Now, to answer the above two questions -  
@@ -95,7 +95,7 @@ Now, to answer the above two questions -
     > 2. evaluates the declaration to create a function object, and
     > 3. adds a binding in lexical scope with name="foo" and value=\<function object\>.
 
-    sdsdsd
+    Effectively, this means we ca
 
 
 
@@ -111,11 +111,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTA0NDMwNTAyMiwtMTMyNjYy
-ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
-E2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5
-OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OT
-EzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5OTIzMjcyLDM3
-MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5OC
-wtMTI5MTc3MDg4MV19
+BnZm1cbiIsImhpc3RvcnkiOlsxMDA5NTI4MjE2LC0xMzI2NjI4
+MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMT
+Y1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5NiwxMDk5
+NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LDIwNTYzMTc5MT
+MsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNSwyNDk5MjMyNzIsMzcx
+NTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsNDU2NjA4Mjk4LC
+0xMjkxNzcwODgxXX0=
 -->
