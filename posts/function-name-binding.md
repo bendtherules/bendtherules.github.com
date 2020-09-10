@@ -95,7 +95,8 @@ Now, to answer the above two questions -
     > 2. evaluates the declaration to create a function object, and
     > 3. adds a binding in lexical scope with name="foo" and value=\<function object\>.
     >
-    > The actual "evaluation" of all statements happen after this "pre-evaluation" step. When js engine again reaches the function declaration statement in evaluation step, it simply ignores it, instead of double-evaluating it.
+    > The actual "evaluation" of all statements happen after this "pre-evaluation" step.  
+    > When js engine again reaches the function declaration statement in evaluation step, it simply ignores it, to stop it from getting evaluated twice.
 
     Effectively, this means that name binding does happen for function declarations in the outer scope.
 
@@ -115,11 +116,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMTA4Mzc4OTg1LC0xMzI2NjI4
-MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMT
-Y1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5NiwxMDk5
-NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LDIwNTYzMTc5MT
-MsMjA1NjQ3MjM0NywtMTQ5OTM4NjQwNSwyNDk5MjMyNzIsMzcx
-NTMxNTk2LC05MjIxNjY0MiwzNjQxNjM3NzIsNDU2NjA4Mjk4LC
-0xMjkxNzcwODgxXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNTgwODIxMjcyLDExMDgzNzg5
+ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLDE1NDA4MjI2NSwtMT
+IzOTE3MzI5MywxNjU2MTIwNTQwLC0xOTU4MDQ4NzY4LC0xMDcx
+NTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLTIwMjg2NzIxOD
+YsMjA1NjMxNzkxMywyMDU2NDcyMzQ3LC0xNDk5Mzg2NDA1LDI0
+OTkyMzI3MiwzNzE1MzE1OTYsLTkyMjE2NjQyLDM2NDE2Mzc3Mi
+w0NTY2MDgyOThdfQ==
 -->
