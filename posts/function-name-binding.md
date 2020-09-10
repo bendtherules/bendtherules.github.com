@@ -87,11 +87,10 @@ We want to look at two things -
 To write more precisely, OUTSIDE = lexical scope and INSIDE = callee scope.  
 (I think the term lexical scope is widely misused and used as a magical phrase to explain anything and everything. So, hopefully a more common term like outer/outside scope will be easier to understand.)
 
-Now, to answer the above two questions -
-1. When we declare `function foo`, js internally defines a variable with the same name (`foo`) is the OUTSIDE scope - whose value is set to the function object. Now, this happens alongwith 
+Now, to answer the above two questions -  
+1. When we declare `function foo`, js internally defines a variable with the same name (`foo`) is the OUTSIDE scope - whose value is set to the function object.  
+    Now, this happens alongwith hoisting - 
 
-
-These are the same 2 cases, that we'll look at for other types of functions.
 
 
 
@@ -107,7 +106,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstODUyOTk2OTQ5LC0xMzI2NjI4
+BnZm1cbiIsImhpc3RvcnkiOlstOTcyMTIyODI0LC0xMzI2NjI4
 MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMT
 Y1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5NiwxMDk5
 NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LDIwNTYzMTc5MT
