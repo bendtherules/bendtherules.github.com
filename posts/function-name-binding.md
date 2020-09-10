@@ -66,9 +66,17 @@ function hello() {}
 // function identifier(paramList) {body} 
 ```
 
- For function statements, `.name` is simply string form of the identifier `hello` - that is the string "hello".  
+⭐️ For function statements, `.name` is simply string form of the identifier `hello` - that is the string "hello".  
 And it's **always** going to be a string, because you can't use a expression or symbol in the name section (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
 
+⭐️ What about name binding then? 
+```js
+function hello() {
+}
+
+// I can use it here, outside
+hello() ✅
+```
 
 
 
@@ -85,11 +93,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMjg5OTY0MDQsLTEzMjY2Mjgx
-MTQsOTU5ODQ0MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNj
-U2MTIwNTQwLC0xOTU4MDQ4NzY4LC0xMDcxNTUwNTk2LDEwOTk1
-NjYsLTEyODE4MDUyMDEsLTIwMjg2NzIxODYsMjA1NjMxNzkxMy
-wyMDU2NDcyMzQ3LC0xNDk5Mzg2NDA1LDI0OTkyMzI3MiwzNzE1
-MzE1OTYsLTkyMjE2NjQyLDM2NDE2Mzc3Miw0NTY2MDgyOTgsLT
-EyOTE3NzA4ODFdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTM1MzUxMjA2OSwtMTMyNjYy
+ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
+E2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5
+OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OT
+EzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5OTIzMjcyLDM3
+MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYzNzcyLDQ1NjYwODI5OC
+wtMTI5MTc3MDg4MV19
 -->
