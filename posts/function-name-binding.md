@@ -80,7 +80,9 @@ function hello() {
 hello() ✅
 ```
 
-`hello` gets defined as a variable in the lexical scope 
+We want to look at two things - 
+
+`hello` gets defined as a variable in the lexical/creation scope of the function - that is, wherever this `function hello(){}`  is defined
 These are the 2 cases that we'll look at for all the function constructs.
 
 
@@ -97,7 +99,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTU5MzE2MzQ0NiwtMTMyNjYy
+BnZm1cbiIsImhpc3RvcnkiOlstMTU0NTg4MzE1MSwtMTMyNjYy
 ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
 E2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5
 OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OT
