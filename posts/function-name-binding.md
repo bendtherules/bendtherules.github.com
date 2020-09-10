@@ -100,7 +100,7 @@ Now, to answer the above two questions -
 
     Effectively, this means that name binding does happen for function declarations in the OUTSIDE scope.
 
-2. What about INSIDE scope? I
+2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()`. But how is it working?
 
 
 
@@ -116,7 +116,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls3NjA3OTEyMTgsMTEwODM3ODk4
+BnZm1cbiIsImhpc3RvcnkiOls4MzM3ODk1MjMsMTEwODM3ODk4
 NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMj
 M5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1
 NTA1OTYsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4Ni
