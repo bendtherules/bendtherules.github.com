@@ -111,7 +111,7 @@ Now, to answer the above two questions -
     }
     hello = 123
     ```
-    B. wsdsd
+    B. `hello` is redefined within INSID
 
 
 # Func expression and Arrow function
@@ -126,7 +126,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMDgzMjYyMTExLDE3MjAyNDY3
+BnZm1cbiIsImhpc3RvcnkiOlsxNTQ2NzY2MTg0LDE3MjAyNDY3
 MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMT
 MyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTcz
 MjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OT
