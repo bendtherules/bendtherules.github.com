@@ -84,7 +84,8 @@ We want to look at two things -
 1. Can I call the function using its name in the OUTSIDE scope?  
 2. Can the function call itself using its own name? We are calling this as the INSIDE scope. This is useful for recursion.
 
-For a more precise definition, OUTSIDE = lexical scope and INSIDE = callee scope
+To write more precisely, OUTSIDE = lexical scope and INSIDE = callee scope.  
+(I think the term lexical scope is widel
 
 `hello` gets defined as a variable in the lexical/creation scope of the function - that is, wherever this `function hello(){}`  is defined
 These are the 2 cases that we'll look at for all the function constructs.
@@ -103,7 +104,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMTE2MTExMDIwLC0xMzI2NjI4
+BnZm1cbiIsImhpc3RvcnkiOlsxOTM1Nzk3MjE5LC0xMzI2NjI4
 MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMT
 Y1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5NiwxMDk5
 NTY2LC0xMjgxODA1MjAxLC0yMDI4NjcyMTg2LDIwNTYzMTc5MT
