@@ -98,9 +98,9 @@ Now, to answer the above two questions -
     > The actual "evaluation" of all statements happen after this "pre-evaluation" step.  
     > When js engine again reaches the function statement in evaluation step - it simply skips over it, to stop it from getting evaluated twice.
 
-    Effectively, this means that name binding does happen for function declarations in the OUTSIDE scope.
+    Effectively, this means that calling `hello()` works in the OUTSIDE scope.
 
-2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()`. But how is it working?
+2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call `hello()`. But how is it working?
 
 
 
@@ -116,11 +116,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4MzM3ODk1MjMsMTEwODM3ODk4
-NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMj
-M5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1
-NTA1OTYsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4Ni
-wyMDU2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5
-OTIzMjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYzNzcyLD
-Q1NjYwODI5OF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTM4NzU1OTEyLDgzMzc4OTUy
+MywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNT
+QwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MCwtMTk1ODA0
+ODc2OCwtMTA3MTU1MDU5NiwxMDk5NTY2LC0xMjgxODA1MjAxLC
+0yMDI4NjcyMTg2LDIwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMTQ5
+OTM4NjQwNSwyNDk5MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0Mi
+wzNjQxNjM3NzJdfQ==
 -->
