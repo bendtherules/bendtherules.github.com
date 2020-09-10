@@ -88,9 +88,9 @@ To be more precise, OUTSIDE = lexical scope and INSIDE = callee scope.
 (I think the term lexical scope is widely misused and used as a magical phrase to explain anything and everything. So, hopefully a more common term like outer/outside scope will be easier to understand.)
 
 Now, to answer the above two questions -  
-1. When we declare `function foo`, js internally defines a variable in the OUTSIDE scope with the same name `"foo"`  - and sets its value to the function object.  
-
-    > Now, this name binding happens alongwith hoisting. Hoisting works using a sort of "pre-evaluation" step where- 
+1. When we declare `function foo`, js internally defines a variable in the OUTSIDE scope with the same name `"foo"`  - and sets its value to the function object.  So, calling `hello()` works there.
+    
+    > Actually, this name binding happens alongwith hoisting. Hoisting works using a sort of "pre-evaluation" step where- 
     > 1.  it only looks at function declarations,
     > 2. evaluates the declaration to create a function object, and
     > 3. adds a binding in lexical scope with name="foo" and value=\<function object\>.
@@ -98,7 +98,6 @@ Now, to answer the above two questions -
     > The actual "evaluation" of all statements happen after this "pre-evaluation" step.  
     > When js engine again reaches the function statement in evaluation step - it simply skips over it, to stop it from getting evaluated twice.
 
-    Effectively, this means that calling `hello()` works in the OUTSIDE scope.
 
 2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()` within the function. But how is this working?
     
@@ -127,11 +126,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMTI5Mzg1NDg4LDgzMzc4OTUy
-MywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNT
-QwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MCwtMTk1ODA0
-ODc2OCwtMTA3MTU1MDU5NiwxMDk5NTY2LC0xMjgxODA1MjAxLC
-0yMDI4NjcyMTg2LDIwNTYzMTc5MTMsMjA1NjQ3MjM0NywtMTQ5
-OTM4NjQwNSwyNDk5MjMyNzIsMzcxNTMxNTk2LC05MjIxNjY0Mi
-wzNjQxNjM3NzJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNzIwMjQ2NzIxLDIxMjkzODU0
+ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOT
+U5ODQ0MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIw
+NTQwLC0xOTU4MDQ4NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLT
+EyODE4MDUyMDEsLTIwMjg2NzIxODYsMjA1NjMxNzkxMywyMDU2
+NDcyMzQ3LC0xNDk5Mzg2NDA1LDI0OTkyMzI3MiwzNzE1MzE1OT
+YsLTkyMjE2NjQyXX0=
 -->
