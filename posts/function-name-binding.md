@@ -111,8 +111,9 @@ Now, to answer the above two questions -
     }
     hello = 123
     ```
-    B. `hello` is redefined within INSIDE scope, whenever you call the function. If this is the case,then it won't get affected by what happens t
-
+    B. `hello` is redefined within INSIDE scope, whenever we call the function. If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
+ 
+In this case, 
 
 # Func expression and Arrow function
 
@@ -126,11 +127,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjEzMDg1NTIyLDE3MjAyNDY3
-MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMT
-MyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTcz
-MjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OT
-YsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2
-MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5OTIzMj
-cyLDM3MTUzMTU5Nl19
+BnZm1cbiIsImhpc3RvcnkiOlstMTY1NDAzODYyOCwxNzIwMjQ2
+NzIxLDIxMjkzODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLT
+EzMjY2MjgxMTQsOTU5ODQ0MjcwLDE1NDA4MjI2NSwtMTIzOTE3
+MzI5MywxNjU2MTIwNTQwLC0xOTU4MDQ4NzY4LC0xMDcxNTUwNT
+k2LDEwOTk1NjYsLTEyODE4MDUyMDEsLTIwMjg2NzIxODYsMjA1
+NjMxNzkxMywyMDU2NDcyMzQ3LC0xNDk5Mzg2NDA1LDI0OTkyMz
+I3MiwzNzE1MzE1OTZdfQ==
 -->
