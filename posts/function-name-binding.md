@@ -98,9 +98,9 @@ Now, to answer the above two questions -
     > The actual "evaluation" of all statements happen after this "pre-evaluation" step.  
     > When js engine again reaches the function statement in evaluation step - it simply skips over it, to stop it from getting evaluated twice.
 
-    Effectively, this means that name binding does happen for function declarations in the outer scope.
+    Effectively, this means that name binding does happen for function declarations in the OUTSIDE scope.
 
-2. sdsdsd
+2. What about INSIDE scope? I
 
 
 
@@ -116,11 +116,11 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDczNTQ1NzE0LDExMDgzNzg5
-ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLDE1NDA4MjI2NSwtMT
-IzOTE3MzI5MywxNjU2MTIwNTQwLC0xOTU4MDQ4NzY4LC0xMDcx
-NTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLTIwMjg2NzIxOD
-YsMjA1NjMxNzkxMywyMDU2NDcyMzQ3LC0xNDk5Mzg2NDA1LDI0
-OTkyMzI3MiwzNzE1MzE1OTYsLTkyMjE2NjQyLDM2NDE2Mzc3Mi
-w0NTY2MDgyOThdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls3NjA3OTEyMTgsMTEwODM3ODk4
+NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMj
+M5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1
+NTA1OTYsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4Ni
+wyMDU2MzE3OTEzLDIwNTY0NzIzNDcsLTE0OTkzODY0MDUsMjQ5
+OTIzMjcyLDM3MTUzMTU5NiwtOTIyMTY2NDIsMzY0MTYzNzcyLD
+Q1NjYwODI5OF19
 -->
