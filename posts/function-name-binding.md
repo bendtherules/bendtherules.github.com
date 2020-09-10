@@ -103,7 +103,7 @@ Now, to answer the above two questions -
 2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()` within the function. But how is this working?
     
     There are 2 possible ways this can work -
-    a. There is no `hello` defined in INSIDE scope, but its outer closure scope (OUTSIDE scope) has the variable `hello`
+    a. There is no `hello` defined within the function (INSIDE scope), but its closure scope (OUTSIDE scope) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from OUTSIDE scope.
 
 
 # Func expression and Arrow function
@@ -118,7 +118,7 @@ Todos -
 5. name available inside/outside?
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTkwNDQwOTY1LDgzMzc4OTUy
+BnZm1cbiIsImhpc3RvcnkiOlstNTgzODcwNDI3LDgzMzc4OTUy
 MywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNT
 QwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MCwtMTk1ODA0
 ODc2OCwtMTA3MTU1MDU5NiwxMDk5NTY2LC0xMjgxODA1MjAxLC
