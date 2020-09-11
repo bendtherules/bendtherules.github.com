@@ -113,7 +113,7 @@ Now, to answer the above two questions -
     ```
     B. `hello` is redefined within INSIDE scope, whenever we call the function. If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
  
-In this case, name binding in inner scope works using the first method (explained above). 
+In this case, name binding in inner scope works using the first method (explained above). Yes, this also means that modifying `hello` in outer scope will affect its value i
 
 
 
@@ -131,11 +131,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4NzU1ODEyNTQsLTIwOTQ4MDgy
-MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
-MzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0
-MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC
-0xOTU4MDQ4NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLTEyODE4
-MDUyMDEsLTIwMjg2NzIxODYsMjA1NjMxNzkxMywyMDU2NDcyMz
-Q3LC0xNDk5Mzg2NDA1XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMjYxMzQ0ODUwLDg3NTU4MTI1
+NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMj
+EyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYy
+ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
+E2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5
+OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OT
+EzLDIwNTY0NzIzNDddfQ==
 -->
