@@ -99,12 +99,12 @@ Now, to answer the above two questions -
     > When js engine again reaches the function statement in evaluation step - it simply skips over it, to stop it from getting evaluated twice.
 
 
-2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()` within the function. But how is it working?
+2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()` within the function. But how is i working?
     
     There are 2 possible ways this can work -
     
     A. There is no `hello` defined within the function (INSIDE), but its closure scope (OUTSIDE ) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from OUTSIDE scope.  
-    That means, if you change the value of the variable `hello` in outer scope, it will also change within inner scope. Example -
+    That means- if you change the value of the variable `hello` in outer scope, it will also change within inner scope. Example -
     ```js
     function hello() {
       hello() // will this work?
@@ -130,11 +130,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls5NTM4ODQ2Nyw4NzU1ODEyNTQs
-LTIwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMj
-kzODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2Mjgx
-MTQsOTU5ODQ0MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNj
-U2MTIwNTQwLC0xOTU4MDQ4NzY4LC0xMDcxNTUwNTk2LDEwOTk1
-NjYsLTEyODE4MDUyMDEsLTIwMjg2NzIxODYsMjA1NjMxNzkxMy
-wyMDU2NDcyMzQ3XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxNDk0NDgzMDEyLDk1Mzg4NDY3
+LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3Mj
+AyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4
+NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMj
+M5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1
+NTA1OTYsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4Ni
+wyMDU2MzE3OTEzXX0=
 -->
