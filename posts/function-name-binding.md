@@ -113,11 +113,10 @@ Now, to answer the above two questions -
     ```
     B. `hello` is redefined within INSIDE scope, whenever we call the function. If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
  
-In this case, name binding in inner scope works using the first method (explained above). Yes, this also means that modifying `hello` in outer scope will affect its value i
+In this case, name binding in inner scope works using the first method (explained above). Yes, this also means that modifying `hello` in outer scope will affect its value in the inner scope. 
 
 
-
-
+Add snippet here
 
 # Func expression and Arrow function
 
@@ -131,11 +130,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjYxMzQ0ODUwLDg3NTU4MTI1
-NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMj
-EyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYy
-ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
-E2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5
-OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4NiwyMDU2MzE3OT
-EzLDIwNTY0NzIzNDddfQ==
+BnZm1cbiIsImhpc3RvcnkiOls5NTM4ODQ2Nyw4NzU1ODEyNTQs
+LTIwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMj
+kzODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2Mjgx
+MTQsOTU5ODQ0MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNj
+U2MTIwNTQwLC0xOTU4MDQ4NzY4LC0xMDcxNTUwNTk2LDEwOTk1
+NjYsLTEyODE4MDUyMDEsLTIwMjg2NzIxODYsMjA1NjMxNzkxMy
+wyMDU2NDcyMzQ3XX0=
 -->
