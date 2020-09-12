@@ -99,7 +99,7 @@ Now, to answer the above two questions -
     > When js engine again reaches the function statement in evaluation step - it simply skips over it, to stop it from getting evaluated twice.
 
 
-2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()` within the function. But how is i working?
+2. What about INSIDE scope? From the previous snippet, it seems like we are indeed able to call it using `hello()` within the function. But how is it working?
     
     There are 2 possible ways this can work -
     
@@ -130,11 +130,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDk0NDgzMDEyLDk1Mzg4NDY3
-LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3Mj
-AyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4
-NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMj
-M5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1
-NTA1OTYsMTA5OTU2NiwtMTI4MTgwNTIwMSwtMjAyODY3MjE4Ni
-wyMDU2MzE3OTEzXX0=
+BnZm1cbiIsImhpc3RvcnkiOls5MjAyNjIzNTQsMTQ5NDQ4MzAx
+Miw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLTM5OT
+Q2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5NTIz
+LDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLDE1ND
+A4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC0xOTU4MDQ4
+NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLT
+IwMjg2NzIxODZdfQ==
 -->
