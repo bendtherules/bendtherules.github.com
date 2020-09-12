@@ -1,6 +1,6 @@
 # How does function.name and name binding work?
 
-As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function. First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). 
+As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function. First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So, it seems now I have to know exactly what vara function
 
 This is going to be one of those nitpicky articles where I document everything about function name, that I have learned from the spec.  
 
@@ -137,11 +137,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMzYwMDgzMjAyLDc3MTA3NzI3
-MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5ND
-gwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4
-OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NT
-k4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLDE2NTYxMjA1
-NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5OTU2NiwtMT
-I4MTgwNTIwMV19
+BnZm1cbiIsImhpc3RvcnkiOlstMTA3ODMyNjUwOSw3NzEwNzcy
+NzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOT
+Q4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0
+ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOT
+U5ODQ0MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIw
+NTQwLC0xOTU4MDQ4NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLT
+EyODE4MDUyMDFdfQ==
 -->
