@@ -116,7 +116,7 @@ Now, to answer the above two questions -
 In this case, name binding in inner scope works using the first method (**Closure access**). Yes, this also means that modifying `hello` in outer scope will affect its value in the inner scope. 
 ```js
 function hello() {
-  hello() // will this work?
+  hello() // ❌ TypeError: hello is not a function
 }
 hello = 123
 ```
@@ -135,7 +135,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjkzMTM1MDA0LDE0OTQ0ODMw
+BnZm1cbiIsImhpc3RvcnkiOlsxODE0NjA0Njk0LDE0OTQ0ODMw
 MTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC0zOT
 k0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4OTUy
 MywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNT
