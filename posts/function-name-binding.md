@@ -10,7 +10,7 @@ And thus began my years of ignorance and denial about function names. I knew jus
 # Intro
 
 Let's start with two related but different concepts -
-1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` typically stores the initial name that the function was defined with.
+1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` is a string, which typically stores the initial name that the function was defined with.
 	```javascript
 	function foo(){}
 	foo.name // "foo"
@@ -20,8 +20,8 @@ Let's start with two related but different concepts -
 2. **name binding** - Normally when we declare a function, it also creates a variable in the current scope which points to the function object. For ex -
 	```js
 	// This creates a variable `foo` in the current scope
-	function foo(){}
-	// `foo` points to the function object
+	function foo(){ }
+	// Here, `foo` points to the function object
 	// So, we can use it to call the function
 	foo()
 	```
@@ -140,11 +140,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjAwODc3ODAxMCwxODc2MDMx
-MDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOT
-UzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC0zOTk0Njgx
-MzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4OTUyMywxMT
-A4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNTQwODIy
-NjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MCwtMTk1ODA0ODc2OC
-wtMTA3MTU1MDU5Nl19
+BnZm1cbiIsImhpc3RvcnkiOlstMTc4MTY1NDM5NSwtMjAwODc3
+ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLD
+E0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4
+MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LD
+gzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0
+NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MC
+wtMTk1ODA0ODc2OF19
 -->
