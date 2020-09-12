@@ -2,7 +2,7 @@
 
 As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function. First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? No, I had enough!
 
-And thus began 
+And thus began my years of ignorance and denial about function names. I knew that I can call a function by the exact
 This is going to be one of those nitpicky articles where I document everything about function name, that I have learned from the spec.  
 
 # Intro
@@ -138,11 +138,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNzEwNTgwMjQ3LDc3MTA3NzI3
-MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5ND
-gwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4
-OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NT
-k4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLDE2NTYxMjA1
-NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OTYsMTA5OTU2NiwtMT
-I4MTgwNTIwMV19
+BnZm1cbiIsImhpc3RvcnkiOlsxNzA3NjUzMzk5LDE3MTA1ODAy
+NDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NT
+gxMjU0LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0Njcy
+MSwyMTI5Mzg1NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMz
+I2NjI4MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMy
+OTMsMTY1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5Ni
+wxMDk5NTY2XX0=
 -->
