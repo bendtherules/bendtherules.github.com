@@ -122,7 +122,6 @@ function hello() {
 hello = 123
 ```
 
-Add snippet here
 
 # Func expression and Arrow function
 
@@ -136,7 +135,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszMTgwOTI1MzEsMTQ5NDQ4MzAx
+BnZm1cbiIsImhpc3RvcnkiOls3NzEwNzcyNzEsMTQ5NDQ4MzAx
 Miw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLTM5OT
 Q2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5NTIz
 LDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLDE1ND
