@@ -113,8 +113,13 @@ Now, to answer the above two questions -
     ```
     B. **Redefined during call** - `hello` is redefined within INSIDE scope, whenever we call the function. If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
  
-In this case, name binding in inner scope works using the first method (explained above). Yes, this also means that modifying `hello` in outer scope will affect its value in the inner scope. 
-
+In this case, name binding in inner scope works using the first method (**Closure access**). Yes, this also means that modifying `hello` in outer scope will affect its value in the inner scope. 
+```js
+function hello() {
+  hello() // will this work?
+}
+hello = 123
+```
 
 Add snippet here
 
@@ -130,11 +135,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls2NzIzODA1NDgsMTQ5NDQ4MzAx
-Miw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLTM5OT
-Q2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5NTIz
-LDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLDE1ND
-A4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC0xOTU4MDQ4
-NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLT
-IwMjg2NzIxODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNjkzMTM1MDA0LDE0OTQ0ODMw
+MTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC0zOT
+k0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4OTUy
+MywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNT
+QwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MCwtMTk1ODA0
+ODc2OCwtMTA3MTU1MDU5NiwxMDk5NTY2LC0xMjgxODA1MjAxLC
+0yMDI4NjcyMTg2XX0=
 -->
