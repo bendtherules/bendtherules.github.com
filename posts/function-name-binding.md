@@ -84,8 +84,8 @@ We want to look at two things -
 1. Can I call the function using its name in the OUTSIDE scope?  
 2. Can the function call itself using its own name? We are calling this as the INSIDE scope. This is useful for recursion.
 
-To be more precise, OUTSIDE = lexical scope and INSIDE = callee scope.  
-(I think the term lexical scope is widely misused and used as a magical phrase to explain anything and everything. So, hopefully a more common term like outer/outside scope will be easier to understand.)
+To be more precise, OUTSIDE/outer = lexical scope and INSIDE/inner = callee scope.  
+(I think the term lexical scope is widely misused and used as a magical phrase to explain anything and everything. So, hopefully a more common term like inner/outer scope will be easier to understand.)
 
 Now, to answer the above two questions -  
 1. When we declare `function foo`, js internally defines a variable in the OUTSIDE scope with the same name `"foo"`  - and sets its value to the function object.  So, calling `hello()` works there.
@@ -103,7 +103,7 @@ Now, to answer the above two questions -
     
     There are 2 possible ways this can work -
     
-    A. There is no `hello` defined within the function (INSIDE), but its closure scope (OUTSIDE ) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from OUTSIDE scope.  
+    A. Clsoure access - There is no `hello` defined within the function (INSIDE), but its closure scope (OUTSIDE ) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from outer scope.  
     That means- if you change the value of the variable `hello` in outer scope, it will also change within inner scope. Example -
     ```js
     function hello() {
@@ -130,11 +130,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls5MjAyNjIzNTQsMTQ5NDQ4MzAx
-Miw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLTM5OT
-Q2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5NTIz
-LDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLDE1ND
-A4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC0xOTU4MDQ4
-NzY4LC0xMDcxNTUwNTk2LDEwOTk1NjYsLTEyODE4MDUyMDEsLT
-IwMjg2NzIxODZdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTgyMTMwMTA2MCwxNDk0NDgz
+MDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMz
+k5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1
+MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMT
+U0MDgyMjY1LC0xMjM5MTczMjkzLDE2NTYxMjA1NDAsLTE5NTgw
+NDg3NjgsLTEwNzE1NTA1OTYsMTA5OTU2NiwtMTI4MTgwNTIwMS
+wtMjAyODY3MjE4Nl19
 -->
