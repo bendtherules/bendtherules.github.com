@@ -37,10 +37,10 @@ Yes, they are. Let's look at more examples -
 	// Example 1
 	function func1() {}
 
-	var func2 = func1
+	var func2 = func1;
 	func2.name // prints "func1", NOT "func2"
 	```
-	`name` is only decided based on how the function is created and does not depend on the variable name you use to access it.
+	`fn.name` is only decided based on how the function is created and DOES NOT depend on the variable name you use to access it.
 	
 2. *Named function expression* can be bound to a variable name which is different from it's `function.name`. Also, function expressions can be used without storing in a variable at all.
 	```js
@@ -53,7 +53,7 @@ Yes, they are. Let's look at more examples -
 	(function foo(){})()
 	(function foo(){}).name // "foo"
 	// This DOES NOT create any variable in this scope
-	hello // DOESN'T exist
+	foo // DOESN'T exist
 	```
 
 ⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
@@ -140,11 +140,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDMyMTcyNDkwLC0yMDA4Nzc4
-MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
-Q5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgy
-MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
-MzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0
-MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC
-0xOTU4MDQ4NzY4XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTUxNDkwNzA2NSwtMjAwODc3
+ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLD
+E0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4
+MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LD
+gzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0
+NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MC
+wtMTk1ODA0ODc2OF19
 -->
