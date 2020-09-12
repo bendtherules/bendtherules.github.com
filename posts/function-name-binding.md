@@ -60,7 +60,7 @@ Yes, they are. Let's look at more examples -
 
 (From now on, I'll use the terms `.name` and bound name to distinguish between these two.)
 
-Now, let's actually look at how both the names behave for different function syntaxes (hint: they are different).
+Now, let's actually look at how both the names behave for different function syntaxes.
 
 
 # Function statement
@@ -140,11 +140,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTUxNDkwNzA2NSwtMjAwODc3
-ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLD
-E0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4
-MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LD
-gzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0
-NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MC
-wtMTk1ODA0ODc2OF19
+BnZm1cbiIsImhpc3RvcnkiOls1MTY4NjA4MjIsLTIwMDg3Nzgw
+MTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxND
+k0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIx
+NCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4Mz
+M3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQy
+NzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLDE2NTYxMjA1NDAsLT
+E5NTgwNDg3NjhdfQ==
 -->
