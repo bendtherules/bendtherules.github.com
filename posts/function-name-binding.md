@@ -68,7 +68,7 @@ Now, let's actually look at how both the names behave for different function syn
 ```js
 function hello() {}
 // In generic form,
-// function identifier(paramList) {body} 
+// function identifier(paramList){ body } 
 ```
 
 ⭐️ For function statements, `.name` is simply string form of the identifier `hello` - that is the string "hello".  
@@ -140,11 +140,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls1MTY4NjA4MjIsLTIwMDg3Nzgw
-MTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxND
-k0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIx
-NCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4Mz
-M3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQy
-NzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLDE2NTYxMjA1NDAsLT
-E5NTgwNDg3NjhdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTM3NzIxMjgyLC0yMDA4Nzc4
+MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
+Q5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgy
+MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
+MzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0
+MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC
+0xOTU4MDQ4NzY4XX0=
 -->
