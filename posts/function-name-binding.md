@@ -4,7 +4,7 @@ As a javascript developer, I have used functions for a long time - but I felt un
 
 And thus began my years of ignorance and denial about function names. I knew just about how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. But recently, I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
 
-(Having read some parts of the specification, now I strongly believe that - Some parts of Javascript which feel confusing for developers, are like that, because the specification *literally* has special cases for them. A lot of the explanations 
+(Having read some parts of the specification, now I strongly believe that - Some parts of Javascript which feel confusing for developers, are like that, because the specification *literally* has special cases for them. A lot of the explanations we read are too dumbed down and hide what is happening internally
 
 # Intro
 
@@ -139,11 +139,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTE3MzA5Njc5NiwxNzEwNTgw
-MjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NT
-U4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3
-MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMT
-MyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTcz
-MjkzLDE2NTYxMjA1NDAsLTE5NTgwNDg3NjgsLTEwNzE1NTA1OT
-YsMTA5OTU2Nl19
+BnZm1cbiIsImhpc3RvcnkiOlsxODc2MDMxMDUyLDE3MTA1ODAy
+NDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NT
+gxMjU0LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0Njcy
+MSwyMTI5Mzg1NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMz
+I2NjI4MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMy
+OTMsMTY1NjEyMDU0MCwtMTk1ODA0ODc2OCwtMTA3MTU1MDU5Ni
+wxMDk5NTY2XX0=
 -->
