@@ -21,14 +21,14 @@ Let's start with two related but different concepts -
 	```js
 	// This creates a variable `foo` in the current scope
 	function foo(){ }
-	// Here, `foo` points to the function object
+	// This creates variable `foo`, which points to the function object
 	// So, we can use it to call the function
 	foo()
 	```
 	This can be called as name binding.
 	
 ## ⚠️  **How are they different?** 
-It's easy to get confused here. Right now, it looks like `.name` just stores the name of the variable which name binding created. (That is, `foo.name` is just the variable name `"foo"` as string). Then, are they really different?
+It's easy to get confused here. Right now, it looks like `fn.name` just stores the name of the variable which name binding created. (That is, `foo.name` is just the variable name `"foo"` as string). So, are they really different?
 
 Yes, they are. Let's look at more examples -
 
@@ -140,11 +140,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTc4MTY1NDM5NSwtMjAwODc3
-ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLD
-E0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4
-MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LD
-gzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0
-NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMTY1NjEyMDU0MC
-wtMTk1ODA0ODc2OF19
+BnZm1cbiIsImhpc3RvcnkiOlsxNDMyMTcyNDkwLC0yMDA4Nzc4
+MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
+Q5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgy
+MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
+MzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0
+MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC
+0xOTU4MDQ4NzY4XX0=
 -->
