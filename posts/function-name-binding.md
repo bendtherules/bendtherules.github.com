@@ -5,7 +5,7 @@ As a javascript developer, I have used functions for a long time - but I felt un
 And thus began my years of ignorance and denial about function names. I knew just about how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. But recently, I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
 
 > Having read some parts of the specification, now I strongly believe that - Some parts of Javascript which feel confusing for developers, are like that, because the specification *literally* has special cases for them. 
-> A lot of the explanations we read are too dumbed down and hide what is happening internally. So, as users we only have a fuzzy, hand-waving understanding
+> A lot of the explanations we read are too dumbed down and hide what is happening internally. So, as users we only have a fuzzy, hand-waving understanding of things - instead of proper concrete documentation.
 
 # Intro
 
@@ -140,7 +140,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTg4Mjc5OTY3OSwxODc2MDMx
+BnZm1cbiIsImhpc3RvcnkiOlstMjAwODc3ODAxMCwxODc2MDMx
 MDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOT
 UzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC0zOTk0Njgx
 MzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4OTUyMywxMT
