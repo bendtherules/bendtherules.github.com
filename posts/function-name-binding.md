@@ -155,14 +155,16 @@ newHello()
 
 Normal function expressions and arrow functions look like this -
 ```js
-// 1. Named function expression
+// FE = function expression
+
+// 1. Anonymous FE
+console.log( function(){} )
+
+// 2. Named FE
 console.log( function hello(){} )
 
-// 2. Anonymous function expression
-console.log( function (){} )
-
-// 3. Assignment + Anonymous function expression
-console.log( function (){} )
+// 3. Assignment + Anonymous FE
+hello = function(){}
 
 ```
 
@@ -176,11 +178,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTA3Mzg1OTEwOCwxNDczMDQx
-ODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMC
-wxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0
-ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC
-0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4
-OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MC
-wxNTQwODIyNjVdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstODc0NjEyMjIsMTQ3MzA0MTg4
+MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMT
+g3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgz
+MDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMz
+k5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1
+MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMT
+U0MDgyMjY1XX0=
 -->
