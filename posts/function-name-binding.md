@@ -75,7 +75,7 @@ function hello() {}
 // function identifier(paramList){ body } 
 ```
 
-⭐️ For function statements, `.name` is simply string form of the identifier `hello` - that is "hello".  
+⭐️ For function statements, **`.name` is simply string form of the identifier `hello` - that is "hello"**.  
 And it's **always** going to be a string, because you can't use a expression or symbol in the name part (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
 
 ⭐️ What about name binding then? 
@@ -177,6 +177,7 @@ hello = () => {}
 
 So, function expressions can be either *named or anonymous*, whereas arrow functions are *always *anonymous*. Also, both of them can be assigned to a variable during creation - whether using `var` or `let` or simple assignment.
 
+
 # Method and object literal
 
 Todos -
@@ -187,11 +188,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNjczMzIyNTY5LC01OTIwNzQz
-MzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLT
-IwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3
-NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMj
-A5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4
-NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNC
-w5NTk4NDQyNzBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTg4NzQ4MTgxOSwtNTkyMDc0
+MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC
+0yMDA4Nzc4MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEw
+NzcyNzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLT
+IwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkz
+ODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMT
+QsOTU5ODQ0MjcwXX0=
 -->
