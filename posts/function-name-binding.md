@@ -1,5 +1,7 @@
 # How does function.name and name binding work?
 
+# Intro
+
 As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function - how can a function call itself? First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? Nah, I had enough!
 
 And thus began my years of ignorance and denial about function names. I knew how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. Only recently I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
@@ -7,9 +9,10 @@ And thus began my years of ignorance and denial about function names. I knew how
 > Having read some parts of the specification, I strongly believe now that - Some parts of Javascript which feel confusing for developers, are like that, because the specification *literally* has special cases for them. 
 > A lot of the explanations we read are too dumbed down and hide what is happening internally. So, as users we only have a fuzzy, hand-waving understanding of things - instead of proper concrete documentation.
 
-# Intro
+# Function name and name binding ??
 
 Let's start with two related but different concepts -
+
 1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` is a string, which typically stores the initial name that the function was defined with.
 	```javascript
 	function foo(){}
@@ -140,11 +143,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDExNDMwODUzLC0xMzc3MjEy
-ODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LD
-c3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1
-NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMj
-EyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYy
-ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
-E2NTYxMjA1NDBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstNDk5NzUxNzY2LDE0MTE0MzA4
+NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2MDMxMDUyLD
+E3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0
+NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMT
+cyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4OTUyMywxMTA4Mzc4
+OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLT
+EyMzkxNzMyOTNdfQ==
 -->
