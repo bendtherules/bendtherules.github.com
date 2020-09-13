@@ -157,15 +157,24 @@ Normal function expressions and arrow functions look like this -
 ```js
 // FE = function expression
 
-// 1. Anonymous FE
+// A1. Anonymous FE
 console.log( function(){} )
 
-// 2. Named FE
+// A2. Named FE
 console.log( function hello(){} )
 
-// 3. Assignment + Anonymous FE
+// A3. Assignment + Anonymous FE
 hello = function(){}
 
+// A4. Assignment + Named FE
+newHello = function hello(){}
+
+//--------
+// B1. Arrow expression
+console.log( () => {} )
+
+// B2. Arrow expression
+console.log( () => {} )
 ```
 
 # Method and object literal
@@ -178,11 +187,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstODc0NjEyMjIsMTQ3MzA0MTg4
-MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMT
-g3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgz
-MDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMz
-k5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1
-MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMT
-U0MDgyMjY1XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxMzY4NDE0ODU1LDE0NzMwNDE4
+ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
+E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
+MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
+M5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5
+NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLD
+E1NDA4MjI2NV19
 -->
