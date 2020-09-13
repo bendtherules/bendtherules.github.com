@@ -135,10 +135,10 @@ Now, to answer the above two questions -
     }
     hello = 123
     ```
-    B. **Redefined during call** - `hello` is redefined within INSIDE scope, every time we call the function. So,  
+    B. **Redefined during call** - `hello` is redefined within INSIDE scope, every time we call the function. So, INSIDE will have its own variable/binding called "hello" which points to the function.  
     If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
  
-In this case, name binding in inner scope works using the first method (**Closure access**). So, modifying `hello` in outer scope will affect its value in the inner scope. 
+For function declarations, name binding in inner scope works using the first method (**Closure access**). So, modifying `hello` in outer scope will affect its value in the inner scope. 
 ```js
 function hello() {
   hello() // ❌ TypeError: hello is not a function
@@ -160,7 +160,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNjI4OTg4MDg2LDE0NzMwNDE4
+BnZm1cbiIsImhpc3RvcnkiOlsxNjExMjgxMDI0LDE0NzMwNDE4
 ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
 E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
 MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
