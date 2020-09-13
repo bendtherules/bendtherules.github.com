@@ -178,7 +178,8 @@ hello = () => {}
 
 So, function expressions can be either *named or anonymous*, whereas arrow functions are *always *anonymous*. Also, both of them can be assigned to a variable during creation - whether using `var` or `let` or simple assignment.
 
-⭐️ 
+## .name
+
 
 
 # Method and object literal
@@ -191,11 +192,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTY2MTYwODEyOCwtNTkyMDc0
-MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC
-0yMDA4Nzc4MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEw
-NzcyNzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLT
-IwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkz
-ODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMT
-QsOTU5ODQ0MjcwXX0=
+BnZm1cbiIsImhpc3RvcnkiOls1NTk0MzQ0MzgsLTU5MjA3NDMz
+NCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMj
+AwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3
+MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMD
+k0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1
+NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LD
+k1OTg0NDI3MF19
 -->
