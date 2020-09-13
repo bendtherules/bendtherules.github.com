@@ -68,14 +68,15 @@ Now, let's actually look at how both the names behave for different function syn
 
 # Function statement
 
+This is the simplest form of function -
 ```js
 function hello() {}
 // In generic form,
 // function identifier(paramList){ body } 
 ```
 
-⭐️ For function statements, `.name` is simply string form of the identifier `hello` - that is the string "hello".  
-And it's **always** going to be a string, because you can't use a expression or symbol in the name section (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
+⭐️ For function statements, `.name` is simply string form of the identifier `hello` - that is "hello".  
+And it's **always** going to be a string, because you can't use a expression or symbol in the name part (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
 
 ⭐️ What about name binding then? 
 ```js
@@ -143,11 +144,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTkxNDgwODU4NiwxNDExNDMw
-ODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1Mi
-wxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4
-NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LD
-E3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3
-ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC
-0xMjM5MTczMjkzXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxNDczMDQxODgwLDE0MTE0MzA4
+NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2MDMxMDUyLD
+E3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0
+NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMT
+cyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4OTUyMywxMTA4Mzc4
+OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLT
+EyMzkxNzMyOTNdfQ==
 -->
