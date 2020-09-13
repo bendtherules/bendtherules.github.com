@@ -9,7 +9,7 @@ And thus began my years of ignorance and denial about function names. I knew how
 > Having read some parts of the specification, I strongly believe now that - Some parts of Javascript which feel confusing for developers, are like that, because the specification *literally* has special cases for them. 
 > A lot of the explanations we read are too dumbed down and hide what is happening internally. So, as users we only have a fuzzy, hand-waving understanding of things - instead of proper concrete documentation.
 
-# Function name and name binding ??
+# Function.name and name binding
 
 Let's start with two related but different concepts -
 
@@ -143,11 +143,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNDk5NzUxNzY2LDE0MTE0MzA4
-NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2MDMxMDUyLD
-E3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0
-NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMT
-cyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4OTUyMywxMTA4Mzc4
-OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLT
-EyMzkxNzMyOTNdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTkxNDgwODU4NiwxNDExNDMw
+ODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1Mi
+wxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4
+NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LD
+E3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3
+ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC
+0xMjM5MTczMjkzXX0=
 -->
