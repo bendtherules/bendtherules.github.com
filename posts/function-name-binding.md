@@ -79,7 +79,7 @@ function hello() {}
  For function statements, **`.name` is simply string form of the identifier `hello` - that is "hello"**.  
 And it's **always** going to be a string, because you can't use a expression or symbol in the name part (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
 
-## What about name binding then? 
+## bound name
 ```js
 function hello() {
   // I can use it here, INSIDE
@@ -191,11 +191,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszOTIwMjM1MzQsLTU5MjA3NDMz
-NCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMj
-AwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3
-MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMD
-k0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1
-NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LD
-k1OTg0NDI3MF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTY2MTYwODEyOCwtNTkyMDc0
+MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC
+0yMDA4Nzc4MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEw
+NzcyNzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLT
+IwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkz
+ODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMT
+QsOTU5ODQ0MjcwXX0=
 -->
