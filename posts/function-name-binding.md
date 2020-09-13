@@ -153,7 +153,7 @@ newHello()
 
 # Func expression and Arrow function
 
-Normal function expressions and arrow functions look like this -
+Function expressions and arrow functions can look like this -
 ```js
 // FE = function expression
 
@@ -186,11 +186,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNTkyMDc0MzM0LDE0NzMwNDE4
-ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
-E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
-MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
-M5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5
-NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLD
-E1NDA4MjI2NV19
+BnZm1cbiIsImhpc3RvcnkiOlstNDQyNjk4MDcxLC01OTIwNzQz
+MzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLT
+IwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3
+NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMj
+A5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4
+NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNC
+w5NTk4NDQyNzBdfQ==
 -->
