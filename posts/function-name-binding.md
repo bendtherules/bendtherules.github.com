@@ -159,19 +159,18 @@ Function expressions and arrow functions can look like this -
 
 // A1. Anonymous FE
 console.log( function(){} )
-
 // A2. Named FE
 console.log( function hello(){} )
 
 // A3. Assignment + Anonymous FE
 hello = function(){}
-
 // A4. Assignment + Named FE
 newHello = function hello(){}
+
 //--------
+
 // B1. Arrow expression
 console.log( () => {} )
-
 // B2. Assignment + Arrow expression
 hello = () => {}
 ```
@@ -186,11 +185,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNDQyNjk4MDcxLC01OTIwNzQz
-MzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLT
-IwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3
-NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMj
-A5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4
-NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNC
-w5NTk4NDQyNzBdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsyMDQ3NDUxODMsLTU5MjA3NDMz
+NCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMj
+AwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3
+MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMD
+k0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1
+NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LD
+k1OTg0NDI3MF19
 -->
