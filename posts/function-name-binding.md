@@ -168,13 +168,12 @@ hello = function(){}
 
 // A4. Assignment + Named FE
 newHello = function hello(){}
-
 //--------
 // B1. Arrow expression
 console.log( () => {} )
 
-// B2. Arrow expression
-console.log( () => {} )
+// B2. Assignment + Arrow expression
+hello = () => {}
 ```
 
 # Method and object literal
@@ -187,7 +186,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMzY4NDE0ODU1LDE0NzMwNDE4
+BnZm1cbiIsImhpc3RvcnkiOlstNTkyMDc0MzM0LDE0NzMwNDE4
 ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
 E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
 MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
