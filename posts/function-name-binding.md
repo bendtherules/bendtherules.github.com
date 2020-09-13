@@ -175,7 +175,7 @@ console.log( () => {} )
 hello = () => {}
 ```
 
-So, function expressions can be either named, whereas arrow functions are al or anonymous and ofcourse, it can be assigned to a variable during creation.
+So, function expressions can be either *named or anonymous*, whereas arrow functions are *always *anonymous*. Both of them can be assigned to a variable during creation - whether using `var` or `let` or simple assig
 
 # Method and object literal
 
@@ -187,7 +187,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjY2MDE1NjY4LC01OTIwNzQz
+BnZm1cbiIsImhpc3RvcnkiOlsxMzY2MzkyNjcwLC01OTIwNzQz
 MzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLT
 IwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3
 NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMj
