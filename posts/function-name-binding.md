@@ -113,7 +113,7 @@ Now, to answer the above two questions -
     There are 2 possible ways this can work -
     
     A. **Closure access** - There is no `hello` defined within the function (INSIDE), but its closure scope (OUTSIDE ) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from outer scope.  
-    To visualize -
+    To visualize it -
     ```js
    	// OUTSIDE scope
    	// VARS =["hello"] ✅<--|
@@ -135,7 +135,8 @@ Now, to answer the above two questions -
     }
     hello = 123
     ```
-    B. **Redefined during call** - `hello` is redefined within INSIDE scope, whenever we call the function. If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
+    B. **Redefined during call** - `hello` is redefined within INSIDE scope, every time we call the function. So,  
+    If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
  
 In this case, name binding in inner scope works using the first method (**Closure access**). So, modifying `hello` in outer scope will affect its value in the inner scope. 
 ```js
@@ -159,11 +160,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMjgxODY0NTcsMTQ3MzA0MTg4
-MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMT
-g3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgz
-MDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMz
-k5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1
-MjMsMTEwODM3ODk4NSwtMTMyNjYyODExNCw5NTk4NDQyNzAsMT
-U0MDgyMjY1XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNjI4OTg4MDg2LDE0NzMwNDE4
+ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
+E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
+MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
+M5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5
+NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLD
+E1NDA4MjI2NV19
 -->
