@@ -1,6 +1,6 @@
 # How does function.name and name binding work?
 
-As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function. First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? No, I had enough!
+As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function - how can a function call itself? First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? No, I had enough!
 
 And thus began my years of ignorance and denial about function names. I knew just about how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. But recently, I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
 
@@ -118,7 +118,7 @@ Now, to answer the above two questions -
     ```
     B. **Redefined during call** - `hello` is redefined within INSIDE scope, whenever we call the function. If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
  
-In this case, name binding in inner scope works using the first method (**Closure access**). Yes, this also means that modifying `hello` in outer scope will affect its value in the inner scope. 
+In this case, name binding in inner scope works using the first method (**Closure access**). So, modifying `hello` in outer scope will affect its value in the inner scope. 
 ```js
 function hello() {
   hello() // ❌ TypeError: hello is not a function
@@ -140,11 +140,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM3NzIxMjgyLC0yMDA4Nzc4
-MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
-Q5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgy
-MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
-MzNzg5NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0
-MjcwLDE1NDA4MjI2NSwtMTIzOTE3MzI5MywxNjU2MTIwNTQwLC
-0xOTU4MDQ4NzY4XX0=
+BnZm1cbiIsImhpc3RvcnkiOls4OTQwMjEyMjEsLTEzNzcyMTI4
+MiwtMjAwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNz
+cxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0
+LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMT
+I5Mzg1NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4
+MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMT
+Y1NjEyMDU0MF19
 -->
