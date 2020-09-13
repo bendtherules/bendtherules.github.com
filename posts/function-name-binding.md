@@ -113,7 +113,16 @@ Now, to answer the above two questions -
     There are 2 possible ways this can work -
     
     A. **Closure access** - There is no `hello` defined within the function (INSIDE), but its closure scope (OUTSIDE ) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from outer scope.  
-    To visualise -
+    To visualize -
+    ```js
+   	// OUTSIDE scope
+	hello()
+	
+    function hello() {
+      // INSIDE scope
+    }
+	
+    ```
     That means- if you change the value of the variable `hello` in outer scope, it will also change within inner scope. Example -
     ```js
     function hello() {
@@ -145,7 +154,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNTQ5MDQwMjc1LDE0NzMwNDE4
+BnZm1cbiIsImhpc3RvcnkiOlstMjEyODU2MzkwLDE0NzMwNDE4
 ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
 E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
 MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
