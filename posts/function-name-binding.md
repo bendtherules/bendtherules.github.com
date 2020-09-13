@@ -155,6 +155,8 @@ newHello()
 
 Normal function expressions and arrow functions look like this -
 ```js
+// 1. Named function expression
+console.log( function hello(){} )
 
 
 
@@ -170,7 +172,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI4MzIxNjc0LDE0NzMwNDE4
+BnZm1cbiIsImhpc3RvcnkiOlsxNzg0NzI0OTg3LDE0NzMwNDE4
 ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
 E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
 MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
