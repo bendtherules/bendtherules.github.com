@@ -116,10 +116,12 @@ Now, to answer the above two questions -
     To visualize -
     ```js
    	// OUTSIDE scope
-	hello()
+   	// VARS = [ "hello" ]
 	
     function hello() {
       // INSIDE scope
+      // VARS = []
+      
     }
 	
     ```
@@ -154,11 +156,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjEyODU2MzkwLDE0NzMwNDE4
-ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLD
-E4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4
-MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLT
-M5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsODMzNzg5
-NTIzLDExMDgzNzg5ODUsLTEzMjY2MjgxMTQsOTU5ODQ0MjcwLD
-E1NDA4MjI2NV19
+BnZm1cbiIsImhpc3RvcnkiOlstMTI4ODQ1NTQ3NywxNDczMDQx
+ODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMC
+wxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0
+ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC
+0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LDgzMzc4
+OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LDk1OTg0NDI3MC
+wxNTQwODIyNjVdfQ==
 -->
