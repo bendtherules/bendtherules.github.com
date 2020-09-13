@@ -120,7 +120,10 @@ Now, to answer the above two questions -
 	
     function hello() {
       // INSIDE scope
-      // VARS = []
+      // VARS = []   XX---|
+					      |  
+      // Lookup "hello"   |
+      hello()   ----------|
       
     }
 	
@@ -156,7 +159,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI4ODQ1NTQ3NywxNDczMDQx
+BnZm1cbiIsImhpc3RvcnkiOlstMjAzODE3MjUyMywxNDczMDQx
 ODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMC
 wxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0
 ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC
