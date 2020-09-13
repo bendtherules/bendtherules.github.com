@@ -1,8 +1,8 @@
 # How does function.name and name binding work?
 
-As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function - how can a function call itself? First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? No, I had enough!
+As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function - how can a function call itself? First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? Nah, I had enough!
 
-And thus began my years of ignorance and denial about function names. I knew just about how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. But recently, I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
+And thus began my years of ignorance and denial about function names. I knew how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. But recently, I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
 
 > Having read some parts of the specification, now I strongly believe that - Some parts of Javascript which feel confusing for developers, are like that, because the specification *literally* has special cases for them. 
 > A lot of the explanations we read are too dumbed down and hide what is happening internally. So, as users we only have a fuzzy, hand-waving understanding of things - instead of proper concrete documentation.
@@ -140,11 +140,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4OTQwMjEyMjEsLTEzNzcyMTI4
-MiwtMjAwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNz
-cxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0
-LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMT
-I5Mzg1NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4
-MTE0LDk1OTg0NDI3MCwxNTQwODIyNjUsLTEyMzkxNzMyOTMsMT
-Y1NjEyMDU0MF19
+BnZm1cbiIsImhpc3RvcnkiOlsxNjQ1Mjg1NzA0LC0xMzc3MjEy
+ODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LD
+c3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1
+NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMj
+EyOTM4NTQ4OCw4MzM3ODk1MjMsMTEwODM3ODk4NSwtMTMyNjYy
+ODExNCw5NTk4NDQyNzAsMTU0MDgyMjY1LC0xMjM5MTczMjkzLD
+E2NTYxMjA1NDBdfQ==
 -->
