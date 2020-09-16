@@ -192,7 +192,7 @@ For both **anonymous** function expression and arrow function, `fn.name` is norm
 (function() {}).name // ""
 (() =>{}).name // ""
 ```
-
+So as of now, it seems like arrow functions can never have a proper `.name`? Arrow functions does not have a named version, it is always anonymous
 
 For **assignment + anonymous** function expression and arrow function, 
 
@@ -207,11 +207,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjc5OTExNjgsMTYxNTYwMzI5
-OCwxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMDc0MzM0LDE0Nz
-MwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4
-MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
-Q5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgy
-MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
-MzNzg5NTIzXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNjU2NTExOTI0LDE2MTU2MDMy
+OTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxND
+czMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3
+ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLD
+E0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4
+MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LD
+gzMzc4OTUyM119
 -->
