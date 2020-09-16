@@ -180,7 +180,7 @@ So, function expressions can be either *named or anonymous*, whereas arrow funct
 
 ## .name
 
-For **named** function expression, `fn.name` is simple - it's just string form of the identifiier.  
+For **named** function expression, `fn.name` is simple - it's just string form of the identifier.  
 (applies to A2 and A4 above)   
 
 ```js
@@ -225,11 +225,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTUzMjMxNDA5LDk3NDc5OTkx
-MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
-E0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3
-MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNC
-w1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQxODgwLDE0MTE0
-MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2MDMxMD
-UyLDE3MTA1ODAyNDddfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTgwNDY4MjY0NCw5NzQ3OTk5
+MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LD
+ExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0
+NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MT
+QsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDEx
+NDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMT
+A1MiwxNzEwNTgwMjQ3XX0=
 -->
