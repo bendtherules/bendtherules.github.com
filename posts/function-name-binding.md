@@ -194,6 +194,7 @@ For both **anonymous** function expression and arrow function, `fn.name` is norm
 ```
 
 
+For **assignment + anonymous** function expression and arrow function, 
 
 
 # Method and object literal
@@ -206,11 +207,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTY1NzcxNTkxNiwxNjE1NjAz
-Mjk4LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMT
-Q3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3
-NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MS
-wxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgw
-ODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OC
-w4MzM3ODk1MjNdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMjc5OTExNjgsMTYxNTYwMzI5
+OCwxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMDc0MzM0LDE0Nz
+MwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4
+MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
+Q5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgy
+MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
+MzNzg5NTIzXX0=
 -->
