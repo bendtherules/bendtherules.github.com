@@ -98,7 +98,7 @@ To be more precise, OUTSIDE/outer = lexical scope and INSIDE/inner = callee scop
 (I think the term lexical scope is widely misused and used as a magical phrase to explain anything and everything. So, hopefully a more common term like inner/outer scope will be easier to understand.)
 
 Now, to answer the above two questions -  
-1. When we declare `function foo`, js internally defines a variable in the OUTSIDE scope with the same name `"foo"`  - and sets its value to the function object.  So, calling `hello()` works here.
+1. When we declare `function hello`, js internally defines a variable in the OUTSIDE scope with the same name `"hello"`  - and sets its value to the function object.  So, calling `hello()` works here.
     
     > Actually, this name binding happens alongwith hoisting. Hoisting works using a sort of "pre-evaluation" step, where - 
     > 1.  it only looks at function declarations,
@@ -222,11 +222,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjQ3MDgzNzI5LC0yMDg1ODgx
-NDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMSwtMTc2MjkzMjk0MC
-wtNTg0Mzc1Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2
-MDMyOTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNC
-wxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAw
-ODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3Mj
-cxLDE0OTQ0ODMwMTJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls5NzQ3OTk5MTMsMTY0NzA4Mzcy
+OSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4NDMzMDEsLT
+E3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mjk1LDM4MTA4
+NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC
+01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3
+MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMj
+Q3LDc3MTA3NzI3MV19
 -->
