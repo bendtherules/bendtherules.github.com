@@ -209,7 +209,7 @@ hello.name // "hello"
 var hello2 = hello; ❌
 hello2.name // "hello"
 ```
-This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function (with name = \<string form of LHS\>). NamedEvaluation is just like normal evaluation, but it also sets `fn.name` = input string.  So, effectively `(function hello(){}).name` and `(hello = function(){}).name` acts similarly. 
+This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function with name = \<string form of LHS\>. NamedEvaluation is just like normal evaluation, but it also sets `fn.name` = input string.  So, effectively `(function hello(){}).name` and `(hello = function(){}).name` acts similarly. 
 
 Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. That means, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment - `hello = () => {}`.
 
@@ -225,11 +225,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMTMyNDc5NDQ4LDk3NDc5OTkx
-MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
-E0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3
-MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNC
-w1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQxODgwLDE0MTE0
-MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2MDMxMD
-UyLDE3MTA1ODAyNDddfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstNjk1NjAxMjcsOTc0Nzk5OTEz
+LDE2NDcwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMT
+Q1ODQzMzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcx
+ODI5NSwzODEwODQ0MzQsMTYxNTYwMzI5OCwxMjUzNTg1NDE0LD
+U1OTQzNDQzOCwtNTkyMDc0MzM0LDE0NzMwNDE4ODAsMTQxMTQz
+MDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLDE4NzYwMzEwNT
+IsMTcxMDU4MDI0N119
 -->
