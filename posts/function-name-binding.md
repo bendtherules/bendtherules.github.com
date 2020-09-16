@@ -180,6 +180,7 @@ So, function expressions can be either *named or anonymous*, whereas arrow funct
 
 ## .name
 
+For **anonymous** function expressions and arrow functions
 
 
 
@@ -194,11 +195,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjE1NjAzMjk4LDEyNTM1ODU0
-MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxND
-ExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAz
-MTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLD
-k1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4
-MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMT
-EwODM3ODk4NV19
+BnZm1cbiIsImhpc3RvcnkiOlstMTcwMzQ5NzU0NCwxNjE1NjAz
+Mjk4LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMT
+Q3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3
+NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MS
+wxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgw
+ODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OC
+w4MzM3ODk1MjNdfQ==
 -->
