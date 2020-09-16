@@ -186,7 +186,7 @@ For **named** function expression, `fn.name` is simple - it's just string form o
 (newHello = function hello(){}).name // "hello"
 ```
 
-For both **anonymous** functions (FE and AF), `fn.name` is normally **just the empty string  `""`**. This is rather expected, because JS has no way of inferring its name or coming up with a reasonable name. This applies to case A1 and B1 above.  
+For **anonymous** Function expression and Arrow function, `fn.name` is normally **just the empty string  `""`**. This is rather expected, because JS has no way of inferring its name or coming up with a reasonable name. This applies to case A1 and B1 above.  
 
 ```js
 (function() {}).name // ""
@@ -222,11 +222,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQ0MDg4MzE5NSw5NzQ3OTk5
-MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LD
-ExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0
-NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MT
-QsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDEx
-NDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMT
-A1MiwxNzEwNTgwMjQ3XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNjM5OTEyNjk5LDk3NDc5OTkx
+MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
+E0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3
+MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNC
+w1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQxODgwLDE0MTE0
+MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2MDMxMD
+UyLDE3MTA1ODAyNDddfQ==
 -->
