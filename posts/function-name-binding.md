@@ -180,7 +180,7 @@ So, function expressions can be either *named or anonymous*, whereas arrow funct
 
 ## .name
 
-For both **anonymous** function expression and arrow function, `fn.name` is normally just the empty string  `""`. This is rather expected, because  there is no way for . Example -
+For both **anonymous** function expression and arrow function, `fn.name` is normally just the empty string  `""`. This is rather expected, because JS has no w to infer its name. Example -
 ```js
 (function() {}).name // ""
 (() =>{}).name // ""
@@ -199,7 +199,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMzQxNDMzNTksMTYxNTYwMzI5
+BnZm1cbiIsImhpc3RvcnkiOlsxODkyNzk2NDksMTYxNTYwMzI5
 OCwxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMDc0MzM0LDE0Nz
 MwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4
 MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
