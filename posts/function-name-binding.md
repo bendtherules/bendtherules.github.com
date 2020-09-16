@@ -206,7 +206,8 @@ hello.name // "hello"
 var hello2 = hello; ❌
 hello2.name // "hello"
 ```
-This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function (with name = \<string form of LHS\>). NamedEvaluation is just like normal evaluation, but it also sets the `fn.name` = input string.
+This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function (with name = \<string form of LHS\>). NamedEvaluation is just like normal evaluation, but it also sets `fn.name` = input string.  
+So, effectively `(function hello(){}).name` and `hello = funvtion(){}
 
 # Method and object literal
 
@@ -218,11 +219,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls4MzU0MzU1NjgsLTU4NDM3NTc4
-OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNT
-M1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4
-MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMT
-g3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgz
-MDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMz
-k5NDY4MTM2XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTY0MjczNTYzMCwtNTg0Mzc1
+Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMT
+I1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQx
+ODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMC
+wxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0
+ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4MjE0LC
+0zOTk0NjgxMzZdfQ==
 -->
