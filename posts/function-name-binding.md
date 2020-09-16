@@ -178,12 +178,13 @@ hello = () => {}
 
 So, function expressions can be either *named or anonymous*, whereas arrow functions are *always anonymous*. Also, both of them can be assigned to a variable during creation - whether using `var`/`let`/`const` or simple assignment like `hello = () => {}`.
 
-**FE** = Function expression
-**AF** = Arrow function
-
 ## .name
 
-For both **anonymous** function expression and arrow function, `fn.name`
+For both **anonymous** function expression and arrow function, `fn.name` is just empty string  `""`. Example -
+```js
+(function() {}).name // ""
+(() =>{}).name // ""
+```
 
 
 
@@ -198,7 +199,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM3NjIzMzU0NywxNjE1NjAz
+BnZm1cbiIsImhpc3RvcnkiOlstMTAzOTc4OTI1NSwxNjE1NjAz
 Mjk4LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMT
 Q3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3
 NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MS
