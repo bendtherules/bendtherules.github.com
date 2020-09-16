@@ -180,7 +180,7 @@ So, function expressions can be either *named or anonymous*, whereas arrow funct
 
 ## .name
 
-For both **anonymous** function expression and arrow function, `fn.name` is normally just the empty string  `""`. This is rather expected, because JS has no w to infer its name. Example -
+For both **anonymous** function expression and arrow function, `fn.name` is normally just the empty string  `""`. This is rather expected, because JS has no way of inferring or coming up with a reasonable name. Example -
 ```js
 (function() {}).name // ""
 (() =>{}).name // ""
@@ -199,11 +199,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxODkyNzk2NDksMTYxNTYwMzI5
-OCwxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMDc0MzM0LDE0Nz
-MwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4
-MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3NzEwNzcyNzEsMT
-Q5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQsLTIwOTQ4MDgy
-MTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMjkzODU0ODgsOD
-MzNzg5NTIzXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxMzY1OTQ2MjUzLDE2MTU2MDMy
+OTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxND
+czMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3
+ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLD
+E0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4
+MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LD
+gzMzc4OTUyM119
 -->
