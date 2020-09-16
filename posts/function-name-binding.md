@@ -210,7 +210,7 @@ This is a interesting case, because here we are not directly providing a name fo
 
 Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. That means, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment - `hello = () => {}`.
 
-Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor has `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (non-strict) or throw `TypeError` (in strict mode).
+Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor has `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (non-strict) or throw `TypeError` (in strict mode). That is why you need to be aware of how each syntax decides the name.
 
 # Method and object literal
 
@@ -222,7 +222,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxODc2MDkzMjIzLC0yMDg1ODgx
+BnZm1cbiIsImhpc3RvcnkiOlsxNjQ3MDgzNzI5LC0yMDg1ODgx
 NDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMSwtMTc2MjkzMjk0MC
 wtNTg0Mzc1Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2
 MDMyOTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNC
