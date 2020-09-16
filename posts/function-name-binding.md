@@ -195,7 +195,7 @@ For **anonymous** function expression and arrow function, `fn.name` is just the 
 (function() {}).name // ""
 (() =>{}).name // ""
 ```
-So as of now, it seems like arrow functions can *never* have a proper `.name`? Arrow function does not have a named version, it is always anonymous. Is there some way to **name** a *anonymous* function?
+So as of now, it seems like arrow functions can *never* have a proper `.name`? Arrow function does not have a named syntax, it is always anonymous. Is there some way to **name** a *anonymous* function?
 
 For **assignment + anonymous** functions (FE and AF), JS tries to infer the function name from the variable name on left side.  
 
@@ -225,11 +225,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTgwNDY4MjY0NCw5NzQ3OTk5
-MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LD
-ExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0
-NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MT
-QsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDEx
-NDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMT
-A1MiwxNzEwNTgwMjQ3XX0=
+BnZm1cbiIsImhpc3RvcnkiOls4MTE5OTIyOSw5NzQ3OTk5MTMs
+MTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LDExND
+U4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4
+Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNT
+U5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDExNDMw
+ODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1Mi
+wxNzEwNTgwMjQ3XX0=
 -->
