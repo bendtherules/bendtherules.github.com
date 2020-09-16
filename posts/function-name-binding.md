@@ -180,7 +180,10 @@ So, function expressions can be either *named or anonymous*, whereas arrow funct
 
 ## .name
 
-For **named** function expression, `fn.name` is rather obvious - just string form of theidentifier
+For **named** function expression, `fn.name` is rather obvious - just string form of the identifier. (Case 1
+```js
+(function hello(){}).name // "hello`
+```
 
 For both **anonymous** function expression and arrow function, `fn.name` is normally **just the empty string  `""`**. This is rather expected, because JS has no way of inferring its name or coming up with a reasonable name. This applies to case A1 and B1 above.  
 
@@ -202,11 +205,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI5MTM0OTM2LDE2MTU2MDMy
-OTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxND
-czMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3
-ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLD
-E0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMDk0ODA4
-MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1NDg4LD
-gzMzc4OTUyM119
+BnZm1cbiIsImhpc3RvcnkiOlsxMTYyODkwOSwxNjE1NjAzMjk4
+LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3Mz
+A0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3Nzgw
+MTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxND
+k0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIx
+NCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4Mz
+M3ODk1MjNdfQ==
 -->
