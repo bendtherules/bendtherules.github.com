@@ -176,7 +176,7 @@ console.log( () => {} )
 hello = () => {}
 ```
 
-So, function expressions can be either *named or anonymous*, whereas arrow functions are *always *anonymous*. Also, both of them can be assigned to a variable during creation - whether using `var` or `let` or simple assignment.
+So, function expressions can be either *named or anonymous*, whereas arrow functions are *always anonymous*. Also, both of them can be assigned to a variable during creation - whether using `var`/`let`/`const` or simple assignment like `hello = () => {}`.
 
 ## .name
 
@@ -192,11 +192,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls1NTk0MzQ0MzgsLTU5MjA3NDMz
-NCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMj
-AwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3
-MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0LC0yMD
-k0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMTI5Mzg1
-NDg4LDgzMzc4OTUyMywxMTA4Mzc4OTg1LC0xMzI2NjI4MTE0LD
-k1OTg0NDI3MF19
+BnZm1cbiIsImhpc3RvcnkiOlsxMjUzNTg1NDE0LDU1OTQzNDQz
+OCwtNTkyMDc0MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1MywtMT
+M3NzIxMjgyLC0yMDA4Nzc4MDEwLDE4NzYwMzEwNTIsMTcxMDU4
+MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2Nyw4Nz
+U1ODEyNTQsLTIwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2
+NzIxLDIxMjkzODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLT
+EzMjY2MjgxMTRdfQ==
 -->
