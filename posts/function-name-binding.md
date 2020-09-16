@@ -208,7 +208,7 @@ hello2.name // "hello"
 ```
 This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function (with name = \<string form of LHS\>). NamedEvaluation is just like normal evaluation, but it also sets `fn.name` = input string.  So, effectively `(function hello(){}).name` and `(hello = function(){}).name` acts similarly. 
 
-Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. So, just to repeat, you can't write like`hello = () => {}`
+Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. So, just to repeat, you can't write like ``, only way is to use `hello = () => {}`
 
 # Method and object literal
 
@@ -220,11 +220,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls0MDIyNzgyMTcsMTE0NTg0MzMw
-MSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3MTgyOTUsMz
-gxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNCw1NTk0MzQ0
-MzgsLTU5MjA3NDMzNCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLT
-EzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1
-ODAyNDcsNzcxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsOD
-c1NTgxMjU0XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNzczNjYwNjg4LDExNDU4NDMz
+MDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mjk1LD
+M4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNTU5NDM0
+NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC
+0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEw
+NTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LD
+g3NTU4MTI1NF19
 -->
