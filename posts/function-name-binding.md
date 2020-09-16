@@ -182,6 +182,8 @@ So, function expressions can be either *named or anonymous*, whereas arrow funct
 
 
 
+
+
 # Method and object literal
 
 Todos -
@@ -192,11 +194,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMjUzNTg1NDE0LDU1OTQzNDQz
-OCwtNTkyMDc0MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1MywtMT
-M3NzIxMjgyLC0yMDA4Nzc4MDEwLDE4NzYwMzEwNTIsMTcxMDU4
-MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2Nyw4Nz
-U1ODEyNTQsLTIwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2
-NzIxLDIxMjkzODU0ODgsODMzNzg5NTIzLDExMDgzNzg5ODUsLT
-EzMjY2MjgxMTRdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNjE1NjAzMjk4LDEyNTM1ODU0
+MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxND
+ExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAz
+MTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLD
+k1Mzg4NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4
+MTM2LDE3MjAyNDY3MjEsMjEyOTM4NTQ4OCw4MzM3ODk1MjMsMT
+EwODM3ODk4NV19
 -->
