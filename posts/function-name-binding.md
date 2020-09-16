@@ -207,7 +207,7 @@ var hello2 = hello; ❌
 hello2.name // "hello"
 ```
 This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function (with name = \<string form of LHS\>). NamedEvaluation is just like normal evaluation, but it also sets `fn.name` = input string.  
-So, effectively `(function hello(){}).name` and `hello = funvtion(){}
+So, effectively `(function hello(){}).name` and `(hello = function(){}).name` acts similarly. Because there is technically nothing called a named arrow function
 
 # Method and object literal
 
@@ -219,7 +219,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTY0MjczNTYzMCwtNTg0Mzc1
+BnZm1cbiIsImhpc3RvcnkiOlstMTQzNjY2NDM3NywtNTg0Mzc1
 Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMT
 I1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQx
 ODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMC
