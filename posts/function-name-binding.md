@@ -210,7 +210,7 @@ This is a interesting case, because here we are not directly providing a name fo
 
 Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. That means, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment - `hello = () => {}`.
 
-Also, if you are thi
+Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible.
 
 # Method and object literal
 
@@ -222,11 +222,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDU2NjgzMjg1LC03NzM2NjA2
-ODgsMTE0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LD
-E0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4
-NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQxODgwLD
-E0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMCwxODc2
-MDMxMDUyLDE3MTA1ODAyNDcsNzcxMDc3MjcxLDE0OTQ0ODMwMT
-IsOTUzODg0NjddfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMjA4NTg4MTQ3MywtNzczNjYw
+Njg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OS
+wxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1
+ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MC
+wxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3
+NjAzMTA1MiwxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMD
+EyLDk1Mzg4NDY3XX0=
 -->
