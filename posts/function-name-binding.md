@@ -201,10 +201,10 @@ This is a *interesting case*, because here we are not directly providing a name 
 hello = function() {}
 hello.name // "hello"
 
-var hello = () => {} // ✅
+var hello = () => {} ✅
 hello.name // "hello"
 
-var hello2 = hello; // ❌
+var hello2 = hello; ❌
 hello2.name // "hello"
 ```
 
@@ -218,11 +218,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDA0NzE4Mjk1LDM4MTA4NDQz
-NCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC01OT
-IwNzQzMzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC0xMzc3MjEy
-ODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1MiwxNzEwNTgwMjQ3LD
-c3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4NDY3LDg3NTU4MTI1
-NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LDE3MjAyNDY3MjEsMj
-EyOTM4NTQ4OF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTYyMTY4MjY0MywxNDA0NzE4
+Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNT
+U5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDExNDMw
+ODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1Mi
+wxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4
+NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LD
+E3MjAyNDY3MjFdfQ==
 -->
