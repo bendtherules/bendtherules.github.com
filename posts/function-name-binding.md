@@ -195,7 +195,6 @@ For both **anonymous** functions (FE and AF), `fn.name` is normally **just the e
 So as of now, it seems like arrow functions can *never* have a proper `.name`? Arrow function does not have a named version, it is always anonymous. Is there some way to **name** a *anonymous* function?
 
 For **assignment + anonymous** functions (FE and AF), JS tries to infer the function name from the variable name on left side.  
-This is a *interesting case*, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function**, then it does **NamedEvaluation** of the function with name = \<string form of LHS\>
 
 ```js
 hello = function() {}
@@ -207,6 +206,7 @@ hello.name // "hello"
 var hello2 = hello; ❌
 hello2.name // "hello"
 ```
+This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function**, then it does **NamedEvaluation** of the function (with name = \<string form of LHS\>). NamedEvaly
 
 # Method and object literal
 
@@ -218,11 +218,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTYyMTY4MjY0MywxNDA0NzE4
-Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNT
-U5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDExNDMw
-ODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMTAsMTg3NjAzMTA1Mi
-wxNzEwNTgwMjQ3LDc3MTA3NzI3MSwxNDk0NDgzMDEyLDk1Mzg4
-NDY3LDg3NTU4MTI1NCwtMjA5NDgwODIxNCwtMzk5NDY4MTM2LD
-E3MjAyNDY3MjFdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxMTYyMTMwMDgsMTQwNDcxODI5
+NSwzODEwODQ0MzQsMTYxNTYwMzI5OCwxMjUzNTg1NDE0LDU1OT
+QzNDQzOCwtNTkyMDc0MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1
+MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLDE4NzYwMzEwNTIsMT
+cxMDU4MDI0Nyw3NzEwNzcyNzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2
+Nyw4NzU1ODEyNTQsLTIwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNz
+IwMjQ2NzIxXX0=
 -->
