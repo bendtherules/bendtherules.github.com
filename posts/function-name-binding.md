@@ -196,9 +196,13 @@ So as of now, it seems like arrow functions can *never* have a proper `.name`? A
 
 For **assignment + anonymous** functions (FE and AF), JS tries to infer the function name from the variable name on left side.
 
-`
-hello1 = (function() {}).name 
-`
+```js
+var hello = function() {}
+hello.name // "hello"
+
+hello = () => {}
+hello.name // "hello"
+```
 
 # Method and object literal
 
@@ -210,11 +214,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszMjE2NTg3MiwzODEwODQ0MzQs
-MTYxNTYwMzI5OCwxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMD
-c0MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgy
-LC0yMDA4Nzc4MDEwLDE4NzYwMzEwNTIsMTcxMDU4MDI0Nyw3Nz
-EwNzcyNzEsMTQ5NDQ4MzAxMiw5NTM4ODQ2Nyw4NzU1ODEyNTQs
-LTIwOTQ4MDgyMTQsLTM5OTQ2ODEzNiwxNzIwMjQ2NzIxLDIxMj
-kzODU0ODhdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstNTg2MzQ5ODgsMzgxMDg0NDM0
+LDE2MTU2MDMyOTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5Mj
+A3NDMzNCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4
+MiwtMjAwODc3ODAxMCwxODc2MDMxMDUyLDE3MTA1ODAyNDcsNz
+cxMDc3MjcxLDE0OTQ0ODMwMTIsOTUzODg0NjcsODc1NTgxMjU0
+LC0yMDk0ODA4MjE0LC0zOTk0NjgxMzYsMTcyMDI0NjcyMSwyMT
+I5Mzg1NDg4XX0=
 -->
