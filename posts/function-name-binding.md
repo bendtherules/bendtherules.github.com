@@ -218,8 +218,8 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 ## bound name
 
-1.  Can I call the function using its name in the OUTSIDE scope?
-	Because these are all function expressions, they DON'T automatically create any name binding in the outer scope. It really depends on its surroundings and what they do. For ex, if the function is created and assigned to a variable, 
+1. Can I call the function using its name in the OUTSIDE scope?
+	Because these are all function expressions, they DON'T automatically create any name binding in the outer scope. It really depends on its surrounding statement/expression and what that does. For ex, if the function is situated on RHS of assignment expression (ex `hello = function(){}`), 
 
 2. 
 	
@@ -235,11 +235,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzc1NjI1NDA1LC0xMDgzODk4
-NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5OTEzLDE2ND
-cwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMTQ1ODQz
-MzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcxODI5NS
-wzODEwODQ0MzQsMTYxNTYwMzI5OCwxMjUzNTg1NDE0LDU1OTQz
-NDQzOCwtNTkyMDc0MzM0LDE0NzMwNDE4ODAsMTQxMTQzMDg1My
-wtMTM3NzIxMjgyXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstNTgwNjAxNzM3LC0zNzU2MjU0
+MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEyNyw5Nz
+Q3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYw
+Njg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OS
+wxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1
+ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MC
+wxNDExNDMwODUzXX0=
 -->
