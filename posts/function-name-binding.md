@@ -213,7 +213,9 @@ This is a interesting case, because here we are not directly providing a name fo
 
 Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. So, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment like - `hello = () => {}`.
 
-Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor has `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (in non-strict) or throw `TypeError` (in strict mode). That is why you need to be aware of how each syntax decides the name.
+Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor has `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (in non-strict) or throw `TypeError` (in strict mode). That is why you need to be aware of how each syntax decides the function name.
+
+## bound name
 
 # Method and object literal
 
@@ -225,11 +227,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTk1MDI3OTQwMCwtNjk1NjAx
-MjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0NzMsLT
-c3MzY2MDY4OCwxMTQ1ODQzMzAxLC0xNzYyOTMyOTQwLC01ODQz
-NzU3ODksMTQwNDcxODI5NSwzODEwODQ0MzQsMTYxNTYwMzI5OC
-wxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMDc0MzM0LDE0NzMw
-NDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MD
-EwLDE4NzYwMzEwNTJdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxMTk1NDIyNTQxLC02OTU2MDEy
+Nyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNz
+czNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3
+NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LD
+EyNTM1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0
+MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMT
+AsMTg3NjAzMTA1Ml19
 -->
