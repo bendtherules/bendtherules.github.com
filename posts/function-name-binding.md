@@ -223,7 +223,7 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 	For ex, if the function is situated on RHS of assignment expression (`hello = function(){}`), the assignment expression will create a binding for `hello`, while the function itself won't do anything special.
 	In the opposite case, like IIFE - where a function is created and consumed immediately, it will not create any name binding. Ex - `(function(){})()` doesn't create any binding.
 
-2. Can I call the function using its name in the INSIDE scope?
+2. Can the function call itself in the INSIDE scope?
 	
 redefined during call
 
@@ -237,7 +237,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxODQ5NzcxODU4LC0yODc1MzA3
+BnZm1cbiIsImhpc3RvcnkiOlsxNDk4NjMxNzgxLC0yODc1MzA3
 MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2NTc2MzIsLT
 Y5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMDg1ODgx
 NDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMSwtMTc2MjkzMjk0MC
