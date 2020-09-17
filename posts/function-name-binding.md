@@ -74,6 +74,7 @@ function hello() {}
 // In generic form,
 // function identifier(paramList){ body } 
 ```
+(There is technically also a 
 
 ## .name
  For function statements, **`.name` is simply string form of the identifier `hello` - that is "hello"**.  
@@ -217,17 +218,19 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 ## bound name
 
+redefined during call
+
 # Method and object literal
 
 Todos -
 1. if name is symbol? (for expressions)
-2. if anonymous, name=?
+2. if anonymous, name=? XX
 3. prefix in name (bound)
 4. default export
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMTk1NDIyNTQxLC02OTU2MDEy
+BnZm1cbiIsImhpc3RvcnkiOlsyMTM1NzIwNjEwLC02OTU2MDEy
 Nyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNz
 czNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3
 NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LD
