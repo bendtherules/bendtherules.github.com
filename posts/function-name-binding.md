@@ -152,7 +152,6 @@ hello = 123
 newHello()
 ```
 
-
 # Func expression and Arrow function
 
 Function expressions and arrow functions can look like this -
@@ -224,7 +223,7 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 	For ex, if the function is situated on RHS of assignment expression (`hello = function(){}`), the assignment expression will create a binding for `hello`, while the function itself won't do anything special.
 	In the opposite case, like IIFE - where a function is created and consumed immediately, it will not create any name binding. Ex - `(function(){})()` doesn't create any binding.
 
-2. 
+2. Can I call the function using its name in the INSIDE scope?
 	
 redefined during call
 
@@ -238,11 +237,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjg3NTMwNzA4LC0zNzU2MjU0
-MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEyNyw5Nz
-Q3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYw
-Njg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OS
-wxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1
-ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MC
-wxNDExNDMwODUzXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsxODQ5NzcxODU4LC0yODc1MzA3
+MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2NTc2MzIsLT
+Y5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMDg1ODgx
+NDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMSwtMTc2MjkzMjk0MC
+wtNTg0Mzc1Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2
+MDMyOTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNC
+wxNDczMDQxODgwXX0=
 -->
