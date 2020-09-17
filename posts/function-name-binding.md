@@ -212,9 +212,9 @@ hello2.name // "hello"
 ```
 This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function with name = \<string form of LHS\>. NamedEvaluation is just like normal evaluation, but it also sets `fn.name` = input string.  So, effectively `(function hello(){}).name` and `(hello = function(){}).name` acts similarly. 
 
-Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. So, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment like - `hello = () => {}`.
+Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. So, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment like this - `hello = () => {}`.
 
-Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor has `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (in non-strict) or throw `TypeError` (in strict mode). That is why you need to be aware of how each syntax decides the function name.
+Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor is `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (in non-strict) or throw `TypeError` (in strict mode). That is why you need to be aware of how each syntax decides the function name.
 
 ## bound name
 
@@ -230,11 +230,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMTc2NTc2MzIsLTY5NTYwMTI3
-LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03Nz
-M2NjA2ODgsMTE0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1
-Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMT
-I1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQx
-ODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMC
-wxODc2MDMxMDUyXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTA4Mzg5ODQ1MiwyMTc2NTc2
+MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMD
+g1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMSwtMTc2Mjkz
+Mjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LD
+E2MTU2MDMyOTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3
+NDMzNCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4Mi
+wtMjAwODc3ODAxMF19
 -->
