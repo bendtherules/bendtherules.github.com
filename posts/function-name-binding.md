@@ -218,6 +218,9 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 ## bound name
 
+1.  Can I call the function using its name in the OUTSIDE scope?
+   A- Depends
+	
 redefined during call
 
 # Method and object literal
@@ -230,11 +233,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTA4Mzg5ODQ1MiwyMTc2NTc2
-MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMD
-g1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMSwtMTc2Mjkz
-Mjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LD
-E2MTU2MDMyOTgsMTI1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3
-NDMzNCwxNDczMDQxODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4Mi
-wtMjAwODc3ODAxMF19
+BnZm1cbiIsImhpc3RvcnkiOls0NzYzMzcwNDEsLTEwODM4OTg0
+NTIsMjE3NjU3NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMTY0Nz
+A4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4NDMz
+MDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mjk1LD
+M4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNTU5NDM0
+NDM4LC01OTIwNzQzMzQsMTQ3MzA0MTg4MCwxNDExNDMwODUzLC
+0xMzc3MjEyODJdfQ==
 -->
