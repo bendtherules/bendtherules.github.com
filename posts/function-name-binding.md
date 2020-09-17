@@ -211,9 +211,9 @@ hello2.name // "hello"
 ```
 This is a interesting case, because here we are not directly providing a name for the function. To javascript engine, if it **looks like a *assignment* and RHS is a anonymous function syntax**, then it does **NamedEvaluation** of the function with name = \<string form of LHS\>. NamedEvaluation is just like normal evaluation, but it also sets `fn.name` = input string.  So, effectively `(function hello(){}).name` and `(hello = function(){}).name` acts similarly. 
 
-Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. That means, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment - `hello = () => {}`.
+Because there is **no named arrow function syntax**, this is very useful to create a arrow function which has a name. So, to create a named arrow function, you CAN'T do this - `hello() => {}`, only way is to define arrow function with some sort of assignment like - `hello = () => {}`.
 
-Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor has `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (non-strict) or throw `TypeError` (in strict mode). That is why you need to be aware of how each syntax decides the name.
+Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want* after creating the function", that is not possible. `.name` property descriptor has `writeable: false`. So, if you try to set `.name` to some value, it will simply NOT affect the `name` (in non-strict) or throw `TypeError` (in strict mode). That is why you need to be aware of how each syntax decides the name.
 
 # Method and object literal
 
@@ -225,11 +225,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNjk1NjAxMjcsOTc0Nzk5OTEz
-LDE2NDcwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMT
-Q1ODQzMzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcx
-ODI5NSwzODEwODQ0MzQsMTYxNTYwMzI5OCwxMjUzNTg1NDE0LD
-U1OTQzNDQzOCwtNTkyMDc0MzM0LDE0NzMwNDE4ODAsMTQxMTQz
-MDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MDEwLDE4NzYwMzEwNT
-IsMTcxMDU4MDI0N119
+BnZm1cbiIsImhpc3RvcnkiOlstMTk1MDI3OTQwMCwtNjk1NjAx
+MjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0NzMsLT
+c3MzY2MDY4OCwxMTQ1ODQzMzAxLC0xNzYyOTMyOTQwLC01ODQz
+NzU3ODksMTQwNDcxODI5NSwzODEwODQ0MzQsMTYxNTYwMzI5OC
+wxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMDc0MzM0LDE0NzMw
+NDE4ODAsMTQxMTQzMDg1MywtMTM3NzIxMjgyLC0yMDA4Nzc4MD
+EwLDE4NzYwMzEwNTJdfQ==
 -->
