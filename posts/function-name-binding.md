@@ -225,7 +225,7 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 2. Can the function call itself in the INSIDE scope?
 	
-	
+	In case of both `named` function expression, it 
 redefined during call
 
 # Method and object literal
@@ -238,11 +238,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQ5NjA4NDk5NywtMjg3NTMw
-NzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC
-02OTU2MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4
-MTQ3MywtNzczNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5MzI5ND
-AsLTU4NDM3NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1
-NjAzMjk4LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMz
-QsMTQ3MzA0MTg4MF19
+BnZm1cbiIsImhpc3RvcnkiOlsyOTAzMjYxMzQsLTI4NzUzMDcw
+OCwtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNj
+k1NjAxMjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0
+NzMsLTc3MzY2MDY4OCwxMTQ1ODQzMzAxLC0xNzYyOTMyOTQwLC
+01ODQzNzU3ODksMTQwNDcxODI5NSwzODEwODQ0MzQsMTYxNTYw
+MzI5OCwxMjUzNTg1NDE0LDU1OTQzNDQzOCwtNTkyMDc0MzM0LD
+E0NzMwNDE4ODBdfQ==
 -->
