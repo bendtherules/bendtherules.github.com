@@ -74,7 +74,7 @@ function hello() {}
 // In generic form,
 // function identifier(paramList){ body } 
 ```
-(There is technically also a 
+(There is technically also a unnamed function statement which can only be used for default export, but we'll cover that later in misc)
 
 ## .name
  For function statements, **`.name` is simply string form of the identifier `hello` - that is "hello"**.  
@@ -230,11 +230,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMTM1NzIwNjEwLC02OTU2MDEy
-Nyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNz
-czNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3
-NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LD
-EyNTM1ODU0MTQsNTU5NDM0NDM4LC01OTIwNzQzMzQsMTQ3MzA0
-MTg4MCwxNDExNDMwODUzLC0xMzc3MjEyODIsLTIwMDg3NzgwMT
-AsMTg3NjAzMTA1Ml19
+BnZm1cbiIsImhpc3RvcnkiOlsyMTc2NTc2MzIsLTY5NTYwMTI3
+LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03Nz
+M2NjA2ODgsMTE0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1
+Nzg5LDE0MDQ3MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMT
+I1MzU4NTQxNCw1NTk0MzQ0MzgsLTU5MjA3NDMzNCwxNDczMDQx
+ODgwLDE0MTE0MzA4NTMsLTEzNzcyMTI4MiwtMjAwODc3ODAxMC
+wxODc2MDMxMDUyXX0=
 -->
