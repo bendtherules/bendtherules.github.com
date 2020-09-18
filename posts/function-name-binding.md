@@ -329,7 +329,18 @@ obj[sym].name // "[fn3]"
 ```
 
 Case A4  - Method syntax `{ fn4(){}, }` is also quite interesting, because it looks somewhere between a named function expression and a function declaration. We can safely conclude that `obj.fn4.name = "fn4`.  
-But, what about name binding? Well, turns out it does NOT get any special internal name binding ("Redefined during call"), on
+But, what about name binding? Well, turns out it does NOT get any special internal name binding ("Redefined during call"), only closure access. So, nothing special there.
+
+```js
+obj = {
+  fn4(){
+    fn4() // ❌
+	obj.fn4()
+  }
+}
+
+obj.fn4.name // "fn4"
+```
 
 # Misc
 
@@ -342,7 +353,7 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQ1OTIyMTQ4NiwtNjk4ODQ2
+BnZm1cbiIsImhpc3RvcnkiOlstMTE3MzYzNTU4NywtNjk4ODQ2
 ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2My
 w0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYz
 MDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOC
