@@ -317,7 +317,7 @@ obj.fn1.name // "fn1"
 obj.fn2.name // "hello"
 ```
 
-Case A3 ( `[Symbol("fn2")]: function(){}` ) is also pretty similar, but only difference is the key itself is a `Symbol`, instead of a normal variable name. So, what happens in NamedEvaluation when the name is a symbol? Well, it gets converted to string using "[", symbol.[[description]], and "]"
+Case A3 ( `[Symbol("fn2")]: function(){}` ) is also pretty similar, but only difference is the key itself is a `Symbol`, instead of a normal variable name. So, what happens in NamedEvaluation when the name is a symbol? Well, it gets converted to string by concatenating "[", description of symbol, "]"
 
 
 # Misc
@@ -335,7 +335,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxOTQyMTMwOTk5LDIwMzA0MTA0
+BnZm1cbiIsImhpc3RvcnkiOlstMzM5NDU3NjcwLDIwMzA0MTA0
 NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMT
 k1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYx
 MzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4NDUyLD
