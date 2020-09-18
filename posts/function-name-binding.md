@@ -344,7 +344,7 @@ obj.fn4.name // "fn4"
 
 # Misc
 
-There are a few other special cases for how `.name` is decided -
+There are a few other special cases for `.name` -
 
 ```js
 function hello(){}
@@ -378,11 +378,11 @@ desc.set.name // "set foo"
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzE2Njc4NjQsLTM2MTA2NzU5
-LDM1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNjk4ODQ2ODk1LC0xOT
-k5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3
-NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLT
-c2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1
-NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOT
-c0Nzk5OTEzXX0=
+BnZm1cbiIsImhpc3RvcnkiOlsyMTIxOTkyNTAsLTMxNjY3ODY0
+LC0zNjEwNjc1OSwzNTUwMjA4MTIsLTIwNjIwMzM1ODUsLTY5OD
+g0Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkz
+NjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLT
+g2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3
+MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2NTc2MzIsLT
+Y5NTYwMTI3XX0=
 -->
