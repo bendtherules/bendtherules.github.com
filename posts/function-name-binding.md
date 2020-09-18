@@ -344,6 +344,10 @@ obj.fn4.name // "fn4"
 
 # Misc
 
+There are a few other special cases for how `.name` is decided -
+
+``
+
 ## Bound function
 
 ## export default
@@ -353,7 +357,7 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDQ2MTQ2NzcyLC02OTg4NDY4
+BnZm1cbiIsImhpc3RvcnkiOlsxNDUwNzU3NDI2LC02OTg4NDY4
 OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLD
 Q3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMw
 NTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC
