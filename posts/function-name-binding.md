@@ -280,6 +280,9 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 # Method and object literal
 
+
+
+
 Todos -
 1. if name is symbol? (for expressions)
 2. if anonymous, name=? XX
@@ -288,11 +291,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMzU2MDczMDEsLTE4NDE1MjY3
-NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOT
-AzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4
-NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5OTEzLDE2ND
-cwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMTQ1ODQz
-MzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcxODI5NS
-wzODEwODQ0MzRdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMjI2MjMzMDA5LC0xODQxNTI2
+Nzc4LDE5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMj
+kwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5
+ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNj
+Q3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0
+MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3MTgyOT
+UsMzgxMDg0NDM0XX0=
 -->
