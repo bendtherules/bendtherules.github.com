@@ -335,7 +335,7 @@ But, what about name binding? Well, turns out it does NOT get any special intern
 obj = {
   fn4(){
     fn4() // ❌
-	obj.fn4()
+    obj.fn4() // ✅
   }
 }
 
@@ -353,11 +353,11 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTE3MzYzNTU4NywtNjk4ODQ2
-ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2My
-w0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYz
-MDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOC
-wtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1
-NjAxMjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0Nz
-MsLTc3MzY2MDY4OF19
+BnZm1cbiIsImhpc3RvcnkiOlsxNDQ2MTQ2NzcyLC02OTg4NDY4
+OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLD
+Q3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMw
+NTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC
+0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2
+MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3My
+wtNzczNjYwNjg4XX0=
 -->
