@@ -328,7 +328,8 @@ obj = {
 obj[sym].name // "[fn3]"
 ```
 
-Case A4  - Method syntax `{ fn4(){}, }` is also quite interesting, because it looks somewhere between a named function expression and a function declaration. We can safely conclude that `obj.fn4.name = "fn4`. What about name binding?
+Case A4  - Method syntax `{ fn4(){}, }` is also quite interesting, because it looks somewhere between a named function expression and a function declaration. We can safely conclude that `obj.fn4.name = "fn4`.  
+But, what about name binding? Well, turns out it does NOT get any special internal name binding ("Redefined during call"), on
 
 # Misc
 
@@ -341,11 +342,11 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMzg2MDY0NjUzLC02OTg4NDY4
-OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLD
-Q3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMw
-NTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC
-0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2
-MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3My
-wtNzczNjYwNjg4XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTQ1OTIyMTQ4NiwtNjk4ODQ2
+ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2My
+w0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYz
+MDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOC
+wtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1
+NjAxMjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0Nz
+MsLTc3MzY2MDY4OF19
 -->
