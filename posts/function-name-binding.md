@@ -351,7 +351,7 @@ function hello(){}
 
 // 1. Bound function
 tmp = hello.bind()
-tmp.name // "bound hello" (= "bound " + original name)
+tmp.name // "bound hello" (= "bound "+ hello.name)
 
 // 2.
 
@@ -366,11 +366,11 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzA5MzcxMDE2LC02OTg4NDY4
-OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLD
-Q3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMw
-NTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC
-0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2
-MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3My
-wtNzczNjYwNjg4XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstODgzNjIyMywtNjk4ODQ2ODk1
+LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2Myw0Nz
+UzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYzMDU3
+NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMz
+c1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1NjAx
+MjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0NzMsLT
+c3MzY2MDY4OF19
 -->
