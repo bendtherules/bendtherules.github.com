@@ -234,12 +234,12 @@ To visualize,
 
 someName = function hello() {
   // SPECIAL scope {
-  // has ["hello"]    ✅<--------|
-	  // INSIDE scope {	    	 |
+  // has ["hello"]  ✅<------|
+	  // INSIDE scope {	     |
 	  // has []    	❌<------|
-								 |  
-	  // Lookup "hello"     	 |
-	  hello() 		 >-----------|
+							 |  
+	  // Lookup "hello"      |
+	  hello()    >-----------|
 	  // }
   // }
 }
@@ -258,7 +258,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNTQ5MTk1NTM4LC03NjIwOTky
+BnZm1cbiIsImhpc3RvcnkiOlsyMDY2MDAyMzQ2LC03NjIwOTky
 MzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMT
 A4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkx
 MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
