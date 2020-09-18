@@ -317,6 +317,8 @@ obj.fn1.name // "fn1"
 obj.fn2.name // "hello"
 ```
 
+Case A3 ( `[Symbol("fn2")]: function(){}` ) is also pretty similar, but only difference is the key itself is a `Symbo`
+
 
 # Misc
 
@@ -333,7 +335,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstOTUwODgxMjU2LDIwMzA0MTA0
+BnZm1cbiIsImhpc3RvcnkiOlstNTkwMDU5MDQzLDIwMzA0MTA0
 NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMT
 k1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYx
 MzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4NDUyLD
