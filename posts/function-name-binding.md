@@ -328,7 +328,7 @@ obj = {
 obj[sym].name // "[fn3]"
 ```
 
-Case A4  - Method syntax `{ fn4(){}, }` is also quite interesting, because it looks like a named function expression which is assigned to a property with
+Case A4  - Method syntax `{ fn4(){}, }` is also quite interesting, because it looks somewhere between a named function expression and a function declaration. We can safely conclude that `obj.fn4.name = "fn4`. What about name binding?
 
 # Misc
 
@@ -341,7 +341,7 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMjQzODUyNDU2LC02OTg4NDY4
+BnZm1cbiIsImhpc3RvcnkiOlsxMzg2MDY0NjUzLC02OTg4NDY4
 OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLD
 Q3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMw
 NTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC
