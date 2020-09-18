@@ -346,7 +346,13 @@ obj.fn4.name // "fn4"
 
 There are a few other special cases for how `.name` is decided -
 
-``
+```js
+function hello(){}
+
+newHello = hello.bind({})
+newHello.name // "bound hello"
+
+```
 
 ## Bound function
 
@@ -357,11 +363,11 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDUwNzU3NDI2LC02OTg4NDY4
-OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLD
-Q3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMw
-NTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC
-0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2
-MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3My
-wtNzczNjYwNjg4XX0=
+BnZm1cbiIsImhpc3RvcnkiOls3NzU0MzUzMzYsLTY5ODg0Njg5
+NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkzNjMsND
+c1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLTg2MzA1
+NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLT
+M3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYw
+MTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC
+03NzM2NjA2ODhdfQ==
 -->
