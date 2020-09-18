@@ -354,11 +354,15 @@ tmp = hello.bind()
 tmp.name // "bound hello" (= "bound "+ hello.name)
 
 // 2.Default export
+
 // In file A
 export default function(){} 
+
 // In file B
 import tmp from "./fileA";
 tmp.name // "default"
+
+// 3. getter, setter
 
 ```
 
@@ -371,11 +375,11 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjA2MjAzMzU4NSwtNjk4ODQ2
-ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2My
-w0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYz
-MDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOC
-wtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1
-NjAxMjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0Nz
-MsLTc3MzY2MDY4OF19
+BnZm1cbiIsImhpc3RvcnkiOlszNTUwMjA4MTIsLTIwNjIwMzM1
+ODUsLTY5ODg0Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLD
+ExNDcxMTkzNjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIw
+NjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC
+0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2
+NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC
+0yMDg1ODgxNDczXX0=
 -->
