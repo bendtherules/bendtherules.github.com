@@ -376,15 +376,17 @@ desc.set.name // "set foo"
 ```
 
 
-That's all. Hopefully, now you know more about function names than you'll possibly ever need. The 2 ways of inner name binding are useful to know. In general, consider this as a reference that you can look back to or just a interesting long read - and pretty please, DON'T ask these things in interviews. It is just for deeper understanding, not
+That's all. Hopefully, now you know more about function names than you'll possibly ever need. The 2 ways of inner name binding are useful to know. In general, consider this as a reference that you can look back to or just a interesting long read. Please DON'T ask these things in interviews. It is just for deeper understanding, not for memorization.
+
+Tha
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszMjYxMTU1NjAsLTMxNjY3ODY0
-LC0zNjEwNjc1OSwzNTUwMjA4MTIsLTIwNjIwMzM1ODUsLTY5OD
-g0Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkz
-NjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLT
-g2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3
-MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2NTc2MzIsLT
-Y5NTYwMTI3XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMjAwODI3NzUwLC0zMTY2Nzg2
+NCwtMzYxMDY3NTksMzU1MDIwODEyLC0yMDYyMDMzNTg1LC02OT
+g4NDY4OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5
+MzYzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC
+04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMw
+NzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC
+02OTU2MDEyN119
 -->
