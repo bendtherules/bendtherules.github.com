@@ -225,7 +225,21 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 2. Can the function call itself in the INSIDE scope?
 	
-	For `named` function expression, something special happens. Whenever a named function expression is called, js engine creates a **special scope between the lexical scope and function's own local scope** - which contains a binding with key=\<function name\> and value=\<function object\>
+	**Redefined during call** - 
+	For `named` function expression, something special happens. Whenever the named function expression is called, js engine creates a **special scope between its lexical scope and function's local scope** - which contains binding for \<function name\> with value=\<function object\>.  
+    We can ignore the difference between special scope and local scope for practical purposes.  
+	So, in simple words - whenever this function is called, js creates a new binding for the function name in its local scope. This will not be affected by any change in the OUTSIDE scope.
+
+Example -
+```js
+someName = function hello() {
+  hello() // ✅ works
+};
+
+var newName = someName
+someName = 123
+newName()
+```
 
 To visualize,
 ```js
@@ -246,7 +260,11 @@ someName = function hello() {
 
 ```
 
-redefined during call
+For all function expressions (including named ones), **closure access** also applies. This is simple to understand, so here are a few examples -
+
+```js
+write this
+```
 
 # Method and object literal
 
@@ -258,11 +276,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDY2MDAyMzQ2LC03NjIwOTky
-MzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMT
-A4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkx
-MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
-E0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3
-MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNC
-w1NTk0MzQ0MzhdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstODYzMDU3NjcsLTc2MjA5OTIz
+OCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMD
+gzODk4NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5OTEz
+LDE2NDcwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMT
+Q1ODQzMzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcx
+ODI5NSwzODEwODQ0MzQsMTYxNTYwMzI5OCwxMjUzNTg1NDE0LD
+U1OTQzNDQzOF19
 -->
