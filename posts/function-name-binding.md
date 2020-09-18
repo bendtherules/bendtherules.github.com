@@ -300,14 +300,18 @@ Object literals have a few varieties, so look at the examples above.
 Case A1 and A2 (`property: function expression`) works similar to what we have read till now. Think of `fn1: function(){}` as a assignment, similar to `fn1 = function(){}`.  That means, anonymous functions will be subjected to NamedEvaluation (`obj.fn1.name = "fn1"`).  
 They have normal closure access
 
-```
+```js
 obj = {
   fn1: function(){},
-  fn2: function hello(){},
+  fn2: function hello(){
+    fn2() // ❌
+    obj
+    hello() // ✅
+  },
 }
 
 obj.fn1.name // "fn1"
-obj.fn2.name // "hel
+obj.fn2.name // "hello"
 ```
 
 
@@ -326,11 +330,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNzA5Mzk1MzM5LDIwMzA0MTA0
-NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMT
-k1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYx
-MzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4NDUyLD
-IxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5OTEzLDE2NDcwODM3
-MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMTQ1ODQzMzAxLC
-0xNzYyOTMyOTQwXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTMyMTEyMjM2NywyMDMwNDEw
+NDUyLDExNDcxMTkzNjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LD
+E5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2
+MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1Mi
+wyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgz
+NzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMS
+wtMTc2MjkzMjk0MF19
 -->
