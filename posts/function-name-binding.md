@@ -260,11 +260,13 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 	```
 
-For all function expressions (including named ones), **closure access** also applies. This is simple to understand, so here are a few examples -
+	For all function expressions (including named ones), **closure access** also applies. This is simple to understand, so here are a few examples -
 
-```js
-write this
-```
+	```js
+	someName = function hello() {
+		someName() // ✅
+	}
+	```
 
 # Method and object literal
 
@@ -276,11 +278,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxOTUyMDYwNDU0LC04NjMwNTc2
-NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC0zNz
-U2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEy
-Nyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNz
-czNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3
-NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LD
-EyNTM1ODU0MTRdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTQ2MzM4NDA0MSwxOTUyMDYw
+NDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMj
+g3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3
+NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMj
+A4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5
+MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNC
+wxNjE1NjAzMjk4XX0=
 -->
