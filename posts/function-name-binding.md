@@ -297,8 +297,8 @@ obj = {
 
 Object literals have a few varieties, so look at the examples above.
 
-Case A1 and A2 (`property: function expression`) works similar to what we have read till now. Think of `fn1: function(){}` as a assignment, similar to `fn1 = function(){}`.  That means, anonymous functions will be subjected to NamedEvaluation (`obj.fn1.name = "fn1"`).  
-They have normal closure access
+Case A1 and A2 (`property: function expression`) works similar to what we have read till now. Think of `fn1: function(){}` as a assignment, similar to `fn1 = function(){}`.  That means, anonymous functions will be subjected to NamedEvaluation and get a automatic name (`obj.fn1.name = "fn1"`).  
+They have normal closure access, which means they have to start from the `obj` variable to reach themselves.
 
 ```js
 obj = {
@@ -333,7 +333,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDA2ODc3MTg2LDIwMzA0MTA0
+BnZm1cbiIsImhpc3RvcnkiOlstOTUwODgxMjU2LDIwMzA0MTA0
 NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMT
 k1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYx
 MzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4NDUyLD
