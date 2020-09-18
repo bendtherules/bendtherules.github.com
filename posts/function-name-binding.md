@@ -280,6 +280,7 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 # Method and object literal
 
+Object literals have a few diff variety, so look at the examples below -
 ```js
 obj = {
   // A1. property assignment + anonymous
@@ -294,8 +295,6 @@ obj = {
   fn4(){ }
 }
 ```
-
-Object literals have a few varieties, so look at the examples above.
 
 Case A1 and A2 (`property: function expression`) works similar to what we have read till now. Think of `fn1: function(){}` as a assignment, similar to `fn1 = function(){}`.  That means, anonymous functions will be subjected to NamedEvaluation and get a automatic name (`obj.fn1.name = "fn1"`).  
 They have normal closure access, which means they have to start from the `obj` variable to reach themselves.
@@ -344,11 +343,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTk5OTY0MzE5NiwyMDMwNDEw
-NDUyLDExNDcxMTkzNjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LD
-E5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2
-MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1Mi
-wyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgz
-NzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMS
-wtMTc2MjkzMjk0MF19
+BnZm1cbiIsImhpc3RvcnkiOlsxMDY5MjYwNzgyLC0xOTk5NjQz
+MTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLT
+E4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5
+OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC
+0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5
+OTEzLDE2NDcwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OC
+wxMTQ1ODQzMzAxXX0=
 -->
