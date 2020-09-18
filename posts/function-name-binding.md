@@ -266,6 +266,10 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 	someName = function hello() {
 		someName() // ✅
 	}
+	------
+	someName = () => {
+		someName() // ✅
+	}
 	```
 
 # Method and object literal
@@ -278,7 +282,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQ2MzM4NDA0MSwxOTUyMDYw
+BnZm1cbiIsImhpc3RvcnkiOlstMjE0NDg3NjgwNCwxOTUyMDYw
 NDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMj
 g3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3
 NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMj
