@@ -302,10 +302,11 @@ They have normal closure access
 
 ```js
 obj = {
-  fn1: function(){},
+  fn1: function(){
+    fn1() // ❌
+    obj.fn1() // ✅
+  },
   fn2: function hello(){
-    fn2() // ❌
-    obj
     hello() // ✅
   },
 }
@@ -330,11 +331,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTMyMTEyMjM2NywyMDMwNDEw
-NDUyLDExNDcxMTkzNjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LD
-E5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2
-MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1Mi
-wyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgz
-NzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0MzMwMS
-wtMTc2MjkzMjk0MF19
+BnZm1cbiIsImhpc3RvcnkiOls3MjM0MDAwMzksMjAzMDQxMDQ1
+MiwxMTQ3MTE5MzYzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOT
+UyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEz
+NCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMj
+E3NjU3NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMTY0NzA4Mzcy
+OSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4NDMzMDEsLT
+E3NjI5MzI5NDBdfQ==
 -->
