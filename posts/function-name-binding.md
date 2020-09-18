@@ -286,8 +286,10 @@ obj = {
   fn1: function(){},
   // A2. property assignment + named
   fn2: function hello(){},
-  // A3. method
-  fn3(){ }
+  // A3. property key can be symbol
+  [Symbol("fn3")]: 
+  // A4. method
+  fn4(){ }
 }
 ```
 
@@ -307,11 +309,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMTc4MDk5NTU5LC0xODQxNTI2
-Nzc4LDE5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMj
-kwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5
-ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNj
-Q3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0
-MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3MTgyOT
-UsMzgxMDg0NDM0XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMTA0NTEyMjA1NCwtMTg0MTUy
+Njc3OCwxOTUyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LD
+I5MDMyNjEzNCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4
+OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMT
+Y0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4
+NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mj
+k1LDM4MTA4NDQzNF19
 -->
