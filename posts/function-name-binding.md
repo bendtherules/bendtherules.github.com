@@ -230,14 +230,15 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 To visualize,
 ```js
 // OUTSIDE scope
-// VARS =["s"] ✅<--|
-		    |
+// VARS =["someName"]
+
 someName = function hello() {	    |
+  // SPECIAL scope
   // INSIDE scope	    			|
   // VARS = []    			  ❌<---|
-	        |  
-  // Lookup "hello"     |
-  hello() >-------------|
+							        |  
+  // Lookup "hello"     			|
+  hello() 		 >------------------|
   
 }
 
@@ -255,11 +256,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls2MDcyMTkwOTQsLTc2MjA5OTIz
-OCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMD
-gzODk4NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5OTEz
-LDE2NDcwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMT
-Q1ODQzMzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcx
-ODI5NSwzODEwODQ0MzQsMTYxNTYwMzI5OCwxMjUzNTg1NDE0LD
-U1OTQzNDQzOF19
+BnZm1cbiIsImhpc3RvcnkiOlstODYzNzc1OTE1LC03NjIwOTky
+MzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMT
+A4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkx
+MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
+E0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3
+MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNC
+w1NTk0MzQ0MzhdfQ==
 -->
