@@ -297,7 +297,7 @@ obj = {
 
 Object literals have a few varieties, so look at the examples above.
 
-Case A1 and A2 (property assigned to function expression
+Case A1 and A2 (property assigned to function expression) works similar to what we have read till now. Think of `{ fn1: function(){} }` as a assignment, similar to `fn1 = func`
 
 
 # Misc
@@ -315,11 +315,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjEzNjQ2OTA4MywtMTg0MTUy
-Njc3OCwxOTUyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LD
-I5MDMyNjEzNCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4
-OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMT
-Y0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4
-NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mj
-k1LDM4MTA4NDQzNF19
+BnZm1cbiIsImhpc3RvcnkiOlsyMDAxNjY4NTQ4LC0xODQxNTI2
+Nzc4LDE5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMj
+kwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5
+ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNj
+Q3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMTE0NTg0
+MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3MTgyOT
+UsMzgxMDg0NDM0XX0=
 -->
