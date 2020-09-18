@@ -77,7 +77,7 @@ function hello() {}
 (There is technically also a unnamed function statement which can only be used for default export, but we'll cover that later in misc)
 
 ## .name
- For function statements, **`.name` is simply string form of the identifier `hello` - that is "hello"**.  
+ For function statements, **`.name` is simply string form of the identifier `hello`** - that is "hello".  
 And it's **always** going to be a string, because you can't use a expression or symbol in the name part (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
 
 ## bound name
@@ -382,7 +382,7 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTc2ODk4NDU3NCwtMzE2Njc4
+BnZm1cbiIsImhpc3RvcnkiOlstMTI3Mzk5NTM5MCwtMzE2Njc4
 NjQsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNj
 k4ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzEx
 OTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NC
