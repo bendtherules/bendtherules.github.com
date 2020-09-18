@@ -325,7 +325,7 @@ obj = {
   [sym]: function(){},
 }
 
-obj[sym].name // "[fn3]
+obj[sym].name // "[fn3]"
 ```
 
 
@@ -344,7 +344,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTQyNTA5NTgxMCwyMDMwNDEw
+BnZm1cbiIsImhpc3RvcnkiOlstMTk5OTY0MzE5NiwyMDMwNDEw
 NDUyLDExNDcxMTkzNjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LD
 E5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2
 MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1Mi
