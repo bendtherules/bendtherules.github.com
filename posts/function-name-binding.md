@@ -226,20 +226,20 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 2. Can the function call itself in the INSIDE scope?
 	
 	**Redefined during call** - 
-	For `named` function expression, something special happens. Whenever the named function expression is called, js engine creates a **special scope between its lexical scope and function's local scope** - which contains binding for \<function name\> with value=\<function object\>.  
+	For `named` function expression, something special happens. Whenever the named function expression is called, js engine creates a **special scope between its outer lexical scope and function's local scope** - which contains binding for \<function name\> with value=\<function object\>.  
     We can ignore the difference between special scope and local scope for practical purposes.  
 	So, in simple words - whenever this function is called, js creates a new binding for the function name in its local scope. This will not be affected by any change in the OUTSIDE scope.
 
-Example -
-```js
-someName = function hello() {
-  hello() // ✅ works
-};
+	Example -
+	```js
+	someName = function hello() {
+	  hello() // ✅ works
+	};
 
-var newName = someName
-someName = 123
-newName()
-```
+	var newName = someName
+	someName = 123
+	newName()
+	```
 
 To visualize,
 ```js
@@ -276,11 +276,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstODYzMDU3NjcsLTc2MjA5OTIz
-OCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMD
-gzODk4NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5OTEz
-LDE2NDcwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMT
-Q1ODQzMzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcx
-ODI5NSwzODEwODQ0MzQsMTYxNTYwMzI5OCwxMjUzNTg1NDE0LD
-U1OTQzNDQzOF19
+BnZm1cbiIsImhpc3RvcnkiOlsxMTY3NDE5MTc0LC04NjMwNTc2
+NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC0zNz
+U2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEy
+Nyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNz
+czNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3
+NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LD
+EyNTM1ODU0MTRdfQ==
 -->
