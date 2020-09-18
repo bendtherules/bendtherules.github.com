@@ -376,13 +376,15 @@ desc.set.name // "set foo"
 ```
 
 
+That's all. Hopefully, now you know more about function names than you'll possibly ever need. Consider this as a reference that you can look back to
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI3MDE3NjQ1OSwtMzE2Njc4
-NjQsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNj
-k4ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzEx
-OTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NC
-wtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUz
-MDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMi
-wtNjk1NjAxMjddfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstNDE3NDEwMjY5LC0zMTY2Nzg2
+NCwtMzYxMDY3NTksMzU1MDIwODEyLC0yMDYyMDMzNTg1LC02OT
+g4NDY4OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5
+MzYzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC
+04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMw
+NzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC
+02OTU2MDEyN119
 -->
