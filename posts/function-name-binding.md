@@ -349,8 +349,11 @@ There are a few other special cases for how `.name` is decided -
 ```js
 function hello(){}
 
-newHello = hello.bind({})
-newHello.name // "bound hello"
+// 1. Bound function
+tmp = hello.bind({})
+tmp.name // "bound hello" (= "bound " + original name)
+
+// 2.
 
 ```
 
@@ -363,11 +366,11 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOls3NzU0MzUzMzYsLTY5ODg0Njg5
-NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkzNjMsND
-c1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLTg2MzA1
-NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLT
-M3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYw
-MTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC
-03NzM2NjA2ODhdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTI2NTExMjE3MCwtNjk4ODQ2
+ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2My
+w0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYz
+MDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOC
+wtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1
+NjAxMjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0Nz
+MsLTc3MzY2MDY4OF19
 -->
