@@ -316,7 +316,8 @@ obj.fn1.name // "fn1"
 obj.fn2.name // "hello"
 ```
 
-Case A3 ( `[Symbol("fn2")]: function(){}` ) is also pretty similar, but only difference is the key itself is a `Symbol`, instead of a normal variable name. So, what happens in NamedEvaluation when the name is a symbol? Well, it gets converted to string by concatenating "[" + description of symbol + "]". So, `Symbol("abc")` becomes `"[abc]"`.
+Case A3 ( `[Symbol("fn2")]: function(){}` ) is also quite similar, but only difference is that key itself is a `Symbol`, instead of a normal variable name.  
+So, what happens in NamedEvaluation when the name is a symbol? Well, it gets converted to string by concatenating "[" + description of symbol + "]". So, `Symbol("abc")` becomes `"[abc]"`.
 
 ```js
 sym = Symbol("fn3")
@@ -344,11 +345,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTk1NzQwMTU2MywtMTk5OTY0
-MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkzNjMsNDc1MzgxNzU2LC
-0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIw
-OTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNS
-wtMTA4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5
-OTkxMywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2OD
-gsMTE0NTg0MzMwMV19
+BnZm1cbiIsImhpc3RvcnkiOlstNjc2MDgwODE1LC0xOTk5NjQz
+MTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLT
+E4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5
+OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC
+0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5
+OTEzLDE2NDcwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OC
+wxMTQ1ODQzMzAxXX0=
 -->
