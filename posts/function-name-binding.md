@@ -284,7 +284,7 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 obj = {
   // A1. property assignment + anonymous
   fn1: function(){},
-  // A2. property assignment
+  // A2. property assignment + named
   fn2: function hello(){},
   
   // A3. key can be symbol
@@ -311,7 +311,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNjA4MDI3MzA4LC0xODQxNTI2
+BnZm1cbiIsImhpc3RvcnkiOlsxNTE5NTk4NzM2LC0xODQxNTI2
 Nzc4LDE5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMj
 kwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5
 ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNj
