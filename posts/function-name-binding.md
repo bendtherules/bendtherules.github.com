@@ -282,7 +282,12 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 ```js
 obj = {
-  // prop assignment
+  // A1. property assignment + anonymous
+  fn1: function(){},
+  // A2. property assignment + named
+  fn2: function hello(){},
+  // A3. method
+  fn3(){ }
 }
 ```
 
@@ -302,7 +307,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDkxMDAzMjY2LC0xODQxNTI2
+BnZm1cbiIsImhpc3RvcnkiOlsxMTc4MDk5NTU5LC0xODQxNTI2
 Nzc4LDE5NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMj
 kwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5
 ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNj
