@@ -225,7 +225,7 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 2. Can the function call itself in the INSIDE scope?
 	
-	For `named` function expression, something special happens. W
+	For `named` function expression, something special happens. When a named function expression is called, js engine creates a special scope between 
 
 redefined during call
 
@@ -239,11 +239,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNzYyMDk5MjM4LDI5MDMyNjEz
-NCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMj
-E3NjU3NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMTY0NzA4Mzcy
-OSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4NDMzMDEsLT
-E3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mjk1LDM4MTA4
-NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MTQsNTU5NDM0NDM4LC
-01OTIwNzQzMzRdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstNjA1OTY4OTI2LC03NjIwOTky
+MzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMT
+A4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkx
+MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
+E0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3
+MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNC
+w1NTk0MzQ0MzhdfQ==
 -->
