@@ -363,6 +363,15 @@ import tmp from "./fileA";
 tmp.name // "default"
 
 // 3. getter, setter
+obj = {
+  get foo() {},
+  set foo() {}
+}
+
+desc = Object.getOwnPropertyDescriptor(obj, "foo")
+
+desc.get.name // "get foo"
+desc.set.name // "set foo"
 
 ```
 
@@ -375,11 +384,11 @@ Todos -
 1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszNTUwMjA4MTIsLTIwNjIwMzM1
-ODUsLTY5ODg0Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLD
-ExNDcxMTkzNjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIw
-NjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC
-0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMTA4Mzg5ODQ1MiwyMTc2
-NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkxMywxNjQ3MDgzNzI5LC
-0yMDg1ODgxNDczXX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMzYxMDY3NTksMzU1MDIwODEy
+LC0yMDYyMDMzNTg1LC02OTg4NDY4OTUsLTE5OTk2NDMxOTYsMj
+AzMDQxMDQ1MiwxMTQ3MTE5MzYzLDQ3NTM4MTc1NiwtMTg0MTUy
+Njc3OCwxOTUyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LD
+I5MDMyNjEzNCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4
+OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMT
+Y0NzA4MzcyOV19
 -->
