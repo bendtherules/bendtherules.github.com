@@ -264,6 +264,7 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 	```js
 	someName = function hello() {
+	  hello()
 	  someName() // ✅
 	}
 	------
@@ -287,11 +288,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTg0MTUyNjc3OCwxOTUyMDYw
-NDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMj
-g3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3
-NjMyLC02OTU2MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMj
-A4NTg4MTQ3MywtNzczNjYwNjg4LDExNDU4NDMzMDEsLTE3NjI5
-MzI5NDAsLTU4NDM3NTc4OSwxNDA0NzE4Mjk1LDM4MTA4NDQzNC
-wxNjE1NjAzMjk4XX0=
+BnZm1cbiIsImhpc3RvcnkiOlsyMzU2MDczMDEsLTE4NDE1MjY3
+NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOT
+AzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4
+NDUyLDIxNzY1NzYzMiwtNjk1NjAxMjcsOTc0Nzk5OTEzLDE2ND
+cwODM3MjksLTIwODU4ODE0NzMsLTc3MzY2MDY4OCwxMTQ1ODQz
+MzAxLC0xNzYyOTMyOTQwLC01ODQzNzU3ODksMTQwNDcxODI5NS
+wzODEwODQ0MzRdfQ==
 -->
