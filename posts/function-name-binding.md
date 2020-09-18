@@ -241,24 +241,24 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 	newName()
 	```
 
-To visualize,
-```js
-// OUTSIDE scope
-// has ["someName"]
+	To visualize,
+	```js
+	// OUTSIDE scope
+	// has ["someName"]
 
-someName = function hello() {
-  // SPECIAL scope {
-  // has ["hello"]  ✅<------|
-	  // INSIDE scope {	     |
-	  // has []    	❌<------|
-							 |  
-	  // Lookup "hello"      |
-	  hello()    >-----------|
+	someName = function hello() {
+	  // SPECIAL scope {
+	  // has ["hello"]  ✅<------|
+		  // INSIDE scope {	     |
+		  // has []    	❌<------|
+								 |  
+		  // Lookup "hello"      |
+		  hello()    >-----------|
+		  // }
 	  // }
-  // }
-}
+	}
 
-```
+	```
 
 For all function expressions (including named ones), **closure access** also applies. This is simple to understand, so here are a few examples -
 
@@ -276,7 +276,7 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxMTY3NDE5MTc0LC04NjMwNTc2
+BnZm1cbiIsImhpc3RvcnkiOlsxOTUyMDYwNDU0LC04NjMwNTc2
 NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC0zNz
 U2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEy
 Nyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNz
