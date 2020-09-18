@@ -328,7 +328,7 @@ obj = {
 obj[sym].name // "[fn3]"
 ```
 
-Case A4 (method syntax in object literal) 
+Case A4 (method syntax `{ hello() {}, }`) 
 
 # Misc
 
@@ -338,18 +338,14 @@ Case A4 (method syntax in object literal)
 
 
 Todos -
-1. if name is symbol? (for expressions)
-2. if anonymous, name=? XX
-3. prefix in name (bound)
-4. default export, get, set, bound
-5. name available inside/outside
+1. default export, get, set, bound (SetFunctionName)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTM1ODA3ODIyMSwtNjk4ODQ2
-ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2My
-w0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYz
-MDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOC
-wtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMiwtNjk1
-NjAxMjcsOTc0Nzk5OTEzLDE2NDcwODM3MjksLTIwODU4ODE0Nz
-MsLTc3MzY2MDY4OF19
+BnZm1cbiIsImhpc3RvcnkiOlstOTMyMjE2Njk1LC02OTg4NDY4
+OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLD
+Q3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMw
+NTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC
+0zNzU2MjU0MDUsLTEwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2
+MDEyNyw5NzQ3OTk5MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3My
+wtNzczNjYwNjg4XX0=
 -->
