@@ -227,6 +227,22 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 	
 	For `named` function expression, something special happens. Whenever a named function expression is called, js engine creates a **special scope between the lexical scope and function's own local scope** - which contains a binding with key=\<function name\> and value=\<function object\>
 
+To visualize,
+```js
+	// OUTSIDE scope
+	// VARS =["hello"] ✅<--|
+			    |
+ function hello() {	    |
+   // INSIDE scope	    |
+   // VARS = []    ❌<---|
+		        |  
+   // Lookup "hello"     |
+   hello() >-------------|
+   
+ }
+
+```
+
 redefined during call
 
 # Method and object literal
@@ -239,11 +255,11 @@ Todos -
 5. name available inside/outside
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstNzg5MzQ5MDE1LC03NjIwOTky
-MzgsMjkwMzI2MTM0LC0yODc1MzA3MDgsLTM3NTYyNTQwNSwtMT
-A4Mzg5ODQ1MiwyMTc2NTc2MzIsLTY5NTYwMTI3LDk3NDc5OTkx
-MywxNjQ3MDgzNzI5LC0yMDg1ODgxNDczLC03NzM2NjA2ODgsMT
-E0NTg0MzMwMSwtMTc2MjkzMjk0MCwtNTg0Mzc1Nzg5LDE0MDQ3
-MTgyOTUsMzgxMDg0NDM0LDE2MTU2MDMyOTgsMTI1MzU4NTQxNC
-w1NTk0MzQ0MzhdfQ==
+BnZm1cbiIsImhpc3RvcnkiOlstMTY4NzUxMDY3NSwtNzYyMDk5
+MjM4LDI5MDMyNjEzNCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLT
+EwODM4OTg0NTIsMjE3NjU3NjMyLC02OTU2MDEyNyw5NzQ3OTk5
+MTMsMTY0NzA4MzcyOSwtMjA4NTg4MTQ3MywtNzczNjYwNjg4LD
+ExNDU4NDMzMDEsLTE3NjI5MzI5NDAsLTU4NDM3NTc4OSwxNDA0
+NzE4Mjk1LDM4MTA4NDQzNCwxNjE1NjAzMjk4LDEyNTM1ODU0MT
+QsNTU5NDM0NDM4XX0=
 -->
