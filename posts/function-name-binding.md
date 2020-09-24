@@ -24,7 +24,7 @@ Let's start with two related but different concepts -
  
 2. **name binding** - Normally when we declare a function, it also creates a variable in the current scope which points to the function object. For ex -
     ```javascript
-    // Creates variable `foo` in current scope
+    // Creates variable `foo` here
     function foo(){ }
     // So, we can call it
     foo()
@@ -391,11 +391,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTIzNDY1NDYzMCwtMTI3Mzk5
-NTM5MCwtMzE2Njc4NjQsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMj
-A2MjAzMzU4NSwtNjk4ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0
-MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3Nz
-gsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAz
-MjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4ND
-UyLDIxNzY1NzYzMl19
+BnZm1cbiIsImhpc3RvcnkiOlstMTA4MjA5ODA4NCwtMTIzNDY1
+NDYzMCwtMTI3Mzk5NTM5MCwtMzE2Njc4NjQsLTM2MTA2NzU5LD
+M1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNjk4ODQ2ODk1LC0xOTk5
+NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3NT
+YsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2
+MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1ND
+A1LC0xMDgzODk4NDUyXX0=
 -->
