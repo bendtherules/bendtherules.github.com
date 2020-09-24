@@ -48,7 +48,8 @@ Yes. Let's look at more examples -
   
     `fn.name` is only decided based on how the function is created and DOES NOT depend on the variable name you use to access it.
   
-2. *Named function expression* can be bound to a variable name which is different from it's `function.name`. Also, function expressions can be used without storing in a variable at all.
+2. *Named function expression* can be bound to a variable name which is different from it's `function.name`.  
+    Also, function expressions can be used without storing in any variable.
   
     ```js
     // A. Diff variable name
@@ -390,11 +391,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlszMzk1MTg5MTksLTEwODIwOTgw
-ODQsLTEyMzQ2NTQ2MzAsLTEyNzM5OTUzOTAsLTMxNjY3ODY0LC
-0zNjEwNjc1OSwzNTUwMjA4MTIsLTIwNjIwMzM1ODUsLTY5ODg0
-Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkzNj
-MsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLTg2
-MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3MD
-gsLTM3NTYyNTQwNV19
+BnZm1cbiIsImhpc3RvcnkiOlstMTAxMTUwNzgyOCwtMTA4MjA5
+ODA4NCwtMTIzNDY1NDYzMCwtMTI3Mzk5NTM5MCwtMzE2Njc4Nj
+QsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNjk4
+ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOT
+M2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwt
+ODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMD
+cwOCwtMzc1NjI1NDA1XX0=
 -->
