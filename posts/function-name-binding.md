@@ -7,7 +7,7 @@ Whenever you are writing a recursive function, there is a small question you hav
 
 To start off, there is `arguments.callee` - which seems like a easy option, but its considered a legacy artifact which is [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee) and also doesn't work with arrow functions. So, when you declare a function - now you have to know exactly what variable javascript creates for this function and in which scope - so that you can call it correctly.
 
-When you write a function, you are (often) not declaring a var/let/const yourself. So, how exactly does the engine create this variable which points to the function? 
+When you write a function, you are (often) not declaring a var/let/const yourself. So, how exactly does the engine create this variable which points to the function? That's all this article is about.
 
 # Function.name and name binding
 
@@ -391,11 +391,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTcxMzExODY4NiwtMTI3Mzk5
-NTM5MCwtMzE2Njc4NjQsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMj
-A2MjAzMzU4NSwtNjk4ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0
-MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3Nz
-gsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAz
-MjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4ND
-UyLDIxNzY1NzYzMl19
+BnZm1cbiIsImhpc3RvcnkiOlsxMzM3NzM2ODgzLC0xMjczOTk1
+MzkwLC0zMTY2Nzg2NCwtMzYxMDY3NTksMzU1MDIwODEyLC0yMD
+YyMDMzNTg1LC02OTg4NDY4OTUsLTE5OTk2NDMxOTYsMjAzMDQx
+MDQ1MiwxMTQ3MTE5MzYzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OC
+wxOTUyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMy
+NjEzNCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NT
+IsMjE3NjU3NjMyXX0=
 -->
