@@ -97,7 +97,6 @@ We want to look at two things -
 2. Can the function call itself using its own name? We are calling this as the INSIDE scope. This is useful for recursion.
 
 To be more precise, OUTSIDE/outer = lexical scope and INSIDE/inner = callee scope.  
-(I think the term lexical scope is widely misused and used as a magical phrase to explain anything and everything. So, hopefully a more common term like inner/outer scope will be easier to understand.)
 
 Now, to answer the above two questions -  
 1. When we declare `function hello`, js internally defines a variable in the OUTSIDE scope with the same name `"hello"`  - and sets its value to the function object.  So, calling `hello()` works here.
@@ -387,11 +386,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNDc1MzA0MTM0LDEwMjYyOTc3
-NTEsNDk2MjYzNzg2LC0xMDgyMDk4MDg0LC0xMjM0NjU0NjMwLC
-0xMjczOTk1MzkwLC0zMTY2Nzg2NCwtMzYxMDY3NTksMzU1MDIw
-ODEyLC0yMDYyMDMzNTg1LC02OTg4NDY4OTUsLTE5OTk2NDMxOT
-YsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLDQ3NTM4MTc1NiwtMTg0
-MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5Mj
-M4LDI5MDMyNjEzNF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTYxNjI4ODI0NCwxMDI2Mjk3
+NzUxLDQ5NjI2Mzc4NiwtMTA4MjA5ODA4NCwtMTIzNDY1NDYzMC
+wtMTI3Mzk5NTM5MCwtMzE2Njc4NjQsLTM2MTA2NzU5LDM1NTAy
+MDgxMiwtMjA2MjAzMzU4NSwtNjk4ODQ2ODk1LC0xOTk5NjQzMT
+k2LDIwMzA0MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4
+NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OT
+IzOCwyOTAzMjYxMzRdfQ==
 -->
