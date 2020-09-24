@@ -1,63 +1,65 @@
 # How does function.name and name binding work?
 
+
 # Intro
 
-As a javascript developer, I have used functions for a long time - but I felt uneasy whenever I have to implement a recursive function - how can a function call itself? First, I learned about `arguments.callee` - which seemed like a neat trick, but then I read its [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? Nah, I had enough!
+Whenever you are writing a recursive function, there is a small question you have to answer mentally - how can this function call itself? To start off, there is `arguments.callee` - which seems like a easy option, but its  [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee). So apparently, now I have to know exactly what variable name a function creates and whether that variable is available within the function, to be able to call itself? Nah, I had enough!
 
 And thus began my years of ignorance and denial about function names. I knew how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. Only recently I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
-
-> Having read some parts of the specification, I strongly believe now that - Some parts of Javascript which feel confusing for developers, are like that, because the specification *literally* has special cases for them. 
-> A lot of the explanations we read are too dumbed down and hide what is happening internally. So, as users we only have a fuzzy, hand-waving understanding of things - instead of proper concrete documentation.
 
 # Function.name and name binding
 
 Let's start with two related but different concepts -
 
 1. `function.name` - When we declare a function, it creates a function object - which has a non-writable property called `name`. `fn.name` is a string, which typically stores the initial name that the function was defined with.
-	```javascript
-	function foo(){}
-	foo.name // "foo"
-	```
-   This is useful for debugging and readable stack traces.  
+  
+    ```javascript
+    function foo(){}
+    foo.name // "foo"
+    ```
+  
+    This is useful for debugging and readable stack traces.  
  
 2. **name binding** - Normally when we declare a function, it also creates a variable in the current scope which points to the function object. For ex -
-	```js
-	// This creates a variable `foo` in the current scope
-	function foo(){ }
-	// This creates variable `foo`, which points to the function object
-	// So, we can use it to call the function
-	foo()
-	```
-	This can be called as name binding.
-	
-## ⚠️  **How are they different?** 
-It's easy to get confused here. Right now, it looks like `fn.name` just stores the name of the variable which name binding created. (That is, `foo.name` is just the variable name `"foo"` as string). So, are they really different?
+    ```javascript
+    // Creates variable `foo` in current scope
+    function foo(){ }
+    // So, we can call it
+    foo()
+    ```
+  
+    This can be called as name binding.
+  
+## ⚠️ **How are they different?** 
+It's easy to get confused here. Right now, it looks like `fn.name` just stores the name of the variable which name binding created. (That is, `foo.name` is just the variable name `"foo"` as string). But, are they really different?
 
-Yes, they are. Let's look at more examples -
+Yes. Let's look at more examples -
 
 1. You can always store the function in a variable with different name, but `func.name` will NOT change. 
-	```js
-	// Example 1
-	function func1() {}
+ 
+    ```js
+    // Example 1
+    function func1() {}
 
-	var func2 = func1;
-	func2.name // prints "func1", NOT "func2"
-	```
-	`fn.name` is only decided based on how the function is created and DOES NOT depend on the variable name you use to access it.
-	
+    var func2 = func1;
+    func2.name // prints "func1", NOT "func2"
+    ```
+  
+    `fn.name` is only decided based on how the function is created and DOES NOT depend on the variable name you use to access it.
+  
 2. *Named function expression* can be bound to a variable name which is different from it's `function.name`. Also, function expressions can be used without storing in a variable at all.
-	```js
-	// A. Diff variable name
-	var someVar = function someName(){}
-	// Creates only one variable called `someVar`
-	// But function.name is `someName`
-	
-	// B. not stored in any variable, ex - IIFE
-	(function foo(){})()
-	(function foo(){}).name // "foo"
-	// This DOES NOT create any variable in this scope
-	foo // DOESN'T exist
-	```
+  
+    ```js
+    // A. Diff variable name
+    var someVar = function someName(){}
+    // Creates only 1 variable called `someVar`
+    // But function.name is `someName`
+  
+    // B. not stored in any variable, ex - IIFE
+    (function foo(){})()
+    (function foo(){}).name 
+    foo // DOESN'T exist
+    ```
 
 ⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
 
@@ -74,7 +76,8 @@ function hello() {}
 // In generic form,
 // function identifier(paramList){ body } 
 ```
-(There is technically also a unnamed function statement which can only be used for default export, but we'll cover that later in misc)
+
+(There is technically also a unnamed function statement which can only be used for default export, but we'll cover that later in misc.)
 
 ## .name
  For function statements, **`.name` is simply string form of the identifier `hello`** - that is "hello".  
@@ -116,27 +119,31 @@ Now, to answer the above two questions -
     
     A. **Closure access** - There is no `hello` defined within the function (INSIDE), but its closure scope (OUTSIDE ) has the variable `hello`. So, when we try to access `hello` within the function, it just returns the value from outer scope.  
     To visualize it -
+    
     ```js
-   	// OUTSIDE scope
-   	// has ["hello"] ✅<---|
-						   |
-    function hello() {	   |
-      // INSIDE scope	   |
-      // has  []     ❌<---|
-					       |  
+     // OUTSIDE scope
+     // has ["hello"] ✅<---
+                           |
+    function hello() {     |
+      // INSIDE scope      |
+      // has  []     ❌<----
+                           |
       // Lookup "hello"    |
       hello() >------------|
       
     }
-	
+  
     ```
+    
     That means- if you change the value of the variable `hello` in outer scope, it will also change within inner scope. Example -
+    
     ```js
     function hello() {
       hello() // will this work?
     }
     hello = 123
     ```
+    
     B. **Redefined during call** - `hello` is redefined within INSIDE scope, every time we call the function. So, INSIDE will have its own variable/binding called "hello" which points to the function.  
     If this is the case, then it won't get affected by what happens to `hello` in the OUTSIDE scope.
  
@@ -219,64 +226,63 @@ Also, if you are thinking that "*ehh, I will just set fn.name to whatever i want
 
 1. Can I call the function using its name in the OUTSIDE scope?
 
-	Because these are all function expressions, they DON'T automatically create any name binding in the outer scope. It really depends on its surrounding statement/expression and what that does.  
-	For ex, if the function is situated on RHS of assignment expression (`hello = function(){}`), the assignment expression will create a binding for `hello`, while the function itself won't do anything special.
-	In the opposite case, like IIFE - where a function is created and consumed immediately, it will not create any name binding. Ex - `(function(){})()` doesn't create any binding.
+  Because these are all function expressions, they DON'T automatically create any name binding in the outer scope. It really depends on its surrounding statement/expression and what that does.  
+  For ex, if the function is situated on RHS of assignment expression (`hello = function(){}`), the assignment expression will create a binding for `hello`, while the function itself won't do anything special.
+  In the opposite case, like IIFE - where a function is created and consumed immediately, it will not create any name binding. Ex - `(function(){})()` doesn't create any binding.
 
 2. Can the function call itself in the INSIDE scope?
-	
-	**Redefined during call** - 
-	For `named` function expression, something special happens. Whenever the named function expression is called, js engine creates a **special scope between its outer lexical scope and function's local scope** - which contains binding for \<function name\> with value=\<function object\>.  
-    We can ignore the difference between special scope and local scope for practical purposes.  
-	So, in simple words - whenever this function is called, js creates a new binding for the function name in its local scope. This will not be affected by any change in the OUTSIDE scope.
+  
+  **Redefined during call** - 
+  For `named` function expression, wenever the named function expression is called, js engine creates a **special scope between its outer lexical scope and function's local scope** - which contains binding for \<function name\>. 
+    We can ignore the difference between special scope and local scope for practical purposes. So, in simple words - whenever this function is called, js creates a new binding for the function name in its local scope. This will not be affected by any change in the OUTSIDE scope.
 
-	Example -
-	```js
-	someName = function hello() {
-	  hello() // ✅ works
-	};
+  Example -
+  ```js
+  someName = function hello() {
+    hello() // ✅ works
+  };
 
-	var newName = someName
-	someName = 123
-	newName()
-	```
+  var newName = someName
+  someName = 123
+  newName()
+  ```
 
-	To visualize,
-	```js
-	// OUTSIDE scope
-	// has ["someName"]
+  To visualize,
+  ```js
+  // OUTSIDE scope
+  // has ["someName"]
 
-	someName = function hello() {
-	  // SPECIAL scope {
-	  // has ["hello"]  ✅<------|
-		  // INSIDE scope {	     |
-		  // has []    	❌<------|
-								 |  
-		  // Lookup "hello"      |
-		  hello()    >-----------|
-		  // }
-	  // }
-	}
+  someName = function hello() {
+    // SPECIAL scope {
+    // has ["hello"] ✅<------
+      // INSIDE scope {      |
+      // has []     ❌<-------
+                             |
+      // Lookup "hello"      |
+      hello()    >-----------|
+      // }
+    // }
+  }
 
-	```
+  ```
 
-	For all function expressions (including named ones), **closure access** also applies. This is simple to understand, so here are a few examples -
+  For all function expressions (including named ones), **closure access** also applies. This is simple to understand, so here are a few examples -
 
-	```js
-	someName = function hello() {
-	  hello()
-	  someName() // ✅
-	}
-	------
-	someName = () => {
-	  someName() // ✅
-	}
-	------
-	someName = function() {
-	  newName() // ✅
-	}
-	var newName = someName
-	```
+  ```js
+  someName = function hello() {
+    hello()
+    someName() // ✅
+  }
+  ------
+  someName = () => {
+    someName() // ✅
+  }
+  ------
+  someName = function() {
+    newName() // ✅
+  }
+  var newName = someName
+  ```
 
 # Method and object literal
 
@@ -296,8 +302,9 @@ obj = {
 }
 ```
 
-Case A1 and A2 (`property: function expression`) works similar to what we have read till now. Think of `fn1: function(){}` as a assignment, similar to `fn1 = function(){}`.  That means, anonymous functions will be subjected to NamedEvaluation and get a automatic name (`obj.fn1.name = "fn1"`).  
-They have normal closure access, which means they have to start from the `obj` variable to reach themselves.
+Case A1 and A2 - `fn: function(){}` works similar to what we have read till now. Think of `fn1: function(){}` as a assignment, similar to `fn1 = function(){}`.  
+That means, anonymous functions will be subjected to NamedEvaluation and get a automatic name (`obj.fn1.name = "fn1"`).  
+They also have normal closure access, which means they have to start from the `obj` variable to reach themselves.
 
 ```js
 obj = {
@@ -316,7 +323,7 @@ obj.fn1.name // "fn1"
 obj.fn2.name // "hello"
 ```
 
-Case A3 ( `[Symbol("fn2")]: function(){}` ) is also quite similar, but only difference is that key itself is a `Symbol`, instead of a normal variable name.  
+Case A3 - `[Symbol("fn2")]: function(){}` is also quite similar, but only difference is that the key itself is a `Symbol`, instead of a normal variable name.  
 So, **what happens in NamedEvaluation when the name is a symbol**? Well, it gets converted to string by concatenating "[" + description of symbol + "]". So, `Symbol("abc")` becomes `"[abc]"`.
 
 ```js
@@ -376,17 +383,17 @@ desc.set.name // "set foo"
 ```
 
 
-That's all. Hopefully, now you know more about function names than you'll possibly ever need. The 2 ways of inner name binding are useful to know. In general, consider this as a reference that you can look back to or just a interesting long read. Please DON'T ask these things in interviews. It is just for deeper understanding, not for memorization.
+That's all. Hopefully, now you know more about function names than you'll possibly ever need. The 2 ways of inner name binding are useful to know. In general, consider this as a reference that you can look back to or just a interesting long read.
 
 Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTI3Mzk5NTM5MCwtMzE2Njc4
-NjQsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNj
-k4ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzEx
-OTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NC
-wtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUz
-MDcwOCwtMzc1NjI1NDA1LC0xMDgzODk4NDUyLDIxNzY1NzYzMi
-wtNjk1NjAxMjddfQ==
+BnZm1cbiIsImhpc3RvcnkiOlsxNDc3NDY0MzYwLC0xMjczOTk1
+MzkwLC0zMTY2Nzg2NCwtMzYxMDY3NTksMzU1MDIwODEyLC0yMD
+YyMDMzNTg1LC02OTg4NDY4OTUsLTE5OTk2NDMxOTYsMjAzMDQx
+MDQ1MiwxMTQ3MTE5MzYzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OC
+wxOTUyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMy
+NjEzNCwtMjg3NTMwNzA4LC0zNzU2MjU0MDUsLTEwODM4OTg0NT
+IsMjE3NjU3NjMyXX0=
 -->
