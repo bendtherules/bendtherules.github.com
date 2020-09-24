@@ -54,13 +54,11 @@ Yes. Let's look at more examples -
     ```js
     // A. Diff variable name
     var someVar = function someName(){}
-    // Creates only 1 variable called `someVar`
+    // Creates variable `someVar`
     // But function.name is `someName`
   
     // B. not stored in any variable, ex - IIFE
     (function foo(){})()
-    (function foo(){}).name 
-    foo // DOESN'T exist
     ```
 
 ⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
@@ -391,7 +389,7 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTAxMTUwNzgyOCwtMTA4MjA5
+BnZm1cbiIsImhpc3RvcnkiOlstMjExNjExMTU2OCwtMTA4MjA5
 ODA4NCwtMTIzNDY1NDYzMCwtMTI3Mzk5NTM5MCwtMzE2Njc4Nj
 QsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNjk4
 ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOT
