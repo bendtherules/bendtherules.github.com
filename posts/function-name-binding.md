@@ -1,13 +1,14 @@
 # How does function.name and name binding work?
 
 
+
 # Intro
 
 Whenever you are writing a recursive function, there is a small question you have to answer mentally - **how can this function call itself**?  
 
-To start off, there is `arguments.callee` - which seems like a decent option, but it is considered a legacy artifact - which is [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee) and doesn't work within arrow functions. So, when you declare a function - now you have to know exactly what variable javascript creates for this function and in which scope - so that you can call it correctly.
+To start off, there is `arguments.callee` - which seems like a decent option, but it is considered a legacy artifact - which is [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee) and doesn't work within arrow functions. So, when you declare a function - now you have to know exactly what variable javascript creates for this function internally - so that you can call it correctly.
 
-When you write a function, you are (often) not declaring a var/let/const yourself. So, how exactly does the engine create this variable, which points back to the function? That's all this article is about.
+When you write a function, you are (often) not declaring a var/let/const yourself. So, how exactly does the js engine create this variable, which points back to the function? That's all this article is about.
 
 # Function.name and name binding
 
@@ -386,11 +387,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsyMDg3NDM1NDQzLDEwMjYyOTc3
-NTEsNDk2MjYzNzg2LC0xMDgyMDk4MDg0LC0xMjM0NjU0NjMwLC
-0xMjczOTk1MzkwLC0zMTY2Nzg2NCwtMzYxMDY3NTksMzU1MDIw
-ODEyLC0yMDYyMDMzNTg1LC02OTg4NDY4OTUsLTE5OTk2NDMxOT
-YsMjAzMDQxMDQ1MiwxMTQ3MTE5MzYzLDQ3NTM4MTc1NiwtMTg0
-MTUyNjc3OCwxOTUyMDYwNDU0LC04NjMwNTc2NywtNzYyMDk5Mj
-M4LDI5MDMyNjEzNF19
+BnZm1cbiIsImhpc3RvcnkiOlsxMTkyMzQwOTk5LDIwODc0MzU0
+NDMsMTAyNjI5Nzc1MSw0OTYyNjM3ODYsLTEwODIwOTgwODQsLT
+EyMzQ2NTQ2MzAsLTEyNzM5OTUzOTAsLTMxNjY3ODY0LC0zNjEw
+Njc1OSwzNTUwMjA4MTIsLTIwNjIwMzM1ODUsLTY5ODg0Njg5NS
+wtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkzNjMsNDc1
+MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLTg2MzA1Nz
+Y3LC03NjIwOTkyMzhdfQ==
 -->
