@@ -61,7 +61,7 @@ Yes. Let's look at more examples -
     (function foo(){})()
     ```
 
-⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name (in the current scope).
+⭐️ So, even though `function.name` and name binding is related, they are not always the same thing. In other words, creating a named function doesn't necessarily create a variable with the same name.
 
 (From now on, I'll use the terms `.name` and bound name to distinguish between these two.)
 
@@ -73,8 +73,7 @@ Now, let's actually look at how both the names behave for different function syn
 This is the simplest form of function -
 ```js
 function hello() {}
-// In generic form,
-// function identifier(paramList){ body } 
+// function identifier(paramList) {body} 
 ```
 
 (There is technically also a unnamed function statement which can only be used for default export, but we'll cover that later in misc.)
@@ -389,11 +388,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMjExNjExMTU2OCwtMTA4MjA5
-ODA4NCwtMTIzNDY1NDYzMCwtMTI3Mzk5NTM5MCwtMzE2Njc4Nj
-QsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNjk4
-ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOT
-M2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwt
-ODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMD
-cwOCwtMzc1NjI1NDA1XX0=
+BnZm1cbiIsImhpc3RvcnkiOlstMzIzMzYyNDE2LC0xMDgyMDk4
+MDg0LC0xMjM0NjU0NjMwLC0xMjczOTk1MzkwLC0zMTY2Nzg2NC
+wtMzYxMDY3NTksMzU1MDIwODEyLC0yMDYyMDMzNTg1LC02OTg4
+NDY4OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5Mz
+YzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04
+NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNz
+A4LC0zNzU2MjU0MDVdfQ==
 -->
