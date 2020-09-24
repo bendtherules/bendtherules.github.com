@@ -78,7 +78,7 @@ function hello() {}
 
 ## .name
  For function statements, **`.name` is simply string form of the identifier `hello`** - that is "hello".  
-Also, because you can't use a expression or symbol in the name part of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
+Also, because you can't use a symbol in the name part of function statements, the name part is always a identifier/variable name, which can be easily converted to string. Ex - `function Symbol("abc"){}` - this is NOT valid.
 
 ## bound name
 ```js
@@ -386,11 +386,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlsxNzMzNTU2MTI2LDQ5NjI2Mzc4
-NiwtMTA4MjA5ODA4NCwtMTIzNDY1NDYzMCwtMTI3Mzk5NTM5MC
-wtMzE2Njc4NjQsLTM2MTA2NzU5LDM1NTAyMDgxMiwtMjA2MjAz
-MzU4NSwtNjk4ODQ2ODk1LC0xOTk5NjQzMTk2LDIwMzA0MTA0NT
-IsMTE0NzExOTM2Myw0NzUzODE3NTYsLTE4NDE1MjY3NzgsMTk1
-MjA2MDQ1NCwtODYzMDU3NjcsLTc2MjA5OTIzOCwyOTAzMjYxMz
-QsLTI4NzUzMDcwOF19
+BnZm1cbiIsImhpc3RvcnkiOlstMTMyOTA5MTUxMiw0OTYyNjM3
+ODYsLTEwODIwOTgwODQsLTEyMzQ2NTQ2MzAsLTEyNzM5OTUzOT
+AsLTMxNjY3ODY0LC0zNjEwNjc1OSwzNTUwMjA4MTIsLTIwNjIw
+MzM1ODUsLTY5ODg0Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwND
+UyLDExNDcxMTkzNjMsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5
+NTIwNjA0NTQsLTg2MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MT
+M0LC0yODc1MzA3MDhdfQ==
 -->
