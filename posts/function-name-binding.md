@@ -76,8 +76,6 @@ function hello() {}
 // function identifier(paramList) {body} 
 ```
 
-(There is technically also a unnamed function statement which can only be used for default export, but we'll cover that later in misc.)
-
 ## .name
  For function statements, **`.name` is simply string form of the identifier `hello`** - that is "hello".  
 And it's **always** going to be a string, because you can't use a expression or symbol in the name part (identifier) of function statements. Ex - `function Symbol("abc"){}` - this is NOT valid.
@@ -388,11 +386,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMzIzMzYyNDE2LC0xMDgyMDk4
-MDg0LC0xMjM0NjU0NjMwLC0xMjczOTk1MzkwLC0zMTY2Nzg2NC
-wtMzYxMDY3NTksMzU1MDIwODEyLC0yMDYyMDMzNTg1LC02OTg4
-NDY4OTUsLTE5OTk2NDMxOTYsMjAzMDQxMDQ1MiwxMTQ3MTE5Mz
-YzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OCwxOTUyMDYwNDU0LC04
-NjMwNTc2NywtNzYyMDk5MjM4LDI5MDMyNjEzNCwtMjg3NTMwNz
-A4LC0zNzU2MjU0MDVdfQ==
+BnZm1cbiIsImhpc3RvcnkiOls0OTYyNjM3ODYsLTEwODIwOTgw
+ODQsLTEyMzQ2NTQ2MzAsLTEyNzM5OTUzOTAsLTMxNjY3ODY0LC
+0zNjEwNjc1OSwzNTUwMjA4MTIsLTIwNjIwMzM1ODUsLTY5ODg0
+Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkzNj
+MsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLTg2
+MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3MD
+gsLTM3NTYyNTQwNV19
 -->
