@@ -78,7 +78,7 @@ function hello() {}
 
 ## .name
  For function statements, **`.name` is simply string form of the identifier `hello`** - that is "hello".  
-Also, because you can't use a symbol in the name part of function statements, the name part is always a identifier/variable name, which can be easily converted to string. Ex - `function Symbol("abc"){}` - this is NOT valid.
+Also, because you can't use a symbol in the name part of function statements, the name part is always a identifier/variable name, which can be easily converted to a string. Ex - `function Symbol("abc"){}` - this is NOT valid. If it was valid, then we would need some way to convert a symbol to a string. (This will happen for object literals
 
 ## bound name
 ```js
@@ -386,7 +386,7 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTMyOTA5MTUxMiw0OTYyNjM3
+BnZm1cbiIsImhpc3RvcnkiOlstMTgwNTcxNDU0NSw0OTYyNjM3
 ODYsLTEwODIwOTgwODQsLTEyMzQ2NTQ2MzAsLTEyNzM5OTUzOT
 AsLTMxNjY3ODY0LC0zNjEwNjc1OSwzNTUwMjA4MTIsLTIwNjIw
 MzM1ODUsLTY5ODg0Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwND
