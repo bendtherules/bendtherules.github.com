@@ -40,11 +40,10 @@ Yes. Let's look at more examples -
 1. You can always store the function in a variable with different name, but `func.name` will NOT change. 
  
     ```js
-    // Example 1
     function func1() {}
 
     var func2 = func1;
-    func2.name // prints "func1", NOT "func2"
+    func2.name // "func1", NOT "func2"
     ```
   
     `fn.name` is only decided based on how the function is created and DOES NOT depend on the variable name you use to access it.
@@ -391,11 +390,11 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstMTA4MjA5ODA4NCwtMTIzNDY1
-NDYzMCwtMTI3Mzk5NTM5MCwtMzE2Njc4NjQsLTM2MTA2NzU5LD
-M1NTAyMDgxMiwtMjA2MjAzMzU4NSwtNjk4ODQ2ODk1LC0xOTk5
-NjQzMTk2LDIwMzA0MTA0NTIsMTE0NzExOTM2Myw0NzUzODE3NT
-YsLTE4NDE1MjY3NzgsMTk1MjA2MDQ1NCwtODYzMDU3NjcsLTc2
-MjA5OTIzOCwyOTAzMjYxMzQsLTI4NzUzMDcwOCwtMzc1NjI1ND
-A1LC0xMDgzODk4NDUyXX0=
+BnZm1cbiIsImhpc3RvcnkiOlszMzk1MTg5MTksLTEwODIwOTgw
+ODQsLTEyMzQ2NTQ2MzAsLTEyNzM5OTUzOTAsLTMxNjY3ODY0LC
+0zNjEwNjc1OSwzNTUwMjA4MTIsLTIwNjIwMzM1ODUsLTY5ODg0
+Njg5NSwtMTk5OTY0MzE5NiwyMDMwNDEwNDUyLDExNDcxMTkzNj
+MsNDc1MzgxNzU2LC0xODQxNTI2Nzc4LDE5NTIwNjA0NTQsLTg2
+MzA1NzY3LC03NjIwOTkyMzgsMjkwMzI2MTM0LC0yODc1MzA3MD
+gsLTM3NTYyNTQwNV19
 -->
