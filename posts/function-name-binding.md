@@ -5,7 +5,7 @@
 
 Whenever you are writing a recursive function, there is a small question you have to answer mentally - how can this function call itself?  
 To start off, there is `arguments.callee` - which seems like a easy option, but its considered a legacy artifact which is [not allowed in strict mode](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments/callee) and also doesn't work with arrow functions.  
-So, when you declare a function - now you have to know exactly what variables javascript creates internally  
+So, when you declare a function - now you have to know exactly what variable javascript creates internally for the function - so that you can call
 
 And thus began my years of ignorance and denial about function names. I knew how to call a function I created, but none of that recursive mumbo-jumbo. Years passed by. Only recently I thought I would revisit Javascript concepts and try to understand them from the Ecmascript specification. So, this is that article where I document everything I wish I knew about function names.
 
@@ -391,7 +391,7 @@ Thanks.
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiZXh0ZW5zaW9uczpcbiAgcHJlc2V0Oi
-BnZm1cbiIsImhpc3RvcnkiOlstODA2ODcxMDk2LC0xMjczOTk1
+BnZm1cbiIsImhpc3RvcnkiOlstMjY1Mzc4ODMwLC0xMjczOTk1
 MzkwLC0zMTY2Nzg2NCwtMzYxMDY3NTksMzU1MDIwODEyLC0yMD
 YyMDMzNTg1LC02OTg4NDY4OTUsLTE5OTk2NDMxOTYsMjAzMDQx
 MDQ1MiwxMTQ3MTE5MzYzLDQ3NTM4MTc1NiwtMTg0MTUyNjc3OC
